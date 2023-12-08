@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="container w-full px-16">
+        <div className="container w-full px-2">
           <Header />
           {children}
         </div>

@@ -1,13 +1,11 @@
-import Image from "next/image";
-import LesenTeil_1 from "./lesen/[lesen]/page";
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export default function Home() {
-  const route = useRouter();
-  console.log(route);
   return (
-    <main className="">
-      <LesenTeil_1 />
+    <main className="container w-full px-2">
+      <h1 className="text-center m-auto bg-purple-600 p-5 ">
+        <Link href="/lesen">lesen</Link>
+      </h1>
     </main>
   );
 }

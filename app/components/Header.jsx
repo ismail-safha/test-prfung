@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Header = () => {
   return (
     <div className="flex justify-between items-center bg-[#02031e] h-[109px]">
@@ -7,19 +9,24 @@ const Header = () => {
       </div>
       <div className="flex items-center gap-[50px]">
         <div className="flex flex-col items-center border border-white rounded-lg bg-white p-2">
-          <h1 className="font-bold">Leseverstehen</h1>
-          <h2 className="">Teil 1</h2>
-          <h3 className="">(25 Punkte)</h3>
+          <Link href="/lesen">
+            <h1 className="font-bold">Leseverstehen</h1>
+            <h2 className="">Teil 1</h2>
+            <h3 className="">(25 Punkte)</h3>
+          </Link>
         </div>
         <div className="flex flex-col items-center border border-white rounded-lg bg-white p-2">
           <h1 className="font-bold">Leseverstehen</h1>
           <h2 className="">Teil 2</h2>
           <h3 className="">(25 Punkte)</h3>
         </div>
+
         <div className="flex flex-col items-center border border-white rounded-lg bg-white p-2">
-          <h1 className="font-bold">Leseverstehen</h1>
-          <h2 className="">Teil 3</h2>
-          <h3 className="">(25 Punkte)</h3>
+          <Link href="lesen/lesenteil-3">
+            <h1 className="font-bold">Leseverstehen</h1>
+            <h2 className="">Teil 3</h2>
+            <h3 className="">(25 Punkte)</h3>
+          </Link>
         </div>
       </div>
       <div className="text-white flex flex-col items-start mr-[8px] gap-2">
