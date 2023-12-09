@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { DndContext, DragEndEvent } from "@dnd-kit/core";
 import Header from "../../components/Header";
 import CartDroppable from "../../components/lesen/CartDroppable";
@@ -7,53 +7,31 @@ import CartDroppable from "../../components/lesen/CartDroppable";
 import AnswerDraggableT from "../../components/lesen/lesen-3/AnswerDraggableT";
 import { lesenTeil_3 } from "../../data/Insekten_H/insekten_1";
 
-// test
-// const answers = [
-//   "A-Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-//   "B-Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-//   "C-Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-// ];
-
-// const carts = [
-//   {
-//     id: 0,
-//     title: " Lorem ipsum dolor sit amet consectetur, adipisicing elit",
-//     cartItemAnswers: "",
-//     cartAcoordion: "collapse reactjs acoordion 1",
-//   },
-//   {
-//     id: 1,
-//     title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit",
-//     cartItemAnswers: "",
-//     cartAcoordion: "collapse reactjs acoordion 2",
-//   },
-//   {
-//     id: 2,
-//     title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit",
-//     cartItemAnswers: "",
-//     cartAcoordion: "collapse reactjs acoordion 3",
-//   },
-//   {
-//     id: 3,
-//     title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit",
-//     cartItemAnswers: "",
-//     cartAcoordion: "collapse reactjs acoordion 4",
-//   },
-// ];
-//==
-
 const LesenTeil3 = () => {
   const [cartItems, setCartItems] = useState(lesenTeil_3.carts);
 
   const addItemsToCart = (event: DragEndEvent) => {
     const { active, over } = event;
     if (active && over) {
-      const cartIndex = parseInt(over.id.split("-").pop() || "", 10);
+      const cartIndex = parseInt(
+        (over.id as string).split("-").pop() || "",
+        10
+      );
       const updatedCartItems = [...cartItems];
-      updatedCartItems[cartIndex].cartItemAnswers = active.id;
+      updatedCartItems[cartIndex].cartItemAnswers = active.id.toString(); // Convert to string
       setCartItems(updatedCartItems);
+
+      // Save updated cart items to local storage
+      localStorage.setItem("cartItems_3", JSON.stringify(updatedCartItems));
     }
   };
+  useEffect(() => {
+    // Retrieve cart items from local storage
+    const storedCartItems = localStorage.getItem("cartItems_3");
+    if (storedCartItems) {
+      setCartItems(JSON.parse(storedCartItems));
+    }
+  }, []);
 
   // delete
   const handleDelete = (cartId: number) => {
@@ -64,6 +42,7 @@ const LesenTeil3 = () => {
       return cart;
     });
     setCartItems(updatedCartItems);
+    localStorage.setItem("cartItems_3", JSON.stringify(updatedCartItems));
   };
   //==
 

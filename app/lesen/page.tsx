@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { DndContext, DragEndEvent } from "@dnd-kit/core";
 import AnswerDraggable from "../components/lesen/AnswerDraggable";
 import CartDroppable from "../components/lesen/CartDroppable";
@@ -48,12 +48,25 @@ const LesenTeil = () => {
   const addItemsToCart = (event: DragEndEvent) => {
     const { active, over } = event;
     if (active && over) {
-      const cartIndex = parseInt(over.id.split("-").pop() || "", 10);
+      const cartIndex = parseInt(
+        (over.id as string).split("-").pop() || "",
+        10
+      );
       const updatedCartItems = [...cartItems];
-      updatedCartItems[cartIndex].cartItemAnswers = active.id;
+      updatedCartItems[cartIndex].cartItemAnswers = active.id.toString(); // Convert to string
       setCartItems(updatedCartItems);
+
+      // Save updated cart items to local storage
+      localStorage.setItem("cartItems", JSON.stringify(updatedCartItems));
     }
   };
+  useEffect(() => {
+    // Retrieve cart items from local storage
+    const storedCartItems = localStorage.getItem("cartItems");
+    if (storedCartItems) {
+      setCartItems(JSON.parse(storedCartItems));
+    }
+  }, []);
 
   // delete
   const handleDelete = (cartId: number) => {
@@ -64,6 +77,7 @@ const LesenTeil = () => {
       return cart;
     });
     setCartItems(updatedCartItems);
+    localStorage.setItem("cartItems", JSON.stringify(updatedCartItems));
   };
   //==
 

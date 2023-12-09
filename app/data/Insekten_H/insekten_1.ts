@@ -217,7 +217,7 @@ Momentan bietet die VHS Laiendolmetscher in den Sprachen Albanisch, Bosnisch, Kr
       cartAcoordion: "Bauern sind gezwungen Gift gegen schädliche",
     },
     {
-      id: 9,
+      id: 10,
       title: `
       Spezialitäten aus der Küche 
 Viele klassische Gerichte, die in Österreich auf den Tisch kommen, stammen aus den ehemaligen Kronländern der Monarchie: das Schnitzel aus Italien, die Palatschinken aus Ungarn, Golatschen und Knödel aus dem heutigen Tschechien. Dazu kommen zahlreiche regionale Spezialitäten wie Kasnudeln aus Kärnten, Steirisches Wurzelfleisch oder Salzburger Nockerl. Dies und vieles mehr können Sie bei einem unserer Kochkurse kennenlernen, Besonders wilkommen sind Menschen, die aus anderen Ländern zu uns gekommen sind. Die Liste der Veranstaltungen finden Sie weiter unten. 
@@ -226,7 +226,7 @@ Viele klassische Gerichte, die in Österreich auf den Tisch kommen, stammen aus 
       cartAcoordion: "Bauern sind gezwungen Gift gegen schädliche",
     },
     {
-      id: 10,
+      id: 11,
       title: `
       Am Weltspartag zur Bank 
 Der Weltspartag wurde am 1. Internationalen Sparkassenkongress in Mailand im Oktober 1924 ins Leben gerufen, um die Bevöilkerung zum Sparen zu bringen. 
