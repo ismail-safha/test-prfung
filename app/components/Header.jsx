@@ -1,28 +1,48 @@
+"use client";
 import Link from "next/link";
 import TimerComponent from "./TimerComponent ";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
+  const pathname = usePathname();
+
   return (
     <div className="flex justify-between items-center bg-[#02031e] h-[109px]">
       <div className="flex flex-col items-center  bg-red-800 p-1 ml-1">
-        <div className="text-white font-black text-[50px]">telc</div>
-        <div className="text-white  text-[12px]">LNGUAGE TESTS</div>
+        <Link href="/">
+          <div className="text-white font-black text-[50px]">telc</div>
+          <div className="text-white  text-[12px]">LNGUAGE TESTS</div>
+        </Link>
       </div>
       <div className="flex items-center gap-[50px]">
-        <div className="flex flex-col items-center border border-white rounded-lg bg-white p-2">
+        <div
+          className={`flex flex-col items-center border border-white rounded-lg bg-white p-2 ${
+            pathname === "/lesen" ? "active bg-[#a8a8a8]" : ""
+          }`}
+        >
           <Link href="/lesen">
             <h1 className="font-bold">Leseverstehen</h1>
             <h2 className="">Teil 1</h2>
             <h3 className="">(25 Punkte)</h3>
           </Link>
         </div>
-        <div className="flex flex-col items-center border border-white rounded-lg bg-white p-2">
-          <h1 className="font-bold">Leseverstehen</h1>
-          <h2 className="">Teil 2</h2>
-          <h3 className="">(25 Punkte)</h3>
+        <div
+          className={`flex flex-col items-center border border-white rounded-lg bg-white p-2 ${
+            pathname === "/lesen/lesenteil-2" ? "active bg-[#a8a8a8]" : ""
+          }`}
+        >
+          <Link href="/lesen/lesenteil-2">
+            <h1 className="font-bold">Leseverstehen</h1>
+            <h2 className="">Teil 2</h2>
+            <h3 className="">(25 Punkte)</h3>
+          </Link>
         </div>
 
-        <div className="flex flex-col items-center border border-white rounded-lg bg-white p-2">
+        <div
+          className={`flex flex-col items-center border border-white rounded-lg bg-white p-2 ${
+            pathname === "/lesen/lesenteil-3" ? "active bg-[#a8a8a8]" : ""
+          }`}
+        >
           <Link href="lesen/lesenteil-3">
             <h1 className="font-bold">Leseverstehen</h1>
             <h2 className="">Teil 3</h2>

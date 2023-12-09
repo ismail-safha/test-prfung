@@ -83,7 +83,7 @@ const LesenTeil = () => {
 
   return (
     <div className="container w-full px-2">
-      {/* <Header /> */}
+      <Header />
 
       <DndContext onDragEnd={addItemsToCart}>
         <main>
