@@ -1,4 +1,5 @@
 import Link from "next/link";
+import TimerComponent from "./TimerComponent ";
 
 const Header = () => {
   return (
@@ -29,7 +30,8 @@ const Header = () => {
           </Link>
         </div>
       </div>
-      <div className="text-white flex flex-col items-start mr-[8px] gap-2">
+      <TimerComponent />
+      {/* <div className="text-white flex flex-col items-start mr-[8px] gap-2">
         <div className="flex flex-col items-start">
           <h1>Deutsch-B2</h1>
           <span>00:00</span>
@@ -37,7 +39,7 @@ const Header = () => {
         <button className="bg-blue-600 text-center py-[1px] px-[8px] rounded-lg">
           ABGABE
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };
