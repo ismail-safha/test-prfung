@@ -45,6 +45,7 @@ const LesenTeil3 = () => {
     localStorage.setItem("cartItems_3", JSON.stringify(updatedCartItems));
   };
   //==
+  console.log(cartItems);
 
   return (
     <div className="container w-full px-2">
