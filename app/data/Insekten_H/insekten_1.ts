@@ -123,7 +123,8 @@ export const lesenTeil_3 = {
       Bitte beachten Sie, dass bei Auslndsüberweisungen in der Regel Spesen zu zahlen sind. Für nähere Auskünfte über deren Höhe wenden Sie sich bitte direkt an die Kundenbetreuung Kontakt
       `,
       cartItemAnswers: "",
-      cartAcoordion: "Um die Zukunft der Nordsee ist es schlecht bestellt",
+      cartAcoordion:
+        "Sie wollen Geld nach Kanada überweisen. Sie möchten wissen, wie viel Sie für die Überweisung bezahlen",
     },
     {
       id: 1,
@@ -140,7 +141,8 @@ Einwandfreie Qualität; schnell, garantiert termingerecht und zu einem fairen Pr
 Nutzen Sie zur Kontaktaufnahme bitte das Online-Formular am Ende dieser Seite 
       `,
       cartItemAnswers: "",
-      cartAcoordion: "Rhein nach Chemieunfall noch immer tot",
+      cartAcoordion:
+        "Ein Freund aus Salzburg will sich in Frankreich bewerben. Er möchte seine Zeugnisse",
     },
     {
       id: 2,
@@ -148,7 +150,8 @@ Nutzen Sie zur Kontaktaufnahme bitte das Online-Formular am Ende dieser Seite
       wählen, aber auch Länder auf einem anderen Kontinent, wie zum Beispiel Amerika oder Australien. In dem Land deiner Wahl wohnst du bei einer Gastfamilie. Du besuchst die reguläre Schule, gemeinsam mit Schülerinnen und Schülern aun deinem Gastland. So lernst du die Lebensweise und die Traditionen anderer Menschen kennen. Natürlich lernat du auch die Sprache deines Gastlandes. Wir bieten 
       Informationsveranstaltungen in allen Bundeslanädern an. Dort beantworten wir alle deine Fragen. Schau doch einfach bei uns vorbei! Wir freuen uns auf dich `,
       cartItemAnswers: "",
-      cartAcoordion: "Kliene Insekten können Krankheiten bringen",
+      cartAcoordion:
+        "Ihre 14-jährige Nichte möchte sich über einen Auslandsaufenthalt informieren",
     },
     {
       id: 3,
@@ -157,7 +160,7 @@ Nutzen Sie zur Kontaktaufnahme bitte das Online-Formular am Ende dieser Seite
       angemessenen Preis.susan@language.at www.susanlanguage.at `,
       cartItemAnswers: "",
       cartAcoordion:
-        "Neue Studie: Nicht nur Affen und Delfine erkennen sich selbst",
+        "Sie sollen die neue Webseite Ihrer Firma ins Englische übersetzen lassen",
     },
     {
       id: 4,
@@ -166,7 +169,8 @@ Nutzen Sie zur Kontaktaufnahme bitte das Online-Formular am Ende dieser Seite
 Ihnen steht ein persönlicher Berater zur Seite, wenn Sie Auskunft oder Hilfe brauchen. Zusätzlich bietet Ihnen das Konto einige Vorteile, z. B. eine gratis Unfallversicherung bis 24 Jahre. Mit Ihrer RUFA-Clubkarte bekommen Sie außerdem Ermäßigungen in ausgewählten Shops und bei bestimmten Veranstaltungen 
       `,
       cartItemAnswers: "",
-      cartAcoordion: "Bauern sind gezwungen Gift gegen schädliche",
+      cartAcoordion:
+        "Im Herbst beginnt Ihre Tochter ein Studium. Sie möchte ein Bankkonto eröttnen.",
     },
     {
       id: 5,
@@ -177,7 +181,8 @@ Ihnen steht ein persönlicher Berater zur Seite, wenn Sie Auskunft oder Hilfe br
       Bewerbung! 
       `,
       cartItemAnswers: "",
-      cartAcoordion: "Bauern sind gezwungen Gift gegen schädliche",
+      cartAcoordion:
+        "Ihre kinderlose Nachbarsfamilie möchte für einige Zeit einen jungen Menschen aufnehmen.",
     },
     {
       id: 6,
@@ -186,7 +191,8 @@ Französische ist Ihre Muttersprache? Wir suchen eine freie Mitarbeiterin oder e
 Ihr Aufgabenbereich: Übersetzung von einfachen, kurzen Texten (Anfragen, Beantwortung von Anfragen,Reaktion auf Beschwerden usw. Wenn nötig, führen Sie auch kurze Telefonate mit französischen Kundinnen oder Kunden. Sie werden von uns eingearbeitet Sie lernen unsere Produkte und das Fachvokabular anhand zweisprachiger Unterlagen kennen. Bei Fragen stehen Ihnen unsere Mitarbeiter gerne zur Verfügung. Interessiert? Wir freuen uns auf Ihre Orline-Bewerbung 
       `,
       cartItemAnswers: "",
-      cartAcoordion: "Bauern sind gezwungen Gift gegen schädliche",
+      cartAcoordion:
+        "Eine französische Bekannte ist Übersetzerin und möchte gelegentlich arbeiten.",
     },
     {
       id: 7,
@@ -196,7 +202,8 @@ Ihr Aufgabenbereich: Übersetzung von einfachen, kurzen Texten (Anfragen, Beantw
       Solche Veranstaltungen dienen dazu, andere Menschen und Kulturen besser kennenzulernen. Wie auch in den vergangenen Jahren wurde das Fest wieder sehr gut aufgenommen. Die Veranstalter hielten begeisterte Mails. Da viele Leute die zahlreichen Spezialitäten aus aller Welt nach kochen möchten, finden Sie hier unser Online- Kochbuch 
       `,
       cartItemAnswers: "",
-      cartAcoordion: "Bauern sind gezwungen Gift gegen schädliche",
+      cartAcoordion:
+        "Sie kochen gerne und suchen nach Rezepten aus anderen Ländern.",
     },
     {
       id: 8,
@@ -205,7 +212,7 @@ Ihr Aufgabenbereich: Übersetzung von einfachen, kurzen Texten (Anfragen, Beantw
 Mit der neuen BaZa-App erledigen Sie Ihre Bankgeschäfte, wann und wo Sie wollen. Für die schnelle Überweisung unterwegs, mit ein paar Klicks: Geben Sie einfach den Namen Ihres Baza-Kontaktes an, alles andere erledigt die App für Sia. Oder per Smartphone-Kamera: Se fotografieren einen Zahlschein, und die App erfasst die Daten automatisch Mit der App können Sie auch direkt mit Ihrer Kundenbetreuerin oder Ihrem Kundenbetreuer Kontakt aufnehmen eine Nachricht schicken, einen Termin vereinbaren oder um einen Rückruf bitten. Für alle, die schon ein BaZa-Konto haben: jetzt die neue App herunterladen! Zum Download 
       `,
       cartItemAnswers: "",
-      cartAcoordion: "Bauern sind gezwungen Gift gegen schädliche",
+      cartAcoordion: "X",
     },
     {
       id: 9,
@@ -214,7 +221,7 @@ Mit der neuen BaZa-App erledigen Sie Ihre Bankgeschäfte, wann und wo Sie wollen
 Momentan bietet die VHS Laiendolmetscher in den Sprachen Albanisch, Bosnisch, Kroatisch, Serbisch, Slowakisch, Rumänisch, Türkisch, Spanisch und Italienisch an. In Zukunft soll das Angebot um weitere Sprachen erweitert werden. 
       `,
       cartItemAnswers: "",
-      cartAcoordion: "Bauern sind gezwungen Gift gegen schädliche",
+      cartAcoordion: "X",
     },
     {
       id: 10,
@@ -223,7 +230,7 @@ Momentan bietet die VHS Laiendolmetscher in den Sprachen Albanisch, Bosnisch, Kr
 Viele klassische Gerichte, die in Österreich auf den Tisch kommen, stammen aus den ehemaligen Kronländern der Monarchie: das Schnitzel aus Italien, die Palatschinken aus Ungarn, Golatschen und Knödel aus dem heutigen Tschechien. Dazu kommen zahlreiche regionale Spezialitäten wie Kasnudeln aus Kärnten, Steirisches Wurzelfleisch oder Salzburger Nockerl. Dies und vieles mehr können Sie bei einem unserer Kochkurse kennenlernen, Besonders wilkommen sind Menschen, die aus anderen Ländern zu uns gekommen sind. Die Liste der Veranstaltungen finden Sie weiter unten. 
       `,
       cartItemAnswers: "",
-      cartAcoordion: "Bauern sind gezwungen Gift gegen schädliche",
+      cartAcoordion: "X",
     },
     {
       id: 11,
@@ -233,13 +240,13 @@ Der Weltspartag wurde am 1. Internationalen Sparkassenkongress in Mailand im Okt
 Offiziell wird der Weltspartag am 31. Oktober gefeiert, in Österreich manchmal auch am letzten Werktag vor dem 31. Oktober. Denn an diesem speziellen Tag sollen die Banken für Kunden geöffnet haben. Besonders bei Kindern ist der Weltspartag sehr beliebt. Sie erhalten nämlich kleine Geschenke, wenn sie an diesem Tag mit ihrem Sparschwein zur Bank kommen. Aber auch für Erwachsene gibt es am Weltspartag oft besondere Angebote. 
       `,
       cartItemAnswers: "",
-      cartAcoordion: "Bauern sind gezwungen Gift gegen schädliche",
+      cartAcoordion: "X",
     },
   ],
   answers: [
-    "Sie suchen ein Au-pair-Mädchen, das im Haushalt helfen und mit ihren Kindern Englisch sprechen soll.",
+    "X:Sie suchen ein Au-pair-Mädchen, das im Haushalt helfen und mit ihren Kindern Englisch sprechen soll.",
     "Ihre 14-jährige Nichte möchte sich über einen Auslandsaufenthalt informieren ",
-    "Ihr Sohn möchte als Koch im Ausland arbeiten. Er sucht nach einer passenden Stelle.",
+    "X:Ihr Sohn möchte als Koch im Ausland arbeiten. Er sucht nach einer passenden Stelle.",
     "Eine französische Bekannte ist Übersetzerin und möchte gelegentlich arbeiten.",
     "Ihre kinderlose Nachbarsfamilie möchte für einige Zeit einen jungen Menschen aufnehmen.",
     "Sie sollen die neue Webseite Ihrer Firma ins Englische übersetzen lassen",
