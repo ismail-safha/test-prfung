@@ -1,53 +1,70 @@
 "use client";
 import Link from "next/link";
 import TimerComponent from "./TimerComponent ";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 const Header = () => {
   const pathname = usePathname();
+  const router = useRouter();
 
   return (
     <div className="flex justify-between items-center bg-[#02031e] h-[109px]">
       <div className="flex flex-col items-center  bg-red-800 p-1 ml-1">
-        <Link href="/">
+        <button
+          onClick={() => {
+            router.push("/");
+          }}
+        >
           <div className="text-white font-black text-[50px]">telc</div>
           <div className="text-white  text-[12px]">LNGUAGE TESTS</div>
-        </Link>
+        </button>
       </div>
       <div className="flex items-center gap-[50px]">
         <div
-          className={`flex flex-col items-center border border-white rounded-lg bg-white p-2 ${
-            pathname === "/lesen" ? "active bg-[#a8a8a8]" : ""
+          className={`flex flex-col items-center border border-white rounded-lg  p-2 ${
+            pathname === "/lesen" ? "active  bg-white" : "bg-[#777]"
           }`}
         >
-          <Link href="/lesen">
+          <button
+            onClick={() => {
+              router.push("/lesen");
+            }}
+          >
             <h1 className="font-bold">Leseverstehen</h1>
             <h2 className="">Teil 1</h2>
             <h3 className="">(25 Punkte)</h3>
-          </Link>
+          </button>
         </div>
         <div
-          className={`flex flex-col items-center border border-white rounded-lg bg-white p-2 ${
-            pathname === "/lesen/lesenteil-2" ? "active bg-[#a8a8a8]" : ""
+          className={`flex flex-col items-center border border-white rounded-lg  p-2 ${
+            pathname === "/lesen/lesenteil-2" ? "active  bg-white" : "bg-[#777]"
           }`}
         >
-          <Link href="/lesen/lesenteil-2">
+          <button
+            onClick={() => {
+              router.push("/lesen/lesenteil-2");
+            }}
+          >
             <h1 className="font-bold">Leseverstehen</h1>
             <h2 className="">Teil 2</h2>
             <h3 className="">(25 Punkte)</h3>
-          </Link>
+          </button>
         </div>
 
         <div
-          className={`flex flex-col items-center border border-white rounded-lg bg-white p-2 ${
-            pathname === "/lesen/lesenteil-3" ? "active bg-[#a8a8a8]" : ""
+          className={`flex flex-col items-center border border-white rounded-lg  p-2 ${
+            pathname === "/lesen/lesenteil-3" ? "active bg-[#fff]" : "bg-[#777]"
           }`}
         >
-          <Link href="lesen/lesenteil-3">
+          <button
+            onClick={() => {
+              router.push("/lesen/lesenteil-3");
+            }}
+          >
             <h1 className="font-bold">Leseverstehen</h1>
             <h2 className="">Teil 3</h2>
             <h3 className="">(25 Punkte)</h3>
-          </Link>
+          </button>
         </div>
       </div>
       <TimerComponent />

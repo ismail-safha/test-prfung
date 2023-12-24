@@ -7,40 +7,7 @@ import CartDroppable from "../components/lesen/CartDroppable";
 import Header from "../components/Header";
 import { lesenTeil_1 } from "../data/Insekten_H/insekten_1";
 
-// Answers
-// const answers = [
-//   "A-Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-//   "B-Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-//   "C-Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-// ];
 
-// const carts = [
-//   {
-//     id: 0,
-//     title: " Lorem ipsum dolor sit amet consectetur, adipisicing elit",
-//     cartItemAnswers: "",
-//     cartAcoordion: "collapse reactjs acoordion 1",
-//   },
-//   {
-//     id: 1,
-//     title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit",
-//     cartItemAnswers: "",
-//     cartAcoordion: "collapse reactjs acoordion 2",
-//   },
-//   {
-//     id: 2,
-//     title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit",
-//     cartItemAnswers: "",
-//     cartAcoordion: "collapse reactjs acoordion 3",
-//   },
-//   {
-//     id: 3,
-//     title: "Lorem ipsum dolor sit amet consectetur, adipisicing elit",
-//     cartItemAnswers: "",
-//     cartAcoordion: "collapse reactjs acoordion 4",
-//   },
-// ];
-//===
 
 const LesenTeil = () => {
   const [cartItems, setCartItems] = useState(lesenTeil_1.carts);

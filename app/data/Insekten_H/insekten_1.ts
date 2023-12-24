@@ -1,59 +1,3 @@
-// const carts = [
-//   {
-//     id: 0,
-//     title: `
-//     Heute tägt in Göteborg die Internationale Nordseekonferenz (INK) an der Regierungsvertreter der acht Nordsee-Länder teilnehmen. Der World Wide Fund For Nature (WWF) kritisierte in diesem Zusammenhang, dass dies das letzte Treffen dieser Art sei. Künftig sollen Fragen der Nordsee auf europäischer Ebene behandelt werden. Der WWF befürchtet, dass die Berücksichtigung ökologischer Belange der Nordsee künftig im europäischen Rahmen vernachlässigt werde: "Es sieht nicht gut aus für die Nordsee. So fasste WWF-Meeresschutzer Stephan Lutter diese Besorgnis in Worte. Der WWF ist der Ansicht, dass auf den Treffen der INK richtungsweisende Beschlüsse zum Nordseeschutz gefasst worden seien. Das Problem sei allerdings die Umsetzung dieser Beschlüsse in politisches Handeln in den Nordsee Länder. Zu diesen Beschlüssen gehörte beispielsweise das vor Jahren beschlossene Abkommen zum Verbot giftiger Schiffsfarben und das Abkommen, das die Verunreinigung der Nordsee durch von Schiffen abgelassenes Ballastwasser bekämpfen sollte. Diese Abkommen wurden erst zum Teil umgesetzt. Der WWF befürchtet nun, dass diese wichtigen INK- Initiativen unter den Tisch fallen könnten. Anlässlich des letzten Treffens der Regierungen der Nordsee - Länder erneuerte der WWF seine Kritik an der Fleischereipolitik. Das Ziel einer nachhaltigen Fischereipolitik stehe zwar auf der Tagesordnung der Konferenz, die alltägliche Praxis in der EU sei jedoch durch die "Plünderung der Fischbestände gekennzeichnet.
-//     `,
-//     cartItemAnswers: "",
-//     cartAcoordion: "I-Um die Zukunft der Nordsee ist es schlecht bestellt",
-//   },
-//   {
-//     id: 1,
-//     title: `
-//     Für immer wird eine der größten Umweltkatastrophen mit dem Namen des damals in Basel ansässigen Chemiekonzerns Sandoz verbunden bleiben, der jetzt zu Novartis gehört. 1986 führte ein Brand in einer Lagerhalle des Konzerns zu Verunreinigung des Rheins mit 20 Tonnen hochgiftiger Pestizide und Insektizide. Auf einer Länge von 450 Kilometern kam es zu einem gigantischen Fischsterben. Vor allem Aale waren betroffen. Trinkwasser konnte nicht mehr aus dem Fluss gewonnen werden.
-// Der öffentliche Druck, der als Reaktion auf die Umweltkatastrophe entstanden war, führte zu großen Investitionen für den Gewässerschutz. Im Rahmen des "Aktionsprogramms Rhein" wurden rund 60 Milliarden Euro in den Ausbau von Kläranlagen entlang des Rheinufers investiert. Viele Schwermetalle wie Kupfer, Cadmium, Blei und Quecksilber konnten reduziert und teilweise sogar ganz aus dem Rhein verbannt werden. Angesichts der getroffenen Maßnahmen spricht die Internationale Kommission zum Schutz des Rheins (IKSR) heute wieder von "guter Wasserqualität" des Rheins. 63 Fischarten sind wieder im Rhein vertreten, darunter auch Lachse.
-// Die Aufgaben des Gewässerschutzes gehen aber noch weiter. Zink, Kupfer und Cadmium so wie Pestizide und Stickstoff bereiten weiterhin Sorgen. Kürzlich warnte das Verbraucherschutzministerium des Landes Nordrhein-Westfalen vor dem Verzehr von Rheinfischen unterhalb von Duisburg, weil Tenside durch die Nebenflüsse Möhne und Ruhr in den Rhein gelangt waren.
-//     `,
-//     cartItemAnswers: "",
-//     cartAcoordion: "G-Rhein nach Chemieunfall noch immer tot",
-//   },
-//   {
-//     id: 2,
-//     title: `Der Klimawandel bringt es in Verbindung mit der Globalisierung mit sich, dass auch in Deutschland Tiere heimisch werden, die hier zuvor nicht beobachtet wurden. Zu diesen Neuankömmlingen gehören auch exotische Stechmücken, beispielsweise der japanische Bushmosquito. Mit den exotischen Stechmücken kommen auch neue Infektionserreger nach Deutschland, die möglicherweise auch bisher unbekannte Krankheiten beim Menschen auslösen können. Eine Forschergruppe identifizierte jetzt einige bisher nur in Afrika und Asien vorkommende Erreger. Anfang 2011 wurde ein interdisziplinäres Projekt ins Leben gerufen. Als ein erstes Ziel der Forschungsarbeit wird die Erstellung einer Mückenkarte für Deutschland angestrebt. "Innerhalb weniger Jahre wollen wir einen Überblick über die Artenverteilung der Mücken haben und wissen was an Viren in ihnen steckt", so der Leiter des Bernhard-Nocht-Institut Professor Dr. Sven Klimpel.
-//     Das Bernhard-Nocht-Institut ist eine internationale anerkannte Forschungseinrichtung, die eine langjährige Erfahrung in der Virendiagnostik in das Projekt einbringen kann. Es verfügte über Laboratorien der höchsten Sicherheitsstufe, die erforderlich sind, um neue Viren mit unbekanntem Gefährdungspotential zu untersuchen.
-//     Mit der neu entdeckten, aus Asien stammenden Mückenarten könnten in Deutschland bisher 48 Stechmückenarten von den Entomologen nachgewiesen werden. Seit einigen Jahren breitete sich die Malaria-Mücke Anopheles plumbeus in Südwestdeutschland aus. Auch die Asiatische Tigermücke, die unter anderem das gefährliche Denguefieber verbreitet, schaffte `,
-//     cartItemAnswers: "",
-//     cartAcoordion: "B-Kliene Insekten können Krankheiten bringen",
-//   },
-//   {
-//     id: 3,
-//     title: `Forscher haben bei Versuchen im Bronx Zoo in New York eine neue Erkenntnis über Elefanten erlangt: Sie können sich selbst im Spiegel erkennen. Zumindest eines von drei Versuchstieren versuchte, einen auf seinem Kopfe aufgemalten Fleck, der im Spiegelbild zu sehen war, zu entfernen. Bisher war unter anderem von Affen, Delfinen und Elstern ein ähnliches Verhalten bekannt. Und auch bei diesen reagierte nicht immer alle Versuchstiere auf einen Spiegel.
-//     Es gab auch schon in der Vergangenheit solche Tests mit Elefanten, die aber auf keine Selbsterkenntnis schließen ließen. Den Grund sieht ein Wissenschaftler im Versuchsaufbau: "Das große Problem ist, einen Spiegel zu haben, der 'elefantenfest' ist." Frühere Versuche hätten zu kleine und zu schwer zugängliche Spiegeln verwendet. Die Elefanten aber wollten "dagegen knallen, dahinter schauen, die Sache ausprobieren, bevor Sie verstehen, was vor sich geht".
-//     Deshalb wurde diesmal mit ein 2,5 mal 2,5 Meter großer Spiegel in einem Elefantengehege mit drei weiblichen asiatischen Elefanten montiert, der stabil genug für ausgiebige Untersuchungen durch die Tiere war. Bei ähnlichen Tests mit Affen und Delfinen gibt es normalerweise vier Phasen der Erkenntnis im Spiegel: Zuerst der Versuch der Kommunikation mit dem vermeintlichen Artgenossen, dann eine physische Inspektion des Spiegels, ein Testen des Verhaltens des Spiegelbilds und schließlich die Selbsterkenntnis. Die Elefanten übersprangen die erste Phase und schauten in Phase zwei hinter den Spiegel und griffen auch mit dem Rüssel dahinter. In Phase drei führten sie verschiedene Bewegungen durch und verglichen sie mit denen des Spiegelbildes. Auch wenn sich dann nur eines der Tiere selbst erkannte, indem es den aufgemalten Fleck untersuchte und nach einiger Zeit dann auch das Interesse an dem Fleck verlor, sehen die Wissenschaftler das Ergebnis als eindeutigen Beweis für die Fähigkeit zur Selbsterkenntnis. Als Nächstes wollen sie die Fähigkeiten von Elefanten auch in ihrer natürlichen Umgebung weiter erforschen. `,
-//     cartItemAnswers: "",
-//     cartAcoordion: "E-Neue Studie: Nicht nur Affen und Delfine erkennen sich selbst",
-//   },
-//   {
-//     id: 4,
-//     title: `Die anhaltenden außergewöhnlich hohen Temperaturen haben im Süden Frankreichs eine Tierplage bisher unbekannten Aumaßes ausgelöst. Bei den Plagegeistem handelt es sich um Unmenger von zwei bis dreieinhalb Zentimeter langen Heuschrecken, sogenannten Roten Schnarrschrecken. Sie fressen Felder und Wiesen kahl und haben innerhalb von rund sechs Wochen die Landschaft in eine trostlose Steppe verwandelt. Die Landwirte der Region sind bereits verzweifelt, denn ihre gesamte Ernte hat sich buchstäblich in Luft aufgelöst. Die Landwirte müssen nun handeln und Inscktenverrichtungsmittls einzusetzen, doch ist dies riskant. Denn sie dürfen nur ein Mittel verwendet, das ausschließlich für die Heuschrecken tödlich ist, nicht aber für Bienen nd andere Insekten. Auch das Vieh der Bauern darf niche durch verseuchtes Futter gefährdet werden. `,
-//     cartItemAnswers: "",
-//     cartAcoordion: "C-Bauern sind gezwungen Gift gegen schädliche",
-//   },
-// ];
-
-// const answers = [
-//   "A-Neue Insektenart in Frankreich",
-//   "B-Kliene Insekten können Krankheiten bringen",
-//   "C-Bauern sind gezwungen Gift gegen schädliche",
-//   "D-Neue Mittel gegen Mücken ",
-//   "E-Neue Studie: Nicht nur Affen und Delfine erkennen sich selbst",
-//   "F-Probleme beim Versuchsaufbau: Studie gescheitert ",
-//   "G-Rhein nach Chemieunfall noch immer tot",
-//   "H-Rückblick: Fischsterben im Rhein",
-//   "I-Um die Zukunft der Nordsee ist es schlecht bestellt",
-//   "J-WWF zieht positive Bilanz für die Nordsee",
-// ];
-
 export const lesenTeil_1 = {
   carts: [
     {
@@ -72,7 +16,7 @@ export const lesenTeil_1 = {
       Die Aufgaben des Gewässerschutzes gehen aber noch weiter. Zink, Kupfer und Cadmium sowie Pestizide und Stickstoff bereiten weiterhin Sorgen. Kürzlich warnte das Verbraucherschutzministerium des Landes Nordrhein-Westfalen vor dem Verzehr von Rheinfischen unterhalb von Duisburg, weil Tenside durch die Nebenflüsse Möhne und Ruhr in den Rhein gelangt waren.
       `,
       cartItemAnswers: "",
-      cartAcoordion: "Rhein nach Chemieunfall noch immer tot",
+      cartAcoordion: "Rückblick: Fischsterben im Rhein",
     },
     {
       id: 2,
@@ -254,5 +198,72 @@ Offiziell wird der Weltspartag am 31. Oktober gefeiert, in Österreich manchmal 
     "Im Herbst beginnt Ihre Tochter ein Studium. Sie möchte ein Bankkonto eröttnen.",
     "Sie wollen Geld nach Kanada überweisen. Sie möchten wissen, wie viel Sie für die Überweisung bezahlen",
     "Ein Freund aus Salzburg will sich in Frankreich bewerben. Er möchte seine Zeugnisse",
+  ],
+};
+export const lesenTeil_2 = {
+  texts: [
+    {
+      title: "Kreditkarten für Jugendliche",
+      text: `
+      Wer kennt \n sie nicht: Kreditkarten, mit denen man in der heimischen Stadt oder während des Urlaubs einkaufen kann. Fast jeder hat eine, und alles scheint ganz einfach zu sein: Kein Wunder, dass auch immer mehr Kinder und Jugendliche eine eigene Kreditkarte haben wollen. Sie sehen, wie ihre Eltern damit bezahlen, um möchte auch das praktische "Plastikgeld". Aber Eltern sorgen sich: Ist das nicht zu gefährlich?
+      
+      Um das Risiko einer Überschuldung zu vermeiden, bieten Banken und alle Sparkassen 1 Jugendlichen eine besondere Art von Kreditkarten an: die sogenannte Prepaid-Kreditkarte. Eine Prepaid-Kreditkarte ist mit einem Prepaid-Handy vergleichbar. Man kann sie nur einsetzen, wenn man zuvor Geld auf die Karte geladen hat. Ist das Guthaben verbraucht, kann man mit der Karte nicht mehr bezahlen und am Automaten kein Geld mehr abheben.
+      
+      Der Vorteil liegt auf der Hand: "Man kann nicht mehr Geld ausgeben, als man hat", sagt Andreas Gernt, Finanzexperte der Verbraucherzentrale Niedersachsen in Hannover. Mit einer Prepaid-Kreditkarte kann daher niemand in die Schuldenfalle tappen. "Für Kinder und Jugendliche auf Reisen ist die Prepaid-Kreditkarte eine überlegenswerte Option", sagt Gernt.
+      
+      Die daheimgebliebenen Eltern können Ihrem Kind von zu Hause aus Geld auf die Karte laden, wenn das Guthaben verbraucht ist. Zugleich können Sie die Kosten kontrollieren. "Die Prepaid-Kreditkarte ist eine Ausgabenschranke für den Verbraucher", fasst Tanja Beller vom Bundesverband deutscher Banken in Berlin zusammen. So können Jugendliche den Umgang mit bargeldlosem Zahlungsverkehr lernen.
+      
+      Verluste bei Diebstahl überschaubar 
+      Zugleich eignen sich die Karten aber auch für erwachsene Reisende mit einem größeren Sicherheitsbedürfnis. "Man ist mit einer Kreditkarte auf Reisen unabhängiger vom Bargeld", erklärt Gernt. Die Prepaid-Karte bietet zwei Vorteile: Zum einen ist mit ihr das Reisebudget von Anfang an limitiert. Es kann nur das für Souvenirs ausgegeben werden, was vorher geladen wurde. Zum anderen sind damit auch die Verluste überschaubar, wenn die Karte gestohlen wird. Denn auch ein Dieb kann nur das Geld nutzen, das als Guthaben auf der Karte ist. 
+      
+      Außerdem eignet sich die Prepaid Kreditkarte für Freiberufler und Selbständige - oder allgemeiner gefasst für Menschen mit einem unregelmäßigen oder geringen Einkommen, die dadurch keine gute Bonität haben. Denn die Prepaid-Kreditkarten sind im Gegensatz zur klassischen Kreditkarte nicht direkt an ein Gehaltskonto gebunden. Das ermöglicht auch Geringverdienern Einkäufe im Internet. Zugleich schützt die Guthabenkarte vor allzu großen Verlusten durch Missbrauch im Netz. Die Angebote sollte man vergleichen 
+      
+      "Bevor man sich aber für eine Prepaid-Karte entscheidet, sollte man ihre Akzeptanz überprüfen", rät Beller. Denn gerade Prepaid-Karten sind nicht in jedem Land als Zahlungsmittel gern gesehen. Grundsätzlich sollte man auch bei Lock-Angeboten skeptisch sein, die als Werbung in den Briefkasten flattern. "Vielleicht verbirgt sich da etwas im Kleingedruckten", warnt Gernt. Außerdem sollte man die Gebühren genau vergleichen und auf versteckte Kosten achten. Die Stiftung Warentest hat für ihre Zeitschrift " Finanztest" die Bedingungen und Kosten von 24 Prepaid-Kreditkarten für Erwachsene und Jugendliche getestet. Die Tester stellten fest: Die Karten sind nicht teurer als klassische Kreditkarten, und auch die Nutzungsgebühren unterscheiden sich kaum. 
+      
+      Abheben ab fünf Euro 
+      Erwachsene bezahlen für Prepaid-Karten zwischen 29 und 39 Euro im Jahr. Karten für Jugendliche 5 Kosten im Jahr höchstens 22 Euro. Bei vielen Banken sind sie bis zum 18. oder 21. Geburtstag 
+      kostenlos. Für das Geldabheben am Automaten berechnen die Banken meist einen Mindestbetrag zwischen 5,00 € und 7,50 Euro. Ansonsten fallen etwa zwei Prozent vom abgehobenen Betrag an. Zudem kostet das Abheben außerhalb des Euro-Raumes zwischen einem Prozent und 1,9 Prozent extra. Unter dem Strich kann die Prepaid Karte mit der klassischen Kreditkarte durchaus mithalten. Mit beiden Kartentypen kann man im Restaurant bezahlen, am Automaten Geld abheben oder im Internet shoppen. 
+      `,
+    },
+  ],
+  aufgabens: [
+    {
+      id: 0,
+      qustion: "Eine Prepaid-Kreditkarte",
+      answersOne: ` gibt es für Jugendliche schon bei zahlreichen Geldinstituten.`,
+      answersTwo:
+        "können Jugendliche zusammen mit einer Handy-Prepaidkarte bekommen",
+      answersThree: "macht es möglich, mit dem Handy zu bezahlen.",
+    },
+    {
+      id: 1,
+      qustion: "Man hat Kontrolle über die Kosten,",
+      answersOne: `da nur der Karteninhaber seine Karte aufladen darf.`,
+      answersTwo: "denn die Eltern werden bei einer Aufladung benachrichtigt. ",
+      answersThree: "weil die Ausgaben durch das Guthaben begrenzt sind. ",
+    },
+    {
+      id: 2,
+      qustion: "Die Prepaid-Kreditkarte ist besonders geeignet für",
+      answersOne: `Angestellte mit einem guten Gehalt`,
+      answersTwo: "Jugendliche ohne festes Einkommen. ",
+      answersThree: "Menschen mit einem eigenen Bankkonto.",
+    },
+    {
+      id: 3,
+      qustion: "Prepaid-Karten",
+      answersOne: `kosten ähnlich viel wie klassische Kreditkarten.`,
+      answersTwo: "verursachen keine unerwarteten Kosten. ",
+      answersThree:
+        "werden als Zahlungsmittel ebenso akzeptiert wie klassische Kreditkarten. ",
+    },
+    {
+      id: 4,
+      qustion: "Bei Prepaid-Karten zahlen ",
+      answersOne: `Erwachsene ab 21 Jahren eine höhere Jahresgebühr als Jugendliche. `,
+      answersTwo:
+        "Jugendliche unter 18 Jahren nur die Nutzungsgebühr am Geldautomaten ",
+      answersThree: "Kunden zwischen 18 und 21 Jahren noch nichts. ",
+    },
   ],
 };
