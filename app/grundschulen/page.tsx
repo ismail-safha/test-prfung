@@ -5,7 +5,7 @@ import AnswerDraggable from "../components/lesen/AnswerDraggable";
 import CartDroppable from "../components/lesen/CartDroppable";
 
 import Header from "../components/Header";
-import { lesenTeil_1 } from "../data/Insekten_H/insekten_1";
+import { lesenTeil_1 } from "../data/Insekten_H/grundschuleData";
 
 const LesenTeil = () => {
   const [cartItems, setCartItems] = useState(lesenTeil_1.carts);
@@ -49,9 +49,9 @@ const LesenTeil = () => {
   return (
     <div className="container w-full px-2">
       <Header
-        pageHome="/lesen"
-        pageTow="/lesen/lesenteil-2"
-        pageThree="/lesen/lesenteil-3"
+        pageHome="/grundschulen"
+        pageTow="/grundschulen/lesenteil-2"
+        pageThree="/grundschulen/lesenteil-3"
       />
 
       <DndContext onDragEnd={addItemsToCart}>

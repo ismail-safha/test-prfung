@@ -1,13 +1,13 @@
 import Header from "../../components/Header";
-import { lesenTeil_2 } from "../../data/Insekten_H/insekten_1";
+import { lesenTeil_2 } from "../../data/Insekten_H/grundschuleData";
 
 const Lesenteiltow = () => {
   return (
     <div className="container w-full px-2">
       <Header
-        pageHome="/lesen"
-        pageTow="/lesen/lesenteil-2"
-        pageThree="/lesen/lesenteil-3"
+        pageHome="/grundschulen"
+        pageTow="/grundschulen/lesenteil-2"
+        pageThree="/grundschulen/lesenteil-3"
       />
 
       <main>

@@ -18,6 +18,11 @@ export default function Home() {
             <h1>#1-Insekten Moadal</h1>
           </div>
         </Link>
+        <Link href="/grundschulen">
+          <div className="p-10 m-10 rounded-2xl bg-[#c0c0c0e7] text-center font-bold">
+            <h1>#2-Grundschulen </h1>
+          </div>
+        </Link>
       </div>
     </main>
   );

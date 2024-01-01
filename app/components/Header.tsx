@@ -1,9 +1,15 @@
 "use client";
-import Link from "next/link";
+
 import TimerComponent from "./TimerComponent ";
 import { usePathname, useRouter } from "next/navigation";
 
-const Header = () => {
+interface HeaderProps {
+  pageHome: string;
+  pageTow: string;
+  pageThree: string;
+}
+
+const Header: React.FC<HeaderProps> = ({ pageHome, pageTow, pageThree }) => {
   const pathname = usePathname();
   const router = useRouter();
 
@@ -22,12 +28,12 @@ const Header = () => {
       <div className="flex items-center gap-[50px]">
         <div
           className={`flex flex-col items-center border border-white rounded-lg  p-2 ${
-            pathname === "/lesen" ? "active  bg-white" : "bg-[#777]"
+            pathname === pageHome ? "active  bg-white" : "bg-[#777]"
           }`}
         >
           <button
             onClick={() => {
-              router.push("/lesen");
+              router.push(pageHome);
             }}
           >
             <h1 className="font-bold">Leseverstehen</h1>
@@ -37,12 +43,12 @@ const Header = () => {
         </div>
         <div
           className={`flex flex-col items-center border border-white rounded-lg  p-2 ${
-            pathname === "/lesen/lesenteil-2" ? "active  bg-white" : "bg-[#777]"
+            pathname === pageTow ? "active  bg-white" : "bg-[#777]"
           }`}
         >
           <button
             onClick={() => {
-              router.push("/lesen/lesenteil-2");
+              router.push(pageTow);
             }}
           >
             <h1 className="font-bold">Leseverstehen</h1>
@@ -53,12 +59,12 @@ const Header = () => {
 
         <div
           className={`flex flex-col items-center border border-white rounded-lg  p-2 ${
-            pathname === "/lesen/lesenteil-3" ? "active bg-[#fff]" : "bg-[#777]"
+            pathname === pageThree ? "active bg-[#fff]" : "bg-[#777]"
           }`}
         >
           <button
             onClick={() => {
-              router.push("/lesen/lesenteil-3");
+              router.push(pageThree);
             }}
           >
             <h1 className="font-bold">Leseverstehen</h1>
@@ -68,15 +74,6 @@ const Header = () => {
         </div>
       </div>
       <TimerComponent />
-      {/* <div className="text-white flex flex-col items-start mr-[8px] gap-2">
-        <div className="flex flex-col items-start">
-          <h1>Deutsch-B2</h1>
-          <span>00:00</span>
-        </div>
-        <button className="bg-blue-600 text-center py-[1px] px-[8px] rounded-lg">
-          ABGABE
-        </button>
-      </div> */}
     </div>
   );
 };

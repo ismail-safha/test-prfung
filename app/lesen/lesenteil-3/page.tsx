@@ -49,7 +49,11 @@ const LesenTeil3 = () => {
 
   return (
     <div className="container w-full px-2">
-      <Header />
+      <Header
+        pageHome="/lesen"
+        pageTow="/lesen/lesenteil-2"
+        pageThree="/lesen/lesenteil-3"
+      />
 
       <DndContext onDragEnd={addItemsToCart}>
         <main>
