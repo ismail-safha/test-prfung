@@ -22,16 +22,16 @@ const LesenTeil3 = () => {
       setCartItems(updatedCartItems);
 
       // Save updated cart items to local storage
-      localStorage.setItem("cartItems_3", JSON.stringify(updatedCartItems));
+      // localStorage.setItem("cartItems_3", JSON.stringify(updatedCartItems));
     }
   };
-  useEffect(() => {
-    // Retrieve cart items from local storage
-    const storedCartItems = localStorage.getItem("cartItems_3");
-    if (storedCartItems) {
-      setCartItems(JSON.parse(storedCartItems));
-    }
-  }, []);
+  // useEffect(() => {
+  //   // Retrieve cart items from local storage
+  //   const storedCartItems = localStorage.getItem("cartItems_3");
+  //   if (storedCartItems) {
+  //     setCartItems(JSON.parse(storedCartItems));
+  //   }
+  // }, []);
 
   // delete
   const handleDelete = (cartId: number) => {
@@ -42,7 +42,7 @@ const LesenTeil3 = () => {
       return cart;
     });
     setCartItems(updatedCartItems);
-    localStorage.setItem("cartItems_3", JSON.stringify(updatedCartItems));
+    // localStorage.setItem("cartItems_3", JSON.stringify(updatedCartItems));
   };
   //==
   console.log(cartItems);
