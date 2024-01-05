@@ -52,6 +52,8 @@ const LesenTeil = () => {
         pageHome="/grundschulen"
         pageTow="/grundschulen/lesenteil-2"
         pageThree="/grundschulen/lesenteil-3"
+        pageFour="/grundschulen/sprachbauchteine-1"
+        pageFive="/grundschulen/sprachbauchteine-2"
       />
 
       <DndContext onDragEnd={addItemsToCart}>

@@ -267,3 +267,106 @@ export const lesenTeil_2 = {
     },
   ],
 };
+export const sprachbau_1 = {
+  texts: [
+    {
+      text: `Sehr geehrter Herr Martini,
+      vielen Dank für Ihre Anfrage vom 16. Juni ___21______ der Studienreise Ihrer Schulklasse nach 
+      Frankfurt am Main im ____22_____ Oktober.
+      Die Unterkunft bei deutschen Gastfamilien ist prinzipiell möglich. Die Familien werden von uns 
+      sorgfältig ____23_____ strengen Kriterien ausgewählt, die Sie in der beiliegenden 
+      Informationsbroschüre auf den Seiten 15 bis 17 finden. Pro Gastfamilie können ein oder zwei 
+      Schülerinnen bzw. Schüler untergebracht werden. Unsere Gastfamilien ____24_____ Halbpension, 
+      d. h. in der Regel Frühstück und Abendessen, an. Alle Familien wohnen im näheren Umkreis der 
+      Schule, ____25_____ der Weg von der Unterkunft zum Unterricht innerhalb von maximal 10 
+      Minuten zu Fuß zurückgelegt werden kann.
+      Zweimal pro Woche ist die Teilnahme am Schulunterricht Ihrer Partnerschule in Frankfurt, der 
+      Heinrich-Böll-Schule, in den Fächern Geografie, Kunst und Deutsch vorgesehen. Die 
+      Unterrichtssprache ist Deutsch. ___26______ Schülerinnen und Schülern der Partnerschule wird 
+      das Freizeit- und Kulturprogramm durchgeführt.
+      Dazu gehört z. B. ____27_____ der Gemäldegalerie "Städel", des Museums für Kunsthandwerk 
+      und des Deutschen Postmuseums. Auch ein Besuch beim Hessischen Rundfunk ____28_____ . 
+      Jeweils dienstags und freitags werden Kulturabende veranstaltet, an denen die verschiedenen 
+      Aspekte und Unterschiede der deutschen und der italienischen Kultur ____29_____ werden sollen.
+      Weitere Informationen finden Sie in der beiliegenden Broschüre. Wir hoffen, dass Sie und Ihre 
+      Klasse einen erlebnisreichen und unvergesslichen Aufenthalt in Frankfurt ____30_____ werden. Bei 
+      weiteren Fragen setzen Sie sich bitte mit uns in Verbindung.
+      Mit freundlichen Grüßen
+      Sibylle Lauterbacher
+      Stiftung Schüleraustausch Frankfurt
+      `,
+    },
+  ],
+  aufgabens: [
+    {
+      id: 0,
+      qustion: "21",
+      answersOne: ` an`,
+      answersTwo: "von",
+      answersThree: "zu",
+    },
+    {
+      id: 1,
+      qustion: "22",
+      answersOne: `ankommenden`,
+      answersTwo: "gekommenen",
+      answersThree: "kommenden",
+    },
+    {
+      id: 2,
+      qustion: "23",
+      answersOne: `aus`,
+      answersTwo: "mit",
+      answersThree: "nach",
+    },
+    {
+      id: 3,
+      qustion: "24",
+      answersOne: `bieten`,
+      answersTwo: "fordern",
+      answersThree: "nehmen",
+    },
+    {
+      id: 4,
+      qustion: "25",
+      answersOne: `so dass`,
+      answersTwo: "weil",
+      answersThree: "wenn",
+    },
+    {
+      id: 5,
+      qustion: "26",
+      answersOne: `Gemeinsam mit`,
+      answersTwo: "Verbunden von",
+      answersThree: "Zusammen neben",
+    },
+    {
+      id: 6,
+      qustion: "27",
+      answersOne: `die Ansicht`,
+      answersTwo: "der Besuch",
+      answersThree: "das Betrachten",
+    },
+    {
+      id: 7,
+      qustion: "28",
+      answersOne: `hat geplant`,
+      answersTwo: "st geplant",
+      answersThree: "wird geplant haben",
+    },
+    {
+      id: 8,
+      qustion: "29",
+      answersOne: `besprochen`,
+      answersTwo: "gesprochen",
+      answersThree: "versprochen",
+    },
+    {
+      id: 9,
+      qustion: "30",
+      answersOne: `haben`,
+      answersTwo: "hatten",
+      answersThree: "hatten",
+    },
+  ],
+};
