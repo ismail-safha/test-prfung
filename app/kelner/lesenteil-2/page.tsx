@@ -26,8 +26,14 @@ const Lesenteiltow = () => {
               {/* Map through texts array */}
               {lesenTeil_2.texts.map((text, index) => (
                 <div key={index} className="p-5">
-                  <h1 className="font-bold">{text.title}</h1>
-                  <p className="font-semibold">{text.text}</p>
+                  <div className=" mb-1 py-[30px] px-[10px] border border-[#000] ">
+                    <h1 className="font-bold py-1">{text.title}</h1>
+                    <p className="font-semibold">{text.text}</p>
+                  </div>
+                  <div className="my-2 py-[30px] px-[10px] border border-[#000]">
+                    <h1 className="font-bold py-1">{text.titleTow}</h1>
+                    <p className="font-semibold">{text.textTow}</p>
+                  </div>
                 </div>
               ))}
             </div>

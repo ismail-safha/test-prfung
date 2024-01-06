@@ -3,56 +3,118 @@ export const lesenTeil_1 = {
     {
       id: 0,
       title: `
-      Heute trägt in Göteborg die Internationale Nordseekonferenz (INK) an der Regierungsvertreter der acht Nordsee-Länder teilnehmen. Der World Wide Fund For Nature (WWF) kritisierte in diesem Zusammenhang, dass dies das letzte Treffen dieser Art sei. Künftig sollen Fragen der Nordsee auf europäischer Ebene behandelt werden. Der WWF befürchtet, dass die Berücksichtigung ökologischer Belange der Nordsee künftig im europäischen Rahmen vernachlässigt werde: "Es sieht nicht gut aus für die Nordsee." So fasste WWF-Meeresschutzer Stephan Lutter diese Besorgnis in Worte. Der WWF ist der Ansicht, dass auf den Treffen der INK richtungsweisende Beschlüsse zum Nordseeschutz gefasst worden seien. Das Problem sei allerdings die Umsetzung dieser Beschlüsse in politisches Handeln in den Nordsee Länder. Zu diesen Beschlüssen gehörte beispielsweise das vor Jahren beschlossene Abkommen zum Verbot giftiger Schiffsfarben und das Abkommen, das die Verunreinigung der Nordsee durch von Schiffen abgelassenes Ballastwasser bekämpfen sollte. Diese Abkommen wurden erst zum Teil umgesetzt. Der WWF befürchtet nun, dass diese wichtigen INK-Initiativen unter den Tisch fallen könnten. Anlässlich des letzten Treffens der Regierungen der Nordsee-Länder erneuerte der WWF seine Kritik an der Fleischereipolitik. Das Ziel einer nachhaltigen Fischereipolitik stehe zwar auf der Tagesordnung der Konferenz, die alltägliche Praxis in der EU sei jedoch durch die "Plünderung der Fischbestände gekennzeichnet."
+      Die Zahlen wirken auf dem ersten Blick dramatisch: 
+15 Prozent der Kinder sind übergewichtig und 
+davon sechs Prozent sogar fettleibig. Der 
+Ernährungswissenschaftler Timo Schmidt betreibt in 
+Berlin ein Kochstudio für Kinder und Jugendliche.
+Timo Schmidt meint, es fehle vor allem an 
+Praxis-Erfahrungen in der Küche. Kinder und 
+Jugendliche können heute oft nicht (mehr) kochen, 
+so seine Erfahrung. Das Interesse ist oft da, und die 
+Kinder wollen kochen. Aber das Problem sind die 
+Eltern. Oft haben sie keine Zeit, den Kindern alles zu 
+erklären. Zum anderen haben sie Angst wegen der 
+scharfen Messer. Dabei ist die Quote von 
+Schnittverletzungen im Kinder- und 
+Jugendkochstudio verschwindend gering. 
+Besonders erschreckend findet Schmidt, dass viele 
+Kinder Lebensmittel einfach nicht mehr erkennen. 
+So standen im Kochstudio beispielsweise Erdbeeren 
+auf dem Tisch, die dann für Tomaten gehalten 
+wurden. Und eine gelbe Zucchini wird gerne mal 
+alles Banane bezeichnet. 
+“Was fehlt, ist die Praxis” Praxis, meint Schmitt. 
+“Deswegen schneiden die Kinder dann mit der 
+stumpfen Seite des Messers oder wissen nicht, wie 
+heißt die Pfanne beim Kochen wird”.
       `,
       cartItemAnswers: "",
-      cartAcoordion: "Um die Zukunft der Nordsee ist es schlecht bestellt",
+      cartAcoordion: "Wenn aus Erdbeeren Tomaten werden",
     },
     {
       id: 1,
       title: `
-      Für immer wird eine der größten Umweltkatastrophen mit dem Namen des damals in Basel ansässigen Chemiekonzerns Sandoz verbunden bleiben, der jetzt zu Novartis gehört. 1986 führte ein Brand in einer Lagerhalle des Konzerns zu Verunreinigung des Rheins mit 20 Tonnen hochgiftiger Pestizide und Insektizide. Auf einer Länge von 450 Kilometern kam es zu einem gigantischen Fischsterben. Vor allem Aale waren betroffen. Trinkwasser konnte nicht mehr aus dem Fluss gewonnen werden. 
-      Der öffentliche Druck, der als Reaktion auf die Umweltkatastrophe entstanden war, führte zu großen Investitionen für den Gewässerschutz. Im Rahmen des "Aktionsprogramms Rhein" wurden rund 60 Milliarden Euro in den Ausbau von Kläranlagen entlang des Rheinufers investiert. Viele Schwermetalle wie Kupfer, Cadmium, Blei und Quecksilber konnten reduziert und teilweise sogar ganz aus dem Rhein verbannt werden. Angesichts der getroffenen Maßnahmen spricht die Internationale Kommission zum Schutz des Rheins (IKSR) heute wieder von "guter Wasserqualität" des Rheins. 63 Fischarten sind wieder im Rhein vertreten, darunter auch Lachse. 
-      Die Aufgaben des Gewässerschutzes gehen aber noch weiter. Zink, Kupfer und Cadmium sowie Pestizide und Stickstoff bereiten weiterhin Sorgen. Kürzlich warnte das Verbraucherschutzministerium des Landes Nordrhein-Westfalen vor dem Verzehr von Rheinfischen unterhalb von Duisburg, weil Tenside durch die Nebenflüsse Möhne und Ruhr in den Rhein gelangt waren.
+      Immer mehr Mädchen leiden an schweren Essstörungen - und das, obwohl Ärzte und Fachleute seit Jahren 
+vor den negativen Folgen des Schlankheitswahns warnen. Die Kinder- und Jugendpsychiatrie im 
+Kinderkrankenhaus in Hannover schlägt jetzt Alarm. “Allein in den letzten zwei Jahren hat die Nachfrage für 
+einen Therapieplatz um fast 50 Prozent zugenommen”, sagt der leitende Psychologe Gerd Kuznik. Von 33 zur 
+Verfügung stehenden Plätzen in der Jugendpsychiatrie seien derzeit 25 von Mädchen mit Essstörungen 
+belegt. “Wir Wissen längst, dass dünn zu sein weder gesund noch lebensverlängernd ist”, sagt Kuznik, “doch 
+unsere Gesellschaft konfrontiert gerade junge Mädchen noch immer mit völlig überzogenen 
+Schlankheitsvorstellungen”. Das allein verursacht noch keine Essstörung. “Wenn aber noch ein 
+grundlegendes familiäres Problem hinzukommt, legen viele Mädchen einen übertriebenen Wert auf ihr 
+Aussehen”. So berichtet eine 17-Jährige, dass sie aus dem Gefühl heraus, “nichts hinzubekommen”, eine Diät 
+gemacht habe. Und die Diät war dann endlich etwas, das klappte. Als Folge davon hat sie nicht nur wie 
+geplant zwei Kilo abgenommen, sondern dreizehn. So zieht Gerd Kuznik nicht nur in diesem Fall das Fazit: 
+Mit einer harmlosen Diät fängt es meist an, mit einer schweren Krankheit kann es enden.
       `,
       cartItemAnswers: "",
-      cartAcoordion: "Rückblick: Fischsterben im Rhein",
+      cartAcoordion: "Von der Diät zur Krankheit",
     },
     {
       id: 2,
-      title: `Der Klimawandel bringt es in Verbindung mit der Globalisierung mit sich, dass auch in Deutschland Tiere heimisch werden, die hier zuvor nicht beobachtet wurden. Zu diesen Neuankömmlingen gehören auch exotische Stechmücken, beispielsweise der japanische Bushmosquito. Mit den exotischen Stechmücken kommen auch neue Infektionserreger nach Deutschland, die möglicherweise auch bisher unbekannte Krankheiten beim Menschen auslösen können. Eine Forschergruppe identifizierte jetzt einige bisher nur in Afrika und Asien vorkommende Erreger. Anfang 2011 wurde ein interdisziplinäres Projekt ins Leben gerufen. Als ein erstes Ziel der Forschungsarbeit wird die Erstellung einer Mückenkarte für Deutschland angestrebt. "Innerhalb weniger Jahre wollen wir einen Überblick über die Artenverteilung der Mücken haben und wissen was an Viren in ihnen steckt", so der Leiter des Bernhard-Nocht-Institut Professor Dr. Sven Klimpel. 
-      Das Bernhard-Nocht-Institut ist eine internationale anerkannte Forschungseinrichtung, die eine langjährige Erfahrung in der Virendiagnostik in das Projekt einbringen kann. Es verfügte über Laboratorien der höchsten Sicherheitsstufe, die erforderlich sind, um neue Viren mit unbekanntem Gefährdungspotential zu untersuchen. 
-      Mit der neu entdeckten, aus Asien stammenden Mückenarten könnten in Deutschland bisher 48 Stechmückenarten von den Entomologen nachgewiesen werden. Seit einigen Jahren breitete sich die Malaria-Mücke Anopheles plumbeus in Südwestdeutschland aus. Auch die Asiatische Tigermücke, die unter anderem das gefährliche Denguefieber verbreitet, schaffte `,
+      title: `Energiesparlampen, umweltfreundliche Elektrogeräte, Bio-Nagellack - sieht man sich die Themen an, mit denen 
+      sich die Teilnehmer des 46. Regionalwettbewerbs ”Jugend forscht” beschäftigt haben, wird vor allem eines klar: 
+      Das ökologische Bewusstsein hat die Klassenzimmer erreicht.
+      Knapp 100 Schüler nahmen an dem Wettbewerb teil. Die Teilnehmer schreckten auch vor komplexen Themen 
+      nicht zurück. Die Zwölftklässler Adrian, Thanh und Son beschäftigten sich mit der Herstellung künstlicher 
+      Muskeln. “Die Herausforderung war, sich mit drei Fachgebieten - Anatomie, Technik und Chemie - zu 
+      beschäftigen”, sagt Adrian. Gelohnt hat es sich - in der Rubrik Technik erreichte die Gruppe den ersten Platz. In 
+      der Rubrik Arbeitswelt ermittelten die Abiturientinnen Yara-Alessandra und Bahir die Ökobilanz von 
+      Gartengeräten. “Wir haben festgestellt, dass Laubbläser mit Benzinmotor nicht nur große Mengen 
+      Kohlenstoffdioxid produzieren, sie vernichten auch Würmer und Insekten, die für das Gleichgewicht der 
+      Umwelt wichtig sind”, sagt Yara-Alessandra. Die Jury honorierte das Projekt mit dem zweiten Platz. Die 
+      Gewinner bereiten sich nun auf den Landeswettbewerb “Jugend forscht” vor`,
       cartItemAnswers: "",
-      cartAcoordion: "Kliene Insekten können Krankheiten bringen",
+      cartAcoordion: "Jugend engagiert sich für den Umweltschutz",
     },
     {
       id: 3,
-      title: `Forscher haben bei Versuchen im Bronx Zoo in New York eine neue Erkenntnis über Elefanten erlangt: Sie können sich selbst im Spiegel erkennen. Zumindest eines von drei Versuchstieren versuchte, einen auf seinem Kopfe aufgemalten Fleck, der im Spiegelbild zu sehen war, zu entfernen. Bisher war unter anderem von Affen, Delfinen und Elstern ein ähnliches Verhalten bekannt. Und auch bei diesen reagierte nicht immer alle Versuchstiere auf einen Spiegel. 
-      Es gab auch schon in der Vergangenheit solche Tests mit Elefanten, die aber auf keine Selbsterkenntnis schließen ließen. Den Grund sieht ein Wissenschaftler im Versuchsaufbau: "Das große Problem ist, einen Spiegel zu haben, der 'elefantenfest' ist." Frühere Versuche hätten zu kleine und zu schwer zugängliche Spiegeln verwendet. Die Elefanten aber wollten "dagegen knallen, dahinter schauen, die Sache ausprobieren, bevor Sie verstehen, was vor sich geht". 
-      Deshalb wurde diesmal mit ein 2,5 mal 2,5 Meter großer Spiegel in einem Elefantengehege mit drei weiblichen asiatischen Elefanten montiert, der stabil genug für ausgiebige Untersuchungen durch die Tiere war. Bei ähnlichen Tests mit Affen und Delfinen gibt es normalerweise vier Phasen der Erkenntnis im Spiegel: Zuerst der Versuch der Kommunikation mit dem vermeintlichen Artgenossen, dann eine physische Inspektion des Spiegels, ein Testen des Verhaltens des Spiegelbilds und schließlich die Selbsterkenntnis. Die Elefanten übersprangen die erste Phase und schauten in Phase zwei hinter den Spiegel und griffen auch mit dem Rüssel dahinter. In Phase drei führten sie verschiedene Bewegungen durch und verglichen sie mit denen des Spiegelbildes. Auch wenn sich dann nur eines der Tiere selbst erkannte, indem es den aufgemalten Fleck untersuchte und nach einiger Zeit dann auch das Interesse an dem Fleck verlor, sehen die Wissenschaftler das Ergebnis als eindeutigen Beweis für die Fähigkeit zur Selbsterkenntnis. Als Nächstes wollen sie die Fähigkeiten von Elefanten auch in ihrer natürlichen Umgebung weiter erforschen. `,
+      title: `13,5 Meter lang und leuchtend gelb - die “Aldebaran” zieht die Blicke im Jachthafen auf 
+      sich. Für drei Schüler aus Diepholz ist ein Traum wahr geworden. Als Meeresforscher auf 
+      See arbeiten sie an einem eigenen Forschungsprojekt. Sie nehmen am 
+      Meereswettbewerb “Forschen auf See” teil. Ziel des Projektes: junge Leute an 
+      wissenschaftlichen Arbeiten heranzuführen. Die drei Schüler Jonas, Annika und Katharina 
+      sind 17 Jahre alt. Ihr Thema: die Verschmutzung der Nordsee mit winzigen 
+      Plastikteilchen.
+      Mit ihrer Forschungen wollen die Schüler die Aufmerksamkeit auf die Verschmutzung der 
+      Nordsee lenken. Zu Hause in Diepholz engagieren sich die drei in der UmweltArbeitsgruppe ihrer Schule. Über die Verschmutzung der Meere mit winzigen 
+      Plastikteilchen und die Gefahren für Fische und Meeressäuger wissen sie schon einiges. 
+      Mit ihren Untersuchungen wollen sie die Aufmerksamkeit auf das Problem lenken. Die 
+      Proben sind zwar noch nicht ausgewertet, die ersten Plastikteile haben die Jugendlichen 
+      aber schon gefunden. “Es sieht so aus, dass wir Ergebnisse kriegen, die gut für unser 
+      Projekt sind - aber nicht gut für die Umwelt”.`,
       cartItemAnswers: "",
-      cartAcoordion:
-        "Neue Studie: Nicht nur Affen und Delfine erkennen sich selbst",
+      cartAcoordion: "Jugend forscht - auch auf dem Meer",
     },
     {
       id: 4,
-      title: `Die anhaltenden außergewöhnlich hohen Temperaturen haben im Süden Frankreichs eine Tierplage bisher unbekannten Aumaßes ausgelöst. Bei den Plagegeistem handelt es sich um Unmenger von zwei bis dreieinhalb Zentimeter langen Heuschrecken, sogenannten Roten Schnarrschrecken. Sie fressen Felder und Wiesen kahl und haben innerhalb von rund sechs Wochen die Landschaft in eine trostlose Steppe verwandelt. Die Landwirte der Region sind bereits verzweifelt, denn ihre gesamte Ernte hat sich buchstäblich in Luft aufgelöst. Die Landwirte müssen nun handeln und Inscktenverrichtungsmittls einzusetzen, doch ist dies riskant. Denn sie dürfen nur ein Mittel verwendet, das ausschließlich für die Heuschrecken tödlich ist, nicht aber für Bienen nd andere Insekten. Auch das Vieh der Bauern darf niche durch verseuchtes Futter gefährdet werden. `,
+      title: `Mobbing ist kein neues Phänomen. Es ist auch in Schulen weitverbreitet. Da spricht zum 
+      Beispiel eine Lehrerin vor der Klasse negativ über eine Schülerin, weil sie etwas nicht 
+      versteht oder immer wieder krank ist. Oder die Mitschüler lachen oder lassen 
+      beleidigende Bemerkungen fallen, wenn ein bestimmter Schüler sich zu Wort meldet. Da 
+      lauern Jungen einer 4. Klasse einem schüchternen Mitschüler auf dem Schulweg auf und 
+      erpressen von ihm Geld oder Kleidung. Häufig sind die Erwachsenen ratlos oder schauen 
+      weg, während die Opfer die Schuld bei sich selbst suchen und zunehmend in eine soziale 
+      Isolation geraten. Lehrkräfte sind meist überrascht, wenn man sie auf Mobbing in einer 
+      Klasse anspricht. Denn die Schikanen geschehen oft zu subtil und meist außerhalb des 
+      Unterrichts, während der Pausen oder auf dem Schulweg. `,
       cartItemAnswers: "",
-      cartAcoordion: "Bauern sind gezwungen Gift gegen schädliche",
+      cartAcoordion: "Psychoterror an der Schule",
     },
   ],
   answers: [
-    "Neue Insektenart in Frankreich",
-    "Kliene Insekten können Krankheiten bringen",
-    "Bauern sind gezwungen Gift gegen schädliche",
-    "Neue Mittel gegen Mücken ",
-    "Neue Studie: Nicht nur Affen und Delfine erkennen sich selbst",
-    "Probleme beim Versuchsaufbau: Studie gescheitert ",
-    "Rhein nach Chemieunfall noch immer tot",
-    "Rückblick: Fischsterben im Rhein",
-    "Um die Zukunft der Nordsee ist es schlecht bestellt",
-    "WWF zieht positive Bilanz für die Nordsee",
+    "Jugend forscht - auch auf dem Meer",
+    "Jugend engagiert sich für den Umweltschutz",
+    "Kochen für Eltern und Kinder",
+    "Mehr Gewalt auf Schulhöfen",
+    "Psychoterror an der Schule",
+    "Schiffsreise für Jugendliche",
+    "Starker Wettbewerb um Schüler",
+    "Von der Diät zur Krankheit",
+    "Wenn Lernen krank macht",
+    "Wenn aus Erdbeeren Tomaten werden",
   ],
 };
 
@@ -60,232 +122,313 @@ export const lesenTeil_3 = {
   carts: [
     {
       id: 0,
-      title: `
-      Infos zur Auslandsüberweisung
-      Bitte verwenden Sie die Funktion Auslandsüberweiung für Zahlungen in Länder, die nicht zum SEPA -Zahlungsraum gehören, Zum SEPA-Zahlungrum gehören die Mitgliedsstaaten der Europäischen Union sowie die Länder Island, Norwegen, Liechtenstein, die Schweiz und Monaco. 
-      In diesem Raum gilt die Inlandsüberweisungen. Bürgerinnen und Bürger können damit günstiger überweisen. Für alle anderen Länder gilt die Auslandsüberweisung. 
-      Bitte beachten Sie, dass bei Auslndsüberweisungen in der Regel Spesen zu zahlen sind. Für nähere Auskünfte über deren Höhe wenden Sie sich bitte direkt an die Kundenbetreuung Kontakt
-      `,
+      title: `Nicht nur Urlaub...
+      ...kann man in anderen Ländern machen, sondern auch etwas lernen. Die Agentur für Arbeit vermittelt 
+      Schülerinnen und Schülern, aber auch Studierenden Praktikumsplätze im Ausland! Nutzt die 
+      Gelegenheit, möglichst früh Euren Wunschberuf kennenzulernen, auch wenn Ihr für das Praktikum nicht 
+      bezahlt werdet. Meldet euch gleich in der nächsten Filiale oder besucht unsere Homepage, auch dort 
+      gibt's weitere Informationen.
+      www,agenturfuerarbeit.de`,
       cartItemAnswers: "",
-      cartAcoordion:
-        "Sie wollen Geld nach Kanada überweisen. Sie möchten wissen, wie viel Sie für die Überweisung bezahlen",
+      cartAcoordion: "X",
     },
     {
       id: 1,
-      title: `
-      Französische Muttersprachler 
-7 
-bieten Übersetzungenen Deutsch-Französisch und Englisch-Französisch von 
-Schulzeugnissen, Lebensläufen, Bewerbungen (Anschreiben & Motivationsschreiben) Arbeitszeugnissen usw. 
-•Arbeitsverträgen 
-Versicherungsverträgen 
-• Auf Wunsch erstellen wir Ihre Jobanzeigen für den 
-französischsprachigen Raum,angepasst an die jeweils landesübliche Anzeigengestaltung. 
-Einwandfreie Qualität; schnell, garantiert termingerecht und zu einem fairen Preis. Kostenvoranschläge innerhalb von zwei Tagen. Standort Wien, Lieferungen innerhalb der EU. 
-Nutzen Sie zur Kontaktaufnahme bitte das Online-Formular am Ende dieser Seite 
+      title: `Neues Ziel, neues Glück!
+      Du bist gerade “auf dem Sprung”, willst umziehen und suchst noch eine passende Bleibe?
+      Dann haben wir das Richtige für dich: In unserem Internetportal findest du günstige Wohnungen oder 
+      WG-Zimmer in zahlreichen Städten Deutschlands - und sogar über die Grenzen Deutschlands hinaus. 
+      Unsere Suchfunktion erlaubt es dir, Details einzugeben wie ”maximale Miete”, “zentrale Lage” usw. 
+      Schau einfach mal vorbei, die Suche ist natürlich kostenlos!
+      Und noch etwas: Du kannst auch gerne ein Wohnungsangebot bei uns einstellen, wenn du einen 
+      Nachmieter oder einen Mitbewohner suchst - für nur 0,49 Euro.
+      Du findest uns unter
+      www.ueberallwohnen.eu
       `,
       cartItemAnswers: "",
       cartAcoordion:
-        "Ein Freund aus Salzburg will sich in Frankreich bewerben. Er möchte seine Zeugnisse",
+        "Sie möchten in einer anderen Stadt eine Ausbildung machen und suchen dort eine Wohnung.",
     },
     {
       id: 2,
-      title: `Als Austauschschüler/in verbringst du einige Monate oder ein ganzes Jahr im Ausland. Du kannst ein Land in Europa 
-      wählen, aber auch Länder auf einem anderen Kontinent, wie zum Beispiel Amerika oder Australien. In dem Land deiner Wahl wohnst du bei einer Gastfamilie. Du besuchst die reguläre Schule, gemeinsam mit Schülerinnen und Schülern aun deinem Gastland. So lernst du die Lebensweise und die Traditionen anderer Menschen kennen. Natürlich lernat du auch die Sprache deines Gastlandes. Wir bieten 
-      Informationsveranstaltungen in allen Bundeslanädern an. Dort beantworten wir alle deine Fragen. Schau doch einfach bei uns vorbei! Wir freuen uns auf dich `,
+      title: `Superlearning
+      Sie möchten in kurzer Zeit ihre Sprachkenntnisse besonders schnell verbessern und suchen hierfür die 
+      beste Methode? Sie möchten sich während des Aufenthaltes gleichzeitig entspannen und etwas für Ihre 
+      Gesundheit tun? Dann dürfte dieses Programm für Sie genau das Richtige sein! 
+      Nach der Methode des berühmten bulgarischen Arztes Lozanov lernen Sie in entspannter Umgebung 
+      und dennoch hoch konzentriert mit Untermalung durch klassische Musik und praxisnahen 
+      kommunikativen Übungen. Durch unser ganzheitliches System können Sie Ihre Lernleistung erheblich 
+      steigern, so dass sich der vergleichsweise hohe Preis schnell bezahlt macht. 
+      Wir informieren Sie gerne über unser Angebot an Superintensivkursen.
+      info@superlearning.de`,
       cartItemAnswers: "",
-      cartAcoordion:
-        "Ihre 14-jährige Nichte möchte sich über einen Auslandsaufenthalt informieren",
+      cartAcoordion: "X",
     },
     {
       id: 3,
-      title: `Als gebürtige Engländerin, mit einem Studienabschluss in Englisch, lebe ich seit vielen Jahren in Österreich. Ich biete Übersetzungen vom Deutschen ins Englische an: Lebensläufe, Ausbildungsunterlagen, Präsentationen, Websites, Produktbeschreibungen, Firmenflyer usw. Ich habe 20 Jahre Erfahrung mit Übersetzungen. Zu meinen zufriedenen Kunden zählen namhafte 
-      I Unternehmen aus dem In- und Ausland. Auf Wunsch schicke ich Ihnen gerne eine Liste mit Referenzen zu. Wenn es einmal | besonders schnell gehen muss, übernehme ich Expressarbeiten auch an Wochenenden.Effizient und zu einem 
-      angemessenen Preis.susan@language.at www.susanlanguage.at `,
+      title: `Andere Länder, ...
+      ... andere Sprachen. Und wo lernt man eine Sprache am besten? Genau - in dem Land, in dem sie 
+      gesprochen wird. Wir bieten Ihnen die Möglichkeit, Sprachen auf der ganzen Welt zu lernen. Vom 
+      Einzelunterricht bis hin zu einem Kurs für eine ganze Gruppe, von A wie Arabisch bis Z wie Zulu. 
+      Entdecken Sie die Welt und die Welt der Sprachen. Wir gehen flexibel auf Ihre Wünsche ein. Sprechen Sie 
+      uns an. Egal welche Sprache Sie lernen möchten, wir haben bestimmt auch für Sie das passende 
+      Angebot!
+      Weitere Informationen unter: info@sprachenderwelt.eu `,
       cartItemAnswers: "",
       cartAcoordion:
-        "Sie sollen die neue Webseite Ihrer Firma ins Englische übersetzen lassen",
+        "Sie möchten einen Sprachkurs in einem anderen Land machen.",
     },
     {
       id: 4,
-      title: `
-      Mit einem Konto bei der RUFA profitieren Sie von attraktiven Angeboten und von persönlicher Beratung. Wir haben das passende Konto für Sie - vom Girokonto bis zum Gratiskonto für Jugendliche. Jetzt aktuell: GRATIS Studentenkonto. 
-Ihnen steht ein persönlicher Berater zur Seite, wenn Sie Auskunft oder Hilfe brauchen. Zusätzlich bietet Ihnen das Konto einige Vorteile, z. B. eine gratis Unfallversicherung bis 24 Jahre. Mit Ihrer RUFA-Clubkarte bekommen Sie außerdem Ermäßigungen in ausgewählten Shops und bei bestimmten Veranstaltungen 
-      `,
+      title: `Was bedeutet “Tandemlernen”?
+      Zwei Menschen mit verschiedenen Muttersprachen treffen sich und helfen sich gegenseitig beim Lernen 
+      der jeweiligen Fremdsprache. Tandemlernen hat keine festgelegten Strukturen, sondern kann ganz nach 
+      Lust und Laune ablaufen.
+      Was, wann, wo und wie du lernst, hängt von dir und deinem Tandempartner ab. 
+      Außerdem hast du die Chance, durch Tandemlernen einen interessanten Einblick in eine andere Kultur 
+      zu bekomme.
+      Und das Beste: es kostet nichts.
+      Schau nach unter www.tandemboerse.de`,
       cartItemAnswers: "",
       cartAcoordion:
-        "Im Herbst beginnt Ihre Tochter ein Studium. Sie möchte ein Bankkonto eröttnen.",
+        "Sie wollen gerne noch eine Sprache lernen und suchen einen festen Lernpartner.",
     },
     {
       id: 5,
-      title: `
-      Wir laden Sie dazu ein, internationale Schülerinnen und Schüler bei Ihnen zu Hause aufzunehmen. Dabei bieten Sie einem 
-      Fjungen Menschen mehr als nur einen Platz zum Schlafen und etwas zu essen. Sie helfen ihm, sich in einer fremden 
-      Umgebung zurechtzufinden, andere Sitten und Gebräuche und eine fremde Sprache kennenzulernen. Eine Gastschülerin I oder einen Gastschüler aufzunehmen ist eine wunderbare Möglichkeit, selbst eine andere Kultur kennenzulernen und I gleichzeitig die eigene Kultur zu teilen. Im Alltag können Sie gemeinsam kulturelle Unterschiede entdecken und schätzen ⚫ lernen. Egal ob Sie selbst Kinder haben, allein oder in einem klassischen Familienhaushalt leben: Wir freuen uns auf Ihre 
-      Bewerbung! 
-      `,
+      title: `Interesse an einer Ausbildung?
+      Auf unserem Azubi-Portal finden Sie Informationen zu allen Ausbildungsberufen, die es derzeit in 
+      Deutschland gibt. Sie erfahren, welche Voraussetzungen Sie für eine Ausbildung benötigen, was genau 
+      Sie in der Ausbildung lernen, wie Ihr späteres Berufsleben aussieht - und natürlich erfahren Sie auch 
+      alles rund um das Thema Lohn.
+      Auch wertvolle Bewerbungstipps finden Sie bei uns.
+      Schauen Sie doch mal vorbei: www.azubiportal.eu`,
       cartItemAnswers: "",
-      cartAcoordion:
-        "Ihre kinderlose Nachbarsfamilie möchte für einige Zeit einen jungen Menschen aufnehmen.",
+      cartAcoordion: "X",
     },
     {
       id: 6,
-      title: `
-Französische ist Ihre Muttersprache? Wir suchen eine freie Mitarbeiterin oder einen Mitarbeiter für Übersetzungen vom Deutschen ins Französischen. Sie arbeiten fallweise und von zu Hause aus (keine feste Ansteilung) 
-Ihr Aufgabenbereich: Übersetzung von einfachen, kurzen Texten (Anfragen, Beantwortung von Anfragen,Reaktion auf Beschwerden usw. Wenn nötig, führen Sie auch kurze Telefonate mit französischen Kundinnen oder Kunden. Sie werden von uns eingearbeitet Sie lernen unsere Produkte und das Fachvokabular anhand zweisprachiger Unterlagen kennen. Bei Fragen stehen Ihnen unsere Mitarbeiter gerne zur Verfügung. Interessiert? Wir freuen uns auf Ihre Orline-Bewerbung 
-      `,
+      title: `Umzug mal anders
+      Wer kennt das nicht: Wenn man umziehen will oder muss, gibt es viel zu erledigen. Man muss den 
+      Umzug organisieren, sich um Papiere kümmern, die neue Adresse bekanntgeben und vieles mehr. 
+      Dabei hat man auch gar keine Zeit, denn arbeiten oder studieren muss man ja auch noch. Deshalb 
+      bieten wir einen kompletten Umzugs-Service an. Sie müssen nur noch von einer Stadt in die nächste 
+      fahren - und den Rest erledigen wir.
+      Das alles zu einem fairen Preis. Sprechen Sie uns an!
+      E-Mail: info@umzugmalanders.eu`,
       cartItemAnswers: "",
       cartAcoordion:
-        "Eine französische Bekannte ist Übersetzerin und möchte gelegentlich arbeiten.",
+        "Sie wollen umziehen, haben aber eigentlich gar keine Zeit, sich darum zu kümmern.",
     },
     {
       id: 7,
-      title: `
-      Ein Tag im Zeichen der guten Nachbarschaft 
-      Im Rahmen des europäischen Nachbarschaftstages wurde auch heuer wieder in unserem Bezirk zu gemeinsamem Kochen und Genießen eingeladen. 
-      Solche Veranstaltungen dienen dazu, andere Menschen und Kulturen besser kennenzulernen. Wie auch in den vergangenen Jahren wurde das Fest wieder sehr gut aufgenommen. Die Veranstalter hielten begeisterte Mails. Da viele Leute die zahlreichen Spezialitäten aus aller Welt nach kochen möchten, finden Sie hier unser Online- Kochbuch 
-      `,
+      title: `Alle Informationen auf einer Seite
+      Die neue Internetseite www.studium.de bietet Ihnen alles rund um das Thema”Studium”. So finden Sie 
+      neben Informationen zu allen deutschen Hochschulen auch genaue Beschreibungen aller Studiengänge 
+      und -fächer auf auf unserer Webseite.
+      Ob sie etwas Naturwissenschaftliches studieren möchten, etwas Wirtschaftswissenschaftliches, ein Fach 
+      mit Bezug zu Kultur oder eine Sprache - bei uns finden Sie alles und erfahren natürlich auch, wo Sie was 
+      studieren können.
+      Und als besonderen Service bieten wir Ihnen auch einen BAföG-Rechner an:
+      Ermitteln sie gleich, ob Ihnen Unterstützung während des Studiums zusteht.`,
       cartItemAnswers: "",
       cartAcoordion:
-        "Sie kochen gerne und suchen nach Rezepten aus anderen Ländern.",
+        "Sie möchten Physik studieren und möchten sich zunächst informieren.",
     },
     {
       id: 8,
-      title: `
-      Konto-Neuheiten 
-Mit der neuen BaZa-App erledigen Sie Ihre Bankgeschäfte, wann und wo Sie wollen. Für die schnelle Überweisung unterwegs, mit ein paar Klicks: Geben Sie einfach den Namen Ihres Baza-Kontaktes an, alles andere erledigt die App für Sia. Oder per Smartphone-Kamera: Se fotografieren einen Zahlschein, und die App erfasst die Daten automatisch Mit der App können Sie auch direkt mit Ihrer Kundenbetreuerin oder Ihrem Kundenbetreuer Kontakt aufnehmen eine Nachricht schicken, einen Termin vereinbaren oder um einen Rückruf bitten. Für alle, die schon ein BaZa-Konto haben: jetzt die neue App herunterladen! Zum Download 
-      `,
+      title: `Hilfe gesucht?
+      Studierende und Auszubildende müssen oft umziehen, ohne dass sie viel Geld dafür hätten. Deshalb 
+      haben wir unser Netzwerk “Studis und Azubis ziehen um” gegründet. Bei uns sind viele fleißige Helfer 
+      registriert, die gerne beim Umzug helfen: Kisten packen, Möbel abbauen, die Sachen zu neuen Wohnung 
+      bringen und so weiter.
+      Und das Beste daran: Es kostet keinen Cent!
+      Wie das funktioniert? Ganz einfach. Registriert euch bei uns - natürlich ebenfalls kostenfrei -, und wenn 
+      jemand anders Hilfe braucht, tragt ihr eben auch mal Kartons und baut Möbel auf. 
+      Wir helfen uns gegenseitig!
+      Weitere Infos unter: www.umzugshelferlein.e`,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion:
+        "Sie ziehen wegen einer Ausbildung um und suchen so günstig wie möglich Umzugshelfer.",
     },
     {
       id: 9,
-      title: `
-      Seit einigen Jahren bietet die Volkshochschule Laiendolmetscherinnen und Laiendolmetscher an, die fremdsprachigen Eltern den Kontakt mit der Schule erleichtern sollen. Das Angebot soll dazu beitragen, die Beziehungen zwischen Eltern, Lehrerinnen und Lehrern sowie der Schulleitung zu verbessern. Das Ziel ist ein besseres Miteinander und mehr Verständnis füreinander. Die Laiendolmetscher werden von der VHS auf ihre Aufgabe vorbereitet. 
-Momentan bietet die VHS Laiendolmetscher in den Sprachen Albanisch, Bosnisch, Kroatisch, Serbisch, Slowakisch, Rumänisch, Türkisch, Spanisch und Italienisch an. In Zukunft soll das Angebot um weitere Sprachen erweitert werden. 
-      `,
+      title: `Neu in der Stadt?
+      Ihr seid umgezogen und habt eine Ausbildung oder ein Studium hier in der Stadt begonnen?
+      Ihr sucht neue Kontakte, Leute, mit denen ihr die Freizeit verbringen könnt?
+      Der Verein “Triff dich!” organisiert einmal pro Woche eine Stammtisch für alle, die neue Leute treffen 
+      wollen. Kommt einfach vorbei - und wenn es euch nicht gefällt, könnt ihr ja jederzeit wieder gehen! 
+      Weitere Informationen sowie den Ort und das genaue Datum für unser nächstes Treffen erhaltet ihr 
+      unter: info@triffdich.eu`,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion:
+        "Sie sind gerade umgezogen und möchten neue Leute kennenlernen.",
     },
     {
       id: 10,
-      title: `
-      Spezialitäten aus der Küche 
-Viele klassische Gerichte, die in Österreich auf den Tisch kommen, stammen aus den ehemaligen Kronländern der Monarchie: das Schnitzel aus Italien, die Palatschinken aus Ungarn, Golatschen und Knödel aus dem heutigen Tschechien. Dazu kommen zahlreiche regionale Spezialitäten wie Kasnudeln aus Kärnten, Steirisches Wurzelfleisch oder Salzburger Nockerl. Dies und vieles mehr können Sie bei einem unserer Kochkurse kennenlernen, Besonders wilkommen sind Menschen, die aus anderen Ländern zu uns gekommen sind. Die Liste der Veranstaltungen finden Sie weiter unten. 
-      `,
+      title: `Wie es Ihnen gefällt
+      Unser neues Lernprogramm “Sprachenfix” bietet Ihnen die Möglichkeit, eine Sprache zu lernen, wann 
+      und wo Sie möchten, ob allein zu Hause oder unterwegs.
+      Das Programm bietet alles, was Sie brauchen: von Erklärungen und Wortschatz über Lesetexte und 
+      Hörbeispiele bis hin zu Videos mit kleinen authentischen Szenen aus dem Alltag.
+      Unser Online-Service bietet darüber hinaus Zusatzmaterialien. Auf Wunsch können Sie auch in einem 
+      durch Passwort geschützten Bereich Ihre eigenen Texte durch unsere Lehrkräfte korrigieren und 
+      kommentieren lassen. 
+      Das Programm ist für zahl-reiche Sprachen verfügbar, sprechen Sie uns an.
+      Sprachfix GmbH, Eiderstädt, Tel, 01800/81890132`,
       cartItemAnswers: "",
       cartAcoordion: "X",
     },
     {
       id: 11,
-      title: `
-      Am Weltspartag zur Bank 
-Der Weltspartag wurde am 1. Internationalen Sparkassenkongress in Mailand im Oktober 1924 ins Leben gerufen, um die Bevöilkerung zum Sparen zu bringen. 
-Offiziell wird der Weltspartag am 31. Oktober gefeiert, in Österreich manchmal auch am letzten Werktag vor dem 31. Oktober. Denn an diesem speziellen Tag sollen die Banken für Kunden geöffnet haben. Besonders bei Kindern ist der Weltspartag sehr beliebt. Sie erhalten nämlich kleine Geschenke, wenn sie an diesem Tag mit ihrem Sparschwein zur Bank kommen. Aber auch für Erwachsene gibt es am Weltspartag oft besondere Angebote. 
-      `,
+      title: `Aller Anfang ist schwer.
+      Einige Fächer sind schon in der Schule nicht beliebt, und das ändert sich auch später in der Berufsschule 
+      oder an der Universität nicht. Für viele sind Naturwissenschaften oder Mathematik echte 
+      “Problemfächer”. 
+      Bei uns wird das anders. Unsere Lehrkräfte sind nicht nur fachlich gut ausgebildet, sondern sie haben 
+      auch eine spezielle pädagogische Ausbildung. 
+      Probieren Sie es einfach aus! Egal, ob in der Schule, in der Ausbildung, im Studium oder “einfach nur so” 
+      - bei uns finden Sie, was Sie brauchen. Bei uns lernen Sie in Lerngruppen von drei bis fünf 
+      Teilnehmenden, so können Sie sich auch gegenseitig unterstützen.
+      Weitere Informationen unter info@lernenmachtspass.eu`,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion:
+        "Sie brauchen Unterstützung in Mathematik und möchten in einer kleinen Gruppe lernen.",
     },
   ],
   answers: [
-    "X:Sie suchen ein Au-pair-Mädchen, das im Haushalt helfen und mit ihren Kindern Englisch sprechen soll.",
-    "Ihre 14-jährige Nichte möchte sich über einen Auslandsaufenthalt informieren ",
-    "X:Ihr Sohn möchte als Koch im Ausland arbeiten. Er sucht nach einer passenden Stelle.",
-    "Eine französische Bekannte ist Übersetzerin und möchte gelegentlich arbeiten.",
-    "Ihre kinderlose Nachbarsfamilie möchte für einige Zeit einen jungen Menschen aufnehmen.",
-    "Sie sollen die neue Webseite Ihrer Firma ins Englische übersetzen lassen",
-    "Sie kochen gerne und suchen nach Rezepten aus anderen Ländern.",
-    "Im Herbst beginnt Ihre Tochter ein Studium. Sie möchte ein Bankkonto eröttnen.",
-    "Sie wollen Geld nach Kanada überweisen. Sie möchten wissen, wie viel Sie für die Überweisung bezahlen",
-    "Ein Freund aus Salzburg will sich in Frankreich bewerben. Er möchte seine Zeugnisse",
+    "Sie brauchen Unterstützung in Mathematik und möchten in einer kleinen Gruppe lernen.",
+    "Sie möchten Physik studieren und möchten sich zunächst informieren.",
+    "Sie möchten einen Sprachkurs in einem anderen Land machen.",
+    "Sie möchten in einer anderen Stadt eine Ausbildung machen und suchen dort eine Wohnung.",
+    "Sie ziehen wegen einer Ausbildung um und suchen so günstig wie möglich Umzugshelfer.",
+
+    "Sie sind gerade umgezogen und möchten neue Leute kennenlernen.",
+
+    "X: Sie suchen einen Nachmieter und wollen eine kostenlose Anzeige aufgeben.",
+    "Sie wollen gerne noch eine Sprache lernen und suchen einen festen Lernpartner.",
+    "Sie wollen umziehen, haben aber eigentlich gar keine Zeit, sich darum zu kümmern.",
+    "X: Sie suchen für eine 18-jährige Bekannte einen bezahlten Job außerhalb von Deutschland.",
   ],
 };
 export const lesenTeil_2 = {
   texts: [
     {
-      title: "Kreditkarten für Jugendliche",
+      title: "Noch ein Wasser, bitte!",
       text: `
-      Wer kennt \n sie nicht: Kreditkarten, mit denen man in der heimischen Stadt oder während des Urlaubs einkaufen kann. Fast jeder hat eine, und alles scheint ganz einfach zu sein: Kein Wunder, dass auch immer mehr Kinder und Jugendliche eine eigene Kreditkarte haben wollen. Sie sehen, wie ihre Eltern damit bezahlen, um möchte auch das praktische "Plastikgeld". Aber Eltern sorgen sich: Ist das nicht zu gefährlich?
+      Die Semesterferien sind zu Ende und diese Woche beginnt an der Universität das Sommersemester. Aber 
+nicht nur Vorlesungen und Seminare gehen wieder los. 73 Prozent der Berliner Studenten müssen
+neben dem Studium auch noch Geld verdienen.
+Ein beliebtes Studentenjob ist der des Kellners. Denn erstens arbeitet man meist am Abend, so dass es 
+keine Terminkollisionen mit den Vorlesungs- und Seminarprogrammen gibt. Zweitens findet man leicht 
+einen Job, da es in der Nähe von Universitäten häufig viele Cafès und Kneipen gibt, die sehr gut besucht 
+sind. Und je mehr Gäste, desto höher natürlich die Chancen auf Trinkgelder. Das ist auch wichtig, denn nur 
+so kommt man auf einen akzeptablen Stundenlohn. Allerdings ist es in manchen Restaurants auch üblich, 
+dass die Trinkgelder gesammelt und am Ende dann an alle Kellner gleichmäßig verteilt werden. Davon 
+profitieren dann auch diejenigen, die nicht so engagiert und motiviert arbeiten.
+Als Kellner braucht man starke Nerven, denn der Gast hat immer recht. Manche Gäste machen es einem 
+Kellner mit zahlreichen Beschwerden und Extrawünschen wirklich nicht leicht. Denn der Keller ist die 
+Person, die direkt mit den Gast in Kontakt kommt. Wenn das Essen nicht schmeckt, kalt ist oder nicht 
+schnell genug zubereitet wird, bekommt der Kellner den Unmut der Gäste zu spüren, obwohl die “Schuld” 
+beim Koch liegt.
+Wer ist für den Job als Kellner geeignet? Man sollte offen sein und den Kontakt mit Menschen mögen und 
+auf jeden Fall geduldig sein. Natürlich ist es wichtig, immer freundlich und zuvorkommend zu bleiben. 
+Denn wenn der Service stimmt und der Kellner kompetent und freundlich wirkt, dann sitzt auch das 
+Trinkgeld lockerer.
+      `,
+      titleTow: "Kellnern war gestern",
+      textTow: `Neben den klassischen Studentenjobs wie Kellnern und Nachhilfe geben greifen manche aber auch zu
+      eher ungewöhnlichen Jobs. Wie zum Beispiel Jan, der in Berlin als Fahrradkurier arbeitet, oder Stefanie, 
+      die Testkäuferin.
+      Jan fährt im Auftrag von Apotheken, Filmverleihfirmen oder Pizzadiensten im Schnitt zwischen 50 km und 
+      200 km pro Tag. Um diesen Job machen zu können, braucht er eine sehr gute Kondition. Denn manche 
+      Strecken sind lang, und oft gibt es Gegenwind. Er arbeitet wie die meisten Fahrradkuriere auf 
+      selbständiger Basis und kommt auf einen Stundenlohn von etwa 10 Euro. Jan meint: “Reich wird man 
+      damit zwar nicht, aber man kann sagen: Wer schnell ist und gut, verdient als Fahrradkurier nicht schlecht.” 
+      Am liebsten würde Jan von einem Kurierdienst in einem klassischen Arbeitsverhältnis angestellt werden. 
+      Das ist in der Branche aber eher die Ausnahme. Wäre er Angestellte, würde er vom Kurierdienst ein 
+      Grundgehalt bekommen und für die gefahrenen Aufträge eine kleine Provision.
+      Einen der größten Vorteile seines Jobs sieht Jan darin, dass er sich den ganzen Tag im Freien bewegt und 
+      so die Beiträge für das Fitnessstudio spart. Außerdem lernt man so eine Stadt sehr gut kennen. Ein 
+      Nachteil ist, dass man auch bei Wind und Wetter oder bei dichtem Verkehr fahren muss. Aber das nimmt 
+      Jan in Kauf. Denn Kellnern oder ein Büro-Job wären nichts für ihn.
+      Der Job von Stefanie ist ein wahrer Glückstreffer: Sie darf den ganzen Tag einkaufen und wird dafür auch 
+      noch bezahlt. Stefanie arbeitet als Testkäuferin, um Beratung und Service von Verkäufern in Geschäften zu 
+      testen. Ein typischer Arbeitseinsatz sieht bei ihr so aus: Nach der letzten Vorlesung an der Uni geht sie 
+      zum Beispiel in einen Modeladen. Dort überprüft sie als Erstes den Eingang auf Sauberkeit, schlendert 
+      dann zu den Ständen mit Hosen und Blusen und schaut, ob alles ordentlich sortiert und beschildert ist. 
+      Dann spricht sie eine Verkäuferin an und sagt, dass sie eine Bluse sucht. Damit testet sie, ob sie als Kundin 
+      von der Verkäuferin angemessen beraten wird. Die Verkäuferin sollte nachfragen, für welchen Anlass und 
+      in welcher Farbe die Kundin eine Bluse sucht.
+      Leider läuft es nicht immer so, wie er sein sollte. In 90 Prozent der Fälle gibt es Grund zur Beschwerde, 
+      weil die Verkäuferin entweder unfreundlich oder uninteressiert ist. Bevor Stefanie die Läden wieder 
+      verlässt, kommt das Beste: Sie muss etwas kaufen, um die Kasse zu testen. 20 Euro bekommt sie dafür 
+      pro Test. Außerdem darf sie das, was sie kaufen sollte, auch noch behalten.
       
-      Um das Risiko einer Überschuldung zu vermeiden, bieten Banken und alle Sparkassen 1 Jugendlichen eine besondere Art von Kreditkarten an: die sogenannte Prepaid-Kreditkarte. Eine Prepaid-Kreditkarte ist mit einem Prepaid-Handy vergleichbar. Man kann sie nur einsetzen, wenn man zuvor Geld auf die Karte geladen hat. Ist das Guthaben verbraucht, kann man mit der Karte nicht mehr bezahlen und am Automaten kein Geld mehr abheben.
-      
-      Der Vorteil liegt auf der Hand: "Man kann nicht mehr Geld ausgeben, als man hat", sagt Andreas Gernt, Finanzexperte der Verbraucherzentrale Niedersachsen in Hannover. Mit einer Prepaid-Kreditkarte kann daher niemand in die Schuldenfalle tappen. "Für Kinder und Jugendliche auf Reisen ist die Prepaid-Kreditkarte eine überlegenswerte Option", sagt Gernt.
-      
-      Die daheimgebliebenen Eltern können Ihrem Kind von zu Hause aus Geld auf die Karte laden, wenn das Guthaben verbraucht ist. Zugleich können Sie die Kosten kontrollieren. "Die Prepaid-Kreditkarte ist eine Ausgabenschranke für den Verbraucher", fasst Tanja Beller vom Bundesverband deutscher Banken in Berlin zusammen. So können Jugendliche den Umgang mit bargeldlosem Zahlungsverkehr lernen.
-      
-      Verluste bei Diebstahl überschaubar 
-      Zugleich eignen sich die Karten aber auch für erwachsene Reisende mit einem größeren Sicherheitsbedürfnis. "Man ist mit einer Kreditkarte auf Reisen unabhängiger vom Bargeld", erklärt Gernt. Die Prepaid-Karte bietet zwei Vorteile: Zum einen ist mit ihr das Reisebudget von Anfang an limitiert. Es kann nur das für Souvenirs ausgegeben werden, was vorher geladen wurde. Zum anderen sind damit auch die Verluste überschaubar, wenn die Karte gestohlen wird. Denn auch ein Dieb kann nur das Geld nutzen, das als Guthaben auf der Karte ist. 
-      
-      Außerdem eignet sich die Prepaid Kreditkarte für Freiberufler und Selbständige - oder allgemeiner gefasst für Menschen mit einem unregelmäßigen oder geringen Einkommen, die dadurch keine gute Bonität haben. Denn die Prepaid-Kreditkarten sind im Gegensatz zur klassischen Kreditkarte nicht direkt an ein Gehaltskonto gebunden. Das ermöglicht auch Geringverdienern Einkäufe im Internet. Zugleich schützt die Guthabenkarte vor allzu großen Verlusten durch Missbrauch im Netz. Die Angebote sollte man vergleichen 
-      
-      "Bevor man sich aber für eine Prepaid-Karte entscheidet, sollte man ihre Akzeptanz überprüfen", rät Beller. Denn gerade Prepaid-Karten sind nicht in jedem Land als Zahlungsmittel gern gesehen. Grundsätzlich sollte man auch bei Lock-Angeboten skeptisch sein, die als Werbung in den Briefkasten flattern. "Vielleicht verbirgt sich da etwas im Kleingedruckten", warnt Gernt. Außerdem sollte man die Gebühren genau vergleichen und auf versteckte Kosten achten. Die Stiftung Warentest hat für ihre Zeitschrift " Finanztest" die Bedingungen und Kosten von 24 Prepaid-Kreditkarten für Erwachsene und Jugendliche getestet. Die Tester stellten fest: Die Karten sind nicht teurer als klassische Kreditkarten, und auch die Nutzungsgebühren unterscheiden sich kaum. 
-      
-      Abheben ab fünf Euro 
-      Erwachsene bezahlen für Prepaid-Karten zwischen 29 und 39 Euro im Jahr. Karten für Jugendliche 5 Kosten im Jahr höchstens 22 Euro. Bei vielen Banken sind sie bis zum 18. oder 21. Geburtstag 
-      kostenlos. Für das Geldabheben am Automaten berechnen die Banken meist einen Mindestbetrag zwischen 5,00 € und 7,50 Euro. Ansonsten fallen etwa zwei Prozent vom abgehobenen Betrag an. Zudem kostet das Abheben außerhalb des Euro-Raumes zwischen einem Prozent und 1,9 Prozent extra. Unter dem Strich kann die Prepaid Karte mit der klassischen Kreditkarte durchaus mithalten. Mit beiden Kartentypen kann man im Restaurant bezahlen, am Automaten Geld abheben oder im Internet shoppen. 
       `,
     },
   ],
   aufgabens: [
     {
       id: 0,
-      qustion: "Eine Prepaid-Kreditkarte",
-      answersOne: ` gibt es für Jugendliche schon bei zahlreichen Geldinstituten.`,
-      answersTwo:
-        "können Jugendliche zusammen mit einer Handy-Prepaidkarte bekommen",
-      answersThree: "macht es möglich, mit dem Handy zu bezahlen.",
+      qustion: "Der Nebenjob als Kellner ...",
+      answersOne: `hat an Attraktivität deutlich verloren.`,
+      answersTwo: "ist insgesamt sehr gut bezahlt.",
+      answersThree: "lässt sich gut mit dem Studium vereinbaren.",
     },
     {
       id: 1,
-      qustion: "Man hat Kontrolle über die Kosten,",
-      answersOne: `da nur der Karteninhaber seine Karte aufladen darf.`,
-      answersTwo: "denn die Eltern werden bei einer Aufladung benachrichtigt. ",
-      answersThree: "weil die Ausgaben durch das Guthaben begrenzt sind. ",
+      qustion: "Wer als Kellner arbeitet, ...",
+      answersOne: `muss bei Beschwerden den Kontakt zwischen Koch und Gast herstellen.`,
+      answersTwo: "muss das Trinkgeld mit den Kollegen teilen",
+      answersThree: "sollte nicht aus der Ruhe zu bringen sein.",
     },
     {
       id: 2,
-      qustion: "Die Prepaid-Kreditkarte ist besonders geeignet für",
-      answersOne: `Angestellte mit einem guten Gehalt`,
-      answersTwo: "Jugendliche ohne festes Einkommen. ",
-      answersThree: "Menschen mit einem eigenen Bankkonto.",
+      qustion: "Jan arbeitet gern als Fahrradkurier, ..",
+      answersOne: `weil er außer dem Grundgehalt noch eine Provision bekommt`,
+      answersTwo: "weil er dann fest angestellt ist.",
+      answersThree: "sweil er mit dem Verdienst ganz zufrieden ist",
     },
     {
       id: 3,
-      qustion: "Prepaid-Karten",
-      answersOne: `kosten ähnlich viel wie klassische Kreditkarten.`,
-      answersTwo: "verursachen keine unerwarteten Kosten. ",
-      answersThree:
-        "werden als Zahlungsmittel ebenso akzeptiert wie klassische Kreditkarten. ",
+      qustion: "Jan sagte, ...",
+      answersOne: `dass er durch seinen Job keine Ausgaben für ein Fitnessstudio hat`,
+      answersTwo: "dass er lieber im Büro arbeiten würde.",
+      answersThree: "dass ihm schlechtes Wetter gar nicht stört.",
     },
     {
       id: 4,
-      qustion: "Bei Prepaid-Karten zahlen ",
-      answersOne: `Erwachsene ab 21 Jahren eine höhere Jahresgebühr als Jugendliche. `,
-      answersTwo:
-        "Jugendliche unter 18 Jahren nur die Nutzungsgebühr am Geldautomaten ",
-      answersThree: "Kunden zwischen 18 und 21 Jahren noch nichts. ",
+      qustion: "Stefanie muss als Testkäuferin ... ",
+      answersOne: `auch den Service in Cafés und Kneipen überprüfen`,
+      answersTwo: "einige Waren selbst bezahlen",
+      answersThree: "sich beim Einkauf an einen festen Ablauf halten.",
     },
   ],
 };
 export const sprachbau_1 = {
   texts: [
     {
-      text: `Lieber Thomas, 
-      ich muss dir unbedingt etwas erzählen: Ich bin heute das erste Mal in meinem Leben Ski gefahren, ___21______ ich mir das bisher nie zugetraut hatte. 
-      Meine Freundin Lisa hat mich eingeladen, einige Tage mit ihr und ihren Eltern in den Bergen zu verbringen. Und bevor ich ankam, ___22______ sie schon einen Individuellen Skikurs für mich gebucht!Du kannst dir vorstellen, wie mich das Überrascht hat! 
-      Ich ___23______ es mir schon anders überlegen, aber Lisa wollte nichts ___24______ hören. 
-      Heute Morgen ging es dann los.___25______
-      25 war ich ziemlich aufgeregt, 25 habe ich mich auch unheimlich gefreut. 
-      Mit der Skilehrerin habe ich mich gleich gut verstanden. 
-      Sie hat mich abgeholt und mir ___26______ geholfen, im Sportgeschäft Schuhe, Skier, Stöcke und einen Helm für mich ___27______. 
-      Dann hat mir die Skilehrerin einige ___28______ Dinge erklärt .Ich war anfangs sehr unsicher, mit der Zeit ließ das aber nach. Die Kinder im Zwergerlkurs scheinen ___29______ Gegensatz zu mir überhaupt keine Angst zu haben. 
-      Das Schlimmste am ersten Tag war der Schlepplift. Erst habe ich den Lift einige Male verpasst, dann bin ich hingefallen. Irgendwie habe ich es dann doch noch geschafft. 
-      Und zum Schluss bin ich mit der Lehrerin sogar eine leichte Piste runtergefahren. 
-      Morgen habe ich wieder zwei Stunden. Ich habe jetzt schon Muskelkater und mir tut alles weh! 
-      Ich weiß gar nicht, ___30______ ich das schaffen soll. 
-      Ich werde dich über meine Fortschritte auf dem Laufenden halten :-) 
-      Bis bald und liebe Grüße 
-      Samira 
+      text: `Liebe Karin,
+      vielen Dank für deine letzte E-Mail! Ich habe mich wirklich sehr gefreut zu lesen, dass es dir in 
+      München so gut gefällt. Endlich kannst du auch das studieren, ____21_____ du möchtest - das ist 
+      doch super! Wie ist es _____22____ so an der Uni dort? Hast du schon neue Leute kennengelernt? 
+      Und wie sieht deine Woche aus? Hast du viele Veranstaltungen? Musst du zuhause auch 
+      _____23____ viel lernen? Jobbst du eigentlich noch nebenbei?
+      Du siehst, ich habe jede Menge Fragen an dich!
+      Deshalb würde ich deine Einladung wirklich gerne ____24_____ und dich demnächst in München 
+      besuchen kommen. Im Moment habe ich nocht nicht so viel Zeit, weil ich mich viel _____25____ 
+      Jonas kümmern muss - er ist ja erst sechs Monate alt - und Thomas leider keinen Urlaub nehmen 
+      kann. Aber ____26_____ frei hat, komme ich mal für ein, zwei Tage zu dir. Ich bin ja so gespannt, 
+      wie du wohnst! In einer Wohngemeinschaft zu leben, ist bestimmt toll, _____27____ es mal Streit 
+      gibt. Aber du hast ja geschrieben, dass deine beiden Mitbewohnerinnen sehr nett sind und ihr 
+      euch alle gut versteht. Das freut mich wirklich ____28_____ dich!
+      Bei mir gibt es gar nicht viel Neues. Wir hatten _____29____ mal überlegt, in eine größere 
+      Wohnung zu ziehen, aber die Mieten sind ja hier in Köln recht hoch und wir ____30_____ uns nicht 
+      viel zumuten - also bleiben wir lieber erst mal in dieser Wohnung. Umziehen kann man ja auch 
+      später noch.
+      Also, meld' dich doch mal wieder!
+      Liebe Grüße,
+      Heike 
       
       `,
     },
@@ -294,161 +437,210 @@ export const sprachbau_1 = {
     {
       id: 0,
       qustion: "21",
-      answersOne: ` obwohl `,
-      answersTwo: "trotz ",
-      answersThree: "während ",
+      answersOne: ` das `,
+      answersTwo: "was ",
+      answersThree: "welches ",
     },
     {
       id: 1,
       qustion: "22",
-      answersOne: `hat`,
-      answersTwo: "hatte ",
-      answersThree: "hätte",
+      answersOne: `denn
+      
+      `,
+      answersTwo: "doch ",
+      answersThree: "mal",
     },
     {
       id: 2,
       qustion: "23",
-      answersOne: `konnte `,
-      answersTwo: "sollte",
-      answersThree: "wolte",
+      answersOne: `dazu
+      
+       `,
+      answersTwo: "noch",
+      answersThree: "sogar",
     },
     {
       id: 3,
       qustion: "24",
-      answersOne: `dafür `,
-      answersTwo: "damit ",
-      answersThree: "davon ",
+      answersOne: `abnehmen
+      
+       `,
+      answersTwo: "annehmen ",
+      answersThree: "nehmen ",
     },
     {
       id: 4,
       qustion: "25",
-      answersOne: `Einerseite`,
-      answersTwo: "Weder..noch ",
-      answersThree: "Zwar..aber ",
+      answersOne: `für`,
+      answersTwo: "über ",
+      answersThree: "um ",
     },
     {
       id: 5,
       qustion: "26",
-      answersOne: `dabei `,
-      answersTwo: "davon",
-      answersThree: "dazu",
+      answersOne: `bevor
+      
+       `,
+      answersTwo: "bis",
+      answersThree: "sobald",
     },
     {
       id: 6,
       qustion: "27",
-      answersOne: `aussuchen `,
-      answersTwo: "ausgesucht ",
-      answersThree: "auszusuchen",
+      answersOne: `wenn
+     
+     `,
+      answersTwo: " auch wenn ",
+      answersThree: " wenn auch ",
     },
     {
       id: 7,
       qustion: "28",
-      answersOne: `grundlegende `,
-      answersTwo: "grundlegenden",
-      answersThree: "grundlegender",
+      answersOne: `an
+      
+       `,
+      answersTwo: "für",
+      answersThree: "über",
     },
     {
       id: 8,
       qustion: "29",
-      answersOne: `am`,
-      answersTwo: "im",
-      answersThree: "zum",
+      answersOne: `demnächst
+      
+      `,
+      answersTwo: "neulich",
+      answersThree: "noch nicht",
     },
     {
       id: 9,
       qustion: "30",
-      answersOne: `dass`,
-      answersTwo: "ob",
-      answersThree: "wie",
+      answersOne: `müssen
+      
+      `,
+      answersTwo: "sollen",
+      answersThree: "wollen",
     },
   ],
 };
 export const sprachbau_2 = {
   texts: [
     {
-      title: "Sicherer Schulweg",
-      text: ` Kinder sind oft mit dem Straßenverkehr überforder, 31_________ ist es wichtig, dass sich Eltern und Bezugspersonen den besten Schulweg überlegen und mit ihren Kindern üben. 32_________ immer ist der kürzeste Weg auch der ungefährlichste. Zum Üben sollte man sich Zeit nehmen und sich voll auf das Kind 33_________.Eltern sollten im Verkehr immer auch an ihre Vorbildfunktion denken: Verkehrsregeln nicht nur erklären, sondern sich auch 34_________ daran halten. Wegen ihrer geringeren Körpergröße haben Kinder ein anderes Sichtfeld als Erwachsene. Dessen müssen sich die Erwachsenen bewuset sein. Manchmal ist es 35_________, wenn die Großen sich von ihren Kindern erzählen lassen, was diese sehen. 
-      Um das Kind langsam an den Schulweg zu gewöhnen, sollte es anfangs nur das letzte Stück allein gehen. Diese Strecke kann man dann Schritt 36_________ Schritt verlängern. Dasselbe gilt für den Nachhauseweg. Auch ist es sinnvoll, zu Schulbeginn nochmals kurz und klar die wichtigsten Regeln für das 37_________ im Straßenverkehr mit den Kindern zu wiederholen. 
-      Wenn der Schulweg kein Problem mehr darstellt, kann man noch mögliche 38_________ Situationen besprechen. Wie zum Beispiel Was machst du, wenn der Gehweg gesperrt ist?" oder „Was tust du, wenn die Ampel ausgefallen ist?" oder „Was machst du, wenn auf der anderen Straßenseite jemand nach dir ruft oder jemand bei Rot über die Kreuzung rennt?". 
-      So lernt das Kind, sich 39_________ im Straßenverkehr zu verhalten und selbstständig 40_________ zu finden. Und die Erwachsenen können sicher sein, dass ihr Kind zumindest auf die Standardsituationen vorbereitet ist. 
-      `,
+      title: "Liebesgrüße aus der Kühltruhe",
+      text: ` Wer sich einen Mann angeln will, sollte einen Blick in dessen Tiefkühlfach werfen. Einer 
+      Studie zufolge kann man 31_________ des Inhalts des Tiefkühlfachs den Charakter seines 
+      Besitzers erkennen. Die Meinungsforscher unterscheiden fünf Kategorien 32_________ 
+      Single-Männern: den spontanen Typ, den Bequemen, den Kreativen, 33_________ den 
+      Cocktail- und den Gourmet-Typen. Am häufigsten gibt es in Deutschland den spontanen 
+      Typ. Er hat neben kompletten Gerichten auch tiefgekühlte Produkte wie Brokkoligemüse 
+      oder Putenfilet in der Truhe, 34_________ denen er eine Mahlzeit zusammenstellen kann. 
+      Dieser Typ liebt die Abwechslung auf dem Teller und auch sonst im Leben. Da wird es 
+      vermutlich auch in der Liebe nicht langweilig.
+      Hauptgewinn für jede Frau ist aber der Gourmet-Typ. In seinem Tiefkühlfach liegen 
+      Produkte wie Garnelen, Muscheln oder Ente. Dieser Typ liebt es, Frauen zu verwöhnen. 
+      Der Nachteil liegt 35_________ der Hand: Dieser Typ Single-Mann ist selten.
+      Was man in der Teifkühltruhe von bequemen Single-Männern findet, kann man leicht 
+      erraten, denn diese Männer haben gar keine Lust zu kochen. Ihnen ist es sogar zu 
+      36_________, zwei Tüten zu öffnen statt nur einer. 37_________ kaufen diese Männer am 
+      häufigsten komplette Gerichte, die sie nur noch in die Mikrowelle oder den Backofen 
+      stellen müssen. Aber ob sie so das Herz einer Frau erobern können? Zumindest Frauen 
+      sehen das wohl 38_________ skeptisch.
+      Doch egal, 39_________ welcher Kategorie ein Mann gehört - eines haben alle gemeinsam: 
+      Sie kaufen immer mehr Tiefkühlkost. Warum das so ist, kann die Studie nicht 
+      beantworten - da kann man nur raten: Einige haben vermutlich wenig Zeit zum Kochen, 
+      andere 40_________ eher keine Lust. Dabei wäre das doch der beste Weg, um eine Frau zu 
+      erobern.`,
     },
   ],
   Answers: [
     {
       id: 1,
       title: "A",
-      answer: "BEMÜHEN ",
+      answer: `ANHAND
+      
+      
+      
+      
+      `,
     },
     {
       id: 2,
       title: "B",
-      answer: "FÜR ",
+      answer: "ANSTRENGEND ",
     },
     {
       id: 3,
       title: "C",
-      answer: "DESHALB ",
+      answer: "AUF ",
     },
     {
       id: 4,
       title: "D",
-      answer: "DOCH ",
+      answer: "AUS ",
     },
     {
       id: 5,
       title: "E",
-      answer: "HILFREICH ",
+      answer: "EHER ",
     },
     {
       id: 6,
       title: "F",
-      answer: "KONZENTRIEREN ",
+      answer: `FAST
+      
+      
+    
+      
+      `,
     },
     {
       id: 7,
       title: "G",
-      answer: "KRITISCHE ",
+      answer: "FOLGLICH ",
     },
     {
       id: 8,
       title: "H",
-      answer: "LÖSUNGEN",
+      answer: "IN",
     },
     {
       id: 9,
       title: "I",
-      answer: "NICHT",
+      answer: "KAUM",
     },
     {
       id: 10,
       title: "J",
-      answer: "PROBLEME ",
+      answer: "LANGWEILIG ",
     },
     {
       id: 11,
       title: "K",
-      answer: "SCHON",
+      answer: `SOWIE
+      
+      
+      
+      
+      `,
     },
     {
       id: 12,
       title: "L",
-      answer: "SELBST",
+      answer: "VON",
     },
     {
       id: 13,
       title: "M",
-      answer: "STATT",
+      answer: "WEGEN",
     },
     {
       id: 14,
       title: "N",
-      answer: "SELBSTBEWUSST",
+      answer: "WOHL",
     },
     {
       id: 15,
       title: "O",
-      answer: "VERHALTEN ",
+      answer: "ZU ",
     },
   ],
 };
