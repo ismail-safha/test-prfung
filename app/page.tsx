@@ -18,14 +18,19 @@ export default function Home() {
             <h1>#1-Insekten Moadal</h1>
           </div>
         </Link>
-        <Link href="/lesen">
+        <Link href="/insektenasasi">
           <div className="p-10 m-10 rounded-2xl bg-[#c0c0c0e7] text-center font-bold">
-            <h1>#2-Insekten</h1>
+            <h1>#2-Insekten Asasi</h1>
           </div>
         </Link>
         <Link href="/grundschulen">
           <div className="p-10 m-10 rounded-2xl bg-[#c0c0c0e7] text-center font-bold">
             <h1>#3-Grundschulen </h1>
+          </div>
+        </Link>
+        <Link href="/kelner">
+          <div className="p-10 m-10 rounded-2xl bg-[#c0c0c0e7] text-center font-bold">
+            <h1>#4-Kelner </h1>
           </div>
         </Link>
       </div>
