@@ -370,3 +370,121 @@ export const sprachbau_1 = {
     },
   ],
 };
+export const sprachbau_2 = {
+  texts: [
+    {
+      title: "Deutschland - ein Paradies für Kinder?",
+      text: ` 17 Millionen Kinder leben in Deutschland. Verglichen 31_________ der Bevölkerungszahl
+      von ungefähr 80 Millionen ist das fast ein Viertel der Einwohner. Doch nur für jedes zehnte Kind 
+      unter drei Jahren steht ein Betreuungsplatz in einer Kindertagesstätte zur Verfügung. Die Folge: 
+      Nur etwas mehr als die Hälfte der Mütter dieser Kinder ist berufstätig - und nur ein Viertel kann 
+      ganztägig zur Arbeit gehen.
+      Um dem entgegenzuwirken, gibt es in Deutschland die dreijährige Elternzeit, die es einem 
+      Elternteil ermöglichen soll, drei Jahre 32_________ dem Kind zu Hause zu bleiben, 33_________ hat 
+      den Vorteil, dass der zu Hause bleibende Elternteil seinen Arbeitsplatz nicht verliert. Dennoch 
+      wird die Elternzeit für viele Eltern in finanzieller Hinsicht zu einem gravierenden Problem. 
+      Außerdem gilt die Elternzeit nur für Angestellte. Mütter zum Beispiel, die vor der Geburt ihres 
+      Kindes selbständig waren und mit dem Baby zu Hause bleiben wollen, stehen weit schlechter da.
+      Kind und Karriere zu vereinbaren ist daher in Deutschland für die meisten Mütter so gut wie 
+      unmöglich. Dies scheinen die Hauptgründe 34_________ zu sein, warum in Deutschland zurzeit 
+      weltweit die wenigsten Kinder geboren werden.
+      Doch auch andere Dinge machen Familien mit Kindern in Deutschland das Leben schwer: In 
+      Restaurants zum Beispiel sind Kinder selten willkommen. Sie sitzen eben nicht still am Tisch, 
+      35_________ stören mit ihrem Lachen und lauten Sprechen die anderen (kinderlosen) Gäste. Bei 
+      den kinderlosen Erwachsenen werden andere Maßstäbe angelegt. 36_________ diese selbst häufig 
+      lautstark telefonieren, stört das niemanden: Telefonate sind eben wichtiger als Kinder.
+      In zahlreichen deutschen Städten wie Mainz strengen Anwohner Prozesse gegen Kindergärten 
+      und Spielplätze an, 37_________ die Kinder die Ruhe der banachbarten (kinderlosen) 
+      Hausbewohner stören. Die Folge: Spielplätze werden von Gerichts wegen geschlossen. An 
+      Wiesen, auf denen früher Kinder tobten und Ball spielten, stehen nun Schilder: Betreten und 
+      spielen verboten. Bei Zuwiderhandlung drohen Geldstrafen.
+      Eltern, die mit der deutschen Bahn mit ihren Kindern verreisen möchten, haben schlechte Karten. 
+      In den meisten Zügen sind die Gänge so angeordnet, 38_________ mit einem Kinderwagen kein 
+      Durchkommen ist. Und in den Mutter-Kind-Abteilen haben sich schon andere Reisende 
+      breitgemacht, die nicht einsehen, warum sie Müttern mit Kind Platz machen sollten. Schließlich 
+      hätten sie ja eine Fahrkarte gekauft und damit Anspruch 39_________ einen Platz. In vielen 
+      Berichten in Zeitungen oder im Fernsehen, die sich mit Kindern, ihrer Erziehung oder mit dem 
+      Schulsystem befassen, spricht man in Deutschland gerne 40_________ "Problemen". Man meint 
+      damit die Kinder. Kann eine Gesellschaft, in der ein Kind als ein Problemfall angesehen wird, ein 
+      Paradies für Kinder sein?
+      `,
+    },
+  ],
+  Answers: [
+    {
+      id: 1,
+      title: "A",
+      answer: "AUF",
+    },
+    {
+      id: 2,
+      title: "B",
+      answer: "BEI",
+    },
+    {
+      id: 3,
+      title: "C",
+      answer: "DABEI",
+    },
+    {
+      id: 4,
+      title: "D",
+      answer: "DAFÜR",
+    },
+    {
+      id: 5,
+      title: "E",
+      answer: "DAS",
+    },
+    {
+      id: 6,
+      title: "F",
+      answer: "DASS",
+    },
+    {
+      id: 7,
+      title: "G",
+      answer: "DAVON",
+    },
+    {
+      id: 8,
+      title: "H",
+      answer: "DENNOCH",
+    },
+    {
+      id: 9,
+      title: "I",
+      answer: "DOCH",
+    },
+    {
+      id: 10,
+      title: "J",
+      answer: "JEDOCH",
+    },
+    {
+      id: 11,
+      title: "K",
+      answer: "MIT",
+    },
+    {
+      id: 12,
+      title: "L",
+      answer: "OBWOHL",
+    },
+    {
+      id: 13,
+      title: "M",
+      answer: "SONDERN",
+    },
+    {
+      id: 14,
+      title: "N",
+      answer: "VON",
+    },
+    {
+      id: 15,
+      title: "O",
+      answer: "WEIL",
+    },
+  ],
+};

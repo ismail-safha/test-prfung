@@ -65,11 +65,11 @@ const Sprachbauchteine_2 = () => {
   return (
     <div className="container w-full px-2">
       <Header
-        pageHome="/lesen"
-        pageTow="/lesen/lesenteil-2"
-        pageThree="/lesen/lesenteil-3"
-        pageFour="/lesen/sprachbauchteine-1"
-        pageFive="/lesen/sprachbauchteine-2"
+        pageHome="/grundschulen"
+        pageTow="/grundschulen/lesenteil-2"
+        pageThree="/grundschulen/lesenteil-3"
+        pageFour="/grundschulen/sprachbauchteine-1"
+        pageFive="/grundschulen/sprachbauchteine-2"
       />
 
       <main>
