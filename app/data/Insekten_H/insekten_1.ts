@@ -270,30 +270,23 @@ export const lesenTeil_2 = {
 export const sprachbau_1 = {
   texts: [
     {
-      text: `Sehr geehrter Herr Martini,
-      vielen Dank für Ihre Anfrage vom 16. Juni ___21______ der Studienreise Ihrer Schulklasse nach 
-      Frankfurt am Main im ____22_____ Oktober.
-      Die Unterkunft bei deutschen Gastfamilien ist prinzipiell möglich. Die Familien werden von uns 
-      sorgfältig ____23_____ strengen Kriterien ausgewählt, die Sie in der beiliegenden 
-      Informationsbroschüre auf den Seiten 15 bis 17 finden. Pro Gastfamilie können ein oder zwei 
-      Schülerinnen bzw. Schüler untergebracht werden. Unsere Gastfamilien ____24_____ Halbpension, 
-      d. h. in der Regel Frühstück und Abendessen, an. Alle Familien wohnen im näheren Umkreis der 
-      Schule, ____25_____ der Weg von der Unterkunft zum Unterricht innerhalb von maximal 10 
-      Minuten zu Fuß zurückgelegt werden kann.
-      Zweimal pro Woche ist die Teilnahme am Schulunterricht Ihrer Partnerschule in Frankfurt, der 
-      Heinrich-Böll-Schule, in den Fächern Geografie, Kunst und Deutsch vorgesehen. Die 
-      Unterrichtssprache ist Deutsch. ___26______ Schülerinnen und Schülern der Partnerschule wird 
-      das Freizeit- und Kulturprogramm durchgeführt.
-      Dazu gehört z. B. ____27_____ der Gemäldegalerie "Städel", des Museums für Kunsthandwerk 
-      und des Deutschen Postmuseums. Auch ein Besuch beim Hessischen Rundfunk ____28_____ . 
-      Jeweils dienstags und freitags werden Kulturabende veranstaltet, an denen die verschiedenen 
-      Aspekte und Unterschiede der deutschen und der italienischen Kultur ____29_____ werden sollen.
-      Weitere Informationen finden Sie in der beiliegenden Broschüre. Wir hoffen, dass Sie und Ihre 
-      Klasse einen erlebnisreichen und unvergesslichen Aufenthalt in Frankfurt ____30_____ werden. Bei 
-      weiteren Fragen setzen Sie sich bitte mit uns in Verbindung.
-      Mit freundlichen Grüßen
-      Sibylle Lauterbacher
-      Stiftung Schüleraustausch Frankfurt
+      text: `Lieber Thomas, 
+      ich muss dir unbedingt etwas erzählen: Ich bin heute das erste Mal in meinem Leben Ski gefahren, ___21______ ich mir das bisher nie zugetraut hatte. 
+      Meine Freundin Lisa hat mich eingeladen, einige Tage mit ihr und ihren Eltern in den Bergen zu verbringen. Und bevor ich ankam, ___22______ sie schon einen Individuellen Skikurs für mich gebucht!Du kannst dir vorstellen, wie mich das Überrascht hat! 
+      Ich ___23______ es mir schon anders überlegen, aber Lisa wollte nichts ___24______ hören. 
+      Heute Morgen ging es dann los.___25______
+      25 war ich ziemlich aufgeregt, 25 habe ich mich auch unheimlich gefreut. 
+      Mit der Skilehrerin habe ich mich gleich gut verstanden. 
+      Sie hat mich abgeholt und mir ___26______ geholfen, im Sportgeschäft Schuhe, Skier, Stöcke und einen Helm für mich ___27______. 
+      Dann hat mir die Skilehrerin einige ___28______ Dinge erklärt .Ich war anfangs sehr unsicher, mit der Zeit ließ das aber nach. Die Kinder im Zwergerlkurs scheinen ___29______ Gegensatz zu mir überhaupt keine Angst zu haben. 
+      Das Schlimmste am ersten Tag war der Schlepplift. Erst habe ich den Lift einige Male verpasst, dann bin ich hingefallen. Irgendwie habe ich es dann doch noch geschafft. 
+      Und zum Schluss bin ich mit der Lehrerin sogar eine leichte Piste runtergefahren. 
+      Morgen habe ich wieder zwei Stunden. Ich habe jetzt schon Muskelkater und mir tut alles weh! 
+      Ich weiß gar nicht, ___30______ ich das schaffen soll. 
+      Ich werde dich über meine Fortschritte auf dem Laufenden halten :-) 
+      Bis bald und liebe Grüße 
+      Samira 
+      
       `,
     },
   ],
@@ -301,112 +294,83 @@ export const sprachbau_1 = {
     {
       id: 0,
       qustion: "21",
-      answersOne: ` an`,
-      answersTwo: "von",
-      answersThree: "zu",
+      answersOne: ` obwohl `,
+      answersTwo: "trotz ",
+      answersThree: "während ",
     },
     {
       id: 1,
       qustion: "22",
-      answersOne: `ankommenden`,
-      answersTwo: "gekommenen",
-      answersThree: "kommenden",
+      answersOne: `hat`,
+      answersTwo: "hatte ",
+      answersThree: "hätte",
     },
     {
       id: 2,
       qustion: "23",
-      answersOne: `aus`,
-      answersTwo: "mit",
-      answersThree: "nach",
+      answersOne: `konnte `,
+      answersTwo: "sollte",
+      answersThree: "wolte",
     },
     {
       id: 3,
       qustion: "24",
-      answersOne: `bieten`,
-      answersTwo: "fordern",
-      answersThree: "nehmen",
+      answersOne: `dafür `,
+      answersTwo: "damit ",
+      answersThree: "davon ",
     },
     {
       id: 4,
       qustion: "25",
-      answersOne: `so dass`,
-      answersTwo: "weil",
-      answersThree: "wenn",
+      answersOne: `Einerseite`,
+      answersTwo: "Weder..noch ",
+      answersThree: "Zwar..aber ",
     },
     {
       id: 5,
       qustion: "26",
-      answersOne: `Gemeinsam mit`,
-      answersTwo: "Verbunden von",
-      answersThree: "Zusammen neben",
+      answersOne: `dabei `,
+      answersTwo: "davon",
+      answersThree: "dazu",
     },
     {
       id: 6,
       qustion: "27",
-      answersOne: `die Ansicht`,
-      answersTwo: "der Besuch",
-      answersThree: "das Betrachten",
+      answersOne: `aussuchen `,
+      answersTwo: "ausgesucht ",
+      answersThree: "auszusuchen",
     },
     {
       id: 7,
       qustion: "28",
-      answersOne: `hat geplant`,
-      answersTwo: "st geplant",
-      answersThree: "wird geplant haben",
+      answersOne: `grundlegende `,
+      answersTwo: "grundlegenden",
+      answersThree: "grundlegender",
     },
     {
       id: 8,
       qustion: "29",
-      answersOne: `besprochen`,
-      answersTwo: "gesprochen",
-      answersThree: "versprochen",
+      answersOne: `am`,
+      answersTwo: "im",
+      answersThree: "zum",
     },
     {
       id: 9,
       qustion: "30",
-      answersOne: `haben`,
-      answersTwo: "hatten",
-      answersThree: "hatten",
+      answersOne: `dass`,
+      answersTwo: "ob",
+      answersThree: "wie",
     },
   ],
 };
 export const sprachbau_2 = {
   texts: [
     {
-      title: "Deutschland - ein Paradies für Kinder?",
-      text: ` 17 Millionen Kinder leben in Deutschland. Verglichen 31_________ der Bevölkerungszahl
-      von ungefähr 80 Millionen ist das fast ein Viertel der Einwohner. Doch nur für jedes zehnte Kind 
-      unter drei Jahren steht ein Betreuungsplatz in einer Kindertagesstätte zur Verfügung. Die Folge: 
-      Nur etwas mehr als die Hälfte der Mütter dieser Kinder ist berufstätig - und nur ein Viertel kann 
-      ganztägig zur Arbeit gehen.
-      Um dem entgegenzuwirken, gibt es in Deutschland die dreijährige Elternzeit, die es einem 
-      Elternteil ermöglichen soll, drei Jahre 32_________ dem Kind zu Hause zu bleiben, 33_________ hat 
-      den Vorteil, dass der zu Hause bleibende Elternteil seinen Arbeitsplatz nicht verliert. Dennoch 
-      wird die Elternzeit für viele Eltern in finanzieller Hinsicht zu einem gravierenden Problem. 
-      Außerdem gilt die Elternzeit nur für Angestellte. Mütter zum Beispiel, die vor der Geburt ihres 
-      Kindes selbständig waren und mit dem Baby zu Hause bleiben wollen, stehen weit schlechter da.
-      Kind und Karriere zu vereinbaren ist daher in Deutschland für die meisten Mütter so gut wie 
-      unmöglich. Dies scheinen die Hauptgründe 34_________ zu sein, warum in Deutschland zurzeit 
-      weltweit die wenigsten Kinder geboren werden.
-      Doch auch andere Dinge machen Familien mit Kindern in Deutschland das Leben schwer: In 
-      Restaurants zum Beispiel sind Kinder selten willkommen. Sie sitzen eben nicht still am Tisch, 
-      35_________ stören mit ihrem Lachen und lauten Sprechen die anderen (kinderlosen) Gäste. Bei 
-      den kinderlosen Erwachsenen werden andere Maßstäbe angelegt. 36_________ diese selbst häufig 
-      lautstark telefonieren, stört das niemanden: Telefonate sind eben wichtiger als Kinder.
-      In zahlreichen deutschen Städten wie Mainz strengen Anwohner Prozesse gegen Kindergärten 
-      und Spielplätze an, 37_________ die Kinder die Ruhe der banachbarten (kinderlosen) 
-      Hausbewohner stören. Die Folge: Spielplätze werden von Gerichts wegen geschlossen. An 
-      Wiesen, auf denen früher Kinder tobten und Ball spielten, stehen nun Schilder: Betreten und 
-      spielen verboten. Bei Zuwiderhandlung drohen Geldstrafen.
-      Eltern, die mit der deutschen Bahn mit ihren Kindern verreisen möchten, haben schlechte Karten. 
-      In den meisten Zügen sind die Gänge so angeordnet, 38_________ mit einem Kinderwagen kein 
-      Durchkommen ist. Und in den Mutter-Kind-Abteilen haben sich schon andere Reisende 
-      breitgemacht, die nicht einsehen, warum sie Müttern mit Kind Platz machen sollten. Schließlich 
-      hätten sie ja eine Fahrkarte gekauft und damit Anspruch 39_________ einen Platz. In vielen 
-      Berichten in Zeitungen oder im Fernsehen, die sich mit Kindern, ihrer Erziehung oder mit dem 
-      Schulsystem befassen, spricht man in Deutschland gerne 40_________ "Problemen". Man meint 
-      damit die Kinder. Kann eine Gesellschaft, in der ein Kind als ein Problemfall angesehen wird, ein 
-      Paradies für Kinder sein?
+      title: "Sicherer Schulweg",
+      text: ` Kinder sind oft mit dem Straßenverkehr überforder, 31_________ ist es wichtig, dass sich Eltern und Bezugspersonen den besten Schulweg überlegen und mit ihren Kindern üben. 32_________ immer ist der kürzeste Weg auch der ungefährlichste. Zum Üben sollte man sich Zeit nehmen und sich voll auf das Kind 33_________.Eltern sollten im Verkehr immer auch an ihre Vorbildfunktion denken: Verkehrsregeln nicht nur erklären, sondern sich auch 34_________ daran halten. Wegen ihrer geringeren Körpergröße haben Kinder ein anderes Sichtfeld als Erwachsene. Dessen müssen sich die Erwachsenen bewuset sein. Manchmal ist es 35_________, wenn die Großen sich von ihren Kindern erzählen lassen, was diese sehen. 
+      Um das Kind langsam an den Schulweg zu gewöhnen, sollte es anfangs nur das letzte Stück allein gehen. Diese Strecke kann man dann Schritt 36_________ Schritt verlängern. Dasselbe gilt für den Nachhauseweg. Auch ist es sinnvoll, zu Schulbeginn nochmals kurz und klar die wichtigsten Regeln für das 37_________ im Straßenverkehr mit den Kindern zu wiederholen. 
+      Wenn der Schulweg kein Problem mehr darstellt, kann man noch mögliche 38_________ Situationen besprechen. Wie zum Beispiel Was machst du, wenn der Gehweg gesperrt ist?" oder „Was tust du, wenn die Ampel ausgefallen ist?" oder „Was machst du, wenn auf der anderen Straßenseite jemand nach dir ruft oder jemand bei Rot über die Kreuzung rennt?". 
+      So lernt das Kind, sich 39_________ im Straßenverkehr zu verhalten und selbstständig 40_________ zu finden. Und die Erwachsenen können sicher sein, dass ihr Kind zumindest auf die Standardsituationen vorbereitet ist. 
       `,
     },
   ],
@@ -414,77 +378,77 @@ export const sprachbau_2 = {
     {
       id: 1,
       title: "A",
-      answer: "AUF",
+      answer: "BEMÜHEN ",
     },
     {
       id: 2,
       title: "B",
-      answer: "BEI",
+      answer: "FÜR ",
     },
     {
       id: 3,
       title: "C",
-      answer: "DABEI",
+      answer: "DESHALB ",
     },
     {
       id: 4,
       title: "D",
-      answer: "DAFÜR",
+      answer: "DOCH ",
     },
     {
       id: 5,
       title: "E",
-      answer: "DAS",
+      answer: "HILFREICH ",
     },
     {
       id: 6,
       title: "F",
-      answer: "DASS",
+      answer: "KONZENTRIEREN ",
     },
     {
       id: 7,
       title: "G",
-      answer: "DAVON",
+      answer: "KRITISCHE ",
     },
     {
       id: 8,
       title: "H",
-      answer: "DENNOCH",
+      answer: "LÖSUNGEN",
     },
     {
       id: 9,
       title: "I",
-      answer: "DOCH",
+      answer: "NICHT",
     },
     {
       id: 10,
       title: "J",
-      answer: "JEDOCH",
+      answer: "PROBLEME ",
     },
     {
       id: 11,
       title: "K",
-      answer: "MIT",
+      answer: "SCHON",
     },
     {
       id: 12,
       title: "L",
-      answer: "OBWOHL",
+      answer: "SELBST",
     },
     {
       id: 13,
       title: "M",
-      answer: "SONDERN",
+      answer: "STATT",
     },
     {
       id: 14,
       title: "N",
-      answer: "VON",
+      answer: "SELBSTBEWUSST",
     },
     {
       id: 15,
       title: "O",
-      answer: "WEIL",
+      answer: "VERHALTEN ",
     },
   ],
 };
