@@ -1,5 +1,5 @@
 import Header from "../../components/Header";
-import { sprachbau_1 } from "../../data/Insekten_H/insekten_1";
+import { sprachbau_1 } from "../../data/Insekten_H/grundschuleData";
 
 const Sprachbauchteine_1 = () => {
   return (

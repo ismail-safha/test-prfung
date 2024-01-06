@@ -7,7 +7,8 @@ import {
   useDroppable,
 } from "@dnd-kit/core";
 import Header from "../../components/Header";
-import { sprachbau_2 } from "../../data/Insekten_H/insekten_1";
+
+import { sprachbau_2 } from "../../data/Insekten_H/grundschuleData";
 
 interface Answer {
   id: number;

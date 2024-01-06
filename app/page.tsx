@@ -12,15 +12,20 @@ export default function Home() {
       <h1 className="text-center m-auto bg-purple-600 p-5 rounded-2xl  mt-5">
         lesen
       </h1>
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-4">
         <Link href="/lesen">
           <div className="p-10 m-10 rounded-2xl bg-[#c0c0c0e7] text-center font-bold">
             <h1>#1-Insekten Moadal</h1>
           </div>
         </Link>
+        <Link href="/lesen">
+          <div className="p-10 m-10 rounded-2xl bg-[#c0c0c0e7] text-center font-bold">
+            <h1>#2-Insekten</h1>
+          </div>
+        </Link>
         <Link href="/grundschulen">
           <div className="p-10 m-10 rounded-2xl bg-[#c0c0c0e7] text-center font-bold">
-            <h1>#2-Grundschulen </h1>
+            <h1>#3-Grundschulen </h1>
           </div>
         </Link>
       </div>
