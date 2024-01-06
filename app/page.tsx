@@ -9,8 +9,8 @@ export default function Home() {
           <div className="text-white  text-[12px]">LNGUAGE TESTS</div>
         </div>
       </div>
-      <h1 className="text-center m-auto bg-purple-600 p-5 rounded-2xl  mt-5">
-        lesen
+      <h1 className="text-center m-auto bg-[#080f26] text-[#fff] font-bold p-5 rounded-2xl  mt-5">
+        lesen und sprachbauchteine
       </h1>
       <div className="grid grid-cols-4">
         <Link href="/lesen">

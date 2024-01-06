@@ -8,10 +8,11 @@ const Footer = () => {
         <span className="block text-sm  sm:text-center text-gray-400">
           © 2024{" "}
           <Link
-            href="https://ismailsafha.com/"
+            target="_blank"
+            href="https://wa.me/212652233163"
             className="hover:underline font-medium"
           >
-            Ismail 😎
+            Ismail safha 😎
           </Link>
         </span>
       </div>
