@@ -15,12 +15,17 @@ export default function Home() {
       <div className="grid grid-cols-4">
         <Link href="/lesen">
           <div className="p-10 m-10 rounded-2xl bg-[#c0c0c0e7] text-center font-bold">
-            <h1>#1-Insekten Moadal</h1>
+            <h1>#1.1-Insekten Moadal</h1>
           </div>
         </Link>
         <Link href="/insektenasasi">
           <div className="p-10 m-10 rounded-2xl bg-[#c0c0c0e7] text-center font-bold">
-            <h1>#2-Insekten Asasi</h1>
+            <h1>#1.2-Insekten Asasi</h1>
+          </div>
+        </Link>
+        <Link href="insektenasasi-3">
+          <div className="p-10 m-10 rounded-2xl bg-[#c0c0c0e7] text-center font-bold">
+            <h1>#1.3-Insekten 3</h1>
           </div>
         </Link>
         <Link href="/grundschulen">
