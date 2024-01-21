@@ -48,6 +48,11 @@ export default function Home() {
             <h1>#5.2-Meer-Inseln اساسي </h1>
           </div>
         </Link>
+        <Link href="/österreichs">
+          <div className="p-10 m-10 rounded-2xl bg-[#c0c0c0e7] text-center font-bold h-[100px]">
+            <h1>Österreichs </h1>
+          </div>
+        </Link>
       </div>
     </main>
   );
