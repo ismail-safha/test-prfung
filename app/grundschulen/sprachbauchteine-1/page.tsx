@@ -3,7 +3,7 @@ import { sprachbau_1 } from "../../data/Insekten_H/grundschuleData";
 
 const Sprachbauchteine_1 = () => {
   return (
-    <div className="container w-full px-2">
+    <div className="container m-auto  w-full px-2">
       <Header
         pageHome="/grundschulen"
         pageTow="/grundschulen/lesenteil-2"

@@ -63,13 +63,13 @@ const Sprachbauchteine_2 = () => {
   });
 
   return (
-    <div className="container w-full px-2">
+    <div className="container m-auto  w-full px-2">
       <Header
-        pageHome="/österreichs"
-        pageTow="/österreichs/lesenteil-2"
-        pageThree="/österreichs/lesenteil-3"
-        pageFour="/österreichs/sprachbauchteine-1"
-        pageFive="/österreichs/sprachbauchteine-2"
+        pageHome="/osterreichs"
+        pageTow="/osterreichs/lesenteil-2"
+        pageThree="/osterreichs/lesenteil-3"
+        pageFour="/osterreichs/sprachbauchteine-1"
+        pageFive="/osterreichs/sprachbauchteine-2"
       />
 
       <main>

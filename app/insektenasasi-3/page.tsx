@@ -37,7 +37,7 @@ const LesenTeil = () => {
   //==
 
   return (
-    <div className="container w-full px-2">
+    <div className="container m-auto  w-full px-2">
       <Header
         pageHome="/insektenasasi-3"
         pageTow="/insektenasasi-3/lesenteil-2"

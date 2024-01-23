@@ -9,7 +9,7 @@ const Footer = () => {
           © 2024{" "}
           <Link
             target="_blank"
-            href="https://wa.me/212652233163"
+            href="https://ismail-ten.vercel.app/"
             className="hover:underline font-medium"
           >
             Ismail safha 😎

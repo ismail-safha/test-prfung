@@ -225,29 +225,15 @@ export const lesenTeil_2 = {
 export const sprachbau_1 = {
   texts: [
     {
-      text: `"Hallo Philip, ",nun habe ich mich schon so lange nicht bei dir gemeldet - das tut mir wirklich leid! Ich
-      hatte in den vergangenen Monaten viel Stress, weil ich ja nun studiere und nebenbei noch
-      arbeiten muss, ____21_____ meine Miete und alles andere bezahlen zu können. Zum Glück
-      macht mir mein Nebenjob wenigstens Spaß. Ich weiß nicht, ____22_____ ich das sonst
-      durchhalten würde. Vielleicht habe ich dir schon erzählt, dass ich abends und am
-      Wochenende in einer Kneipe in der Küche helfe. Das ist zwar oft sehr anstrengend,
-      ____23_____ anderseits ist dauernd was los, es wird nicht langweilig, und meine Kollegen
-      sind total nett. Erinnerst du dich noch an unsere Zeit in der Grundschule? Mit acht Jahren
-      wollte ich ja ____24_____ Kellnerin werden, weil man da Trinkgeld bekommt. Naja, jetzt
-      bin ich in der Küche gelandet, knapp daneben ist auch vorbei ;)
-      Was macht denn deine Ausbildung? Wenn ich ____25_____ nicht täusche, bist du ja in
-      einem halben Jahr schon fertig, oder? Das ist ja nicht mehr lang!
-      Neulich habe ich übrigens Tina und Kevin hier in der Nähe der Uni getroffen - die waren
-      ja schon ein Paar, _____26____ wir noch in der Schule gegangen sind, und jetzt will sie
-      tatsächlich verheiratet!
-      Wie sehen denn deine Pläne für die ___27______ Wochenenden aus? Wir könnten uns ja
-      vielleicht mal wieder treffen und in Ruhe quatschen - hättest du Lust ____28_____?
-      In meiner Straße hat vor einem Monat ein nettes kleines Café aufgemacht, die haben
-      sowohl sehr leckere Kuchen _____29____ auch einige kleine Gerichte zu wirklich günstigen
-      Preisen. Wäre das was für dich? Mail wir doch ____30_____ , wenn du magst, ich würde
-      mich freuen!
-      Viele Grüße,
-      Tanja
+      text: `"Liebe Maria .liber Timur."
+
+      herzlich Dank für die Einladung zu eurem Hoch zeitfesfest nachdem wir gestren aus dem Urlaub zurükgekommen  ____21_____ haben wir eure Brief und die einladungskarte im Briefkasten entdeckt  ____22_____ gibt es nicht veil zu überlegen Natürlich kommen wir sehr generl wir freun uns sehr  ____23_____ euch.dass ihr nun endlich diesen schritt wagt. Es ist eine geniale idee  ____24_____in der Türkay  ____24_____ in Östreich zu feiern.so können alle freunde und  ____25_____dabei sein wir hoffen dass wir einige  ____26_____ alten frende wiedrsehen werden.
+      
+      Ihr habt geschrieben dass Timurs Eltern und seine Schwestern auch in Österreich sein werden Endich lernen wir auch Timurs Famillie kennen und wie schön. dass ihr in Marias Heimatdorf im Mühlviertel felertl Wir erinnern uns noch oft an die langen Partynacht die wir dort  ____27_____ jugendliche gemeinsam verbracht haben nun überlegen wir  ____28_____ wir nicht gleich ein Hotelzimmer für einige Tage buchen sollten Ihr habt ja sicher mit den Besitzungen alle Hände voll zu  ____29_____ Dann können wir am Freitag wandern gehen. Am Samstag ist dann euer Fest und am Sonntag  ____30_____ wir die Gelegenheit vor der Abreise noch gemütlich zusammen zu frühstücken in welchem Hotel habt ihr eure Verwandten untergebracht? Seid ihr auch in einem Hotel, oder übernachtet ihr bei deinen Eltern, Maria? Nun, das können wir alles noch später besprochen Vorerst freuen wir uns einfach nur auf euch und eure fest.
+      
+      Noch einmal viele Dank für die Einladung und bis bald!
+      
+      Yasmin & Peter
       
       `,
     },
@@ -256,180 +242,170 @@ export const sprachbau_1 = {
     {
       id: 0,
       qustion: "21",
-      answersOne: ` damit
+      answersOne: ` seine
       
        `,
-      answersTwo: "für ",
-      answersThree: "um ",
+      answersTwo: "sind ",
+      answersThree: "waren ",
     },
     {
       id: 1,
       qustion: "22",
-      answersOne: `wann
+      answersOne: `da  
       
       
       
       `,
-      answersTwo: "wie ",
-      answersThree: "wo",
+      answersTwo: "das ",
+      answersThree: "dass",
     },
     {
       id: 2,
       qustion: "23",
-      answersOne: `damit
+      answersOne: `an
       
       
       
        `,
-      answersTwo: "denn",
-      answersThree: "doch",
+      answersTwo: "auf",
+      answersThree: "für",
     },
     {
       id: 3,
       qustion: "24",
-      answersOne: `bestimmt
+      answersOne: `
+      je---desto
       
       
       
        `,
-      answersTwo: "unbedingt ",
-      answersThree: "völlig ",
+      answersTwo: "sowol--- als auch ",
+      answersThree: "weder---noch ",
     },
     {
       id: 4,
       qustion: "25",
-      answersOne: `dich
+      answersOne: `verwandte
       
       `,
-      answersTwo: "mich ",
-      answersThree: "sich ",
+      answersTwo: "das ",
+      answersThree: "verwandeten ",
     },
     {
       id: 5,
       qustion: "26",
-      answersOne: `als
+      answersOne: `unsere
       
       
       
       
        `,
-      answersTwo: "da",
-      answersThree: "wenn",
+      answersTwo: "unseren",
+      answersThree: "unserer",
     },
     {
       id: 6,
       qustion: "27",
-      answersOne: `jetzigen
+      answersOne: `als
       
       
       
      
      `,
-      answersTwo: " kommenden ",
-      answersThree: " letzten ",
+      answersTwo: " für ",
+      answersThree: " wie ",
     },
     {
       id: 7,
       qustion: "28",
-      answersOne: `danach
+      answersOne: `dass
       
       
       
        `,
-      answersTwo: "darüber",
-      answersThree: "dazu",
+      answersTwo: "falls",
+      answersThree: "ob",
     },
     {
       id: 8,
       qustion: "29",
-      answersOne: `als
+      answersOne: `bereten
       
       
       
       `,
-      answersTwo: "ebenso",
-      answersThree: "oder",
+      answersTwo: "machen",
+      answersThree: "tun",
     },
     {
       id: 9,
       qustion: "30",
-      answersOne: `einen
+      answersOne: `hätten
       
       
       
       `,
-      answersTwo: "einfach",
-      answersThree: "einzig",
+      answersTwo: "könnten",
+      answersThree: "sollten",
     },
   ],
 };
 export const sprachbau_2 = {
   texts: [
     {
-      title: "Sollte man nicht doch besser aufs Fahrrad umsteigen?",
-      text: ` Welches Fortbewegungsmittel, denken Sie, wird in Deutschland am häufigsten benutzt?
-      Natürlich das Automobil. Volkswagen, Porsche, Mercedes Benz, BMW, Audi: In 31_________
-      einem anderen Land gibt es so viele Automobilfabriken wie in Deutschland, spielt die
-      Automobilindustrie eine so große Rolle. Nahezu jeder Haushalt verfügt über mindestens ein
-      Auto. Das Auto hat im Leben der Deutschen eine große Bedeutung, sowohl als
-      Fortbewegungsmittel, mit dem man zum Arbeitsplatz kommt oder in den Urlaub fährt, als auch
-      als Statussymbol: Zeig mir dein Auto und ich weiß, wer du bist.
-      Doch hat das Autofahren auch Schattenseiten. Mangelnde Bewegungsmöglichkeiten,
-      gesundheitliche Probleme und Stress bringen zumindest in den Großstädten immer mehr
-      Autofahrer dazu, sich vom Automobil freizumachen und 32_________ ein anderes Verkehrsmittel
-      umzusteigen, das in dem Ruf steht, gesünder zu sein als das Auto: das Fahrrad. Nicht nur in der
-      Freizeit, sondern auch auf dem Weg zum Arbeitsplatz wird das Rad benutzt. "Ich habe keine
-      Lust, Morgen für Morgen im Stau zu stehen und Zeit zu verlieren", sagt Bettina Meier (25): "Da
-      ist es viel entspannender, auf den 33_________ gut ausgebauten Fahrradwegen an den im Stau
-      wartenden Fahrzeugen vorbeizufahren und ausgeruht am Arbeitsplatz anzukommen."
-      Dass Fahrradfahren um einiges gesünder ist, als hinter dem Lenkrad zu sitzen, bestätigen auch
-      die Mediziner. Wer Fahrrad fährt 34_________ zu sitzen, bringt seinen Blutkreislauf in Schwung,
-      trainiert seinen Körper und stärkt dessen Abwehrkräfte. Auch die Bewegung an der frischen Luft
-      tut Menschen gut, die sich sonst die meiste Zeit  35_________ geschlossener Räume in Büros,
-      Schulen oder Fabriken aufhalten 36_________ .
-      Auch die Geschäftswelt hat die Fahrradfahrer als Kunden entdeckt. Ein breites Angebot
-      37_________ Zubehör für Fahrräder von schicken Radfelgen über sportliche Mehrganggetriebe, mit
-      denen Berge kein Problem mehr darstellen, bis zur Designer-Trinkflasche machen aus dem
-      einfachen Fahrrad ein exlusives Fahrzeug. Und natürlich darf bei keinem Fahrradfahrer eine
-      aufwändige Sicherheitsausstattung mehr fehlen: Schutzhelme, Ellenbogen- und Knieschützer,
-      die das Fahrrad im Falle eines Unfalls fast so sicher wie einen Panzer machen 38_________ .
-      Nur wenn es regnet - und das passiert in Deutschland leider nicht so selten -, 39_________ sind
-      die Autoschlangen wieder länger. 40_________ einen praktischen Wetterschutz für Radfahrer
-      haben die Geschäfte noch nicht im Angebot.`,
+      title: "Das Schicksal des Braunbärnen",
+      text: `Klimatische Veränderungen seit der letzten Kaltzeit könnten für den stetigen Rückgang der Braunbären zahl in Europa verantwortlich sein. wie eine aktuelle Studie nahelegt, haben vor allem steigende Wintertemperaturen_31_________ der vergangen 12000 jahre die Fortpflanzungsrate der Tiere verringert, was entscheidend zu deren Verschwinden beigetragen hat. Zudem wurden durch die Klimaveränderung größere Flächen für den Ackerbau nutzbar. 32_________ wurde der Lebensraum der Tiere verkleinert. Es ist längst unumstriten, 33_________ das Verschwinden der der Braunbären mit der Landnutzung durch den Menschen zuzammenhängt. def
+
+      Ein internationales Experten Team untersuchte nun die Rolle des Klimas beim Rückgang der Bären zahl. In den letzten 12000 jahren ist Winter Temperatur in weiten Teilen Europas 34_________ zwei bis vier Grad angestiegen. In der Folge bekamen die Braunbären weniger 35_________, und ihre Zahl schrumpfte.
+      
+      Der Grund 36_________ ist, dass Braunbären bei steigenden Wintertemperaturen in mehr Energie
+      
+      für ihre Winterruhe verbrauchen.
+      
+      Braunbärenweibchen benötigen ihre Enrergie reserven auch für die Fortpflanzung, 37_________ sie bringen im Winter ihre ungen zur Welt. Wird mehr Energie für die Winterruhe verbraucht.
+      
+      bleibt nicht so viel für die Fortpflanzung übrig, und gibt es weniger Nachwuchs.
+      
+      steigende Wintertemperaturen könnten auch in direkt für das Schicksal des Braunbären wortlich gewesen sein. Wärmer Winter begünstigten nämlich auch die menschlicher 38_________ in die Naturlandschaften und damit in den Lebensraum der Braunbären.
+      
+      Am Ende der letzten Eiszeit war der Braunbar 39_________ überall in Europa heimlich
+      
+      großes Aussterben gab es in Südwesteuropa vor 7000 bis 5000 jahren. Richtig begrab- 40_________ es mit dem Braunbären aber vor etwa 2000 jahre, als sich verringerte`,
     },
   ],
   Answers: [
     {
       id: 1,
       title: "A",
-      answer: `AN
+      answer: `
+      BEGRIFFE 
       
       `,
     },
     {
       id: 2,
       title: "B",
-      answer: "AUF ",
+      answer: "DADURH  ",
     },
     {
       id: 3,
       title: "C",
-      answer: "BEINAHE ",
+      answer: "DAFÜR  ",
     },
     {
       id: 4,
       title: "D",
-      answer: "DAFÜR ",
+      answer: "DASS  ",
     },
     {
       id: 5,
       title: "E",
-      answer: "DANN ",
+      answer: "DENN  ",
     },
     {
       id: 6,
       title: "F",
-      answer: `DENN
+      answer: `EINGRIFFE 
       
       
       
@@ -444,28 +420,28 @@ export const sprachbau_2 = {
     {
       id: 7,
       title: "G",
-      answer: "DÜRFEN ",
+      answer: "GING ",
     },
     {
       id: 8,
       title: "H",
-      answer: "FAST",
+      answer: "KAN  ",
     },
     {
       id: 9,
       title: "I",
-      answer: "INNERHALB",
+      answer: "NAHKOMMEN",
     },
     {
       id: 10,
       title: "J",
-      answer: "KAUM ",
+      answer: " NOCH  ",
     },
     {
       id: 11,
       title: "K",
       answer: `
-      MÜSSEN
+      SODASS 
 
 
 
@@ -479,22 +455,22 @@ export const sprachbau_2 = {
     {
       id: 12,
       title: "L",
-      answer: "SOLLEN",
+      answer: "SOWIE ",
     },
     {
       id: 13,
       title: "M",
-      answer: "STATT",
+      answer: "UM ",
     },
     {
       id: 14,
       title: "N",
-      answer: "VOR",
+      answer: "VORKOMMEN ",
     },
     {
       id: 15,
       title: "O",
-      answer: "ZUMEIST ",
+      answer: "WHREND ",
     },
   ],
 };

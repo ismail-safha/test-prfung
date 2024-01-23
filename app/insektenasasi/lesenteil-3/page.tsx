@@ -48,7 +48,7 @@ const LesenTeil3 = () => {
   console.log(cartItems);
 
   return (
-    <div className="container w-full px-2">
+    <div className="container m-auto  w-full px-2">
       <Header
         pageHome="/insektenasasi"
         pageTow="/insektenasasi/lesenteil-2"
