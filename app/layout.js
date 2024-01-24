@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="w-full h-[100vh]">
+        <div className="w-full h-[100%]">
           {children}
           <Footer />
         </div>
