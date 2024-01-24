@@ -14,48 +14,53 @@ export default function Home() {
       </h1>
       <div className="grid grid-cols-4">
         <Link href="/lesen">
-          <div className="p-10 m-10 rounded-2xl bg-[#c0c0c0e7] text-center font-bold ">
+          <div className="p-10 m-10 rounded-2xl bg-[#fd7676] text-center font-bold ">
             <h1>#1.1-Insekten معدل</h1>
           </div>
         </Link>
         <Link href="/insektenasasi">
-          <div className="p-10 m-10 rounded-2xl bg-[#c0c0c0e7] text-center font-bold ">
+          <div className="p-10 m-10 rounded-2xl bg-[#fd7676] text-center font-bold ">
             <h1>#1.2-Insekten Asasi</h1>
           </div>
         </Link>
         <Link href="insektenasasi-3">
-          <div className="p-10 m-10 rounded-2xl bg-[#c0c0c0e7] text-center font-bold ">
+          <div className="p-10 m-10 rounded-2xl bg-[#fd7676] text-center font-bold ">
             <h1>#1.3-Insekten 3</h1>
           </div>
         </Link>
         <Link href="/grundschulen">
-          <div className="p-10 m-10 rounded-2xl bg-[#c0c0c0e7] text-center font-bold ">
-            <h1>#3-Grundschulen </h1>
+          <div className="p-10 m-10 rounded-2xl bg-[#3decff] text-center font-bold ">
+            <h1>#2-Grundschulen </h1>
           </div>
         </Link>
         <Link href="/kelner">
-          <div className="p-10 m-10 rounded-2xl bg-[#c0c0c0e7] text-center font-bold ">
-            <h1>#4-Kelner </h1>
+          <div className="p-10 m-10 rounded-2xl bg-[#6e3d09] text-center font-bold ">
+            <h1>#3-Kelner </h1>
           </div>
         </Link>
         <Link href="/meer-inseln">
-          <div className="p-10 m-10 rounded-2xl bg-[#c0c0c0e7] text-center font-bold h-[100px]">
-            <h1>#5.1-Meer-Inseln معدل </h1>
+          <div className="p-10 m-10 rounded-2xl bg-[#51b951] text-center font-bold h-[100px]">
+            <h1>#4.1-Meer-Inseln معدل </h1>
           </div>
         </Link>
         <Link href="/meer-inseln-2">
-          <div className="p-10 m-10 rounded-2xl bg-[#c0c0c0e7] text-center font-bold h-[100px]">
-            <h1>#5.2-Meer-Inseln اساسي </h1>
+          <div className="p-10 m-10 rounded-2xl bg-[#51b951] text-center font-bold h-[100px]">
+            <h1>#4.2-Meer-Inseln اساسي </h1>
           </div>
         </Link>
         <Link href="/osterreichs">
-          <div className="p-10 m-10 rounded-2xl bg-[#c0c0c0e7] text-center font-bold h-[100px]">
-            <h1>Österreichs </h1>
+          <div className="p-10 m-10 rounded-2xl bg-[#7351d7] text-center font-bold h-[100px]">
+            <h1>#5-Österreichs </h1>
           </div>
         </Link>
         <Link href="/limonade-n">
-          <div className="p-10 m-10 rounded-2xl bg-[#c0c0c0e7] text-center font-bold h-[100px]">
-            <h1>limonade-N </h1>
+          <div className="p-10 m-10 rounded-2xl bg-[#ed9306] text-center font-bold h-[100px]">
+            <h1>#6-limonade-N </h1>
+          </div>
+        </Link>
+        <Link href="/limonade-1">
+          <div className="p-10 m-10 rounded-2xl bg-[#ed9306] text-center font-bold h-[100px]">
+            <h1>#6-limonade-1.1 </h1>
           </div>
         </Link>
       </div>
