@@ -178,7 +178,7 @@ Von März bis September (bei schönem Wetter auch länger) können Sie bei unser
       Das bietet Ihnen unser Service "Kinderfeiern leicht gemacht". Mit uns wird jeder Kindergeburtstag zum Erfolg, auch wenn Sie selbst nur wenig Zeit für die Vorbereitung haben. Wir übernehmen auf Wunsch die Dekoration, liefen Speisen und Getränke (beispielsweise Kuchen/Kekse, Salate, Frikadellen und vieles mehr), planen lustige Spiele und bringen auch alles mit, was für die Spiele gebraucht wird. Weitere Informationen unter 01805/7131192.`,
       cartItemAnswers: "",
       cartAcoordion:
-        "Eine Bekannte organisiert einen großen Kindergeburtstag und braucht Hilfe.",
+        "Eine Bekannte organisiert einen großen Kindergeburtstag und braucht Hilfe.*(Ihr Sohn mochte einen Freier und braucht eine Hilfe)",
     },
     {
       // G
