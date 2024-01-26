@@ -5,7 +5,7 @@ import AnswerDraggable from "../components/lesen/AnswerDraggable";
 import CartDroppable from "../components/lesen/CartDroppable";
 
 import Header from "../components/Header";
-import { lesenTeil_1 } from "../data/Insekten_H/limonade-nData";
+import { lesenTeil_1 } from "../data/Insekten_H/bilderData";
 import { toast } from "react-toastify";
 import Image from "next/image";
 
@@ -80,11 +80,11 @@ const LesenTeil = () => {
   return (
     <div className="container m-auto w-full px-2">
       <Header
-        pageHome="/limonade-n"
-        pageTow="/limonade-n/lesenteil-2"
-        pageThree="/limonade-n/lesenteil-3"
-        pageFour="/limonade-n/sprachbauchteine-1"
-        pageFive="/limonade-n/sprachbauchteine-2"
+        pageHome="/bilder"
+        pageTow="/bilder/lesenteil-2"
+        pageThree="/bilder/lesenteil-3"
+        pageFour="/bilder/sprachbauchteine-1"
+        pageFive="/bilder/sprachbauchteine-2"
       />
 
       <DndContext onDragEnd={addItemsToCart}>

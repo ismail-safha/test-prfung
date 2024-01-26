@@ -90,7 +90,7 @@ Gesundheit? Dann gehen Sie doch einfach mehr an die frische Luft. Und die ist ko
   answers: [
     "Limonade aus dem Wasserhahn",
     "Limonade ist moderner aIs Wasser",
-    "Sommer bedeutet in ZuhunFt nicht unbedingt Sonne",
+    "Sommer bedeutet in Zukunft nicht unbedingt Sonne",
     "Meflr Sauerstoff im Wasser macflt müde Menscflen fit",
     "Viel Wasser trinken - Gesundheit tanken",
     "Frische Luft macht stark",

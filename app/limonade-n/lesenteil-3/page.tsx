@@ -6,9 +6,13 @@ import CartDroppable from "../../components/lesen/CartDroppable";
 
 import AnswerDraggableT from "../../components/lesen/lesen-3/AnswerDraggableT";
 import { lesenTeil_3 } from "../../data/Insekten_H/limonade-nData";
+import { toast } from "react-toastify";
+import Image from "next/image";
 
 const LesenTeil3 = () => {
   const [cartItems, setCartItems] = useState(lesenTeil_3.carts);
+  const [answers, setAnswers] = useState(lesenTeil_3.answers);
+  const [shuffleKey, setShuffleKey] = useState(0);
 
   const addItemsToCart = (event: DragEndEvent) => {
     const { active, over } = event;
@@ -45,10 +49,45 @@ const LesenTeil3 = () => {
     // localStorage.setItem("cartItems_3", JSON.stringify(updatedCartItems));
   };
   //==
-  console.log(cartItems);
+  const shuffleAnswers = () => {
+    const shuffledAnswers = [...answers].sort(() => Math.random() - 0.5);
+    setAnswers(shuffledAnswers);
+
+    // Increment the key to force re-render of the component displaying answers
+    setShuffleKey((prevKey) => prevKey + 1);
+
+    // Show toast notification
+    toast.success("Antworten schalten 🔄");
+  };
+
+  // scroll up
+
+  const [isVisible, setIsVisible] = useState(false);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  const handleScroll = () => {
+    if (window.scrollY > 100) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <div className="container w-full px-2">
+    <div className="container m-auto w-full px-2">
       <Header
         pageHome="/limonade-n"
         pageTow="/limonade-n/lesenteil-2"
@@ -58,7 +97,7 @@ const LesenTeil3 = () => {
       />
 
       <DndContext onDragEnd={addItemsToCart}>
-        <main>
+        <main key={shuffleKey}>
           <div className="w-full bg-blue-900 text-white">
             <h1 className="p-2">Leseverstehen, TEIL 3</h1>
           </div>
@@ -85,14 +124,29 @@ const LesenTeil3 = () => {
             {/* div answers */}
             <div className="w-[40%] mt-[30px] bg-[#ccc] rounded-lg h-fit">
               <ul>
-                {lesenTeil_3.answers.map((answer) => (
+                {answers.map((answer) => (
                   <AnswerDraggableT key={answer} answer={answer} />
                 ))}
               </ul>
+              <div className="shuffleAnswersDiv ">
+                <button onClick={shuffleAnswers} className="shuffleAnswers">
+                  <Image src="/shuffle.png" alt="" width={35} height={35} />
+                </button>
+              </div>
             </div>
           </div>
         </main>
       </DndContext>
+      <button
+        className={`fixed bottom-4 right-4 z-[100] ${
+          isVisible ? "block" : "hidden"
+        }`}
+        onClick={scrollToTop}
+      >
+        <div className="bg-[#60e5de] inline-block p-[5px] rounded-[10px]">
+          <Image src="/up.svg" alt="" width={30} height={30} />
+        </div>
+      </button>
     </div>
   );
 };

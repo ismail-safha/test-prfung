@@ -63,6 +63,11 @@ export default function Home() {
             <h1>#6-limonade-1.1 </h1>
           </div>
         </Link>
+        <Link href="/bilder">
+          <div className="p-10 m-10 rounded-2xl bg-[#23272ccf] text-center font-bold h-[100px]">
+            <h1>#7-Bilder معدل </h1>
+          </div>
+        </Link>
       </div>
     </main>
   );

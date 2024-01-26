@@ -2,6 +2,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/footer";
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +19,7 @@ export default function RootLayout({ children }) {
         <div className="w-full h-[100%]">
           {children}
           <Footer />
+          <ToastContainer position="bottom-right" />
         </div>
       </body>
     </html>
