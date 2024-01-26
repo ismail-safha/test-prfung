@@ -72,17 +72,9 @@ export const lesenTeil_1 = {
     },
     {
       id: 3,
-      title: `Wozu noch Kästen mit Mineralwasserflaschen nach Hause schleppen, wenn es
-      sich doch bequem zu Hause zubereiten lässt. Tatsächlich ist das 
-      Leitungswasser, das aus den Wasserhähnen in deutschen Wohnungen fließt,
-      von guter bis sehr guter Qualität. Einzig das Prickeln auf der Zunge, das durch
-      das Hinzufügen von Kohlensäure in viele Mineralwässer ensteht, fehlt bei dem
-      Leitungswasser. Doch auch hier gibt es bereits eine preiswerte Möglichkeit, dies
-      selbst zu zun: mit einer Sodamaschine. Damit lassen sich Sprudel und
-      Limonaden selbst herstellen, ganz nach dem individuellen Geschmack des
-      Nutzers: mal mit mehr, mal mit weniger Prickeln, mal süßer, mal fruchtiger. Und
-      das Wasser kommt wie von selbst ins Haus, das Tragen und Stapeln von
-      Getränkekästen ist für den cleveren Selbsthersteller Vergangenheit.`,
+      title: `Die Abkürzung TWAN klingt nach einem neuen Computerprogramm, aber tatsächlich steht sie für eine neue fotografische Methode, die der Iraner Babak Amin Tafreshi entwickelt hat. Diese neue Methode führt zu atemberaubenden Ergebnissen: Noch nie hat man die Sterne so eindrucksvoll über den Landschaften der Erde gesehen wie auf den Bildern in diesem Buch - ein Genuss für die Augen.
+
+      Was man auf den 160 Seiten des Buches sieht, ist meines Wissens ohne Beispiel. Viele der gezeigten Orte und Landschaften sind bekannte Motive, hier aber wirken sie doch vollkommen anders, als man sie kennt. Da sieht man Sterne über den Ruinen von Persepolis, den Mond über ungarischen Wäldern, die Milchstraße über dem kalifornischen Mammutbaum "General Grant". Die drei Herausgeber Stefan Seip, Gernot Meiser und Babak A. Tafreshi wurden unterstützt von einem weltweiten Team erfahrener Naturfotografen. Auf den letzten Seiten des Buchs erfährt man auch, dass "Fotografieren im TWAN-Stil heißt, bei fortgeschrittener Dämmerung oder Dunkelheit Aufnahmen zu machen, auch wenn man selbst nicht mehr viel sehen kann". Neben aller Technik kommt es aber auf den künstlerischen Blick des Fotografen an - und viel Geduld.`,
       cartItemAnswers: "",
       cartAcoordion:
         "Sprudel hausgemacht - Zeit des Flaschen-Tragens ist vorbei",
