@@ -76,8 +76,7 @@ export const lesenTeil_1 = {
 
       Was man auf den 160 Seiten des Buches sieht, ist meines Wissens ohne Beispiel. Viele der gezeigten Orte und Landschaften sind bekannte Motive, hier aber wirken sie doch vollkommen anders, als man sie kennt. Da sieht man Sterne über den Ruinen von Persepolis, den Mond über ungarischen Wäldern, die Milchstraße über dem kalifornischen Mammutbaum "General Grant". Die drei Herausgeber Stefan Seip, Gernot Meiser und Babak A. Tafreshi wurden unterstützt von einem weltweiten Team erfahrener Naturfotografen. Auf den letzten Seiten des Buchs erfährt man auch, dass "Fotografieren im TWAN-Stil heißt, bei fortgeschrittener Dämmerung oder Dunkelheit Aufnahmen zu machen, auch wenn man selbst nicht mehr viel sehen kann". Neben aller Technik kommt es aber auf den künstlerischen Blick des Fotografen an - und viel Geduld.`,
       cartItemAnswers: "",
-      cartAcoordion:
-        "Sprudel hausgemacht - Zeit des Flaschen-Tragens ist vorbei",
+      cartAcoordion: "Erde, Mond und Sterne - wie man sie noch nie gesehen hat",
     },
     {
       id: 4,
