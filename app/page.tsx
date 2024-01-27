@@ -78,6 +78,11 @@ export default function Home() {
             <h1>#8-sport gesund-1.1 معدل </h1>
           </div>
         </Link>
+        <Link href="/tanzkurs">
+          <div className="p-10 m-10 rounded-2xl bg-[#0d01f1] text-center font-bold h-[100px]">
+            <h1>#9-Tanzkurs</h1>
+          </div>
+        </Link>
       </div>
     </main>
   );
