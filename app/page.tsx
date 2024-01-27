@@ -68,6 +68,16 @@ export default function Home() {
             <h1>#7-Bilder معدل </h1>
           </div>
         </Link>
+        <Link href="/sport-ist-gesund-1">
+          <div className="p-10 m-10 rounded-2xl bg-[#f708ddcf] text-center font-bold h-[100px]">
+            <h1>#8-sport gesund اساسي </h1>
+          </div>
+        </Link>
+        <Link href="/sport-ist-gesund-1-1">
+          <div className="p-10 m-10 rounded-2xl bg-[#f708ddcf] text-center font-bold h-[100px]">
+            <h1>#8-sport gesund-1.1 معدل </h1>
+          </div>
+        </Link>
       </div>
     </main>
   );
