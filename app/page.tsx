@@ -33,9 +33,19 @@ export default function Home() {
             <h1>#2-Grundschulen </h1>
           </div>
         </Link>
+        <Link href="/grundschulen-1">
+          <div className="p-10 m-10 rounded-2xl bg-[#3decff] text-center font-bold ">
+            <h1>#2.1-Grundschulen المعدل </h1>
+          </div>
+        </Link>
         <Link href="/kelner">
           <div className="p-10 m-10 rounded-2xl bg-[#6e3d09] text-center font-bold ">
             <h1>#3-Kelner </h1>
+          </div>
+        </Link>
+        <Link href="/kelner-1">
+          <div className="p-10 m-10 rounded-2xl bg-[#6e3d09] text-center font-bold ">
+            <h1>#3.1-Kelner المعدل </h1>
           </div>
         </Link>
         <Link href="/meer-inseln">
