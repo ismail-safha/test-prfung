@@ -42,17 +42,48 @@ export const lesenTeil_1 = {
       cartAcoordion: "Bauern sind gezwungen Gift gegen schädliche",
     },
   ],
+
   answers: [
-    "Neue Insektenart in Frankreich",
-    "Kliene Insekten können Krankheiten bringen",
-    "Bauern sind gezwungen Gift gegen schädliche",
-    "Neue Mittel gegen Mücken ",
-    "Neue Studie: Nicht nur Affen und Delfine erkennen sich selbst",
-    "Probleme beim Versuchsaufbau: Studie gescheitert ",
-    "Rhein nach Chemieunfall noch immer tot",
-    "Rückblick: Fischsterben im Rhein",
-    "Um die Zukunft der Nordsee ist es schlecht bestellt",
-    "WWF zieht positive Bilanz für die Nordsee",
+    {
+      text: "Neue Insektenart in Frankreich",
+      number: "a",
+    },
+    {
+      text: "Kliene Insekten können Krankheiten bringen",
+      number: "b",
+    },
+    {
+      text: "Bauern sind gezwungen Gift gegen schädliche",
+      number: "c",
+    },
+    {
+      text: "Neue Mittel gegen Mücken",
+      number: "d",
+    },
+    {
+      text: "Neue Studie: Nicht nur Affen und Delfine erkennen sich selbst",
+      number: "e",
+    },
+    {
+      text: "Probleme beim Versuchsaufbau: Studie gescheitert",
+      number: "f",
+    },
+    {
+      text: "Rhein nach Chemieunfall noch immer tot",
+      number: "g",
+    },
+    {
+      text: "Rückblick: Fischsterben im Rhein",
+      number: "h",
+    },
+    {
+      text: "Um die Zukunft der Nordsee ist es schlecht bestellt",
+      number: "i",
+    },
+    {
+      text: "WWF zieht positive Bilanz für die Nordsee",
+      number: "j",
+    },
   ],
 };
 
@@ -188,16 +219,42 @@ Offiziell wird der Weltspartag am 31. Oktober gefeiert, in Österreich manchmal 
     },
   ],
   answers: [
-    "X:Sie suchen ein Au-pair-Mädchen, das im Haushalt helfen und mit ihren Kindern Englisch sprechen soll.",
-    "Ihre 14-jährige Nichte möchte sich über einen Auslandsaufenthalt informieren ",
-    "X:Ihr Sohn möchte als Koch im Ausland arbeiten. Er sucht nach einer passenden Stelle.",
-    "Eine französische Bekannte ist Übersetzerin und möchte gelegentlich arbeiten.",
-    "Ihre kinderlose Nachbarsfamilie möchte für einige Zeit einen jungen Menschen aufnehmen.",
-    "Sie sollen die neue Webseite Ihrer Firma ins Englische übersetzen lassen",
-    "Sie kochen gerne und suchen nach Rezepten aus anderen Ländern.",
-    "Im Herbst beginnt Ihre Tochter ein Studium. Sie möchte ein Bankkonto eröttnen.",
-    "Sie wollen Geld nach Kanada überweisen. Sie möchten wissen, wie viel Sie für die Überweisung bezahlen",
-    "Ein Freund aus Salzburg will sich in Frankreich bewerben. Er möchte seine Zeugnisse",
+    {
+      text: "Sie suchen ein Au-pair-Mädchen, das im Haushalt helfen und mit ihren Kindern Englisch sprechen soll.",
+      number: "11",
+    },
+    {
+      text: "Ihre 14-jährige Nichte möchte sich über einen Auslandsaufenthalt informieren",
+      number: "12",
+    },
+    {
+      text: "Ihr Sohn möchte als Koch im Ausland arbeiten. Er sucht nach einer passenden Stelle.",
+      number: "13",
+    },
+    {
+      text: "Eine französische Bekannte ist Übersetzerin und möchte gelegentlich arbeiten.",
+      number: "14",
+    },
+    {
+      text: "Ihre kinderlose Nachbarsfamilie möchte für einige Zeit einen jungen Menschen aufnehmen.",
+      number: "15",
+    },
+    {
+      text: "Sie sollen die neue Webseite Ihrer Firma ins Englische übersetzen lassen",
+      number: "16",
+    },
+    {
+      text: "Im Herbst beginnt Ihre Tochter ein Studium. Sie möchte ein Bankkonto eröttnen.",
+      number: "17",
+    },
+    {
+      text: "Sie wollen Geld nach Kanada überweisen. Sie möchten wissen, wie viel Sie für die Überweisung bezahlen",
+      number: "18",
+    },
+    {
+      text: "Ein Freund aus Salzburg will sich in Frankreich bewerben. Er möchte seine Zeugnisse",
+      number: "19",
+    },
   ],
 };
 export const lesenTeil_2 = {
@@ -226,44 +283,106 @@ export const lesenTeil_2 = {
       `,
     },
   ],
-  aufgabens: [
+  questions: [
     {
       id: 0,
-      qustion: "Eine Prepaid-Kreditkarte",
-      answersOne: ` gibt es für Jugendliche schon bei zahlreichen Geldinstituten.`,
-      answersTwo:
-        "können Jugendliche zusammen mit einer Handy-Prepaidkarte bekommen",
-      answersThree: "macht es möglich, mit dem Handy zu bezahlen.",
+      questionText: "Eine Prepaid-Kreditkarte",
+      options: [
+        {
+          optionID: "A",
+          option:
+            "gibt es für Jugendliche schon bei zahlreichen Geldinstituten",
+        },
+        {
+          optionID: "B",
+          option:
+            "können Jugendliche zusammen mit einer Handy-Prepaidkarte bekommen",
+        },
+        {
+          optionID: "C",
+          option: "macht es möglich, mit dem Handy zu bezahlen.",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 1,
-      qustion: "Man hat Kontrolle über die Kosten,",
-      answersOne: `da nur der Karteninhaber seine Karte aufladen darf.`,
-      answersTwo: "denn die Eltern werden bei einer Aufladung benachrichtigt. ",
-      answersThree: "weil die Ausgaben durch das Guthaben begrenzt sind. ",
+      questionText: "Man hat Kontrolle über die Kosten,",
+      options: [
+        {
+          optionID: "A",
+          option: "da nur der Karteninhaber seine Karte aufladen darf.",
+        },
+        {
+          optionID: "B",
+          option: "denn die Eltern werden bei einer Aufladung benachrichtigt.",
+        },
+        {
+          optionID: "C",
+          option: "weil die Ausgaben durch das Guthaben begrenzt sind.",
+        },
+      ],
+      correctAnswerID: "C",
     },
     {
       id: 2,
-      qustion: "Die Prepaid-Kreditkarte ist besonders geeignet für",
-      answersOne: `Angestellte mit einem guten Gehalt`,
-      answersTwo: "Jugendliche ohne festes Einkommen. ",
-      answersThree: "Menschen mit einem eigenen Bankkonto.",
+      questionText: "Die Prepaid-Kreditkarte ist besonders geeignet für",
+      options: [
+        {
+          optionID: "A",
+          option: "Angestellte mit einem guten Gehalt",
+        },
+        {
+          optionID: "B",
+          option: "Jugendliche ohne festes Einkommen.",
+        },
+        {
+          optionID: "C",
+          option: "Menschen mit einem eigenen Bankkonto.",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 3,
-      qustion: "Prepaid-Karten",
-      answersOne: `kosten ähnlich viel wie klassische Kreditkarten.`,
-      answersTwo: "verursachen keine unerwarteten Kosten. ",
-      answersThree:
-        "werden als Zahlungsmittel ebenso akzeptiert wie klassische Kreditkarten. ",
+      questionText: "Prepaid-Karten",
+      options: [
+        {
+          optionID: "A",
+          option: "kosten ähnlich viel wie klassische Kreditkarten.",
+        },
+        {
+          optionID: "B",
+          option: "verursachen keine unerwarteten Kosten.",
+        },
+        {
+          optionID: "C",
+          option:
+            "werden als Zahlungsmittel ebenso akzeptiert wie klassische Kreditkarten.",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 4,
-      qustion: "Bei Prepaid-Karten zahlen ",
-      answersOne: `Erwachsene ab 21 Jahren eine höhere Jahresgebühr als Jugendliche. `,
-      answersTwo:
-        "Jugendliche unter 18 Jahren nur die Nutzungsgebühr am Geldautomaten ",
-      answersThree: "Kunden zwischen 18 und 21 Jahren noch nichts. ",
+      questionText: "Bei Prepaid-Karten zahlen",
+      options: [
+        {
+          optionID: "A",
+          option:
+            "Erwachsene ab 21 Jahren eine höhere Jahresgebühr als Jugendliche.",
+        },
+        {
+          optionID: "B",
+          option:
+            "Jugendliche unter 18 Jahren nur die Nutzungsgebühr am Geldautomaten.",
+        },
+        {
+          optionID: "C",
+          option: "Kunden zwischen 18 und 21 Jahren noch nichts.",
+        },
+      ],
+      correctAnswerID: "A",
     },
   ],
 };
@@ -290,76 +409,196 @@ export const sprachbau_1 = {
       `,
     },
   ],
-  aufgabens: [
+  questions: [
     {
       id: 0,
-      qustion: "21",
-      answersOne: ` obwohl `,
-      answersTwo: "trotz ",
-      answersThree: "während ",
+      question: "21",
+      options: [
+        {
+          optionID: "A",
+          option: "obwohl",
+        },
+        {
+          optionID: "B",
+          option: "trotz",
+        },
+        {
+          optionID: "C",
+          option: "während",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 1,
-      qustion: "22",
-      answersOne: `hat`,
-      answersTwo: "hatte ",
-      answersThree: "hätte",
+      question: "22",
+      options: [
+        {
+          optionID: "A",
+          option: "hat",
+        },
+        {
+          optionID: "B",
+          option: "hatte",
+        },
+        {
+          optionID: "C",
+          option: "hätte",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 2,
-      qustion: "23",
-      answersOne: `konnte `,
-      answersTwo: "sollte",
-      answersThree: "wolte",
+      question: "23",
+      options: [
+        {
+          optionID: "A",
+          option: "konnte",
+        },
+        {
+          optionID: "B",
+          option: "sollte",
+        },
+        {
+          optionID: "C",
+          option: "wollte",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 3,
-      qustion: "24",
-      answersOne: `dafür `,
-      answersTwo: "damit ",
-      answersThree: "davon ",
+      question: "24",
+      options: [
+        {
+          optionID: "A",
+          option: "dafür",
+        },
+        {
+          optionID: "B",
+          option: "damit",
+        },
+        {
+          optionID: "C",
+          option: "davon",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 4,
-      qustion: "25",
-      answersOne: `Einerseite`,
-      answersTwo: "Weder..noch ",
-      answersThree: "Zwar..aber ",
+      question: "25",
+      options: [
+        {
+          optionID: "A",
+          option: "Einerseits",
+        },
+        {
+          optionID: "B",
+          option: "Weder...noch",
+        },
+        {
+          optionID: "C",
+          option: "Zwar...aber",
+        },
+      ],
+      correctAnswerID: "C",
     },
     {
       id: 5,
-      qustion: "26",
-      answersOne: `dabei `,
-      answersTwo: "davon",
-      answersThree: "dazu",
+      question: "26",
+      options: [
+        {
+          optionID: "A",
+          option: "dabei",
+        },
+        {
+          optionID: "B",
+          option: "davon",
+        },
+        {
+          optionID: "C",
+          option: "dazu",
+        },
+      ],
+      correctAnswerID: "C",
     },
     {
       id: 6,
-      qustion: "27",
-      answersOne: `aussuchen `,
-      answersTwo: "ausgesucht ",
-      answersThree: "auszusuchen",
+      question: "27",
+      options: [
+        {
+          optionID: "A",
+          option: "aussuchen",
+        },
+        {
+          optionID: "B",
+          option: "ausgesucht",
+        },
+        {
+          optionID: "C",
+          option: "auszusuchen",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 7,
-      qustion: "28",
-      answersOne: `grundlegende `,
-      answersTwo: "grundlegenden",
-      answersThree: "grundlegender",
+      question: "28",
+      options: [
+        {
+          optionID: "A",
+          option: "grundlegende",
+        },
+        {
+          optionID: "B",
+          option: "grundlegenden",
+        },
+        {
+          optionID: "C",
+          option: "grundlegender",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 8,
-      qustion: "29",
-      answersOne: `am`,
-      answersTwo: "im",
-      answersThree: "zum",
+      question: "29",
+      options: [
+        {
+          optionID: "A",
+          option: "am",
+        },
+        {
+          optionID: "B",
+          option: "im",
+        },
+        {
+          optionID: "C",
+          option: "zum",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 9,
-      qustion: "30",
-      answersOne: `dass`,
-      answersTwo: "ob",
-      answersThree: "wie",
+      question: "30",
+      options: [
+        {
+          optionID: "A",
+          option: "dass",
+        },
+        {
+          optionID: "B",
+          option: "ob",
+        },
+        {
+          optionID: "C",
+          option: "wie",
+        },
+      ],
+      correctAnswerID: "A",
     },
   ],
 };

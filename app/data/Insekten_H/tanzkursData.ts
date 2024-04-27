@@ -57,6 +57,7 @@ export const lesenTeil_3 = {
     {
       // A
       id: 0,
+      idText: "A",
       title: `Sport, Theater & mehr...
 
       ...bieten wir ihnen in unserem Online-Kartenshop. Wir sind spezialisiert auf Tickets für Sportveranstaltungen in Deutschland, Theaterkarten (auch im europäischen Ausland) und bieten Ihnen darüber hinaus auch Eintrittskarten zu bekannten Fernseh-Talkshows an. Sicher haben wir auch für Sie das passende Angebot. Wahlen Sie Ihre Wunschplätze einfach im Internet aus und nur zwei Tage später erhalten Sie Ihre Karten mit der Post. Bequem, sicher, schnell. Selbstverständlich bieten wir Ihnen aber auch eine persönliche Beratung unter einer kostenfreien Rufnummer an. Schauen Sie doch gleich online
@@ -72,10 +73,9 @@ export const lesenTeil_3 = {
     {
       // B
       id: 1,
+      idText: "B",
       title: `Die Veranstaltungsprofis
-
       Seit mehr als zwanzig Jahren organisieren wir Messen (Buchmessen, Verbrauchermessen, Fahrradmessen, Automessen, Spielemessen) in ganz Europa. Wenn auch Sie sich für eine Tätigkeit im Bereich Messeorganisation und -durchführung interessieren, haben wir ein interessantes Angebot für Sie: Ab Herbst suchen wir für unser Junges motiviertes Tean Verstärkung. Wenn Sie eine abgeschlossene Ausbildung im Veranstaltungs- oder Logistiksektor haben, neben Ihrer Muttersprache noch mindestens eine weitere Sprache fließend beherrschen und reisefreudig sind, melden Sie sich bei uns! Weitere Informationen finden Sie auch auf unserer Website oder sprechen Sie unsere zuständige Mitarbeiterin, Frau Klimke, direkt an.
-      
       www.die-veranstaltungsprofis.eu
       klimke@die-veranstaltungsprofis.eu
       `,
@@ -86,6 +86,7 @@ export const lesenTeil_3 = {
     {
       // C
       id: 2,
+      idText: "C",
       title: `Gemeinsam mehr erleben Gruppenreisen bieten wir Ihnen bereits ab fünf Personen an - Städtereisen, Wellnesswochenenden und neu im Angebot auch Reisen zu kulturellen Veranstaltungen. Fahren Sie mit uns zum Beispiel Ende August zum Jazzfestival in Brandenburg (25.-29.8.) oder im darauffolgenden Monat zur Klassikwoche nach Wien. Von Anreise und Hotel (verschiedene Kategorien) bis hin zur Eintrittskarte organisieren wir für Sie alles. Genießen Sie entspannte Tage mit Werner Reisen GmbH. Weitere Informationen und auch Buchungsformulare finden Sie unter www.wernerreisen.eu. Oder
 
       rufen
@@ -98,6 +99,7 @@ export const lesenTeil_3 = {
     {
       // D
       id: 3,
+      idText: "D",
       title: `Musikfestival Taubertal: 24. Juli bis 3. August
 
       Auch in diesem Jahr kommen wieder viele bekannte Bands und interessante neue Künstler. Das Festival ist schon längst ausverkauft, aber ihr könnt trotzdem noch hinkommen: Wir suchen noch Unterstützung für den Aufbau der Stände, die Betreuung der Musiker und auch für die Ticketkontrolle. Bewerbt euch einfach per E-Mail. Wichtig: Wenn ihr beim Festival arbeitet, könnt ihr zwar auch Musik hören, aber ihr habt keine Gelegenheit, euch die Auftritte in Ruhe anzusehen. Trotzdem macht die Arbeit viel Spaß, und ihr könnt die Musiker sogar hinter der Buhne sehen und kennenlernen.
@@ -109,6 +111,7 @@ export const lesenTeil_3 = {
     {
       // E
       id: 4,
+      idText: "E",
       title: `Alle Veranstaltungen aus einer Hand
 
       Ob Jazz, Rock, Klassik, Musical: Bei uns finden Sie Veranstaltungen aus allen Musikbereichen! Reservieren Sie noch heute Karten für Ihre Lieblingsband, wählen Sie Ihren Platz online und drucken Ihre Tickets sofort selbst aus. Oder kaufen Sie Geschenkgutscheine, die man ebenfalls bequem online einlösen kann: die ideale Möglichkeit für alle, die noch keine bestimmte Veranstaltung ausgesucht haben. Besuchen Sie gleich unseren Online-Shop. Bestellungen sind bei uns übrigens auch ohne Registrierung möglich!
@@ -121,6 +124,7 @@ export const lesenTeil_3 = {
     {
       // F
       id: 5,
+      idText: "F",
       title: `Mailänder Scala, Deutsche Oper Berlin und vieles mehr
 
       Der etwas andere Zugang zur Musik: Wir organisieren Besichtigungen von bekannten Opernhäusern oder Konzertsälen. Schauen Sie sich die Technik und Räume vor Ort an, nehmen Sie an einer interessanten Führung teil und lernen Sie so die Geschichte der Häuser und auch der Orchester kennen. Gerne organisieren wir nach Möglichkeit auch Treffen mit Musikern oder Konzertdirektoren, mit denen Sie spannende Gespräche führen und mehr über deren Arbeit erfahren können. Bitte haben Sie Verständnis, dass wir diese Treffen erst ab zehn Teilnehmern organisieren können. Weitere Informationen:
@@ -133,6 +137,7 @@ export const lesenTeil_3 = {
     {
       // G
       id: 6,
+      idText: "G",
       title: `Feste feiern?
 
       Wir organisieren Veranstaltungen in verschiedenen Größenordnungen - von der kleinen Familienfeier mit zehn Personen bis hin zu großen Firmenveranstaltungen mit mehreren Hundert Teilnehmern. Lehnen Sie sich zurück und wir machen die Arbeit! Alternativ bieten wir Ihnen aber auch unsere kompetente Beratung an, damit Sie Ihre Veranstaltung selbst planen können. Unsere Mitarbeiter kommen dann gerne zu Ihnen oder stehen Ihnen telefonisch und per E-Mail zur Verfügung. Sprechen Sie uns an!
@@ -145,6 +150,7 @@ export const lesenTeil_3 = {
     {
       // H
       id: 7,
+      idText: "H",
       title: `Künstleragentur Lippmann
 
       Bei der Künstleragentur Lippmann sind über 100 Künstler registriert, die Sie für Veranstaltungen buchen können. Sie suchen einen Komiker? Kein Problem! Sie möchten auf Ihrer Veranstaltung Schauspieler auftreten lassen? Wir können sie vermitteln! Sie brauchen musikalische Untermalung? Bei uns sind einzelne Musiker ebenso registriert wie Bands. Melden Sie sich noch heute kostenlos und unverbindlich an und schauen Sie in Ruhe alle Angebote durch - einschließlich der Preise und freien Termine. Sicher finden Sie bei uns, was Sie suchen.
@@ -157,6 +163,7 @@ export const lesenTeil_3 = {
     {
       // I
       id: 8,
+      idText: "I",
       title: `Gitarre, Violine & Co.
 
       Im Musikverein Wohlklang lernen schon die ganz Kleinen den spielerischen Umgang mit Instrumenten. Aber auch für die „größeren Kleinen" bieten wir Musikförderung und auch individuellen Unterricht an. In verschiedenen Gruppen (Alter von zwei bis acht Jahren) können Ihre Kinder bei uns Instrumente lernen, singen oder tanzen, kurz: Spaß mit Musik haben und auch selbst das Musizieren lernen. Die ersten beiden Probestunden bieten wir Ihnen kostenlos an, damit Sie und Ihre Kinder uns in Ruhe kennenlernen können. Vereinbaren Sie doch gleich einen Termin unter der 0800/5615 6514. Wohlklang e.V., Neue Straße 218, 77933 Lahr`,
@@ -167,6 +174,7 @@ export const lesenTeil_3 = {
     {
       // J
       id: 9,
+      idText: "J",
       title: `Instrumente, Noten, Musikbücher
 
       Das Musikhaus Hohenzollern hat jetzt wieder besondere Angebote für alle Interessierten. Wir haben die Preise von allen Instrumenten bis kommenden Samstag reduziert. Auch zahlreiche Bücher und Notenhefte finden Sie ab sofort in unserem neuen Online-Shop zu günstigen Preisen. Unser Einstiegsangebot: alle Bestellungen im Online-Shop ohne Versandkosten! Schauen Sie sich doch mal im Internet um oder kommen Sie direkt bei uns vorbei. Wir freuen uns auf ihren Besuch! Musikhaus Hohenzollern, Steeler Str. 789, 45276 Essen
@@ -179,6 +187,7 @@ export const lesenTeil_3 = {
     {
       // K
       id: 10,
+      idText: "K",
       title: `Rhein/Ruhr-Festival
 
       Im kommenden Herbst findet zum ersten Mal das neue Rhein/Ruhr-Festival statt - und wir benötigen noch Hilfe. Im Rahmen des Festivals werden auf fünf unterschiedlichen Bühnen Künstler auftreten. Wir möchten verschiedene Stilrichtungen präsentieren, Solokünstler ebenso wie größere Musikgruppen. Und noch sind Plätze frei! Die Chance also für alle, die sich gerne bei unserem Festival präsentieren möchten. Kurzbewerbungen können ab sofort per E-Mail an office@rheinruhrfestival.eu gesendet werden.
@@ -192,6 +201,7 @@ export const lesenTeil_3 = {
     {
       //L
       id: 11,
+      idText: "L",
       title: `Musiker gesucht
 
       Seit einem Jahr vermitteln wir,, Musiktandems" - Musiker suchen Musiker und geben sich gegenseitig Unterricht. Ob Instrument, Gesang, Komposition - alles wird gesucht! Registrieren Sie sich kostenlos auf unserer Homepage www.musiktandems.eu und finden Sie heute noch das Angebot, das Sie schon lange suchen. Wichtig: Sie können sich nur für das Musiktandem anmelden, wenn Sie selbst auch Unterricht anbieten können, also zum Beispiel ein Instrument spielen. Auf unserer Website finden Sie auch weitere Informationen zum Ablauf und können den Service kontaktieren.`,
@@ -207,13 +217,13 @@ export const lesenTeil_3 = {
     " Ein Kollege möchte mit fünf Freunden eine mehrtägige Musikveranstaltung besuchen.",
     " Ein Bekannter hat bei der Messe Frankfurt gearbeitet und sucht eine andere Stelle in diesem Bereich.",
     " Sie möchten einer Freundin Eintrittskarten für eine Musikveranstaltung schenken.",
-    "X: Sie interessieren sich für Bücher und möchten eine Messe besuchen.",
+    " Sie interessieren sich für Bücher und möchten eine Messe besuchen.",
 
     " Die sechsjährige Tochter eines Nachbarn würde gerne mit andere Kindern Musik machen.",
     " Ein Bekannter muss eine Jubiläumsfeier organisieren und sucht Unterstützung.",
 
     " Sie mögen Musik und möchten in dem Bereich einen Job.",
-    "X: Ihre Nachbarin möchte ihre Violine verkaufen.",
+    " Ihre Nachbarin möchte ihre Violine verkaufen.",
     " Eine Bekannte ist Musikerin und sucht Möglichkeiten, mit ihrer Gruppe aufzutreten.",
   ],
 };
@@ -313,27 +323,29 @@ Erwachsene bezahlen für Prepaid-Karten zwischen 29 und 39 Euro im Jahr. Karten 
 export const sprachbau_1 = {
   texts: [
     {
-      text: `Sehr geehrter Herr Dr. Moosberger,
-      mit____21_____ Interesse habe ich Ihr Stellenangebot in der Essener Zeitung gelesen, ____22_____
-      Sie eine Teilzeit-Mitarbeiterin in Ihrem Antiquitätengeschäft suchen. Es reizt mich eine
-      verantwortungsvolle Aufgabe in einem ____23_____ renommierten Geschäft wie dem Ihrigen
-      übernehmen ____24_____.
-      Nach dem Abitur am Kreisgymnasium in Velbert ____25_____ ich eine dreijährige Schreinerlehre
-      bei der Firma Eichelbohrer & Co und besuchte die Kreisberufsschule in Velbert. Nach
-      erfolgreichem Abschluss meiner Berufsausbildung arbeitete ich ____26_____ bei Stutz & Partner -
-      Möbeldesign in Düsseldorf. Danach schrieb ich mich an der Fachhochschule Köln im Fachbereich
-      Möbeldesign ein und ____27_____ meine Liebe zu antiquarischen Möbelstücken.
-      Meine Spezialität ist das stilgenaue Restaurieren und Aufarbeiten antiquarischer Möbel,
-      insbesondere aus dem Biedermeier und dem Jugendstil. ____28_____ meiner Berufstätigkeit und
-      meines Studiums konnte ich umfangreiche Kenntnisse erwerben, was Möbelstile und die
-      Herstellungskunst in den verschiedensten Epochen ____29_____ in Nord- ____29_____ in
-      Südeuropa angeht.
-      Mein Studium lässt mir genügend Zeit, eine Teilzeitstelle zu übernehmen, die darüber hinaus
-      meinen beruflichen Fähigkeiten und Neigungen entspricht. Aus diesem Grund habe ich mich
-      entschlossen, ____30_____ , und bewerbe mich um die von Ihnen angebotene Teilzeitstelle.
-      Ich freue mich auf ein persönliches Gespräch.
-      Mit freundlichen Grüßen,
-      Sabine Holzinger
+      text: `"Hallo Philip, ",nun habe ich mich schon so lange nicht bei dir gemeldet - das tut mir wirklich leid! Ich
+      hatte in den vergangenen Monaten viel Stress, weil ich ja nun studiere und nebenbei noch
+      arbeiten muss, ____21_____ meine Miete und alles andere bezahlen zu können. Zum Glück
+      macht mir mein Nebenjob wenigstens Spaß. Ich weiß nicht, ____22_____ ich das sonst
+      durchhalten würde. Vielleicht habe ich dir schon erzählt, dass ich abends und am
+      Wochenende in einer Kneipe in der Küche helfe. Das ist zwar oft sehr anstrengend,
+      ____23_____ anderseits ist dauernd was los, es wird nicht langweilig, und meine Kollegen
+      sind total nett. Erinnerst du dich noch an unsere Zeit in der Grundschule? Mit acht Jahren
+      wollte ich ja ____24_____ Kellnerin werden, weil man da Trinkgeld bekommt. Naja, jetzt
+      bin ich in der Küche gelandet, knapp daneben ist auch vorbei ;)
+      Was macht denn deine Ausbildung? Wenn ich ____25_____ nicht täusche, bist du ja in
+      einem halben Jahr schon fertig, oder? Das ist ja nicht mehr lang!
+      Neulich habe ich übrigens Tina und Kevin hier in der Nähe der Uni getroffen - die waren
+      ja schon ein Paar, _____26____ wir noch in der Schule gegangen sind, und jetzt will sie
+      tatsächlich verheiratet!
+      Wie sehen denn deine Pläne für die ___27______ Wochenenden aus? Wir könnten uns ja
+      vielleicht mal wieder treffen und in Ruhe quatschen - hättest du Lust ____28_____?
+      In meiner Straße hat vor einem Monat ein nettes kleines Café aufgemacht, die haben
+      sowohl sehr leckere Kuchen _____29____ auch einige kleine Gerichte zu wirklich günstigen
+      Preisen. Wäre das was für dich? Mail wir doch ____30_____ , wenn du magst, ich würde
+      mich freuen!
+      Viele Grüße,
+      Tanja
       
       `,
     },
@@ -342,115 +354,110 @@ export const sprachbau_1 = {
     {
       id: 0,
       qustion: "21",
-      answersOne: ` allergrößte
+      answersOne: ` damit
       
        `,
-      answersTwo: "allergrößltem ",
-      answersThree: "allergrößten ",
+      answersTwo: "für ",
+      answersThree: "um ",
     },
     {
       id: 1,
       qustion: "22",
-      answersOne: `an
+      answersOne: `wann
       
       
       
       `,
-      answersTwo: "auf ",
-      answersThree: "in",
+      answersTwo: "wie ",
+      answersThree: "wo",
     },
     {
       id: 2,
       qustion: "23",
-      answersOne: `als
+      answersOne: `damit
       
       
       
        `,
-      answersTwo: "so",
-      answersThree: "wie",
+      answersTwo: "denn",
+      answersThree: "doch",
     },
     {
       id: 3,
       qustion: "24",
-      answersOne: `können
-      
-   
+      answersOne: `bestimmt
       
       
       
        `,
-      answersTwo: "könnte ",
-      answersThree: "   zu können ",
+      answersTwo: "unbedingt ",
+      answersThree: "völlig ",
     },
     {
       id: 4,
       qustion: "25",
-      answersOne: `begann
-      
-      
+      answersOne: `dich
       
       `,
-      answersTwo: "beging ",
-      answersThree: "belief ",
+      answersTwo: "mich ",
+      answersThree: "sich ",
     },
     {
       id: 5,
       qustion: "26",
-      answersOne: `durch ein Jahr
-
-      
+      answersOne: `als
       
       
       
       
        `,
-      answersTwo: "ein Jahr lang",
-      answersThree: "seit einem Jahr",
+      answersTwo: "da",
+      answersThree: "wenn",
     },
     {
       id: 6,
       qustion: "27",
-      answersOne: `entdeckte
+      answersOne: `jetzigen
+      
+      
       
      
      `,
-      answersTwo: " erfand ",
-      answersThree: "  merkte ",
+      answersTwo: " kommenden ",
+      answersThree: " letzten ",
     },
     {
       id: 7,
       qustion: "28",
-      answersOne: `Dabei
+      answersOne: `danach
+      
+      
+      
        `,
-      answersTwo: "Inzwischen",
-      answersThree: "Während",
+      answersTwo: "darüber",
+      answersThree: "dazu",
     },
     {
       id: 8,
       qustion: "29",
-      answersOne: `sowohl..als auch
-   
+      answersOne: `als
+      
+      
       
       `,
-      answersTwo: "   teils..teils",
-      answersThree: "weder..noch  ",
+      answersTwo: "ebenso",
+      answersThree: "oder",
     },
     {
       id: 9,
       qustion: "30",
-      answersOne: `auf Ihre Anzeige
-      antworten
-      
-     
+      answersOne: `einen
       
       
       
       `,
-      answersTwo: `auf Ihre Anzeige zu
-      antworten`,
-      answersThree: ` um auf Ihre Anzeige
-      zu antworten`,
+      answersTwo: "einfach",
+      answersThree: "einzig",
     },
   ],
 };

@@ -1,7 +1,28 @@
+"use client";
+import { useState } from "react";
 import Header from "../../components/Header";
 import { sprachbau_1 } from "../../data/Insekten_H/insektenasasi";
 
 const Sprachbauchteine_1 = () => {
+  const [selectedAnswers, setSelectedAnswers] = useState<string[]>([]);
+  const [showResults, setShowResults] = useState<boolean>(false);
+
+  const handleOptionChange = (questionId: number, optionId: string) => {
+    setSelectedAnswers((prevSelectedAnswers) => {
+      const newSelectedAnswers = [...prevSelectedAnswers];
+      newSelectedAnswers[questionId] = optionId;
+      return newSelectedAnswers;
+    });
+  };
+
+  const checkAnswers = () => {
+    setShowResults(true);
+  };
+
+  const resetAnswers = () => {
+    setSelectedAnswers([]);
+    setShowResults(false);
+  };
   return (
     <div className="container m-auto  w-full px-2">
       <Header
@@ -36,28 +57,56 @@ const Sprachbauchteine_1 = () => {
           {/* div answers */}
           <div className="w-[45%] mt-[30px] h-fit">
             {/* Map through aufgabens array */}
-            {sprachbau_1.aufgabens.map((aufgabe) => (
+            {sprachbau_1.questions.map((question) => (
               <div
-                key={aufgabe.id}
+                key={question.id}
                 className="bg-[#ccc] rounded-lg my-3 flex items-center p-[10px]"
               >
                 <h1 className=" text-[#fff] bg-[#040416] p-1 rounded-[50%] font-bold">
-                  {aufgabe.qustion}
+                  {question.questionText}
                 </h1>
-                {/* Map through answers */}
-                {Object.keys(aufgabe).map((key) =>
-                  key.startsWith("answers") ? (
-                    <div
-                      key={key}
-                      className="flex gap-2 ml-5 py-1 items-center"
-                    >
-                      <input type="checkbox" className="w-4 h-4" />
-                      <span>{aufgabe[key]}</span>
-                    </div>
-                  ) : null
-                )}
+                {question.options.map((option) => (
+                  <div
+                    className={`flex gap-2 ml-5 py-1 items-center ${
+                      showResults &&
+                      selectedAnswers[question.id] === option.optionID
+                        ? option.optionID === question.correctAnswerID
+                          ? "bg-green-300"
+                          : "bg-red-300"
+                        : ""
+                    }`}
+                    key={option.optionID}
+                  >
+                    <input
+                      type="radio"
+                      name={`question${question.id}`}
+                      value={option.optionID}
+                      checked={selectedAnswers[question.id] === option.optionID}
+                      onChange={() =>
+                        handleOptionChange(question.id, option.optionID)
+                      }
+                      className="w-4 h-4"
+                    />
+                    <p className="font-bold">{option.optionID}</p>
+                    {option.option}
+                  </div>
+                ))}
               </div>
             ))}
+            <div className="flex justify-between">
+              <button
+                onClick={checkAnswers}
+                className="bg-blue-500 text-white px-4 py-2 rounded-md mt-4"
+              >
+                Check Answers
+              </button>
+              <button
+                onClick={resetAnswers}
+                className="bg-gray-500 text-white px-4 py-2 rounded-md mt-4"
+              >
+                Reset Answers
+              </button>
+            </div>
           </div>
         </div>
       </main>

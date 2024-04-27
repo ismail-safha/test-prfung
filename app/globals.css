@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 body {
-  background-color: #efefef;
+  /* background-color: #efefef; */
+  font-weight: 500 !important ;
+  font-size: 13px !important;
 }
 
 .cart-section {
@@ -113,9 +115,9 @@ body {
 
 .delete-button {
   border: 1px solid #333;
-  font-size: 20px;
+
   border-radius: 4px;
-  font-weight: 800;
+
   padding: 0 5px;
 }
 

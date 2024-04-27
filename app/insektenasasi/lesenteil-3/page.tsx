@@ -6,9 +6,11 @@ import CartDroppable from "../../components/lesen/CartDroppable";
 
 import AnswerDraggableT from "../../components/lesen/lesen-3/AnswerDraggableT";
 import { lesenTeil_3 } from "../../data/Insekten_H/insektenasasi";
+import Image from "next/image";
 
 const LesenTeil3 = () => {
   const [cartItems, setCartItems] = useState(lesenTeil_3.carts);
+  const [checkResult, setCheckResult] = useState<(boolean | undefined)[]>([]);
 
   const addItemsToCart = (event: DragEndEvent) => {
     const { active, over } = event;
@@ -20,18 +22,8 @@ const LesenTeil3 = () => {
       const updatedCartItems = [...cartItems];
       updatedCartItems[cartIndex].cartItemAnswers = active.id.toString(); // Convert to string
       setCartItems(updatedCartItems);
-
-      // Save updated cart items to local storage
-      // localStorage.setItem("cartItems_3", JSON.stringify(updatedCartItems));
     }
   };
-  // useEffect(() => {
-  //   // Retrieve cart items from local storage
-  //   const storedCartItems = localStorage.getItem("cartItems_3");
-  //   if (storedCartItems) {
-  //     setCartItems(JSON.parse(storedCartItems));
-  //   }
-  // }, []);
 
   // delete
   const handleDelete = (cartId: number) => {
@@ -42,10 +34,45 @@ const LesenTeil3 = () => {
       return cart;
     });
     setCartItems(updatedCartItems);
-    // localStorage.setItem("cartItems_3", JSON.stringify(updatedCartItems));
   };
-  //==
-  console.log(cartItems);
+  // checkAnswers
+  const checkAnswers = () => {
+    const results = cartItems.map(
+      (cart) => cart.cartItemAnswers === cart.cartAcoordion
+    );
+    setCheckResult(results);
+  };
+  // console.log("checkResult", checkResult);
+
+  const resetCheckResult = () => {
+    setCheckResult([]);
+  };
+
+  // scroll up
+
+  const [isVisible, setIsVisible] = useState(false);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  const handleScroll = () => {
+    if (window.scrollY > 100) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <div className="container m-auto  w-full px-2">
@@ -73,26 +100,56 @@ const LesenTeil3 = () => {
                 Manchmal gibt es keine Lösung. Markieren Sie dann x.
               </p>
               <div className="mt-[30px] bg-[#f6f2bc] overflow-y-auto h-fit grid grid-cols-2">
-                {cartItems.map((cart) => (
+                {cartItems.map((cart, index) => (
                   <CartDroppable
                     key={cart.id}
                     cart={cart}
+                    isCorrect={checkResult[index]}
                     onDelete={() => handleDelete(cart.id)}
                   />
                 ))}
               </div>
             </div>
             {/* div answers */}
-            <div className="w-[40%] mt-[30px] bg-[#ccc] rounded-lg h-fit">
-              <ul>
-                {lesenTeil_3.answers.map((answer) => (
-                  <AnswerDraggableT key={answer} answer={answer} />
-                ))}
-              </ul>
+            <div className="w-[45%] mt-[30px] bg-[#ccc] rounded-lg h-fit">
+              {lesenTeil_3.answers.map((answer) => (
+                <div key={answer.number}>
+                  <AnswerDraggableT
+                    answer={answer.text}
+                    number={answer.number}
+                  />
+                </div>
+              ))}
+
+              {/* check Answers */}
+              <div className="flex justify-around">
+                <button
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4"
+                  onClick={checkAnswers}
+                >
+                  Check Answers
+                </button>
+                <button
+                  className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mt-4 ml-2"
+                  onClick={resetCheckResult}
+                >
+                  Reset
+                </button>
+              </div>
             </div>
           </div>
         </main>
       </DndContext>
+      <button
+        className={`fixed bottom-4 right-4 z-[100] ${
+          isVisible ? "block" : "hidden"
+        }`}
+        onClick={scrollToTop}
+      >
+        <div className="bg-[#60e5de] inline-block p-[5px] rounded-[10px]">
+          <Image src="/up.svg" alt="" width={30} height={30} />
+        </div>
+      </button>
     </div>
   );
 };

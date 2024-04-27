@@ -1,14 +1,18 @@
 "use client";
+
 import React, { useEffect, useState } from "react";
 import { DndContext, DragEndEvent } from "@dnd-kit/core";
 import AnswerDraggable from "../components/lesen/AnswerDraggable";
 import CartDroppable from "../components/lesen/CartDroppable";
+
+import Image from "next/image";
 
 import Header from "../components/Header";
 import { lesenTeil_1 } from "../data/Insekten_H/insektenasasi";
 
 const LesenTeil = () => {
   const [cartItems, setCartItems] = useState(lesenTeil_1.carts);
+  const [checkResult, setCheckResult] = useState<(boolean | undefined)[]>([]);
 
   const addItemsToCart = (event: DragEndEvent) => {
     const { active, over } = event;
@@ -32,9 +36,45 @@ const LesenTeil = () => {
       return cart;
     });
     setCartItems(updatedCartItems);
-    // localStorage.setItem("cartItems", JSON.stringify(updatedCartItems));
   };
-  //==
+  // checkAnswers
+  const checkAnswers = () => {
+    const results = cartItems.map(
+      (cart) => cart.cartItemAnswers === cart.cartAcoordion
+    );
+    setCheckResult(results);
+  };
+  // console.log("checkResult", checkResult);
+
+  const resetCheckResult = () => {
+    setCheckResult([]);
+  };
+
+  // scroll up
+
+  const [isVisible, setIsVisible] = useState(false);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  const handleScroll = () => {
+    if (window.scrollY > 100) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <div className="container m-auto  w-full px-2">
@@ -54,33 +94,62 @@ const LesenTeil = () => {
           <div className="flex justify-between  gap-[20px]">
             {/* div text */}
             <div className=" w-[55%] mt-[20px]">
-              <p className="bg-[#f6f2bc] text-black rounded-lg p-2">
+              <p className="bg-[#f6f2bc] dark:bg-[#9e9d98] text-black rounded-lg p-2">
                 Lesen Sie zuerst die zehn Überschriften. Lesen Sie dann die fünf
                 Texte und entscheiden Sie, welche Überschrift (a-j) am besten zu
                 welchem Text (1-5) passt. Tragen Sie Ihre Lösungen in den
                 Antwortbogen bei den Aufgaben 1-5 ein.
               </p>
-              <div className="mt-[30px] bg-[#f6f2bc] h-fit">
-                {cartItems.map((cart) => (
+              <div className="mt-[30px] bg-[#f6f2bc] dark:bg-[#9e9d98] h-fit">
+                {cartItems.map((cart, index) => (
                   <CartDroppable
                     key={cart.id}
                     cart={cart}
+                    isCorrect={checkResult[index]}
                     onDelete={() => handleDelete(cart.id)}
                   />
                 ))}
               </div>
             </div>
             {/* div answers */}
-            <div className="w-[45%] mt-[30px] bg-[#ccc] rounded-lg h-fit">
-              <ul>
-                {lesenTeil_1.answers.map((answer) => (
-                  <AnswerDraggable key={answer} answer={answer} />
-                ))}
-              </ul>
+            <div className="w-[45%] mt-[30px] bg-[#ccc] dark:bg-[#777] rounded-lg h-fit">
+              {lesenTeil_1.answers.map((answer) => (
+                <div key={answer.number}>
+                  <AnswerDraggable
+                    answer={answer.text}
+                    number={answer.number}
+                  />
+                </div>
+              ))}
+              {/* check Answers */}
+              <div className="flex justify-center m-[20px]">
+                <button
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4"
+                  onClick={checkAnswers}
+                >
+                  Check Answers
+                </button>
+                <button
+                  className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mt-4 ml-2"
+                  onClick={resetCheckResult}
+                >
+                  Reset
+                </button>
+              </div>
             </div>
           </div>
         </main>
       </DndContext>
+      <button
+        className={`fixed bottom-4 right-4 z-[100] ${
+          isVisible ? "block" : "hidden"
+        }`}
+        onClick={scrollToTop}
+      >
+        <div className="bg-[#60e5de] inline-block p-[5px] rounded-[10px]">
+          <Image src="/up.svg" alt="" width={30} height={30} />
+        </div>
+      </button>
     </div>
   );
 };

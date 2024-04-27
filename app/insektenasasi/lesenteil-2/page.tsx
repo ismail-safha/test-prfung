@@ -1,9 +1,44 @@
+"use client";
+
+import { useState } from "react";
 import Header from "../../components/Header";
 import { lesenTeil_2 } from "../../data/Insekten_H/insektenasasi";
 
+type Option = {
+  optionID: string;
+  option: string;
+};
+
+type Question = {
+  id: number;
+  questionText: string;
+  options: Option[];
+  correctAnswerID: string;
+};
+
 const Lesenteiltow = () => {
+  const [selectedAnswers, setSelectedAnswers] = useState<string[]>([]);
+  const [showResults, setShowResults] = useState<boolean>(false);
+
+  const handleOptionChange = (questionId: number, optionId: string) => {
+    setSelectedAnswers((prevSelectedAnswers) => {
+      const newSelectedAnswers = [...prevSelectedAnswers];
+      newSelectedAnswers[questionId] = optionId;
+      return newSelectedAnswers;
+    });
+  };
+
+  const checkAnswers = () => {
+    setShowResults(true);
+  };
+
+  const resetAnswers = () => {
+    setSelectedAnswers([]);
+    setShowResults(false);
+  };
+
   return (
-    <div className="container m-auto  w-full px-2">
+    <div className="container mx-auto w-full px-2">
       <Header
         pageHome="/insektenasasi"
         pageTow="/insektenasasi/lesenteil-2"
@@ -16,49 +51,76 @@ const Lesenteiltow = () => {
         <div className="w-full bg-blue-900 text-white">
           <h1 className="p-2">Leseverstehen, TEIL 2</h1>
         </div>
-        <div className="flex justify-between gap-[20px]">
+        <div className="flex justify-between gap-[10px]">
           {/* div text */}
-          <div className="w-[55%] mt-[20px]">
-            <p className="bg-[#f6f2bc] text-black rounded-lg p-2">
+          <div className="w-[50%] mt-20">
+            <p className="bg-yellow-200 text-black rounded-lg p-2">
               Lesen Sie zuerst die beiden Artikel und lösen Sie dann die
               Aufgaben 6-10 zu den Texten.
             </p>
-            <div className="mt-[30px] bg-[#fbfbfb] rounded-lg h-fit">
+            <div className="mt-30 bg-gray-100 rounded-lg">
               {/* Map through texts array */}
               {lesenTeil_2.texts.map((text, index) => (
-                <div key={index} className="p-5">
-                  <div className=" mb-1 py-[30px] px-[10px] border border-[#000] ">
-                    <h1 className="font-bold py-1">{text.title}</h1>
-                    <p className="font-semibold">{text.text}</p>
+                <div key={index} className="p-5 border border-black">
+                  <div className="mb-2 py-4 px-4 border-b border-black">
+                    <h1 className="font-bold">{text.title}</h1>
+                    <p>{text.text}</p>
                   </div>
-                  <div className="my-2 py-[30px] px-[10px] border border-[#000]">
-                    <h1 className="font-bold py-1">{text.titleTow}</h1>
-                    <p className="font-semibold">{text.textTow}</p>
+                  <div className="py-4 px-4">
+                    <h1 className="font-bold">{text.titleTow}</h1>
+                    <p>{text.textTow}</p>
                   </div>
                 </div>
               ))}
             </div>
           </div>
           {/* div answers */}
-          <div className="w-[45%] mt-[30px] h-fit">
-            {/* Map through aufgabens array */}
-            {lesenTeil_2.aufgabens.map((aufgabe) => (
-              <div key={aufgabe.id} className="bg-[#ccc] rounded-lg my-3">
-                <h1 className="px-3 pt-5 font-bold">{aufgabe.qustion}</h1>
-                {/* Map through answers */}
-                {Object.keys(aufgabe).map((key) =>
-                  key.startsWith("answers") ? (
-                    <div
-                      key={key}
-                      className="flex gap-4 ml-5 py-1 items-center"
-                    >
-                      <input type="checkbox" className="w-4 h-4" />
-                      <span>{aufgabe[key]}</span>
-                    </div>
-                  ) : null
-                )}
+          <div className="w-[50%] mt-[30px] h-fit">
+            {lesenTeil_2.questions.map((question) => (
+              <div key={question.id} className="bg-[#ccc] rounded-lg my-3">
+                <h1 className="px-3 pt-5 font-bold">{question.questionText}</h1>
+                {question.options.map((option) => (
+                  <div
+                    className={`flex items-center gap-1 ${
+                      showResults &&
+                      selectedAnswers[question.id] === option.optionID
+                        ? option.optionID === question.correctAnswerID
+                          ? "bg-green-300"
+                          : "bg-red-300"
+                        : ""
+                    }`}
+                    key={option.optionID}
+                  >
+                    <input
+                      type="radio"
+                      name={`question${question.id}`}
+                      value={option.optionID}
+                      checked={selectedAnswers[question.id] === option.optionID}
+                      onChange={() =>
+                        handleOptionChange(question.id, option.optionID)
+                      }
+                      className="w-4 h-4"
+                    />
+                    <p className="font-bold">{option.optionID}</p>
+                    {option.option}
+                  </div>
+                ))}
               </div>
             ))}
+            <div className="flex justify-between">
+              <button
+                onClick={checkAnswers}
+                className="bg-blue-500 text-white px-4 py-2 rounded-md mt-4"
+              >
+                Check Answers
+              </button>
+              <button
+                onClick={resetAnswers}
+                className="bg-gray-500 text-white px-4 py-2 rounded-md mt-4"
+              >
+                Reset Answers
+              </button>
+            </div>
           </div>
         </div>
       </main>
