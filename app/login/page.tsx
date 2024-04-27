@@ -187,7 +187,7 @@ export default function LoginForm() {
                       viewBox="0 0 24 24"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      className="flex-shrink-0 animate-spin w-6 h-6"
+                      className="flex-shrink-0 m-auto animate-spin w-6 h-6"
                       height="1em"
                       width="1em"
                       xmlns="http://www.w3.org/2000/svg"
