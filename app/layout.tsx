@@ -5,7 +5,6 @@ import "./globals.css";
 import Footer from "./components/footer";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
-import Provider from "../components/provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,17 +16,15 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode,
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
       <body className={inter.className}>
         <div className="w-full h-[100%] dark:bg-dark bg-[#efefef] dark:bg-[#011220d6]  ">
-          <Provider>
-            {children}
-            <Footer />
-            <ToastContainer position="bottom-right" />
-          </Provider>
+          {children}
+          <Footer />
+          <ToastContainer position="bottom-right" />
         </div>
       </body>
     </html>
