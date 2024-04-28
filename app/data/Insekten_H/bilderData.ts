@@ -2,6 +2,8 @@ export const lesenTeil_1 = {
   carts: [
     {
       id: 0,
+      idText: "1",
+
       title: `
       Der Buchtitel erinnert an eine
       Horrorgeschichte: “Die Nacht”. Aber dem
@@ -38,6 +40,8 @@ export const lesenTeil_1 = {
     },
     {
       id: 1,
+      idText: "2",
+
       title: `Fotos machen ist heute nicht schwer. Schnell nimmt man das Handy und macht einen
       Schnappschuss. Wer aber besondere und eindrucksvolle Bilder haben möchte, muss sich mit dem
       Thema Fotografie schon etwas intensiver befassen. Dietmar Spehrs neuer Fotografie-Ratgeber ist
@@ -55,6 +59,8 @@ export const lesenTeil_1 = {
     },
     {
       id: 2,
+      idText: "3",
+
       title: `Bilder der Fotografin Annie Leibovitz sind ab kommendem Samstag im Kunsthaus Wien zu sehen.
       Die Ausstellung besticht durch ihre umfangreiche Bildauswahl. Zum einen kann man zahlreiche
       Portraits berühmter Schauspieler, Politiker oder Musiker bestaunen. Zum anderen sieht man Bilder aus
@@ -72,6 +78,8 @@ export const lesenTeil_1 = {
     },
     {
       id: 3,
+      idText: "4",
+
       title: `Die Abkürzung TWAN klingt nach einem neuen Computerprogramm, aber tatsächlich steht sie für eine neue fotografische Methode, die der Iraner Babak Amin Tafreshi entwickelt hat. Diese neue Methode führt zu atemberaubenden Ergebnissen: Noch nie hat man die Sterne so eindrucksvoll über den Landschaften der Erde gesehen wie auf den Bildern in diesem Buch - ein Genuss für die Augen.
 
       Was man auf den 160 Seiten des Buches sieht, ist meines Wissens ohne Beispiel. Viele der gezeigten Orte und Landschaften sind bekannte Motive, hier aber wirken sie doch vollkommen anders, als man sie kennt. Da sieht man Sterne über den Ruinen von Persepolis, den Mond über ungarischen Wäldern, die Milchstraße über dem kalifornischen Mammutbaum "General Grant". Die drei Herausgeber Stefan Seip, Gernot Meiser und Babak A. Tafreshi wurden unterstützt von einem weltweiten Team erfahrener Naturfotografen. Auf den letzten Seiten des Buchs erfährt man auch, dass "Fotografieren im TWAN-Stil heißt, bei fortgeschrittener Dämmerung oder Dunkelheit Aufnahmen zu machen, auch wenn man selbst nicht mehr viel sehen kann". Neben aller Technik kommt es aber auf den künstlerischen Blick des Fotografen an - und viel Geduld.`,
@@ -80,6 +88,8 @@ export const lesenTeil_1 = {
     },
     {
       id: 4,
+      idText: "5",
+
       title: `Er gehörte zu den ganz Großen seines Fachs: Andreas Feininger. Eine neue Biografie
       erzählt die Lebensgeschichte des weltberühmten Fotografen. Neben einem Text auf
       Deutsch und Englisch enthält sie auch eine kleine, aber gute Auswahl seiner Fotoarbeiten
@@ -98,16 +108,46 @@ export const lesenTeil_1 = {
     },
   ],
   answers: [
-    "Bilder einer bedeutenden Künstlerin",
-    "Das Ende der Dunkelheit",
-    "Die bemerkenswerte Karriere eines Fotografen",
-    "Ein Fotograf auf Reisen",
-    "Eine Fotografin dreht einen Film    ",
-    "Entwicklungsgeschichte der Lampen",
-    "Erde, Mond und Sterne - wie man sie noch nie gesehen hat",
-    "Familienfotos berühmter Persönlichkeiten",
-    "Gelungene Einführung in die moderne Fotografie",
-    "Mit Profis eine neue Foto-Technik erlernen",
+    {
+      text: "Bilder einer bedeutenden Künstlerin",
+      number: "a",
+    },
+    {
+      text: "Das Ende der Dunkelheit",
+      number: "b",
+    },
+    {
+      text: "Die bemerkenswerte Karriere eines Fotografen",
+      number: "c",
+    },
+    {
+      text: "Ein Fotograf auf Reisen",
+      number: "d",
+    },
+    {
+      text: "Eine Fotografin dreht einen Film",
+      number: "e",
+    },
+    {
+      text: "Entwicklungsgeschichte der Lampen",
+      number: "f",
+    },
+    {
+      text: "Erde, Mond und Sterne - wie man sie noch nie gesehen hat",
+      number: "g",
+    },
+    {
+      text: "Familienfotos berühmter Persönlichkeiten",
+      number: "h",
+    },
+    {
+      text: "Gelungene Einführung in die moderne Fotografie",
+      number: "i",
+    },
+    {
+      text: "Mit Profis eine neue Foto-Technik erlernen",
+      number: "j",
+    },
   ],
 };
 
@@ -116,6 +156,8 @@ export const lesenTeil_3 = {
     {
       // A
       id: 0,
+      idText: "A",
+
       title: `NEUES Angebot der VHS
       Ab dem kommenden Monat bietet die Volkshochschule in Zusammenarbeit mit der Bürgerschaft in
       unserem Stadtteil Führungen an. Alle Interessierten können an fünf Wochenenden den Stadtteil
@@ -131,6 +173,8 @@ export const lesenTeil_3 = {
     {
       // B
       id: 1,
+      idText: "B",
+
       title: `Essen erleben
 
       Gesunde Ernährung ist wichtig, auch schon für die Kleinen. Nur wer von Anfang an lernt, wie frisches Gemüse und Obst schmecken, wie man mit einfachen Mitteln und auch wenig Zeit leckere Gerichte zubereiten kann, wird sich dauerhaft gesund ernähren. Deshalb bietet die Kochschule "Kochlöffel" ab sofort Kochkurse für Eltern und Kinder ab sechs Jahren an. Die Kurse werden zu unterschiedlichen Tageszeiten angeboten und finden auch schon bei wenigen Anmeldungen statt. Nutzen Sie die Gelegenheit, mit ihrem Kind gemeinsam zu kochen und dabei natürlich auch Spaß zu haben! Infos und Anmeldung: www.dhimaffel-kadhstheeeu
@@ -141,6 +185,8 @@ export const lesenTeil_3 = {
     {
       // C
       id: 2,
+      idText: "C",
+
       title: `Kurzreise nach München
 
       Studienreisen Studius bietet Ihnen einen besonderen Ausflug an: Fahren Sie mit unserem modernen Reisebus am frühen Morgen von Köln nach München zum Deutschen Museum und nehmen Sie an einer exklusiven Führung teil, die sich auf die Geschichte der Technik konzentriert. Die Rückreise erfolgt am frühen Abend, so dass Sie in der Nacht wieder in Köln ankommen. Im Reisepreis sind der Eintritt sowie die Führung bereits enthalten.
@@ -152,6 +198,8 @@ export const lesenTeil_3 = {
     {
       // D
       id: 3,
+      idText: "D",
+
       title: `
       Entspannung am Wasser
 
@@ -164,6 +212,8 @@ Von März bis September (bei schönem Wetter auch länger) können Sie bei unser
     {
       // E
       id: 4,
+      idText: "E",
+
       title: `Als echter Hamburgerr..
 
       kennt man natürlich den Hafen der Hansestadt und seine Wirtschaftskraft. Für alle Interessierten, die darüber erst noch etwas erfahren wollen, bietet das Bildungszentrum Buxtehude am nächsten Freitag einen zweistündigen Vortrag an, in dem man Wissenswertes über die wirtschaftliche Bedeutung des Hamburger Hafens erfährt. Von der Gründung des Freihafens bis zu den heutigen modernen Anlagen wird die spannende Entwicklung des größten deutschen Hafens unter ökonomischen. Aspekten dargelegt. Weitere Informationen und Anmeldung im Internet unter.www.buxtehude.eu.`,
@@ -173,6 +223,8 @@ Von März bis September (bei schönem Wetter auch länger) können Sie bei unser
     {
       // F
       id: 5,
+      idText: "F",
+
       title: `Schiffe weerssenken, Marmorkuchem und selbstgebasteltie Papierhüte
 
       Das bietet Ihnen unser Service "Kinderfeiern leicht gemacht". Mit uns wird jeder Kindergeburtstag zum Erfolg, auch wenn Sie selbst nur wenig Zeit für die Vorbereitung haben. Wir übernehmen auf Wunsch die Dekoration, liefen Speisen und Getränke (beispielsweise Kuchen/Kekse, Salate, Frikadellen und vieles mehr), planen lustige Spiele und bringen auch alles mit, was für die Spiele gebraucht wird. Weitere Informationen unter 01805/7131192.`,
@@ -183,6 +235,8 @@ Von März bis September (bei schönem Wetter auch länger) können Sie bei unser
     {
       // G
       id: 6,
+      idText: "G",
+
       title: `Hamburger & Co.
 
       Sie mögen Fast Food? Sie glauben aber, dass Fast Food nicht gesund sein kann? Wir zeigen Ihnen das Gegenteil. Lernen Sie viele Gerichte aus den USA in unserem Kochkurs "Hamburger & Co." neu kennen. An drei Wochenenden zeigen wir Ihnen, dass man Hamburger auch so zubereitet kann, dass sie gar nicht so viele Kalorien haben. Und schmecken werden sie natürlich auch. Anmeldung bis nächsten Samstag telefonisch unter 0800/1398700.`,
@@ -192,6 +246,8 @@ Von März bis September (bei schönem Wetter auch länger) können Sie bei unser
     {
       // H
       id: 7,
+      idText: "H",
+
       title: `Seit fast fünf Jahrzehnten bietet die überregionale Bildungsakademie "Lernform e. V." allen interessierten Bürgerinnen und Bürgern Ausflüge zu wichtigen Orten der deutschen Geschichte an. Anlässlich unseres Jubiläums veranstalten wir in den kommenden Monaten nun auch mehrtägige Fahrten in große deutsche Städte, um uns dort mit der Geschichte und Entwicklung der Stadt zu beschäftigen. Die Reisen führen beispielsweise nach Berlin, Köln oder München.
 
       Informieren Sie sich jetzt oder buchen Sie sofort unter www.ballamormeu`,
@@ -202,6 +258,8 @@ Von März bis September (bei schönem Wetter auch länger) können Sie bei unser
     {
       // I
       id: 8,
+      idText: "I",
+
       title: `Die bewegte Geschichte eines Stadt tells
 
       Unser Stadtteil kann auf eine bewegte Geschichte zurückblicken. Die Mitarbeiter des Stadtteil-Archivs wollen deshalb ein Buch veröffentlichen, in dem die Geschichte lebendig und für Alt- und Neu-Bürger anschaulich wird. Noch bis Jahresende bittet das Archiv alle Bürger, persönliche Erinnerungen einzureichen, sei es in Form kurzer Geschichten oder in Form von Fotos. Auch historische Zeitungsartikel sind willkommen, da nicht alle Zeitungen im Archiv vorhanden sind. Melden Sie sich einfach persönlich im Archiv am Dreiringplatz.`,
@@ -211,6 +269,8 @@ Von März bis September (bei schönem Wetter auch länger) können Sie bei unser
     {
       // J
       id: 9,
+      idText: "J",
+
       title: `Deutschland aus einer anderen Perspektive
 
       Lernen Sie die schönsten deutschen Landschaften vom Fluss aus mit einer unserer Flusskreuzfahrten kennen. Auf geräumigen modernen Schiffen fahren Sie über Rhein, Mosel oder Donau, sehen die wunderschöne Natur längs der Flüsse und besichtigen auch die kleinen Ortschaften bei Ausflügen an Land. Wir haben Angebote für Reisende aller Altersklassen, für Individual- oder Gruppenreisende. Fordern Sie unser Informationsmaterial an unter der Rufnummer 0800/4455992.`,
@@ -220,6 +280,8 @@ Von März bis September (bei schönem Wetter auch länger) können Sie bei unser
     {
       // K
       id: 10,
+      idText: "K",
+
       title: `Unser Stadtteill ist lebendig
 
       Deshalb planen wir, im kommenden Jahr auf allen Plätzen des Stadtteils ein Fest durchzuführen. Noch stehen wir am Anfang unserer Planung, sammeln Ideen und suchen vor allem weitere Helfer. Wer möchte das Fest und unseren Stadtteil mitgestalten, Ideen entwickeln oder die konkrete Planung übernehmen? Noch ist alles möglich! Wir, die Einwohner unseres Stadtteils, wollen unsere Plätze noch schöner, bunter und lebendiger machen. Wir freuen uns über jeden Helfer, für das Fest und für die Umsetzung unserer Pläne.
@@ -232,6 +294,8 @@ Von März bis September (bei schönem Wetter auch länger) können Sie bei unser
     {
       //L
       id: 11,
+      idText: "L",
+
       title: `echnik-spannend und verständlich
 
       Sie kennen die typische Kinderfrage: "Wie geht das?" Oder Sie haben selbst als Kind einmal eine Uhr geöffnet, weil Sie wissen wollten, was darin war. Kinder sind neugierig, Kinder interessieren sich für Technik- und zwar nicht nur, wenn sie damit spielen können. Kinder wollen auch wissen, wie die Sachen funktionieren, aber leider können nicht alle Erwachsenen das gut erklären. Deshalb wurde jetzt in Oberhausen das erste Technik-Museum für Kinder eröffnet. Besucher zwischen 6 und 12 Jahren erfahren dort (natürlich in Begleitung eines Erwachsenen) spielerisch oder bei kindgerechten Führungen alles, was sie über Technik wissen wollen. Informationen: www.technik-museum obechauseredele`,
@@ -241,19 +305,46 @@ Von März bis September (bei schönem Wetter auch länger) können Sie bei unser
     },
   ],
   answers: [
-    `
-    Sie möchten einen Ganztagesausflug machen und sich dabei bewegen`,
-    " X: Sie möchten eine Fahrt durch den Hamburger(Hafenstadt ) Hafen buchen",
-    " Eine Bekannte organisiert einen großen Kindergeburtstag und braucht Hilfe.*(Ihr Sohn mochte einen Freier und braucht eine Hilfe)",
-    " Sie interessieren sich für Technikgeschichte",
-    "Ein Freund möchte gerne eine Schiffsreise machen. ",
-
-    " Sie möchten helfen, Ihren Stadtteil zu gestalten",
-    " X: Sie wollen mit einer Bekannten essen gehen. Sie mag amerikanische Küche. ",
-
-    " Sie sind neu in der Stadt und möchten Ihren Stadtteil kennenlernen",
-    "Ein Freund möchte mehr über die Geschichte deutscher Städte erfahren.",
-    "Sie möchten etwas mit Ihrer 6-jährigen Nichte unternehmen, die gerne ins Museum geht",
+    {
+      text: "Sie möchten einen Ganztagesausflug machen und sich dabei bewegen",
+      number: "11",
+    },
+    {
+      text: "Sie möchten eine Fahrt durch den Hamburger Hafen buchen",
+      number: "12",
+    },
+    {
+      text: "Eine Bekannte organisiert einen großen Kindergeburtstag und braucht Hilfe. Ihr Sohn mochte einen Freier und braucht eine Hilfe",
+      number: "13",
+    },
+    {
+      text: "Sie interessieren sich für Technikgeschichte",
+      number: "14",
+    },
+    {
+      text: "Ein Freund möchte gerne eine Schiffsreise machen",
+      number: "15",
+    },
+    {
+      text: "Sie möchten helfen, Ihren Stadtteil zu gestalten",
+      number: "16",
+    },
+    {
+      text: "Sie wollen mit einer Bekannten essen gehen. Sie mag amerikanische Küche",
+      number: "17",
+    },
+    {
+      text: "Sie sind neu in der Stadt und möchten Ihren Stadtteil kennenlernen",
+      number: "18",
+    },
+    {
+      text: "Ein Freund möchte mehr über die Geschichte deutscher Städte erfahren",
+      number: "19",
+    },
+    {
+      text: "Sie möchten etwas mit Ihrer 6-jährigen Nichte unternehmen, die gerne ins Museum geht",
+      number: "20",
+    },
   ],
 };
 export const lesenTeil_2 = {
@@ -316,42 +407,102 @@ export const lesenTeil_2 = {
       `,
     },
   ],
-  aufgabens: [
+  questions: [
     {
       id: 0,
-      qustion: "Einige Eltern",
-      answersOne: `haben selbst keinen Appetit auf ein Frühstück. `,
-      answersTwo: "lassen das Frühstück aus Zeitmangel ausfallen",
-      answersThree: "schaufeln das Frühstück einfach in sich hinein",
+      questionText: "Einige Eltern",
+      options: [
+        {
+          optionID: "A",
+          option: "haben selbst keinen Appetit auf ein Frühstück.",
+        },
+        {
+          optionID: "B",
+          option: "lassen das Frühstück aus Zeitmangel ausfallen.",
+        },
+        {
+          optionID: "C",
+          option: "schaufeln das Frühstück einfach in sich hinein.",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 1,
-      qustion: "Ein gwsundes Frühstück",
-      answersOne: `------`,
-      answersTwo: "Leistungen des Kindes",
-      answersThree: "später Vormittag eingenommen werden",
+      questionText: "Ein gesundes Frühstück",
+      options: [
+        {
+          optionID: "A",
+          option: "------",
+        },
+        {
+          optionID: "B",
+          option: "Leistungen des Kindes.",
+        },
+        {
+          optionID: "C",
+          option: "sollte später Vormittag eingenommen werden.",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 2,
-      qustion: "Milch",
-      answersOne: `deckt den täglichen Flüssigkeitsbedarf`,
-      answersTwo: "gehört zum Angebot der Schulkantinen.",
-      answersThree: "wird in verschiedenen Geschmacksrichtungen angeboten.",
+      questionText: "Milch",
+      options: [
+        {
+          optionID: "A",
+          option: "deckt den täglichen Flüssigkeitsbedarf.",
+        },
+        {
+          optionID: "B",
+          option: "gehört zum Angebot der Schulkantinen.",
+        },
+        {
+          optionID: "C",
+          option: "wird in verschiedenen Geschmacksrichtungen angeboten.",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 3,
-      qustion: "Kinder",
-      answersOne: `denken von alleine nicht immer daran, genug zu trinken.`,
-      answersTwo: "dürfen während des Unterrichts nichts trinken.",
-      answersThree:
-        "können sich auch noch gut konzentrieren, wenn sie nicht genug getrunken haben",
+      questionText: "Kinder",
+      options: [
+        {
+          optionID: "A",
+          option: "denken von alleine nicht immer daran, genug zu trinken.",
+        },
+        {
+          optionID: "B",
+          option: "dürfen während des Unterrichts nichts trinken.",
+        },
+        {
+          optionID: "C",
+          option:
+            "können sich auch noch gut konzentrieren, wenn sie nicht genug getrunken haben.",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 4,
-      qustion: "Mittagessen",
-      answersOne: `sollte in der Schule angeboten werden.       `,
-      answersTwo: "sollten die Kinder von zu Hause mitbringen.",
-      answersThree: "sollten Kinder bei den Eltern zu Hause bekommen.",
+      questionText: "Mittagessen",
+      options: [
+        {
+          optionID: "A",
+          option: "sollte in der Schule angeboten werden.",
+        },
+        {
+          optionID: "B",
+          option: "sollten die Kinder von zu Hause mitbringen.",
+        },
+        {
+          optionID: "C",
+          option: "sollten Kinder bei den Eltern zu Hause bekommen.",
+        },
+      ],
+      correctAnswerID: "A",
     },
   ],
   // اساسي
@@ -423,113 +574,196 @@ export const sprachbau_1 = {
       `,
     },
   ],
-  aufgabens: [
+  questions: [
     {
       id: 0,
-      qustion: "21",
-      answersOne: ` ab
-      
-       `,
-      answersTwo: "AUS ",
-      answersThree: "von ",
+      questionText: "21",
+      options: [
+        {
+          optionID: "A",
+          option: "ab",
+        },
+        {
+          optionID: "B",
+          option: "AUS",
+        },
+        {
+          optionID: "C",
+          option: "von",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 1,
-      qustion: "22",
-      answersOne: `wann
-      
-      
-      
-      `,
-      answersTwo: "was ",
-      answersThree: "wie",
+      questionText: "22",
+      options: [
+        {
+          optionID: "A",
+          option: "wann",
+        },
+        {
+          optionID: "B",
+          option: "was",
+        },
+        {
+          optionID: "C",
+          option: "wie",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 2,
-      qustion: "23",
-      answersOne: `da
-      
-      
-      
-       `,
-      answersTwo: "indem",
-      answersThree: "obwohl",
+      questionText: "23",
+      options: [
+        {
+          optionID: "A",
+          option: "da",
+        },
+        {
+          optionID: "B",
+          option: "indem",
+        },
+        {
+          optionID: "C",
+          option: "obwohl",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 3,
-      qustion: "24",
-      answersOne: `ist
-      
-   
-      
-      
-      
-       `,
-      answersTwo: "wird ",
-      answersThree: "würde",
+      questionText: "24",
+      options: [
+        {
+          optionID: "A",
+          option: "ist",
+        },
+        {
+          optionID: "B",
+          option: "wird",
+        },
+        {
+          optionID: "C",
+          option: "würde",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 4,
-      qustion: "25",
-      answersOne: `bin
-      
-      
-      
-      `,
-      answersTwo: "war ",
-      answersThree: "wäre ",
+      questionText: "25",
+      options: [
+        {
+          optionID: "A",
+          option: "bin",
+        },
+        {
+          optionID: "B",
+          option: "war",
+        },
+        {
+          optionID: "C",
+          option: "wäre",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 5,
-      qustion: "26",
-      answersOne: `konnte
-
-      
-      
-      
-      
-      
-       `,
-      answersTwo: "musste",
-      answersThree: "sollte * ZURST",
+      questionText: "26",
+      options: [
+        {
+          optionID: "A",
+          option: "konnte",
+        },
+        {
+          optionID: "B",
+          option: "musste",
+        },
+        {
+          optionID: "C",
+          option: "sollte",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 6,
-      qustion: "27",
-      answersOne: `aber
-      
-     
-     `,
-      answersTwo: " denn ",
-      answersThree: "  sondern ",
+      questionText: "27",
+      options: [
+        {
+          optionID: "A",
+          option: "aber",
+        },
+        {
+          optionID: "B",
+          option: "denn",
+        },
+        {
+          optionID: "C",
+          option: "sondern",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 7,
-      qustion: "28",
-      answersOne: `Beide
-       `,
-      answersTwo: "erst * ZWAR",
-      answersThree: "Beides",
+      questionText: "28",
+      options: [
+        {
+          optionID: "A",
+          option: "Beide",
+        },
+        {
+          optionID: "B",
+          option: "erst",
+        },
+        {
+          optionID: "C",
+          option: "Beides",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 8,
-      qustion: "29",
-      answersOne: `Erst * ZWAR
-   
-      
-      `,
-      answersTwo: "  noch *entweder *KOMMENDEN",
-      answersThree: "Schon *sowohl  ",
+      questionText: "29",
+      options: [
+        {
+          optionID: "A",
+          option: "Erst",
+        },
+        {
+          optionID: "B",
+          option: "noch",
+        },
+        {
+          optionID: "C",
+          option: "Schon",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 9,
-      qustion: "30",
-      answersOne: `auf
-      
-      
-      `,
-      answersTwo: `für `,
-      answersThree: ` über`,
+      questionText: "30",
+      options: [
+        {
+          optionID: "A",
+          option: "auf",
+        },
+        {
+          optionID: "B",
+          option: "für",
+        },
+        {
+          optionID: "C",
+          option: "über",
+        },
+      ],
+      correctAnswerID: "A",
     },
   ],
 };

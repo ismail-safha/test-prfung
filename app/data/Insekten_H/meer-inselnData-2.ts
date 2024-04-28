@@ -2,6 +2,8 @@ export const lesenTeil_1 = {
   carts: [
     {
       id: 0,
+      idText: "1",
+
       title: `
       Die Shengsi-Inseln liegen im
       Ostchinesischen Meer. Nicht einmal 20
@@ -35,6 +37,8 @@ export const lesenTeil_1 = {
     },
     {
       id: 1,
+      idText: "2",
+
       title: `
       Der Reiseveranstalter TOURIMARS hat kürzlich eine Befragung durchgeführt. Er wollte wissen, welche
       Santorin die Liste an. Auf Platz zwei steht Madeira, die grüne Insel im Atlantik. Mit Kreta und Zakynthos
@@ -53,6 +57,8 @@ export const lesenTeil_1 = {
     },
     {
       id: 2,
+      idText: "3",
+
       title: `Das ostfriesische Memmert ist für selten Vögel reserviert. Auf der Düneninsel, die vor ein paar
       Jahrhunderten aus der Nordsee aufgetaucht ist, leben Zigtausende von Vögeln. Nur der Inselvogt
       lebt zeitweise dort. Von Anfang März bis Ende Oktober ist der Forscher das einzige menschliche
@@ -69,6 +75,8 @@ export const lesenTeil_1 = {
     },
     {
       id: 3,
+      idText: "4",
+
       title: `Die südamerikanischen Galapagosinseln locken nicht mit weißen Sandstränden
       und Palmen. Dennoch sind sie das Ziel so mancher Reisesehnsüchte. Für viele
       Menschen gelten die fernen Inseln als eine Art Paradies. Und tatsächlich kommt
@@ -88,6 +96,8 @@ export const lesenTeil_1 = {
     },
     {
       id: 4,
+      idText: "5",
+
       title: `Dass Elefanten in Thailand teurer sein können als ein 3er-BMW in München, liegt an
       ihrem enormen wirtschaftlichen Potenzial: Sie sind eine der Hauptattraktionen der
       thailändischen Tourismusindustrie. Jeder dritte Besucher des Landes möchte mit
@@ -107,23 +117,54 @@ export const lesenTeil_1 = {
     },
   ],
   answers: [
-    "Deutscher Forscher startet Expedition auf Vogelinsel in Südamerika",
-    "Die beliebtesten Reiseziele unter den europäischen Inseln",
-    "Fernreisen in eine unberührte Tierwelt",
-    "Geführte Bootsausflüge zu einsamen Badebuchten",
-    "Grüne Geisterinsel in Asien",
-    "Immer mehr Reiseunternehmen streichen Thailand aus ihrem Angebot",
-    "Inseln zählen weltweit zu den wichtigsten Reisedestinationen",
-    "Nachhaltiger Tourismus auf chinesischen Inseln    ",
-    "Tierparadies auf einer Nordseeinsel",
-    "Umstrittener Umgang mit Tieren als Touristenmagnet",
+    {
+      text: "Deutscher Forscher startet Expedition auf Vogelinsel in Südamerika",
+      number: "a",
+    },
+    {
+      text: "Die beliebtesten Reiseziele unter den europäischen Inseln",
+      number: "b",
+    },
+    {
+      text: "Fernreisen in eine unberührte Tierwelt",
+      number: "c",
+    },
+    {
+      text: "Geführte Bootsausflüge zu einsamen Badebuchten",
+      number: "d",
+    },
+    {
+      text: "Grüne Geisterinsel in Asien",
+      number: "e",
+    },
+    {
+      text: "Immer mehr Reiseunternehmen streichen Thailand aus ihrem Angebot",
+      number: "f",
+    },
+    {
+      text: "Inseln zählen weltweit zu den wichtigsten Reisedestinationen",
+      number: "g",
+    },
+    {
+      text: "Nachhaltiger Tourismus auf chinesischen Inseln",
+      number: "h",
+    },
+    {
+      text: "Tierparadies auf einer Nordseeinsel",
+      number: "i",
+    },
+    {
+      text: "Umstrittener Umgang mit Tieren als Touristenmagnet",
+      number: "j",
+    },
   ],
 };
-
 export const lesenTeil_3 = {
   carts: [
     {
       id: 0,
+      idText: "A",
+
       title: `"23.15 3SAT Es geschah im August".
       Ullrich Kasten und Hans-Hermann Hertle schildern in ihrer hervorragenden Dokumentation
 23.15 3SAT Es geschah im August
@@ -136,10 +177,12 @@ auch Grenzsoldaten, Flüchtlinge und Angehörige von Maueropfern.
       `,
       cartItemAnswers: "",
       cartAcoordion:
-        "Eine Bekannte interessiert sich für die Geschichte des bis 1989 geteilten Berlins",
+        "Eine Bekannte interessiert sich für informative Beiträge zur neueren Geschichte.",
     },
     {
       id: 1,
+      idText: "B",
+
       title: `"21.00 NDR Joja Wendt"
 
       Ob Klassik, Rock'n'Roll oder Jazz, Joja Wendt, Hamburger Pianist mit enormen
@@ -153,6 +196,8 @@ Schlagersängerin Michelle mit dem Titel "Ich schicke dir jetzt einen Engel".
     },
     {
       id: 2,
+      idText: "C",
+
       title: `"20.15 SAT1 Einfach unwiderstehlich"
       Gut kochen kann Amanda nicht. Folglich steht ihr kleines, von der Mutter geerbtes Restaurant
       in Manhattan kurz vor dem Aus. Da entflieht plötzlich ein Krebs aus ihrem Einkaufskorb und
@@ -166,6 +211,8 @@ Schlagersängerin Michelle mit dem Titel "Ich schicke dir jetzt einen Engel".
     },
     {
       id: 3,
+      idText: "D",
+
       title: `"22.00 HR New York Express"
       Aus Sorge um die nationale Sicherheit versteckt der amerikanische Geheimdienst den genialen,
       aber vermeintlich psychisch kranken Physiker Arthur Vincenti. Der völlig verrückte New Yorker
@@ -178,6 +225,8 @@ Schlagersängerin Michelle mit dem Titel "Ich schicke dir jetzt einen Engel".
     },
     {
       id: 4,
+      idText: "E",
+
       title: `"20.15 PRO 7 Kein Vater von gestern"
       Er schreit wie am Spieß, wenn er lange Hosen tragen soll, und lacht sich kaputt, wenn er die
 Katze in eine Mülltüte gesteckt hat. Alles ist einfacher, als sich um den 5-jährigen Calvin zu
@@ -193,6 +242,8 @@ Russells Ex-Ehefrau wieder auf.`,
     },
     {
       id: 5,
+      idText: "F",
+
       title: `"22.45 SAT1 Nur nich' nach Hause"
       "Hier in Berlin bei meinen Freunden habe ich mein Zuhause hinter mir gelassen. Hier geht's mir
       gut. Ich bin endlich frei", sagt Sascha. Der 16-Jährige ist einer der Jugendlichen, die hierzulande
@@ -206,6 +257,8 @@ Russells Ex-Ehefrau wieder auf.`,
     },
     {
       id: 6,
+      idText: "G",
+
       title: `"21.15 ARD Großer Kick auf schmalem Grat"
       Mit Sandalen und T-Shirt hängen sie in den Felswänden, ihr Handy halten sie für eine
 Lebensversicherung, die Alpen für einen Freizeitpark, Vierzig Menschen verunglücken jedes
@@ -217,6 +270,8 @@ Saison. Filmer Oliver Baumgart begleitet die Retter zwei Wochen lang.`,
     },
     {
       id: 7,
+      idText: "H",
+
       title: `"20.15 RTL Zwei Engel mit vier Fäusten: Schwere Jungs"
       "Schwere Jungs" bildet den Auftakt zu einer sechsteiligen Reihe mit Actionkomödien:
 Hau-drauf-Filme, wie sie schon unzählige Male mit dem Schläger-Duo Terence Hill und Bud
@@ -228,6 +283,8 @@ Gefängnis und finden als Mönche getarnt Unterschlupf in einer Missionsstation.
     },
     {
       id: 8,
+      idText: "I",
+
       title: `"17.30 ZDF Olympia-Highlights"
       Nach den Weltcup-Siegen in Willingen und Sapporo stehen die Chancen für das österreichische
       Team gut, beim Skispringen ganz weit vorn zu landen. Überflieger Gregor Schlierenzauer und
@@ -235,11 +292,12 @@ Gefängnis und finden als Mönche getarnt Unterschlupf in einer Missionsstation.
       deutschen Springer Martin Schmitt und Jörg Ritzerfeld werden sich anstrengen müssen.
       Übertragung von der 120-Meter-Skisprungschanze im Utah Olympic Park`,
       cartItemAnswers: "",
-      cartAcoordion:
-        "Bekannte interessieren sich für Wintersportveranstaltungen.",
+      cartAcoordion: "Ihre Bekannten verfolgen gern sportliche Wettkämpfe.",
     },
     {
       id: 9,
+      idText: "J",
+
       title: `"14.15 DRS Basler Fasnacht"Man darf gespannt sein, wie viel Spott die für ihre spitzen Zungen bekannten Basler Fasnächtler
       für das vergangene Jahr übrig haben. DRS überträgt die Straßenfasnacht, den Umzug der
       Pfeifen- und Trommlergruppen, die ihre Themen präsentieren, live. Die fachkundigen
@@ -251,6 +309,8 @@ Gefängnis und finden als Mönche getarnt Unterschlupf in einer Missionsstation.
     },
     {
       id: 10,
+      idText: "K",
+
       title: `"0.05 BR Rockpalast"
       Dreizehn Alben hat die vielköpfige korsische Gruppe "I Muvrini" um die Brüder Jean-Francois
 und Alain Bernardini bereits veröffentlicht. Hierzulande galten die "wilden Schafe" noch bis vor
@@ -263,6 +323,8 @@ bekannt.
     },
     {
       id: 11,
+      idText: "L",
+
       title: `"20.15 PHOENIX Mephisto"
       Man sollte meinen, Schauspieler Hendrik Höfgen wäre gegen unmoralische Angebote gefeit.
 Schließlich feierte er zur Zeit der Weimarer Republik große Erfolge in der Rolle des Mephisto. Der
@@ -277,18 +339,46 @@ Politik entstand nach dem gleichnamigen Roman von Klaus Mann.
     },
   ],
   answers: [
-    "Ein Bekannter möchte einen Film sehen, der nach dem Werk eines Schriftstellers gedreht wurde.",
-    "Bekannte interessieren sich für Wintersportveranstaltungen.",
-    "Sie suchen eine abwechslungsreiche Musiksendung mit Klaviermusik",
-    "Sie mögen Filme mit viel Action und viel Spaß. Ihre Lieblingshelden können auch mal zuschlagen.",
-    "X: Ein Bekannter interessiert sich für korsische Geschichte.",
-
-    "Sie mögen Familienkomödien, besonders mit frechen Kindern",
-    "Eine Bekannte interessiert sich für die Geschichte des bis 1989 geteilten Berlins",
-
-    "Sie sehen gern spannende, aber auch spaßige Agentenfilme.    ",
-    "Sie würden gern etwas über Großstadtjugendliche erfahren, die am Rand der Gesellschaft leben",
-    "X: Sie möchten im nächsten Urlaub bergsteigen und sich über die Risiken informieren.",
+    {
+      text: "Ein Bekannter möchte einen Film sehen, der nach dem Werk eines Schriftstellers gedreht wurde.",
+      number: "11",
+    },
+    {
+      text: "Ihre Bekannten verfolgen gern sportliche Wettkämpfe.",
+      number: "12",
+    },
+    {
+      text: "Sie suchen eine abwechslungsreiche Musiksendung mit Klaviermusik",
+      number: "13",
+    },
+    {
+      text: "Sie mögen Filme mit viel Action und viel Spaß. Ihre Lieblingshelden können auch mal zuschlagen.",
+      number: "14",
+    },
+    {
+      text: "Ein Bekannter interessiert sich für korsische Geschichte.",
+      number: "15",
+    },
+    {
+      text: "Sie mögen Familienkomödien, besonders mit frechen Kindern",
+      number: "16",
+    },
+    {
+      text: "Eine Bekannte interessiert sich für informative Beiträge zur neueren Geschichte",
+      number: "17",
+    },
+    {
+      text: "Sie sehen gern spannende, aber auch spaßige Agentenfilme.",
+      number: "18",
+    },
+    {
+      text: "Sie würden gern etwas über Großstadtjugendliche erfahren, die am Rand der Gesellschaft leben",
+      number: "19",
+    },
+    {
+      text: "Sie möchten im nächsten Urlaub bergsteigen und sich über die Risiken informieren.",
+      number: "20",
+    },
   ],
 };
 export const lesenTeil_2 = {
@@ -348,45 +438,141 @@ export const lesenTeil_2 = {
       `,
     },
   ],
-
-  // اساسي
-  aufgabens: [
+  questions: [
     {
       id: 0,
-      qustion: "Holstein-Rinder",
-      answersOne: `sind in der Milchproduktion beliebter als andere Rinderrassen`,
-      answersTwo: "spielen in der Milchproduktion kaum eine Rolle.",
-      answersThree: "stammen aus Norddeutschland.",
+      questionText: "Holstein-Rinder",
+      options: [
+        {
+          optionID: "A",
+          option: "dominieren als Rinderrasse die Milchviehwirtschaft",
+        },
+        {
+          optionID: "B",
+          option: "sind für die Milchproduktion wenig geeignet.",
+        },
+        {
+          optionID: "C",
+          option: "wurden ursprünglich in Norddeutschland gezüchtet.",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 1,
-      qustion: "Die Kuh Krista",
-      answersOne: `hat bereits einige Preise gewonnen.`,
-      answersTwo: "war Siegerin bei einer Veranstaltung in Italien.",
-      answersThree: "wurde als schönste Kuh Europas ausgezeichnet",
+      questionText: "Die Kuh Krista",
+      options: [
+        {
+          optionID: "A",
+          option: "hat bereits einige Preise gewonnen",
+        },
+        {
+          optionID: "B",
+          option: "war Siegerin bei einer Veranstaltung in Italien.",
+        },
+        {
+          optionID: "C",
+          option: "wurde als schönste Kuh Europas ausgezeichnet",
+        },
+      ],
+      correctAnswerID: "C",
     },
     {
       id: 2,
-      qustion: "Während der Filmaufnahmen",
-      answersOne: `bekam Krista ein Kalb.`,
-      answersTwo: "wäre Krista fast gestorben",
-      answersThree: "wurde Krista operiert",
+      questionText: "Während der Filmaufnahmen",
+      options: [
+        {
+          optionID: "A",
+          option: "bekam Krista ein Kalb.",
+        },
+        {
+          optionID: "B",
+          option: "wäre Krista fast gestorben",
+        },
+        {
+          optionID: "C",
+          option: "wurde Krista ärztlich behandelt.",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 3,
-      qustion: "Die wirtschaftlichen Probleme von Milchbetrieben",
-      answersOne: `betreffen die Familie Seeger nicht`,
-      answersTwo: "sind eine Folge des Verbraucherverhaltens",
-      answersThree: "werden im Film ausführlich behandelt.",
+      questionText: "Die wirtschaftlichen Probleme von Milchbetrieben",
+      options: [
+        {
+          optionID: "A",
+          option: "betreffen die Familie Seeger nicht",
+        },
+        {
+          optionID: "B",
+          option: "sind eine Folge des Verbraucherverhaltens",
+        },
+        {
+          optionID: "C",
+          option: "werden im Film ausführlich behandelt.",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 4,
-      qustion: "“Die schöne Krista” ",
-      answersOne: `begeistert Kinobetreiber bislang nicht.`,
-      answersTwo: "könnte die Kritiker nicht überzeugen",
-      answersThree: "wurde als beste Dokumentation ausgezeichnet",
+      questionText: "“Die schöne Krista”",
+      options: [
+        {
+          optionID: "A",
+          option: "begeistert Kinobetreiber bislang nicht.",
+        },
+        {
+          optionID: "B",
+          option: "könnte die Kritiker nicht überzeugen",
+        },
+        {
+          optionID: "C",
+          option: "wurde als beste Dokumentation ausgezeichnet",
+        },
+      ],
+      correctAnswerID: "C",
     },
   ],
+  // اساسي
+  // aufgabens: [
+  //   {
+  //     id: 0,
+  //     qustion: "Holstein-Rinder",
+  //     answersOne: `sind in der Milchproduktion beliebter als andere Rinderrassen`,
+  //     answersTwo: "spielen in der Milchproduktion kaum eine Rolle.",
+  //     answersThree: "stammen aus Norddeutschland.",
+  //   },
+  //   {
+  //     id: 1,
+  //     qustion: "Die Kuh Krista",
+  //     answersOne: `hat bereits einige Preise gewonnen.`,
+  //     answersTwo: "war Siegerin bei einer Veranstaltung in Italien.",
+  //     answersThree: "wurde als schönste Kuh Europas ausgezeichnet",
+  //   },
+  //   {
+  //     id: 2,
+  //     qustion: "Während der Filmaufnahmen",
+  //     answersOne: `bekam Krista ein Kalb.`,
+  //     answersTwo: "wäre Krista fast gestorben",
+  //     answersThree: "wurde Krista operiert",
+  //   },
+  //   {
+  //     id: 3,
+  //     qustion: "Die wirtschaftlichen Probleme von Milchbetrieben",
+  //     answersOne: `betreffen die Familie Seeger nicht`,
+  //     answersTwo: "sind eine Folge des Verbraucherverhaltens",
+  //     answersThree: "werden im Film ausführlich behandelt.",
+  //   },
+  //   {
+  //     id: 4,
+  //     qustion: "“Die schöne Krista” ",
+  //     answersOne: `begeistert Kinobetreiber bislang nicht.`,
+  //     answersTwo: "könnte die Kritiker nicht überzeugen",
+  //     answersThree: "wurde als beste Dokumentation ausgezeichnet",
+  //   },
+  // ],
 };
 export const sprachbau_1 = {
   texts: [
@@ -419,121 +605,200 @@ export const sprachbau_1 = {
       `,
     },
   ],
-  aufgabens: [
+  questions: [
     {
       id: 0,
-      qustion: "21",
-      answersOne: ` anstatt
-      
-       `,
-      answersTwo: "ohne ",
-      answersThree: "um ",
+      questionText: "21",
+      options: [
+        {
+          optionID: "A",
+          option: "damit",
+        },
+        {
+          optionID: "B",
+          option: "für",
+        },
+        {
+          optionID: "C",
+          option: "um",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 1,
-      qustion: "22",
-      answersOne: `dass
-      
-      
-      
-      
-      
-      `,
-      answersTwo: "ob ",
-      answersThree: "während",
+      questionText: "22",
+      options: [
+        {
+          optionID: "A",
+          option: "wann",
+        },
+        {
+          optionID: "B",
+          option: "wie",
+        },
+        {
+          optionID: "C",
+          option: "wo",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 2,
-      qustion: "23",
-      answersOne: `aber
-      
-      
-      
-       `,
-      answersTwo: "denn",
-      answersThree: "und",
+      questionText: "23",
+      options: [
+        {
+          optionID: "A",
+          option: "damit",
+        },
+        {
+          optionID: "B",
+          option: "denn",
+        },
+        {
+          optionID: "C",
+          option: "doch",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 3,
-      qustion: "24",
-      answersOne: `bestimmt
-      
-      
-      
-       `,
-      answersTwo: "unbedingt ",
-      answersThree: "völlig ",
+      questionText: "24",
+      options: [
+        {
+          optionID: "A",
+          option: "bestimmt",
+        },
+        {
+          optionID: "B",
+          option: "unbedingt",
+        },
+        {
+          optionID: "C",
+          option: "völlig",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 4,
-      qustion: "25",
-      answersOne: `dich
-      
-      `,
-      answersTwo: "mich ",
-      answersThree: "sich ",
+      questionText: "25",
+      options: [
+        {
+          optionID: "A",
+          option: "dich",
+        },
+        {
+          optionID: "B",
+          option: "mich",
+        },
+        {
+          optionID: "C",
+          option: "sich",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 5,
-      qustion: "26",
-      answersOne: `als
-      
-      
-      
-      
-       `,
-      answersTwo: "wenn",
-      answersThree: "wie",
+      questionText: "26",
+      options: [
+        {
+          optionID: "A",
+          option: "als",
+        },
+        {
+          optionID: "B",
+          option: "da",
+        },
+        {
+          optionID: "C",
+          option: "wenn",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 6,
-      qustion: "27",
-      answersOne: `baldigen
-      
-      
-      
-      
-      
-     
-     `,
-      answersTwo: " kommenden ",
-      answersThree: " vergangenen ",
+      questionText: "27",
+      options: [
+        {
+          optionID: "A",
+          option: "jetzigen",
+        },
+        {
+          optionID: "B",
+          option: "kommenden",
+        },
+        {
+          optionID: "C",
+          option: "letzten",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 7,
-      qustion: "28",
-      answersOne: `danach
-      
-      
-      
-       `,
-      answersTwo: "darüber",
-      answersThree: "dazu",
+      questionText: "28",
+      options: [
+        {
+          optionID: "A",
+          option: "danach",
+        },
+        {
+          optionID: "B",
+          option: "darüber",
+        },
+        {
+          optionID: "C",
+          option: "dazu",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 8,
-      qustion: "29",
-      answersOne: `aber
-      
-      
-      
-      `,
-      answersTwo: "oder",
-      answersThree: "sondern",
+      questionText: "29",
+      options: [
+        {
+          optionID: "A",
+          option: "als",
+        },
+        {
+          optionID: "B",
+          option: "ebenso",
+        },
+        {
+          optionID: "C",
+          option: "oder",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 9,
-      qustion: "30",
-      answersOne: `für
-      
-      
-      
-      `,
-      answersTwo: "gegen",
-      answersThree: "ohne",
+      questionText: "30",
+      options: [
+        {
+          optionID: "A",
+          option: "einen",
+        },
+        {
+          optionID: "B",
+          option: "einfach",
+        },
+        {
+          optionID: "C",
+          option: "einzig",
+        },
+      ],
+      correctAnswerID: "A",
     },
   ],
 };
+
 export const sprachbau_2 = {
   texts: [
     {

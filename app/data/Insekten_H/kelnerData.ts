@@ -2,6 +2,8 @@ export const lesenTeil_1 = {
   carts: [
     {
       id: 0,
+      idText: "1",
+
       title: `
       Die Zahlen wirken auf dem ersten Blick dramatisch: 
 15 Prozent der Kinder sind übergewichtig und 
@@ -34,6 +36,8 @@ heißt die Pfanne beim Kochen wird”.
     },
     {
       id: 1,
+      idText: "2",
+
       title: `
       Immer mehr Mädchen leiden an schweren Essstörungen - und das, obwohl Ärzte und Fachleute seit Jahren 
 vor den negativen Folgen des Schlankheitswahns warnen. Die Kinder- und Jugendpsychiatrie im 
@@ -54,6 +58,8 @@ Mit einer harmlosen Diät fängt es meist an, mit einer schweren Krankheit kann 
     },
     {
       id: 2,
+      idText: "3",
+
       title: `Energiesparlampen, umweltfreundliche Elektrogeräte, Bio-Nagellack - sieht man sich die Themen an, mit denen 
       sich die Teilnehmer des 46. Regionalwettbewerbs ”Jugend forscht” beschäftigt haben, wird vor allem eines klar: 
       Das ökologische Bewusstsein hat die Klassenzimmer erreicht.
@@ -71,6 +77,8 @@ Mit einer harmlosen Diät fängt es meist an, mit einer schweren Krankheit kann 
     },
     {
       id: 3,
+      idText: "4",
+
       title: `13,5 Meter lang und leuchtend gelb - die “Aldebaran” zieht die Blicke im Jachthafen auf 
       sich. Für drei Schüler aus Diepholz ist ein Traum wahr geworden. Als Meeresforscher auf 
       See arbeiten sie an einem eigenen Forschungsprojekt. Sie nehmen am 
@@ -90,6 +98,8 @@ Mit einer harmlosen Diät fängt es meist an, mit einer schweren Krankheit kann 
     },
     {
       id: 4,
+      idText: "5",
+
       title: `Mobbing ist kein neues Phänomen. Es ist auch in Schulen weitverbreitet. Da spricht zum 
       Beispiel eine Lehrerin vor der Klasse negativ über eine Schülerin, weil sie etwas nicht 
       versteht oder immer wieder krank ist. Oder die Mitschüler lachen oder lassen 
@@ -105,16 +115,46 @@ Mit einer harmlosen Diät fängt es meist an, mit einer schweren Krankheit kann 
     },
   ],
   answers: [
-    "Jugend forscht - auch auf dem Meer",
-    "Jugend engagiert sich für den Umweltschutz",
-    "Kochen für Eltern und Kinder",
-    "Mehr Gewalt auf Schulhöfen",
-    "Psychoterror an der Schule",
-    "Schiffsreise für Jugendliche",
-    "Starker Wettbewerb um Schüler",
-    "Von der Diät zur Krankheit",
-    "Wenn Lernen krank macht",
-    "Wenn aus Erdbeeren Tomaten werden",
+    {
+      text: "Jugend forscht - auch auf dem Meer",
+      number: "a",
+    },
+    {
+      text: "Jugend engagiert sich für den Umweltschutz",
+      number: "b",
+    },
+    {
+      text: "Kochen für Eltern und Kinder",
+      number: "c",
+    },
+    {
+      text: "Mehr Gewalt auf Schulhöfen",
+      number: "d",
+    },
+    {
+      text: "Psychoterror an der Schule",
+      number: "e",
+    },
+    {
+      text: "Schiffsreise für Jugendliche",
+      number: "f",
+    },
+    {
+      text: "Starker Wettbewerb um Schüler",
+      number: "g",
+    },
+    {
+      text: "Von der Diät zur Krankheit",
+      number: "h",
+    },
+    {
+      text: "Wenn Lernen krank macht",
+      number: "i",
+    },
+    {
+      text: "Wenn aus Erdbeeren Tomaten werden",
+      number: "j",
+    },
   ],
 };
 
@@ -122,6 +162,8 @@ export const lesenTeil_3 = {
   carts: [
     {
       id: 0,
+      idText: "A",
+
       title: `Nicht nur Urlaub...
       ...kann man in anderen Ländern machen, sondern auch etwas lernen. Die Agentur für Arbeit vermittelt 
       Schülerinnen und Schülern, aber auch Studierenden Praktikumsplätze im Ausland! Nutzt die 
@@ -134,6 +176,8 @@ export const lesenTeil_3 = {
     },
     {
       id: 1,
+      idText: "B",
+
       title: `Neues Ziel, neues Glück!
       Du bist gerade “auf dem Sprung”, willst umziehen und suchst noch eine passende Bleibe?
       Dann haben wir das Richtige für dich: In unserem Internetportal findest du günstige Wohnungen oder 
@@ -151,6 +195,8 @@ export const lesenTeil_3 = {
     },
     {
       id: 2,
+      idText: "C",
+
       title: `Superlearning
       Sie möchten in kurzer Zeit ihre Sprachkenntnisse besonders schnell verbessern und suchen hierfür die 
       beste Methode? Sie möchten sich während des Aufenthaltes gleichzeitig entspannen und etwas für Ihre 
@@ -166,6 +212,8 @@ export const lesenTeil_3 = {
     },
     {
       id: 3,
+      idText: "D",
+
       title: `Andere Länder, ...
       ... andere Sprachen. Und wo lernt man eine Sprache am besten? Genau - in dem Land, in dem sie 
       gesprochen wird. Wir bieten Ihnen die Möglichkeit, Sprachen auf der ganzen Welt zu lernen. Vom 
@@ -180,6 +228,8 @@ export const lesenTeil_3 = {
     },
     {
       id: 4,
+      idText: "E",
+
       title: `Was bedeutet “Tandemlernen”?
       Zwei Menschen mit verschiedenen Muttersprachen treffen sich und helfen sich gegenseitig beim Lernen 
       der jeweiligen Fremdsprache. Tandemlernen hat keine festgelegten Strukturen, sondern kann ganz nach 
@@ -195,6 +245,8 @@ export const lesenTeil_3 = {
     },
     {
       id: 5,
+      idText: "F",
+
       title: `Interesse an einer Ausbildung?
       Auf unserem Azubi-Portal finden Sie Informationen zu allen Ausbildungsberufen, die es derzeit in 
       Deutschland gibt. Sie erfahren, welche Voraussetzungen Sie für eine Ausbildung benötigen, was genau 
@@ -207,6 +259,8 @@ export const lesenTeil_3 = {
     },
     {
       id: 6,
+      idText: "G",
+
       title: `Umzug mal anders
       Wer kennt das nicht: Wenn man umziehen will oder muss, gibt es viel zu erledigen. Man muss den 
       Umzug organisieren, sich um Papiere kümmern, die neue Adresse bekanntgeben und vieles mehr. 
@@ -221,6 +275,8 @@ export const lesenTeil_3 = {
     },
     {
       id: 7,
+      idText: "H",
+
       title: `Alle Informationen auf einer Seite
       Die neue Internetseite www.studium.de bietet Ihnen alles rund um das Thema”Studium”. So finden Sie 
       neben Informationen zu allen deutschen Hochschulen auch genaue Beschreibungen aller Studiengänge 
@@ -236,6 +292,8 @@ export const lesenTeil_3 = {
     },
     {
       id: 8,
+      idText: "I",
+
       title: `Hilfe gesucht?
       Studierende und Auszubildende müssen oft umziehen, ohne dass sie viel Geld dafür hätten. Deshalb 
       haben wir unser Netzwerk “Studis und Azubis ziehen um” gegründet. Bei uns sind viele fleißige Helfer 
@@ -252,6 +310,8 @@ export const lesenTeil_3 = {
     },
     {
       id: 9,
+      idText: "J",
+
       title: `Neu in der Stadt?
       Ihr seid umgezogen und habt eine Ausbildung oder ein Studium hier in der Stadt begonnen?
       Ihr sucht neue Kontakte, Leute, mit denen ihr die Freizeit verbringen könnt?
@@ -265,6 +325,8 @@ export const lesenTeil_3 = {
     },
     {
       id: 10,
+      idText: "K",
+
       title: `Wie es Ihnen gefällt
       Unser neues Lernprogramm “Sprachenfix” bietet Ihnen die Möglichkeit, eine Sprache zu lernen, wann 
       und wo Sie möchten, ob allein zu Hause oder unterwegs.
@@ -280,6 +342,8 @@ export const lesenTeil_3 = {
     },
     {
       id: 11,
+      idText: "L",
+
       title: `Aller Anfang ist schwer.
       Einige Fächer sind schon in der Schule nicht beliebt, und das ändert sich auch später in der Berufsschule 
       oder an der Universität nicht. Für viele sind Naturwissenschaften oder Mathematik echte 
@@ -296,20 +360,49 @@ export const lesenTeil_3 = {
     },
   ],
   answers: [
-    "Sie brauchen Unterstützung in Mathematik und möchten in einer kleinen Gruppe lernen.",
-    "Sie möchten Physik studieren und möchten sich zunächst informieren.",
-    "Sie möchten einen Sprachkurs in einem anderen Land machen.",
-    "Sie möchten in einer anderen Stadt eine Ausbildung machen und suchen dort eine Wohnung.",
-    "Sie ziehen wegen einer Ausbildung um und suchen so günstig wie möglich Umzugshelfer.",
-
-    "Sie sind gerade umgezogen und möchten neue Leute kennenlernen.",
-
-    "X: Sie suchen einen Nachmieter und wollen eine kostenlose Anzeige aufgeben.",
-    "Sie wollen gerne noch eine Sprache lernen und suchen einen festen Lernpartner.",
-    "Sie wollen umziehen, haben aber eigentlich gar keine Zeit, sich darum zu kümmern.",
-    "X: Sie suchen für eine 18-jährige Bekannte einen bezahlten Job außerhalb von Deutschland.",
+    {
+      text: "Sie brauchen Unterstützung in Mathematik und möchten in einer kleinen Gruppe lernen.",
+      number: "11",
+    },
+    {
+      text: "Sie möchten Physik studieren und möchten sich zunächst informieren.",
+      number: "12",
+    },
+    {
+      text: "Sie möchten einen Sprachkurs in einem anderen Land machen.",
+      number: "13",
+    },
+    {
+      text: "Sie möchten in einer anderen Stadt eine Ausbildung machen und suchen dort eine Wohnung.",
+      number: "14",
+    },
+    {
+      text: "Sie ziehen wegen einer Ausbildung um und suchen so günstig wie möglich Umzugshelfer.",
+      number: "15",
+    },
+    {
+      text: "Sie sind gerade umgezogen und möchten neue Leute kennenlernen.",
+      number: "16",
+    },
+    {
+      text: "Sie suchen einen Nachmieter und wollen eine kostenlose Anzeige aufgeben.",
+      number: "17",
+    },
+    {
+      text: "Sie wollen gerne noch eine Sprache lernen und suchen einen festen Lernpartner.",
+      number: "18",
+    },
+    {
+      text: "Sie wollen umziehen, haben aber eigentlich gar keine Zeit, sich darum zu kümmern.",
+      number: "19",
+    },
+    {
+      text: "Sie suchen für eine 18-jährige Bekannte einen bezahlten Job außerhalb von Deutschland.",
+      number: "20",
+    },
   ],
 };
+
 export const lesenTeil_2 = {
   texts: [
     {
@@ -367,41 +460,103 @@ Trinkgeld lockerer.
       `,
     },
   ],
-  aufgabens: [
+  questions: [
     {
       id: 0,
-      qustion: "Der Nebenjob als Kellner ...",
-      answersOne: `hat an Attraktivität deutlich verloren.`,
-      answersTwo: "ist insgesamt sehr gut bezahlt.",
-      answersThree: "lässt sich gut mit dem Studium vereinbaren.",
+      questionText: "Der Nebenjob als Kellner ...",
+      options: [
+        {
+          optionID: "A",
+          option: "hat an Attraktivität deutlich verloren.",
+        },
+        {
+          optionID: "B",
+          option: "ist insgesamt sehr gut bezahlt.",
+        },
+        {
+          optionID: "C",
+          option: "lässt sich gut mit dem Studium vereinbaren.",
+        },
+      ],
+      correctAnswerID: "C",
     },
     {
       id: 1,
-      qustion: "Wer als Kellner arbeitet, ...",
-      answersOne: `muss bei Beschwerden den Kontakt zwischen Koch und Gast herstellen.`,
-      answersTwo: "muss das Trinkgeld mit den Kollegen teilen",
-      answersThree: "sollte nicht aus der Ruhe zu bringen sein.",
+      questionText: "Wer als Kellner arbeitet, ...",
+      options: [
+        {
+          optionID: "A",
+          option:
+            "muss bei Beschwerden den Kontakt zwischen Koch und Gast herstellen.",
+        },
+        {
+          optionID: "B",
+          option: "muss das Trinkgeld mit den Kollegen teilen.",
+        },
+        {
+          optionID: "C",
+          option: "sollte nicht aus der Ruhe zu bringen sein.",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 2,
-      qustion: "Jan arbeitet gern als Fahrradkurier, ..",
-      answersOne: `weil er außer dem Grundgehalt noch eine Provision bekommt`,
-      answersTwo: "weil er dann fest angestellt ist.",
-      answersThree: "sweil er mit dem Verdienst ganz zufrieden ist",
+      questionText: "Jan arbeitet gern als Fahrradkurier, ..",
+      options: [
+        {
+          optionID: "A",
+          option: "weil er außer dem Grundgehalt noch eine Provision bekommt.",
+        },
+        {
+          optionID: "B",
+          option: "weil er dann fest angestellt ist.",
+        },
+        {
+          optionID: "C",
+          option: "weil er mit dem Verdienst ganz zufrieden ist.",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 3,
-      qustion: "Jan sagte, ...",
-      answersOne: `dass er durch seinen Job keine Ausgaben für ein Fitnessstudio hat`,
-      answersTwo: "dass er lieber im Büro arbeiten würde.",
-      answersThree: "dass ihm schlechtes Wetter gar nicht stört.",
+      questionText: "Jan sagte, ...",
+      options: [
+        {
+          optionID: "A",
+          option:
+            "dass er durch seinen Job keine Ausgaben für ein Fitnessstudio hat.",
+        },
+        {
+          optionID: "B",
+          option: "dass er lieber im Büro arbeiten würde.",
+        },
+        {
+          optionID: "C",
+          option: "dass ihm schlechtes Wetter gar nicht stört.",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 4,
-      qustion: "Stefanie muss als Testkäuferin ... ",
-      answersOne: `auch den Service in Cafés und Kneipen überprüfen`,
-      answersTwo: "einige Waren selbst bezahlen",
-      answersThree: "sich beim Einkauf an einen festen Ablauf halten.",
+      questionText: "Stefanie muss als Testkäuferin ... ",
+      options: [
+        {
+          optionID: "A",
+          option: "auch den Service in Cafés und Kneipen überprüfen.",
+        },
+        {
+          optionID: "B",
+          option: "einige Waren selbst bezahlen.",
+        },
+        {
+          optionID: "C",
+          option: "sich beim Einkauf an einen festen Ablauf halten.",
+        },
+      ],
+      correctAnswerID: "A",
     },
   ],
 };
@@ -433,92 +588,196 @@ export const sprachbau_1 = {
       `,
     },
   ],
-  aufgabens: [
+  questions: [
     {
       id: 0,
-      qustion: "21",
-      answersOne: ` das `,
-      answersTwo: "was ",
-      answersThree: "welches ",
+      questionText: "21",
+      options: [
+        {
+          optionID: "A",
+          option: "das",
+        },
+        {
+          optionID: "B",
+          option: "was",
+        },
+        {
+          optionID: "C",
+          option: "welches",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 1,
-      qustion: "22",
-      answersOne: `denn
-      
-      `,
-      answersTwo: "doch ",
-      answersThree: "mal",
+      questionText: "22",
+      options: [
+        {
+          optionID: "A",
+          option: "denn",
+        },
+        {
+          optionID: "B",
+          option: "doch",
+        },
+        {
+          optionID: "C",
+          option: "mal",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 2,
-      qustion: "23",
-      answersOne: `dazu
-      
-       `,
-      answersTwo: "noch",
-      answersThree: "sogar",
+      questionText: "23",
+      options: [
+        {
+          optionID: "A",
+          option: "dazu",
+        },
+        {
+          optionID: "B",
+          option: "noch",
+        },
+        {
+          optionID: "C",
+          option: "sogar",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 3,
-      qustion: "24",
-      answersOne: `abnehmen
-      
-       `,
-      answersTwo: "annehmen ",
-      answersThree: "nehmen ",
+      questionText: "24",
+      options: [
+        {
+          optionID: "A",
+          option: "abnehmen",
+        },
+        {
+          optionID: "B",
+          option: "annehmen",
+        },
+        {
+          optionID: "C",
+          option: "nehmen",
+        },
+      ],
+      correctAnswerID: "C",
     },
     {
       id: 4,
-      qustion: "25",
-      answersOne: `für`,
-      answersTwo: "über ",
-      answersThree: "um ",
+      questionText: "25",
+      options: [
+        {
+          optionID: "A",
+          option: "für",
+        },
+        {
+          optionID: "B",
+          option: "über",
+        },
+        {
+          optionID: "C",
+          option: "um",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 5,
-      qustion: "26",
-      answersOne: `bevor
-      
-       `,
-      answersTwo: "bis",
-      answersThree: "sobald",
+      questionText: "26",
+      options: [
+        {
+          optionID: "A",
+          option: "bevor",
+        },
+        {
+          optionID: "B",
+          option: "bis",
+        },
+        {
+          optionID: "C",
+          option: "sobald",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 6,
-      qustion: "27",
-      answersOne: `wenn
-     
-     `,
-      answersTwo: " auch wenn ",
-      answersThree: " wenn auch ",
+      questionText: "27",
+      options: [
+        {
+          optionID: "A",
+          option: "wenn",
+        },
+        {
+          optionID: "B",
+          option: "auch wenn",
+        },
+        {
+          optionID: "C",
+          option: "wenn auch",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 7,
-      qustion: "28",
-      answersOne: `an
-      
-       `,
-      answersTwo: "für",
-      answersThree: "über",
+      questionText: "28",
+      options: [
+        {
+          optionID: "A",
+          option: "an",
+        },
+        {
+          optionID: "B",
+          option: "für",
+        },
+        {
+          optionID: "C",
+          option: "über",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 8,
-      qustion: "29",
-      answersOne: `demnächst
-      
-      `,
-      answersTwo: "neulich",
-      answersThree: "noch nicht",
+      questionText: "29",
+      options: [
+        {
+          optionID: "A",
+          option: "demnächst",
+        },
+        {
+          optionID: "B",
+          option: "neulich",
+        },
+        {
+          optionID: "C",
+          option: "noch nicht",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 9,
-      qustion: "30",
-      answersOne: `müssen
-      
-      `,
-      answersTwo: "sollen",
-      answersThree: "wollen",
+      questionText: "30",
+      options: [
+        {
+          optionID: "A",
+          option: "müssen",
+        },
+        {
+          optionID: "B",
+          option: "sollen",
+        },
+        {
+          optionID: "C",
+          option: "wollen",
+        },
+      ],
+      correctAnswerID: "A",
     },
   ],
 };

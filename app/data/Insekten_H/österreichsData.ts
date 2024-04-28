@@ -2,6 +2,8 @@ export const lesenTeil_1 = {
   carts: [
     {
       id: 0,
+      idText: "1",
+
       title: `
       Das Lesemagazin MENU hat eine Umfrage zu den populärsten Märkten in Österreich durchgeführt. Vor der eigentlichen Abstimmung hatte das Magazin seine Leserinnen und Leser dazu aufgerufen, Markte zu nominieren. Aus den häufigsten Nennungen hat das Redaktionsteam eine Liste mit zwanzig Märkte aus ganz Österreich erstellt und zwei Wochen lang online zur Abstimmung angeboten. Als klarer Sieger ging der Markt am Domplatz von St. Pölten hervor. Dieser ist berühmt für sein ganzjähriges Einkaufsvergnügen. Als Nahversorger für die Innenstadt und Anziehungspunkt für Menschen aus dem Umlana trägt er erheblich zur Lebensqualität der Bevölkerung bei, Auf Platz zwei und drei folgten zwei burgeländische Märkte, nämlich der Markt der Erde in Parndorf und der Regionalmarkt in den ehemaligen Stallungen von Schloss Esterhäzy in Eisenstadt. Das große Interesse an der Abstimmung zeigt laut MENU, wie sehr die Konsumentinnen und Konsumenten Märkte schätzen
       `,
@@ -10,12 +12,16 @@ export const lesenTeil_1 = {
     },
     {
       id: 1,
+      idText: "2",
+
       title: `Sie sind der Meinung, dass Ihre Qualifikationen ausreichen, um Karriere zu machen? Qualifikationen und Berufserfahrung sind zwar wichtige Kriterien für den erfolgreichen Aufstieg auf der Karriereleiter, doch ohne gutes Selbstmarketing werden Sie auf halbem Wege stehenbleiben. Das ist letztlich genauso wie beim Verkauf eines Produktes: Es reicht nicht, dass ein Produkt gut ist, es muss auch gut beworben werden. Während Marketing das Produkt vorteilhaft am Markt platzieren möchte, verfolgt man beim Selbstmarketing das Ziel, seine Persönlichen und Stärken bewusst hervorzuheben. Mit anderen Worten: Es geht darum, sich gut zu verkauten. Selbstmarketing beginnt schon bei der Bewerbung und dem Vorstellungsgespräch und setzt sich im Job fort. Auch dort müssen Sie auf sich aufmerksam machen. Doch Achtung: Angeber mag niemand! Wie Sie das richtige Maß finden, erfahren Sie in einem Seminar, das an vier Wochenenden im April in Klagenfurt stattfindet. Alle Details gibt es hier.`,
       cartItemAnswers: "",
       cartAcoordion: "Schulung zum Erfolg im Beruf",
     },
     {
       id: 2,
+      idText: "3",
+
       title: `Der Wiener Naschmarkt gehört zu Österreichs beliebtesten Märkten. Mit einer Fläche von mehr als zwei Hektar ist er der größte Markt in der Innenstadt. Schon 1780 handelten Bauern dort mit Milchprodukten. Gemauerte Marktstände entstanden erst mehr als 100 Jahre später. Von 1910 an wurden mehr als 120 fixe Marktstände im einheitlichen Stil von Otto Wagner geplant und errichtet. Das Marktamtsgebäude bei der Kettenbrückengasse wurde 1916 fertiggestellt. Heute ist der Naschmarkt eine begehrte Wiener Sehenswürdigkeit. Bei Schönwettet zählt der Markt mehr als 65, 000 Personen pro woche, viele davon Toutisten. Ein Teil der Marktfläche ist für Gastronomietbetriebe reserviert. Nun erzählt ein neuer Reiseführer die Geschichte des Naschmarktes, reich illustriert mit alten Aufnahmen. Ein Kapitel behandelt auch die berühmten Wienzeilenhäuser Otto Wagners, die sich an der Linken Wienzeile im Bereich des Naschmarktes befinden. Dazu gibt es Einkaufstipps und Beschreibungen der Lokale. „Der Markt am Wienfluss". Hrsg. Hannes Ortner, 35 Seiten, 17
       Euro.`,
       cartItemAnswers: "",
@@ -23,28 +29,62 @@ export const lesenTeil_1 = {
     },
     {
       id: 3,
+      idText: "4",
+
       title: `Wer bloggt, zeigt neben Fachkompetenz auch Kreativität. Das schätzen auch 4 Arbeitgeber. Ob man über fachliche Fragestellungen schreibt oder einfach nur über das Leben - das Themenspektrum von Blogs ist riesig. Genauso vielfältig sind auch die Möglichkeiten, die sie Bewerberinnen und Bewerbern bieten. Wer einen Blog professionell betreibt, kann seine fachlichen Kompetenzen präsentieren und gleichzeitig seinen Ideenreichtum unter Beweis stellen. Doch auch die Darstellung eines Hobbys zeigt, dass der Bewerber aktiv und kreativ ist. Experten raten daher Bloggerinnen und Bloggern, in ihren Bewerbungsunterlagen gezielt darauf hinzuweisen. Doch Achtung: Ein Blog kann Bewerber auch in einem schlechten Licht erscheinen lassen. Bloggen während der Arbeitszeit und das Schreiben über Firmeninterna sind natürlich tabu.`,
       cartItemAnswers: "",
       cartAcoordion: "Schreiben im Internet für die Karriere",
     },
     {
       id: 4,
+      idText: "5",
+
       title: `Bis Herbst soll ein neues Marktkonzept für den altehrwürdigen Salzburger Grünmarkt vorliegen. Damit der Markt für Besucherinnen und Besucher wieder attraktiver wird, setzt die zuständige Stelle im Magistrat auf Nachhaltigkeit. Biologische Lebensmittel aus nachhaltiger Produktion, im Idealfall aus der Region, sollen den Markt wieder zu einem Fixpunkt in der Altstadt werden lassen. Der für Märkte, Stadtnatur und Lebensqualität zuständige Vizebürgermeister hofft, dass der Markt dazu beitragen kann, ein positives Lebensgefühl zu vermitteln. Obwohl die Stadt die Verkaufsstände vor einigen Jahren aufwändig hatte restaurieren lassen, verzeichneten die Händler zuletzt einen deutlichen Rückgang an Kundschaft. Zudem haben einige von ihnen altersbedingt ihre Verkaufsstände aufgegeben. In diesem Zusammenhang wurde auch die beliebte Foodbloggerin Jasmin May engagiert. Sie soll dazu beitragen, das Konzept in der Öffentlichkeit bekannter zu machen. Wir werden das Projekt weiterverfolgen und von seinem Fortgang berichten.`,
       cartItemAnswers: "",
       cartAcoordion: "Erneuerungskur für einen alten Markt",
     },
   ],
   answers: [
-    "Erneuerungskur für einen alten Markt",
-    "Junge Influencer werben für Bioprodukte",
-    "Neues Buch über einen Wiener Architekten erschienen",
-    "Österreichs beliebteste Marktplätze",
-    "Schreiben im Internet für die Karriere",
-    "Schulung zum Erfolg im Beruf",
-    "Seminar: Produkte erfolgreich verkaufen",
-    "Warum immer mehr Menschen auf Märkten einkaufen",
-    "Wenn Blogger Firmengeheimnisse verratena.",
-    "wissenswertes über Wiens größten innerstädtischen Markt.",
+    {
+      text: "Erneuerungskur für einen alten Markt",
+      number: "a",
+    },
+    {
+      text: "Junge Influencer werben für Bioprodukte",
+      number: "b",
+    },
+    {
+      text: "Neues Buch über einen Wiener Architekten erschienen",
+      number: "c",
+    },
+    {
+      text: "Österreichs beliebteste Marktplätze",
+      number: "d",
+    },
+    {
+      text: "Schreiben im Internet für die Karriere",
+      number: "e",
+    },
+    {
+      text: "Schulung zum Erfolg im Beruf",
+      number: "f",
+    },
+    {
+      text: "Seminar: Produkte erfolgreich verkaufen",
+      number: "g",
+    },
+    {
+      text: "Warum immer mehr Menschen auf Märkten einkaufen",
+      number: "h",
+    },
+    {
+      text: "Wenn Blogger Firmengeheimnisse verraten",
+      number: "i",
+    },
+    {
+      text: "Wissenswertes über Wiens größten innerstädtischen Markt",
+      number: "j",
+    },
   ],
 };
 
@@ -53,6 +93,8 @@ export const lesenTeil_3 = {
     {
       // A
       id: 0,
+      idText: "A",
+
       title: `Die Nachfrage nach individueller Farb- und Stilberatung ist groß. Denn wer heute im Geschäfts- wie auch im Privatleben erfolgreich sein möchte, muss sich in Outfit und Benehmen vorteilhaft präsentieren können. Der Leitfaden zeigt Ihnen, wie Sie sich selbst am besten in Szene setzen. Von der passenden und farblich stimmigen Garderobe über Make-up und Accessoires bis zu modernen Umgangsformen. Nutzen Sie also diesen "Kurs" als Eintrittskarte in diese reizvolle Welt der Selbstdarstellung. Sie werden garantiert mit einem überzeugenden und gewinnenden persönlichen Auftritt davon profitieren.
       `,
       cartItemAnswers: "",
@@ -62,6 +104,8 @@ export const lesenTeil_3 = {
     {
       // B
       id: 1,
+      idText: "B",
+
       title: `Die meisten Menschen kennen keine Strategien, wie sie ihr Lernverhalten und die Fahigkeit, sich Informationen zu merken, gezielt trainieren können. Dieses Buch gibt zunächst einen Überblick, wie das menschliche Gedächtnis funktioniert, und bietet dann eine Fülle von Techniken an, mit denen auch Ungeübte sich das Lernen und Arbeiten leichter machen können.`,
       cartItemAnswers: "",
       cartAcoordion:
@@ -70,6 +114,8 @@ export const lesenTeil_3 = {
     {
       // C
       id: 2,
+      idText: "C",
+
       title: `Dieses erstmals 1788 erschienene Buch handelt von dem Umgang der Menschen miteinander und gibt Ratschläge, wie man sich im Umgang mit Menschen verschiedenster Alters- und Rangstufen richtig verhält. Es definiert, was Gutes und was schlechtes Verhalten ist, und galt so lange Zeit als ein Leitfaden für "richtiges Benehmen.`,
       cartItemAnswers: "",
       cartAcoordion:
@@ -78,6 +124,8 @@ export const lesenTeil_3 = {
     {
       //D
       id: 3,
+      idText: "D",
+
       title: `
       Tim Gallwey entwickelte die Theorie vom Tennis-Spiel, das sich im Kopf abspielt. Er zeigt, wie jeder sein Leben frei von Angst und mit Eleganz spielen kann, ohne in Selbstzweifel oder Unkonzentriertheit zu verfallen. Das Gallwey'sche Tennisspiel setzt ungeahnte Energien frei und zeigt das grenzenlose Potential des menschlichen Körpers und Geistes, wenn es darum geht. seine Lebensziele zu verfolgen und zu erreichen.`,
       cartItemAnswers: "",
@@ -87,6 +135,8 @@ export const lesenTeil_3 = {
     {
       // E
       id: 4,
+      idText: "E",
+
       title: `Jeder Mensch kann seine kommunikativen Möglichkeiten entdecken und damit sein Leben bereichern. Die Themen des Buches sind: Die Grundlagen der Kommunikation, Rede und Vortrag. Gespräche erfolgreich führen, Sicherheit gewinnen und Redeångste überwinden, Zeitmanagement für Redner und Konferenzleiter und vieles mehr.
       Ein ausführlicher Praxisteil mit zahlreichen Übungen ermöglicht es dem Leser, seine rhetorischen Fähigkeiten zu trainieren.`,
       cartItemAnswers: "",
@@ -96,6 +146,8 @@ export const lesenTeil_3 = {
     {
       // F
       id: 5,
+      idText: "F",
+
       title: `Gute Umgangsformen sind wieder "in". Aber gilt das auch in der Schule? Auf humorvolle Weise erzählt die Autorin aus ihrem Alltag als Lehrerin an einer Realschule. Von gutem Benehmen kann do nicht immer die Rede sein - übrigens auch nicht bei den Eltern.
       Frieder Schulze "Reden wir miteinander oder aneinander vorbei?"
       Manche Missverständnisse entstehen, wenn Menschen miteinander reden, besonders im privaten Bereich erleben wir das oft. Wenn Kommunikation erfolgreich sein soll, ist die Fähigkeit erforderlich, den anderen zu durchschauen und seelische Vorgänge und menschliche Probleme zu erkennen. Viele Beispiele zeigen, wie psychologische Aspekte menschliche Kommunikation verkomplizieren können und wie man damit am besten klar kommen kann.`,
@@ -106,6 +158,8 @@ export const lesenTeil_3 = {
     {
       // G
       id: 6,
+      idText: "G",
+
       title: `Frieder Schulze "Reden wir miteinander oder aneinander vorbei?"
       Manche Missverständnisse entstehen, wenn Menschen miteinander reden, besonders im privaten Bereich erleben wir das oft. Wenn Kommunikation erfolgreich sein soll, ist die Fähigkeit erforderlich, den anderen zu durchschauen und seelische Vorgänge und menschliche Probleme zu erkennen. Viele Beispiele zeigen, wie psychologische Aspekte menschliche Kommunikation verkomplizieren können und wie man damit am besten klar kommen kann.`,
       cartItemAnswers: "",
@@ -115,6 +169,8 @@ export const lesenTeil_3 = {
     {
       // H
       id: 7,
+      idText: "H",
+
       title: `Ken Best "Dein Körper lugt nicht"
       Der Körper lügt nicht, Gesten und Gebärden decken die Ebene des Unbewusstsein auf: Wer einen erhobenen Zeigefinger oder eine gerümpfte Nase sieht, versteht sofort, was der Gesprächspartner meint, auch wenn der mit Worten etwas anderes sagt. Dieses Buch gibt einen anschaulichen Uberblick über die Signale, die wir ständig mit unserem Körper senden, und hilft uns zu verstehen, was jemand in Wahrheit gerade denkt und meint.`,
       cartItemAnswers: "",
@@ -124,6 +180,8 @@ export const lesenTeil_3 = {
     {
       // I
       id: 8,
+      idText: "I",
+
       title: `Rolph Barth "Basiswissen: Bewerbungstraining"
       Die Konkurrenz auf dem Arbeitsmarkt um immer knapper werdende freie Stellen ist groß. Umso wichtiger ist es zu wissen, wie man sich richtig bewirbt. Dieses Buch gibt Arbeitsuchenden umfassende Informationen zur erfolgreichen Bewerbung und bereitet optimal auf das Vorstellungsgespräch vor. Im Übungsteil werden gute Formulierungen für das Anschreiben und das sichere Auftreten des Bewerbers im Gespräch trainiert.`,
       cartItemAnswers: "",
@@ -133,6 +191,8 @@ export const lesenTeil_3 = {
     {
       // J
       id: 9,
+      idText: "J",
+
       title: `Brigitte Hübner "Richtig präsentieren"
       Dieses Buch ist ein Leitfaden für alle, die Teamsitzungen, Besprechungen, Workshops und Konferenzen durchführen. Anhand vieler praktischer Beispiele erhält der Leser Anregungen zum gekonnten visualisieren, zur gut geplanten und sicher durchgeführten Präsentation und zur effektiv gestalteten Besprechung. Es zeigt, wie durch den Einsatz von Bildern und Grahken Präsentationen aufgelockert und Informationen besser verstanden werden können.`,
       cartItemAnswers: "",
@@ -142,6 +202,8 @@ export const lesenTeil_3 = {
     {
       // K
       id: 10,
+      idText: "K",
+
       title: `Helga Sinn-Krummacher "Delfin oder Delphin? So schreibt man das jetzt richtig" Dieses Trainingsbuch ist für den Arbeitsplatz und für zu Hause gedacht. Auf humorvolle Art werden die neuen Rechtschreibregeln der deutschen Sprache vorgestellt und eingeübt. Es enthält außerdem die neue amtliche Wortliste zur Rechtschreibung und die neuen Zeichensetzungsregeln.
       `,
       cartItemAnswers: "",
@@ -151,6 +213,8 @@ export const lesenTeil_3 = {
     {
       // L
       id: 11,
+      idText: "L",
+
       title: `Erika Tack "Zeitmanagement"
       Viele Menschen wissen nicht mehr, wo Ihnen der Kopf steht. Zu viele Termine und Aufgaben stellen Sie unter ständigen Zeitdruck. Mit Zeitmanagement lernen Sie, wie Sie Ihre Zeit so einteilen können, dass Sie wieder Zeit zum Leben haben. Sie erkennen Ihre persönlichen Zeitdiebe. Sie lernen, Prioritäten und erreichbare Ziele zu setzen. Durch das Führen eines Zeitplanbuchs lernen Sie wieder (und dauerhaft), aus der Zeitfalle herauszukommen.
       `,
@@ -160,17 +224,46 @@ export const lesenTeil_3 = {
     },
   ],
   answers: [
-    "Eine Bekannte interessiert sich für Bücher über den Tennissport.",
-    "Ein befreundetes Ehepaar steht andauernd unter Stress und möchte wieder mehr Zeit für sich und andere haben.",
-    "X: Eine Bekannte möchte bei ihren Partys eine perfekte Gastgeberin sein.",
-    "Eine Studentin sucht Informationen, wie sie besser und systematischer lernen kann.",
-    "Ein Bekannter möchte wissen, welche Botschaften durch Gestik und Mimik transportiert werden.",
-    "Eine Bekannte möchte ihr äußeres Erscheinungsbild optimieren.",
-    "Ein Bekannter ist sich noch unsicher, wie er sich bei einem Vorstellungsgespräch am besten präsentiert.",
-
-    `Ein Bekannter schreibt an einer Hausarbeit über gesellschaftliche Normen und Verhaltensregeln verschiedener Jahrhunderte.`,
-    "Ein Bekannter möchte Kalligraphie (Schmuckschriften) lernen.",
-    "Eine Bekannte ist sehr verunsichert, weil sie auf Konferenzen immer wieder Angst hat, frei zu sprechen.",
+    {
+      text: "Eine Bekannte interessiert sich für Bücher über den Tennissport.",
+      number: "11",
+    },
+    {
+      text: "Ein befreundetes Ehepaar steht andauernd unter Stress und möchte wieder mehr Zeit für sich und andere haben.",
+      number: "12",
+    },
+    {
+      text: "Eine Bekannte möchte bei ihren Partys eine perfekte Gastgeberin sein.",
+      number: "13",
+    },
+    {
+      text: "Eine Studentin sucht Informationen, wie sie besser und systematischer lernen kann.",
+      number: "14",
+    },
+    {
+      text: "Ein Bekannter möchte wissen, welche Botschaften durch Gestik und Mimik transportiert werden.",
+      number: "15",
+    },
+    {
+      text: "Eine Bekannte möchte ihr äußeres Erscheinungsbild optimieren.",
+      number: "16",
+    },
+    {
+      text: "Ein Bekannter ist sich noch unsicher, wie er sich bei einem Vorstellungsgespräch am besten präsentiert.",
+      number: "17",
+    },
+    {
+      text: "Ein Bekannter schreibt an einer Hausarbeit über gesellschaftliche Normen und Verhaltensregeln verschiedener Jahrhunderte.",
+      number: "18",
+    },
+    {
+      text: "Ein Bekannter möchte Kalligraphie (Schmuckschriften) lernen.",
+      number: "19",
+    },
+    {
+      text: "Eine Bekannte ist sehr verunsichert, weil sie auf Konferenzen immer wieder Angst hat, frei zu sprechen.",
+      number: "20",
+    },
   ],
 };
 export const lesenTeil_2 = {
@@ -182,43 +275,102 @@ export const lesenTeil_2 = {
       `,
     },
   ],
-  aufgabens: [
+  questions: [
     {
       id: 0,
-      qustion: "Einige Vertreter der Poolbranche denken, dass",
-      answersOne: `es in Osterreich bald mehr Pools gibt als in Frankreich`,
-      answersTwo: "in unsicheren Zeiten weniger investiert wird.",
-      answersThree:
-        "mehr Leute einen Pool bauen, weil Pools billiger geworden sind.",
+      questionText: "Einige Vertreter der Poolbranche denken, dass",
+      options: [
+        {
+          optionID: "A",
+          option: "es in Österreich bald mehr Pools gibt als in Frankreich",
+        },
+        {
+          optionID: "B",
+          option: "in unsicheren Zeiten weniger investiert wird.",
+        },
+        {
+          optionID: "C",
+          option:
+            "mehr Leute einen Pool bauen, weil Pools billiger geworden sind.",
+        },
+      ],
+      correctAnswerID: "C",
     },
     {
       id: 1,
-      qustion: " Laut einer Studie",
-      answersOne: `möchten die meisten Befragten ein Heim mit Garage.`,
-      answersTwo:
-        "steht ein Pool nicht an erster Stelle auf der Wunschliste,      ",
-      answersThree: "wünschen sich 10 Prozent der Österreicher einen Pool.  ",
+      questionText: "Laut einer Studie",
+      options: [
+        {
+          optionID: "A",
+          option: "möchten die meisten Befragten ein Heim mit Garage.",
+        },
+        {
+          optionID: "B",
+          option: "steht ein Pool nicht an erster Stelle auf der Wunschliste.",
+        },
+        {
+          optionID: "C",
+          option: "wünschen sich 10 Prozent der Österreicher einen Pool.",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 2,
-      qustion: "Rija ist der Meinung, dass",
-      answersOne: `ein Pool die Nachbarn neidisch macht.`,
-      answersTwo: "ihr Pool ein Anziehungspunkt für Freunde geworden ist.",
-      answersThree: "ihre Freunde beim Poolbau helfen sollen.",
+      questionText: "Rija ist der Meinung, dass",
+      options: [
+        {
+          optionID: "A",
+          option: "ein Pool die Nachbarn neidisch macht.",
+        },
+        {
+          optionID: "B",
+          option: "ihr Pool ein Anziehungspunkt für Freunde geworden ist.",
+        },
+        {
+          optionID: "C",
+          option: "ihre Freunde beim Poolbau helfen sollen.",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 3,
-      qustion: "Naturpools",
-      answersOne: `brauchen keine chemischen Reinigungsmittel.`,
-      answersTwo: "müssen häufig geputzt werden.",
-      answersThree: "sehen genauso aus wie Schwimmteiche.",
+      questionText: "Naturpools",
+      options: [
+        {
+          optionID: "A",
+          option: "brauchen keine chemischen Reinigungsmittel.",
+        },
+        {
+          optionID: "B",
+          option: "müssen häufig geputzt werden.",
+        },
+        {
+          optionID: "C",
+          option: "sehen genauso aus wie Schwimmteiche.",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 4,
-      qustion: "In Wien ",
-      answersOne: `darf man einen Pool nur mit Wasser aus der Leitung füllen.      `,
-      answersTwo: `führt das Befüllen von Pools regelmäßig zu Wasserknappheit.  `,
-      answersThree: "wird manchmal Wasser zum Befüllen von Pools gestohlen",
+      questionText: "In Wien",
+      options: [
+        {
+          optionID: "A",
+          option: "darf man einen Pool nur mit Wasser aus der Leitung füllen.",
+        },
+        {
+          optionID: "B",
+          option: "führt das Befüllen von Pools regelmäßig zu Wasserknappheit.",
+        },
+        {
+          optionID: "C",
+          option: "wird manchmal Wasser zum Befüllen von Pools gestohlen.",
+        },
+      ],
+      correctAnswerID: "A",
     },
   ],
 };
@@ -238,115 +390,196 @@ export const sprachbau_1 = {
       `,
     },
   ],
-  aufgabens: [
+  questions: [
     {
       id: 0,
-      qustion: "21",
-      answersOne: ` seine
-      
-       `,
-      answersTwo: "sind ",
-      answersThree: "waren ",
+      question: "21",
+      options: [
+        {
+          optionID: "A",
+          option: "seine",
+        },
+        {
+          optionID: "B",
+          option: "sind",
+        },
+        {
+          optionID: "C",
+          option: "waren",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 1,
-      qustion: "22",
-      answersOne: `da  
-      
-      
-      
-      `,
-      answersTwo: "das ",
-      answersThree: "dass",
+      question: "22",
+      options: [
+        {
+          optionID: "A",
+          option: "da",
+        },
+        {
+          optionID: "B",
+          option: "das",
+        },
+        {
+          optionID: "C",
+          option: "dass",
+        },
+      ],
+      correctAnswerID: "C",
     },
     {
       id: 2,
-      qustion: "23",
-      answersOne: `an
-      
-      
-      
-       `,
-      answersTwo: "auf",
-      answersThree: "für",
+      question: "23",
+      options: [
+        {
+          optionID: "A",
+          option: "an",
+        },
+        {
+          optionID: "B",
+          option: "auf",
+        },
+        {
+          optionID: "C",
+          option: "für",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 3,
-      qustion: "24",
-      answersOne: `
-      je---desto
-      
-      
-      
-       `,
-      answersTwo: "sowol--- als auch ",
-      answersThree: "weder---noch ",
+      question: "24",
+      options: [
+        {
+          optionID: "A",
+          option: "je---desto",
+        },
+        {
+          optionID: "B",
+          option: "sowohl---als auch",
+        },
+        {
+          optionID: "C",
+          option: "weder---noch",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 4,
-      qustion: "25",
-      answersOne: `verwandte
-      
-      `,
-      answersTwo: "das ",
-      answersThree: "verwandeten ",
+      question: "25",
+      options: [
+        {
+          optionID: "A",
+          option: "verwandte",
+        },
+        {
+          optionID: "B",
+          option: "das",
+        },
+        {
+          optionID: "C",
+          option: "verwandeten",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 5,
-      qustion: "26",
-      answersOne: `unsere
-      
-      
-      
-      
-       `,
-      answersTwo: "unseren",
-      answersThree: "unserer",
+      question: "26",
+      options: [
+        {
+          optionID: "A",
+          option: "unsere",
+        },
+        {
+          optionID: "B",
+          option: "unseren",
+        },
+        {
+          optionID: "C",
+          option: "unserer",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 6,
-      qustion: "27",
-      answersOne: `als
-      
-      
-      
-     
-     `,
-      answersTwo: " für ",
-      answersThree: " wie ",
+      question: "27",
+      options: [
+        {
+          optionID: "A",
+          option: "als",
+        },
+        {
+          optionID: "B",
+          option: "für",
+        },
+        {
+          optionID: "C",
+          option: "wie",
+        },
+      ],
+      correctAnswerID: "C",
     },
     {
       id: 7,
-      qustion: "28",
-      answersOne: `dass
-      
-      
-      
-       `,
-      answersTwo: "falls",
-      answersThree: "ob",
+      question: "28",
+      options: [
+        {
+          optionID: "A",
+          option: "dass",
+        },
+        {
+          optionID: "B",
+          option: "falls",
+        },
+        {
+          optionID: "C",
+          option: "ob",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 8,
-      qustion: "29",
-      answersOne: `bereten
-      
-      
-      
-      `,
-      answersTwo: "machen",
-      answersThree: "tun",
+      question: "29",
+      options: [
+        {
+          optionID: "A",
+          option: "bereten",
+        },
+        {
+          optionID: "B",
+          option: "machen",
+        },
+        {
+          optionID: "C",
+          option: "tun",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 9,
-      qustion: "30",
-      answersOne: `hätten
-      
-      
-      
-      `,
-      answersTwo: "könnten",
-      answersThree: "sollten",
+      question: "30",
+      options: [
+        {
+          optionID: "A",
+          option: "hätten",
+        },
+        {
+          optionID: "B",
+          option: "könnten",
+        },
+        {
+          optionID: "C",
+          option: "sollten",
+        },
+      ],
+      correctAnswerID: "A",
     },
   ],
 };

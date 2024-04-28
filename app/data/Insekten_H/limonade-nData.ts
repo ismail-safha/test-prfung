@@ -2,6 +2,8 @@ export const lesenTeil_1 = {
   carts: [
     {
       id: 0,
+      idText: "1",
+
       title: `
       
 Möchten Sie Kraft, Jugend und Gesundheit aus der Flasche? Dann suchen Sie bei Ihrem nächsten Einkauf im
@@ -16,6 +18,8 @@ Gesundheit? Dann gehen Sie doch einfach mehr an die frische Luft. Und die ist ko
     },
     {
       id: 1,
+      idText: "2",
+
       title: `Wenn es regnet, dann ûießt das Regenwasser in den Erdboden, der es wie
       ein Schwamm aufsaugt. Langsam sickert das Wasser dann in immer tiefere
       Erdschichten, in dene es gefiltert und gereinigt wird. Aus dem Regenwasser
@@ -33,6 +37,8 @@ Gesundheit? Dann gehen Sie doch einfach mehr an die frische Luft. Und die ist ko
     },
     {
       id: 2,
+      idText: "3",
+
       title: `Nach den Unwettern der letzten Sommer sprechen Meteorologen in ganz Europa
       davon, dass sich das Klima weltweit dramatisch verändert. Stabile Sommer mit
       Sonnenschein pur von Juni bis August sollen selbst am Mittelmeer in Zukunft
@@ -52,6 +58,8 @@ Gesundheit? Dann gehen Sie doch einfach mehr an die frische Luft. Und die ist ko
     },
     {
       id: 3,
+      idText: "4",
+
       title: `Wozu noch Kästen mit Mineralwasserflaschen nach Hause schleppen, wenn es
       sich doch bequem zu Hause zubereiten lässt. Tatsächlich ist das 
       Leitungswasser, das aus den Wasserhähnen in deutschen Wohnungen fließt,
@@ -69,6 +77,8 @@ Gesundheit? Dann gehen Sie doch einfach mehr an die frische Luft. Und die ist ko
     },
     {
       id: 4,
+      idText: "5",
+
       title: `"Wasser ist zum Waschen da" lautete ein deutscher Schlager Mitte der
       1950er, in dem es weiter hieß: "Auch zum Zähneputzen kann man es
       benutzen." Wasser zu trinken schien damals manchen Leuten nicht in die
@@ -88,16 +98,46 @@ Gesundheit? Dann gehen Sie doch einfach mehr an die frische Luft. Und die ist ko
     },
   ],
   answers: [
-    "Limonade aus dem Wasserhahn",
-    "Limonade ist moderner aIs Wasser",
-    "Sommer bedeutet in Zukunft nicht unbedingt Sonne",
-    "Meflr Sauerstoff im Wasser macflt müde Menscflen fit",
-    "Viel Wasser trinken - Gesundheit tanken",
-    "Frische Luft macht stark",
-    "Die Sonne macht Landwirten Probleme",
-    "Sprudel hausgemacht - Zeit des Flaschen-Tragens ist vorbei",
-    "Alarm: Nitrat im Regenwasser bedroht die Gesundheit",
-    " Vom Regen zum Mineralwasser",
+    {
+      text: "Limonade aus dem Wasserhahn",
+      number: "a",
+    },
+    {
+      text: "Limonade ist moderner als Wasser",
+      number: "b",
+    },
+    {
+      text: "Sommer bedeutet in Zukunft nicht unbedingt Sonne",
+      number: "c",
+    },
+    {
+      text: "Mehr Sauerstoff im Wasser macht müde Menschen fit",
+      number: "d",
+    },
+    {
+      text: "Viel Wasser trinken - Gesundheit tanken",
+      number: "e",
+    },
+    {
+      text: "Frische Luft macht stark",
+      number: "f",
+    },
+    {
+      text: "Die Sonne macht Landwirten Probleme",
+      number: "g",
+    },
+    {
+      text: "Sprudel hausgemacht - Zeit des Flaschen-Tragens ist vorbei",
+      number: "h",
+    },
+    {
+      text: "Alarm: Nitrat im Regenwasser bedroht die Gesundheit",
+      number: "i",
+    },
+    {
+      text: "Vom Regen zum Mineralwasser",
+      number: "j",
+    },
   ],
 };
 
@@ -106,6 +146,8 @@ export const lesenTeil_3 = {
     {
       // A
       id: 0,
+      idText: "A",
+
       title: `Sport, Theater & mehr...
 
       ...bieten wir ihnen in unserem Online-Kartenshop. Wir sind spezialisiert auf Tickets für Sportveranstaltungen in Deutschland, Theaterkarten (auch im europäischen Ausland) und bieten Ihnen darüber hinaus auch Eintrittskarten zu bekannten Fernseh-Talkshows an. Sicher haben wir auch für Sie das passende Angebot. Wahlen Sie Ihre Wunschplätze einfach im Internet aus und nur zwei Tage später erhalten Sie Ihre Karten mit der Post. Bequem, sicher, schnell. Selbstverständlich bieten wir Ihnen aber auch eine persönliche Beratung unter einer kostenfreien Rufnummer an. Schauen Sie doch gleich online
@@ -121,6 +163,8 @@ export const lesenTeil_3 = {
     {
       // B
       id: 1,
+      idText: "B",
+
       title: `Die Veranstaltungsprofis
 
       Seit mehr als zwanzig Jahren organisieren wir Messen (Buchmessen, Verbrauchermessen, Fahrradmessen, Automessen, Spielemessen) in ganz Europa. Wenn auch Sie sich für eine Tätigkeit im Bereich Messeorganisation und -durchführung interessieren, haben wir ein interessantes Angebot für Sie: Ab Herbst suchen wir für unser Junges motiviertes Tean Verstärkung. Wenn Sie eine abgeschlossene Ausbildung im Veranstaltungs- oder Logistiksektor haben, neben Ihrer Muttersprache noch mindestens eine weitere Sprache fließend beherrschen und reisefreudig sind, melden Sie sich bei uns! Weitere Informationen finden Sie auch auf unserer Website oder sprechen Sie unsere zuständige Mitarbeiterin, Frau Klimke, direkt an.
@@ -135,6 +179,8 @@ export const lesenTeil_3 = {
     {
       // C
       id: 2,
+      idText: "C",
+
       title: `Gemeinsam mehr erleben Gruppenreisen bieten wir Ihnen bereits ab fünf Personen an - Städtereisen, Wellnesswochenenden und neu im Angebot auch Reisen zu kulturellen Veranstaltungen. Fahren Sie mit uns zum Beispiel Ende August zum Jazzfestival in Brandenburg (25.-29.8.) oder im darauffolgenden Monat zur Klassikwoche nach Wien. Von Anreise und Hotel (verschiedene Kategorien) bis hin zur Eintrittskarte organisieren wir für Sie alles. Genießen Sie entspannte Tage mit Werner Reisen GmbH. Weitere Informationen und auch Buchungsformulare finden Sie unter www.wernerreisen.eu. Oder
 
       rufen
@@ -147,6 +193,8 @@ export const lesenTeil_3 = {
     {
       // D
       id: 3,
+      idText: "D",
+
       title: `Musikfestival Taubertal: 24. Juli bis 3. August
 
       Auch in diesem Jahr kommen wieder viele bekannte Bands und interessante neue Künstler. Das Festival ist schon längst ausverkauft, aber ihr könnt trotzdem noch hinkommen: Wir suchen noch Unterstützung für den Aufbau der Stände, die Betreuung der Musiker und auch für die Ticketkontrolle. Bewerbt euch einfach per E-Mail. Wichtig: Wenn ihr beim Festival arbeitet, könnt ihr zwar auch Musik hören, aber ihr habt keine Gelegenheit, euch die Auftritte in Ruhe anzusehen. Trotzdem macht die Arbeit viel Spaß, und ihr könnt die Musiker sogar hinter der Buhne sehen und kennenlernen.
@@ -158,6 +206,8 @@ export const lesenTeil_3 = {
     {
       // E
       id: 4,
+      idText: "E",
+
       title: `Alle Veranstaltungen aus einer Hand
 
       Ob Jazz, Rock, Klassik, Musical: Bei uns finden Sie Veranstaltungen aus allen Musikbereichen! Reservieren Sie noch heute Karten für Ihre Lieblingsband, wählen Sie Ihren Platz online und drucken Ihre Tickets sofort selbst aus. Oder kaufen Sie Geschenkgutscheine, die man ebenfalls bequem online einlösen kann: die ideale Möglichkeit für alle, die noch keine bestimmte Veranstaltung ausgesucht haben. Besuchen Sie gleich unseren Online-Shop. Bestellungen sind bei uns übrigens auch ohne Registrierung möglich!
@@ -170,6 +220,8 @@ export const lesenTeil_3 = {
     {
       // F
       id: 5,
+      idText: "F",
+
       title: `Mailänder Scala, Deutsche Oper Berlin und vieles mehr
 
       Der etwas andere Zugang zur Musik: Wir organisieren Besichtigungen von bekannten Opernhäusern oder Konzertsälen. Schauen Sie sich die Technik und Räume vor Ort an, nehmen Sie an einer interessanten Führung teil und lernen Sie so die Geschichte der Häuser und auch der Orchester kennen. Gerne organisieren wir nach Möglichkeit auch Treffen mit Musikern oder Konzertdirektoren, mit denen Sie spannende Gespräche führen und mehr über deren Arbeit erfahren können. Bitte haben Sie Verständnis, dass wir diese Treffen erst ab zehn Teilnehmern organisieren können. Weitere Informationen:
@@ -182,6 +234,8 @@ export const lesenTeil_3 = {
     {
       // G
       id: 6,
+      idText: "G",
+
       title: `Feste feiern?
 
       Wir organisieren Veranstaltungen in verschiedenen Größenordnungen - von der kleinen Familienfeier mit zehn Personen bis hin zu großen Firmenveranstaltungen mit mehreren Hundert Teilnehmern. Lehnen Sie sich zurück und wir machen die Arbeit! Alternativ bieten wir Ihnen aber auch unsere kompetente Beratung an, damit Sie Ihre Veranstaltung selbst planen können. Unsere Mitarbeiter kommen dann gerne zu Ihnen oder stehen Ihnen telefonisch und per E-Mail zur Verfügung. Sprechen Sie uns an!
@@ -194,6 +248,8 @@ export const lesenTeil_3 = {
     {
       // H
       id: 7,
+      idText: "H",
+
       title: `Künstleragentur Lippmann
 
       Bei der Künstleragentur Lippmann sind über 100 Künstler registriert, die Sie für Veranstaltungen buchen können. Sie suchen einen Komiker? Kein Problem! Sie möchten auf Ihrer Veranstaltung Schauspieler auftreten lassen? Wir können sie vermitteln! Sie brauchen musikalische Untermalung? Bei uns sind einzelne Musiker ebenso registriert wie Bands. Melden Sie sich noch heute kostenlos und unverbindlich an und schauen Sie in Ruhe alle Angebote durch - einschließlich der Preise und freien Termine. Sicher finden Sie bei uns, was Sie suchen.
@@ -206,6 +262,8 @@ export const lesenTeil_3 = {
     {
       // I
       id: 8,
+      idText: "I",
+
       title: `Gitarre, Violine & Co.
 
       Im Musikverein Wohlklang lernen schon die ganz Kleinen den spielerischen Umgang mit Instrumenten. Aber auch für die „größeren Kleinen" bieten wir Musikförderung und auch individuellen Unterricht an. In verschiedenen Gruppen (Alter von zwei bis acht Jahren) können Ihre Kinder bei uns Instrumente lernen, singen oder tanzen, kurz: Spaß mit Musik haben und auch selbst das Musizieren lernen. Die ersten beiden Probestunden bieten wir Ihnen kostenlos an, damit Sie und Ihre Kinder uns in Ruhe kennenlernen können. Vereinbaren Sie doch gleich einen Termin unter der 0800/5615 6514. Wohlklang e.V., Neue Straße 218, 77933 Lahr`,
@@ -216,6 +274,8 @@ export const lesenTeil_3 = {
     {
       // J
       id: 9,
+      idText: "J",
+
       title: `Instrumente, Noten, Musikbücher
 
       Das Musikhaus Hohenzollern hat jetzt wieder besondere Angebote für alle Interessierten. Wir haben die Preise von allen Instrumenten bis kommenden Samstag reduziert. Auch zahlreiche Bücher und Notenhefte finden Sie ab sofort in unserem neuen Online-Shop zu günstigen Preisen. Unser Einstiegsangebot: alle Bestellungen im Online-Shop ohne Versandkosten! Schauen Sie sich doch mal im Internet um oder kommen Sie direkt bei uns vorbei. Wir freuen uns auf ihren Besuch! Musikhaus Hohenzollern, Steeler Str. 789, 45276 Essen
@@ -228,6 +288,8 @@ export const lesenTeil_3 = {
     {
       // K
       id: 10,
+      idText: "K",
+
       title: `Rhein/Ruhr-Festival
 
       Im kommenden Herbst findet zum ersten Mal das neue Rhein/Ruhr-Festival statt - und wir benötigen noch Hilfe. Im Rahmen des Festivals werden auf fünf unterschiedlichen Bühnen Künstler auftreten. Wir möchten verschiedene Stilrichtungen präsentieren, Solokünstler ebenso wie größere Musikgruppen. Und noch sind Plätze frei! Die Chance also für alle, die sich gerne bei unserem Festival präsentieren möchten. Kurzbewerbungen können ab sofort per E-Mail an office@rheinruhrfestival.eu gesendet werden.
@@ -241,6 +303,8 @@ export const lesenTeil_3 = {
     {
       //L
       id: 11,
+      idText: "L",
+
       title: `Musiker gesucht
 
       Seit einem Jahr vermitteln wir,, Musiktandems" - Musiker suchen Musiker und geben sich gegenseitig Unterricht. Ob Instrument, Gesang, Komposition - alles wird gesucht! Registrieren Sie sich kostenlos auf unserer Homepage www.musiktandems.eu und finden Sie heute noch das Angebot, das Sie schon lange suchen. Wichtig: Sie können sich nur für das Musiktandem anmelden, wenn Sie selbst auch Unterricht anbieten können, also zum Beispiel ein Instrument spielen. Auf unserer Website finden Sie auch weitere Informationen zum Ablauf und können den Service kontaktieren.`,
@@ -250,20 +314,46 @@ export const lesenTeil_3 = {
     },
   ],
   answers: [
-    `
-    Ein Bekannter spielt Gitarre und möchte ein weiteres Instrument lernen.
-    `,
-    " Ein Kollege möchte mit fünf Freunden eine mehrtägige Musikveranstaltung besuchen.",
-    " Ein Bekannter hat bei der Messe Frankfurt gearbeitet und sucht eine andere Stelle in diesem Bereich.",
-    " Sie möchten einer Freundin Eintrittskarten für eine Musikveranstaltung schenken.",
-    "X: Sie interessieren sich für Bücher und möchten eine Messe besuchen.",
-
-    " Die sechsjährige Tochter eines Nachbarn würde gerne mit andere Kindern Musik machen.",
-    " Ein Bekannter muss eine Jubiläumsfeier organisieren und sucht Unterstützung.",
-
-    " Sie mögen Musik und möchten in dem Bereich einen Job.",
-    "X: Ihre Nachbarin möchte ihre Violine verkaufen.",
-    " Eine Bekannte ist Musikerin und sucht Möglichkeiten, mit ihrer Gruppe aufzutreten.",
+    {
+      text: "Ein Bekannter spielt Gitarre und möchte ein weiteres Instrument lernen.",
+      number: "11",
+    },
+    {
+      text: "Ein Kollege möchte mit fünf Freunden eine mehrtägige Musikveranstaltung besuchen.",
+      number: "12",
+    },
+    {
+      text: "Ein Bekannter hat bei der Messe Frankfurt gearbeitet und sucht eine andere Stelle in diesem Bereich.",
+      number: "13",
+    },
+    {
+      text: "Sie möchten einer Freundin Eintrittskarten für eine Musikveranstaltung schenken.",
+      number: "14",
+    },
+    {
+      text: "Sie interessieren sich für Bücher und möchten eine Messe besuchen.",
+      number: "15",
+    },
+    {
+      text: "Die sechsjährige Tochter eines Nachbarn würde gerne mit anderen Kindern Musik machen.",
+      number: "16",
+    },
+    {
+      text: "Ein Bekannter muss eine Jubiläumsfeier organisieren und sucht Unterstützung.",
+      number: "17",
+    },
+    {
+      text: "Sie mögen Musik und möchten in dem Bereich einen Job.",
+      number: "18",
+    },
+    {
+      text: "Ihre Nachbarin möchte ihre Violine verkaufen.",
+      number: "19",
+    },
+    {
+      text: "Eine Bekannte ist Musikerin und sucht Möglichkeiten, mit ihrer Gruppe aufzutreten.",
+      number: "20",
+    },
   ],
 };
 export const lesenTeil_2 = {
@@ -323,41 +413,101 @@ export const lesenTeil_2 = {
       `,
     },
   ],
-  aufgabens: [
+  questions: [
     {
       id: 0,
-      qustion: "Holstein-Rinder",
-      answersOne: `dominieren als Rinderrasse die Milchviehwirtschaft`,
-      answersTwo: "sind für die Milchproduktion wenig geeignet.",
-      answersThree: "wurden ursprünglich in Norddeutschland gezüchtet.",
+      questionText: "Holstein-Rinder",
+      options: [
+        {
+          optionID: "A",
+          option: "dominieren als Rinderrasse die Milchviehwirtschaft",
+        },
+        {
+          optionID: "B",
+          option: "sind für die Milchproduktion wenig geeignet.",
+        },
+        {
+          optionID: "C",
+          option: "wurden ursprünglich in Norddeutschland gezüchtet.",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 1,
-      qustion: "Die Kuh Krista",
-      answersOne: `hat bereits einige Preise gewonnen`,
-      answersTwo: "war Siegerin bei einer Veranstaltung in Italien.",
-      answersThree: "wurde als schönste Kuh Europas ausgezeichnet",
+      questionText: "Die Kuh Krista",
+      options: [
+        {
+          optionID: "A",
+          option: "hat bereits einige Preise gewonnen",
+        },
+        {
+          optionID: "B",
+          option: "war Siegerin bei einer Veranstaltung in Italien.",
+        },
+        {
+          optionID: "C",
+          option: "wurde als schönste Kuh Europas ausgezeichnet",
+        },
+      ],
+      correctAnswerID: "C",
     },
     {
       id: 2,
-      qustion: "Während der Filmaufnahmen",
-      answersOne: `bekam Krista ein Kalb.`,
-      answersTwo: "wäre Krista fast gestorben",
-      answersThree: "wurde Krista ärztlich behandelt.",
+      questionText: "Während der Filmaufnahmen",
+      options: [
+        {
+          optionID: "A",
+          option: "bekam Krista ein Kalb.",
+        },
+        {
+          optionID: "B",
+          option: "wäre Krista fast gestorben",
+        },
+        {
+          optionID: "C",
+          option: "wurde Krista ärztlich behandelt.",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 3,
-      qustion: "Die wirtschaftlichen Probleme von Milchbetrieben",
-      answersOne: `betreffen die Familie Seeger nicht`,
-      answersTwo: "sind eine Folge des Verbraucherverhaltens",
-      answersThree: "werden im Film ausführlich behandelt.",
+      questionText: "Die wirtschaftlichen Probleme von Milchbetrieben",
+      options: [
+        {
+          optionID: "A",
+          option: "betreffen die Familie Seeger nicht",
+        },
+        {
+          optionID: "B",
+          option: "sind eine Folge des Verbraucherverhaltens",
+        },
+        {
+          optionID: "C",
+          option: "werden im Film ausführlich behandelt.",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 4,
-      qustion: "“Die schöne Krista” ",
-      answersOne: `begeistert Kinobetreiber bislang nicht.`,
-      answersTwo: "könnte die Kritiker nicht überzeugen",
-      answersThree: "wurde als beste Dokumentation ausgezeichnet",
+      questionText: "“Die schöne Krista” ",
+      options: [
+        {
+          optionID: "A",
+          option: "begeistert Kinobetreiber bislang nicht.",
+        },
+        {
+          optionID: "B",
+          option: "könnte die Kritiker nicht überzeugen",
+        },
+        {
+          optionID: "C",
+          option: "wurde als beste Dokumentation ausgezeichnet",
+        },
+      ],
+      correctAnswerID: "C",
     },
   ],
   // اساسي
@@ -427,119 +577,196 @@ export const sprachbau_1 = {
       `,
     },
   ],
-  aufgabens: [
+  questions: [
     {
       id: 0,
-      qustion: "21",
-      answersOne: ` allergrößte
-      
-       `,
-      answersTwo: "allergrößltem ",
-      answersThree: "allergrößten ",
+      question: "21",
+      options: [
+        {
+          optionID: "A",
+          option: "allergrößte",
+        },
+        {
+          optionID: "B",
+          option: "allergrößltem",
+        },
+        {
+          optionID: "C",
+          option: "allergrößten",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 1,
-      qustion: "22",
-      answersOne: `an
-      
-      
-      
-      `,
-      answersTwo: "auf ",
-      answersThree: "in",
+      question: "22",
+      options: [
+        {
+          optionID: "A",
+          option: "an",
+        },
+        {
+          optionID: "B",
+          option: "auf",
+        },
+        {
+          optionID: "C",
+          option: "in",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 2,
-      qustion: "23",
-      answersOne: `als
-      
-      
-      
-       `,
-      answersTwo: "so",
-      answersThree: "wie",
+      question: "23",
+      options: [
+        {
+          optionID: "A",
+          option: "als",
+        },
+        {
+          optionID: "B",
+          option: "so",
+        },
+        {
+          optionID: "C",
+          option: "wie",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 3,
-      qustion: "24",
-      answersOne: `können
-      
-   
-      
-      
-      
-       `,
-      answersTwo: "könnte ",
-      answersThree: "   zu können ",
+      question: "24",
+      options: [
+        {
+          optionID: "A",
+          option: "können",
+        },
+        {
+          optionID: "B",
+          option: "könnte",
+        },
+        {
+          optionID: "C",
+          option: "zu können",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 4,
-      qustion: "25",
-      answersOne: `begann
-      
-      
-      
-      `,
-      answersTwo: "beging ",
-      answersThree: "belief ",
+      question: "25",
+      options: [
+        {
+          optionID: "A",
+          option: "begann",
+        },
+        {
+          optionID: "B",
+          option: "beging",
+        },
+        {
+          optionID: "C",
+          option: "belief",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 5,
-      qustion: "26",
-      answersOne: `durch ein Jahr
-
-      
-      
-      
-      
-      
-       `,
-      answersTwo: "ein Jahr lang",
-      answersThree: "seit einem Jahr",
+      question: "26",
+      options: [
+        {
+          optionID: "A",
+          option: "durch ein Jahr",
+        },
+        {
+          optionID: "B",
+          option: "ein Jahr lang",
+        },
+        {
+          optionID: "C",
+          option: "seit einem Jahr",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 6,
-      qustion: "27",
-      answersOne: `entdeckte
-      
-     
-     `,
-      answersTwo: " erfand ",
-      answersThree: "  merkte ",
+      question: "27",
+      options: [
+        {
+          optionID: "A",
+          option: "entdeckte",
+        },
+        {
+          optionID: "B",
+          option: "erfand",
+        },
+        {
+          optionID: "C",
+          option: "merkte",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 7,
-      qustion: "28",
-      answersOne: `Dabei
-       `,
-      answersTwo: "Inzwischen",
-      answersThree: "Während",
+      question: "28",
+      options: [
+        {
+          optionID: "A",
+          option: "Dabei",
+        },
+        {
+          optionID: "B",
+          option: "Inzwischen",
+        },
+        {
+          optionID: "C",
+          option: "Während",
+        },
+      ],
+      correctAnswerID: "C",
     },
     {
       id: 8,
-      qustion: "29",
-      answersOne: `sowohl..als auch
-   
-      
-      `,
-      answersTwo: "   teils..teils",
-      answersThree: "weder..noch  ",
+      question: "29",
+      options: [
+        {
+          optionID: "A",
+          option: "sowohl..als auch",
+        },
+        {
+          optionID: "B",
+          option: "teils..teils",
+        },
+        {
+          optionID: "C",
+          option: "weder..noch",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 9,
-      qustion: "30",
-      answersOne: `auf Ihre Anzeige
-      antworten
-      
-     
-      
-      
-      
-      `,
-      answersTwo: `auf Ihre Anzeige zu
-      antworten`,
-      answersThree: ` um auf Ihre Anzeige
-      zu antworten`,
+      question: "30",
+      options: [
+        {
+          optionID: "A",
+          option: "auf Ihre Anzeige antworten",
+        },
+        {
+          optionID: "B",
+          option: "auf Ihre Anzeige zu antworten",
+        },
+        {
+          optionID: "C",
+          option: "um auf Ihre Anzeige zu antworten",
+        },
+      ],
+      correctAnswerID: "B",
     },
   ],
 };

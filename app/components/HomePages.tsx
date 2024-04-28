@@ -10,6 +10,7 @@ const sections = [
       { href: "/insektenasasi", text: "1.2-Insekten Asasi" },
       { href: "/insektenasasi-3", text: "1.3-Insekten 3" },
       { href: "/schreiben-1", text: "Schreiben-1" },
+      { href: "/horen-1", text: "Hören" },
     ],
     mainColor: "#bfdbfe",
     color: "#60a5fa",
@@ -28,7 +29,7 @@ const sections = [
     title: "#Kelner 3",
     links: [
       { href: "/kelner", text: "1-kelner Asasi" },
-      { href: "/Kelner-1", text: "1.2-Kelner المعدل" },
+      { href: "/kelner-1", text: "1.2-Kelner المعدل" },
       { href: "/schreiben-3", text: "Schreiben-3" },
     ],
     mainColor: "#7351d74f",

@@ -2,6 +2,8 @@ export const lesenTeil_1 = {
   carts: [
     {
       id: 0,
+      idText: "1",
+
       title: `
       Berlin wird in 10 Jahren rund 5.000 
       Lehrkräfte weniger brauchen als 
@@ -41,6 +43,8 @@ export const lesenTeil_1 = {
     },
     {
       id: 1,
+      idText: "2",
+
       title: `
       Wer sich in Berlin um eine Stelle als Lehrer bewirbt, muss hart im Nehmen sein. “Während man in 
 Hamburgrespektvoll be-handelt wird, rechnen Vertreter der Berliner Schulverwaltung den Bewerbern vor, wie 
@@ -60,6 +64,8 @@ Bundesländer verlieren könnte.
     },
     {
       id: 2,
+      idText: "3",
+
       title: `Die Hilferufe aus den Schulen wollen nicht verstummen: Schüler klagen über ständigen Lehrerwechsel, 
       Eltern über Stundenausfall und Schulleiter über fehlende Bewerber. Doch es könnte noch schlimmer 
       werden. Der Verband Bildung und Erziehung (VBE) rechnet in den nächsten 15 Jahren mit einem 
@@ -79,6 +85,8 @@ Bundesländer verlieren könnte.
     },
     {
       id: 3,
+      idText: "4",
+
       title: `
       Bildungspolitiker und Lehrervertreter wollen Abiturienten scharenweise in den 
 Lehrerberuf locken. Sie sollen große Lücken schließen, die durch Pensionierungen 
@@ -103,6 +111,8 @@ schwer haben werden
     },
     {
       id: 4,
+      idText: "5",
+
       title: `Mädchen haben tendenziell bessere Noten und stellen 56 Prozent der Abiturienten. 
       Dagegen sind zwei Drittel der Schulabbrecher und drei Viertel der Sonderschüler Jungen. 
       Liegt die Ursache in der Grundschule, wo von den knapp 200.000 Lehrkräften nur rund 
@@ -123,16 +133,46 @@ schwer haben werden
     },
   ],
   answers: [
-    "An deutschen Grundschulen sind männliche Lehrkräfte selten",
-    "Bildungsexperten warnen: Deutsche Lehrer sind schlecht ausgebildet",
-    "Bildungsforscher: Lehrermangel wird in Deutschland nicht eintreten",
-    "Die Zahl der männlichen Lehrkräfte an Grundschulen nimmt zu",
-    "Experten befürchten zunehmenden Lehrermangel in Deutschland",
-    "Gewerkschaft erwartet Lehrermangel in Berlin",
-    "GEW befürchtet Abwanderung von gut ausgebildeten Lehrkräften aus Berlin",
-    "Immer mehr Berliner wandern aus",
-    "Immer weniger Frauen machen ein Grundschullehrer-Studium",
-    "Vorausschauende Politiker verhindern Lehrermangel in Berlin",
+    {
+      text: "An deutschen Grundschulen sind männliche Lehrkräfte selten",
+      number: "a",
+    },
+    {
+      text: "Bildungsexperten warnen: Deutsche Lehrer sind schlecht ausgebildet",
+      number: "b",
+    },
+    {
+      text: "Bildungsforscher: Lehrermangel wird in Deutschland nicht eintreten",
+      number: "c",
+    },
+    {
+      text: "Die Zahl der männlichen Lehrkräfte an Grundschulen nimmt zu",
+      number: "d",
+    },
+    {
+      text: "Experten befürchten zunehmenden Lehrermangel in Deutschland",
+      number: "e",
+    },
+    {
+      text: "Gewerkschaft erwartet Lehrermangel in Berlin",
+      number: "f",
+    },
+    {
+      text: "GEW befürchtet Abwanderung von gut ausgebildeten Lehrkräften aus Berlin",
+      number: "g",
+    },
+    {
+      text: "Immer mehr Berliner wandern aus",
+      number: "h",
+    },
+    {
+      text: "Immer weniger Frauen machen ein Grundschullehrer-Studium",
+      number: "i",
+    },
+    {
+      text: "Vorausschauende Politiker verhindern Lehrermangel in Berlin",
+      number: "j",
+    },
   ],
 };
 
@@ -140,6 +180,8 @@ export const lesenTeil_3 = {
   carts: [
     {
       id: 0,
+      idText: "A",
+
       title: `
       Norwegen: Kirkenes-Bergen
 Die schönste Seereise der Welt - von Anfang April bis Ende Oktober. 6-Tage-Seereise 2009 ab 699,- € p. P. 
@@ -157,6 +199,8 @@ E-Mail: info@eiligruten.de, www.eiligruten.de
     },
     {
       id: 1,
+      idText: "B",
+
       title: `
       Mal was ganz anderes machen
 Winterurlaub am Meer. Denn Nord- und Ostseeküste bieten auch in der kalten Jahreszeit Aktivitäten, die 
@@ -175,6 +219,8 @@ jemand Berge? Infos unter: www.schleswig-holstein.de.
 
     {
       id: 2,
+      idText: "C",
+
       title: `Meditation im Schnee
       Nur die Schritte knirschen gleichmäßig im Schnee. Sonst ist es absolut still. Rechts und links ragen die 
       Berge schroff in den blauen Himmel. Strahlend weiß glitzert die Landschaft wie von Tausenden kleiner 
@@ -189,6 +235,8 @@ jemand Berge? Infos unter: www.schleswig-holstein.de.
     },
     {
       id: 3,
+      idText: "D",
+
       title: `
       Fluss- und Radreise durch Belgien
 8 Tage Fluss- und Radreise durch Belgien. Abseits der Hauptstraßen fahren Sie mit Schiff und Rad durch 
@@ -206,6 +254,8 @@ Tourenbesprechungen, Landkarten, alle Hafen-, Schleusen- und Brückengebühren, 
     },
     {
       id: 4,
+      idText: "E",
+
       title: `
       Radwandern durch das Veneto
 Radwandern durch das Veneto
@@ -222,6 +272,8 @@ Kleinbus als Begleitfahrzeug, Gepäcktransport. Termin: 5. bis 12. April. Preis:
     },
     {
       id: 5,
+      idText: "F",
+
       title: `Übernachten "Im Namen der Rose"
       Berühmt wurde Kloster Eberbach 1988 als Schauplatz für die Innenaufnahmen zum Film "Der Name der 
       Rose". Zwar gibt es heute kein klösterliches Leben mehr, aber das in seinen Baukörpern erhaltene 
@@ -238,6 +290,8 @@ Kleinbus als Begleitfahrzeug, Gepäcktransport. Termin: 5. bis 12. April. Preis:
     },
     {
       id: 6,
+      idText: "G",
+
       title: `
       Tagestouren in Rheinhessen und im Rheingau
 Mit der Zahnstangenbahn auf den Wiesbadener Neroberg fahren, in Geisenheim mediterran kochen 
@@ -253,6 +307,8 @@ ins Innere der Orgel steigen können oder wo die “Nacht der Verführung” sta
     },
     {
       id: 7,
+      idText: "H",
+
       title: `
       Abend im Palladio
       Wenn die Tage kürzer und die Nächte kälter werden, ist es Zeit für Artistik, Comedy und Gaumenfreuden. 
@@ -270,6 +326,8 @@ ins Innere der Orgel steigen können oder wo die “Nacht der Verführung” sta
     },
     {
       id: 8,
+      idText: "I",
+
       title: `Kloster Eberbach
       Kloster Eberbach mit seinen eindrucksvollen mittelalterlichen und barocken Bauten bietet seinen Gästen 
       einzigartige Voraussetzungen für eine stilvolle Veranstaltung in altehrwürdigen Klostermauern. Sie 
@@ -288,6 +346,8 @@ ins Innere der Orgel steigen können oder wo die “Nacht der Verführung” sta
     },
     {
       id: 9,
+      idText: "J",
+
       title: `Stadt-Führer Frankfurt am Main. Kultur & mehr
       Viel Lob von der Lokalpresse für einen neuen Stadt-Führer über die Mainmetropole: Anne Schütz: 
       Frankfurt am Main. Kultur & mehr. Paul Müller Verlag, 15,95 €. Dieser umfangreiche Reise-Führer wartet 
@@ -304,6 +364,8 @@ ins Innere der Orgel steigen können oder wo die “Nacht der Verführung” sta
     },
     {
       id: 10,
+      idText: "K",
+
       title: `Tour zu Schauplätzen der berühmtesten Kriminalfälle Frankfurts
       Der Historiker und Stadtfüher Peter Glock begleitet Sie auf einer interessanten zweistündigen Tour durch 
       die Innenstadt zu Schauplätzen der berühmtesten Kriminalfälle in der Geschichte Frankfurts. Sie 
@@ -317,6 +379,8 @@ ins Innere der Orgel steigen können oder wo die “Nacht der Verführung” sta
     },
     {
       id: 11,
+      idText: "L",
+
       title: `Statistisches Jahrbuch der Stadt Frankfurt
       An einem durchschnittlichen Tag in Frankfurt werden 19 Babya geboren, sieben Brautpaare heiraten, 
       aber fünf Ehepaare lassen sich scheiden. 136 Frankfurter ziehen im Stadtgebiet um, sechs neue 
@@ -330,22 +394,46 @@ ins Innere der Orgel steigen können oder wo die “Nacht der Verführung” sta
     },
   ],
   answers: [
-    "Sie möchten Ihren Eltern zur Silberhochzeit eine besondere Schiffsreise auf dem Meer schenken.",
-    `Ihre Freundin möchte mit ihrem Mann Silvester und Neujahr im Urlaub feiern, aber nicht 
-    schon wieder im Gebirge.`,
-    `Ein Bekannter möchte im Winter ein besinnliches Wochenende in den Bergen verbringen, denn 
-   er mag es, durch die verschneite Natur zu laufen.`,
-
-    "Eine Bekannte aus dem Rhein-Main-Gebiet sucht Vorschläge für Ein-Tages-Ausflüge, denn sie übernachtet nicht gern in fremden Betten",
-    "Sie wollen wie jedes Jahr in der zweiten Jahreshälfte eine zirka einwöchige organisierte Urlaubsreise in Europa machen und sich dabei viel mit dem Fahrrad fortbewegen.",
-    "Sie möchten einen netten Abend mit Freunden bei gutem Essen und außergewöhnlichem Unterhaltungsprogramm verleben",
-
-    "Sie suchen für eine prunkvolle Hochzeitsfeier geeignete festliche Räumlichkeiten in einer stimmungsvollen klösterlichen Umgebung für zirka 50 Personen.",
-
-    "Sie sind neu in Frankfurt a. M. und suchen deshalb nach nützlichen Informationen und praktischen Tipps, um sich schnell in der neuen Umgebung einzuleben",
-
-    "X: Sie interessieren sich für Bücher über Architektur und Gartenarchitektur deutscher Klosteranlagen.",
-    "X: Sie suchen gute Kriminalromane, deren Handlung im Rhein-Main-Gebiet und besonders in Frankfurt spielt.",
+    {
+      text: "Sie möchten Ihren Eltern zur Silberhochzeit eine besondere Schiffsreise auf dem Meer schenken.",
+      number: "11",
+    },
+    {
+      text: "Ihre Freundin möchte mit ihrem Mann Silvester und Neujahr im Urlaub feiern, aber nicht schon wieder im Gebirge.",
+      number: "12",
+    },
+    {
+      text: "Ein Bekannter möchte im Winter ein besinnliches Wochenende in den Bergen verbringen, denn er mag es, durch die verschneite Natur zu laufen.",
+      number: "13",
+    },
+    {
+      text: "Eine Bekannte aus dem Rhein-Main-Gebiet sucht Vorschläge für Ein-Tages-Ausflüge, denn sie übernachtet nicht gern in fremden Betten",
+      number: "14",
+    },
+    {
+      text: "Sie wollen wie jedes Jahr in der zweiten Jahreshälfte eine zirka einwöchige organisierte Urlaubsreise in Europa machen und sich dabei viel mit dem Fahrrad fortbewegen.",
+      number: "15",
+    },
+    {
+      text: "Sie möchten einen netten Abend mit Freunden bei gutem Essen und außergewöhnlichem Unterhaltungsprogramm verleben",
+      number: "16",
+    },
+    {
+      text: "Sie suchen für eine prunkvolle Hochzeitsfeier geeignete festliche Räumlichkeiten in einer stimmungsvollen klösterlichen Umgebung für zirka 50 Personen.",
+      number: "17",
+    },
+    {
+      text: "Sie sind neu in Frankfurt a. M. und suchen deshalb nach nützlichen Informationen und praktischen Tipps, um sich schnell in der neuen Umgebung einzuleben",
+      number: "18",
+    },
+    {
+      text: "Sie interessieren sich für Bücher über Architektur und Gartenarchitektur deutscher Klosteranlagen.",
+      number: "19",
+    },
+    {
+      text: "Sie suchen gute Kriminalromane, deren Handlung im Rhein-Main-Gebiet und besonders in Frankfurt spielt.",
+      number: "20",
+    },
   ],
 };
 export const lesenTeil_2 = {
@@ -402,42 +490,103 @@ und stattdessen war die junge Frau selbser Hausfrau und Herrin eines eigenen Hau
       `,
     },
   ],
-  aufgabens: [
+  questions: [
     {
       id: 0,
-      qustion: "Die Eltern ließen ihre Töchter als Dienstmädchen arbeiten",
-      answersOne: `damit sie die Jahre bis zur Arbeit in der Fabrik überbrücken konnten`,
-      answersTwo: "damit sie lernten, einen Haushalt zu führen.",
-      answersThree: "damit sie besser beaufsichtigt waren als zu Hause.",
+      questionText: "Die Eltern ließen ihre Töchter als Dienstmädchen arbeiten",
+      options: [
+        {
+          optionID: "A",
+          option:
+            "damit sie die Jahre bis zur Arbeit in der Fabrik überbrücken konnten",
+        },
+        {
+          optionID: "B",
+          option: "damit sie lernten, einen Haushalt zu führen.",
+        },
+        {
+          optionID: "C",
+          option: "damit sie besser beaufsichtigt waren als zu Hause.",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 1,
-      qustion: "Die Stellen fanden die Mädchen zumeist",
-      answersOne: `durch Vermittler, die ins Dorf kamen`,
-      answersTwo: "alleine. ",
-      answersThree: "mit Hilfe ihrer Eltern. ",
+      questionText: "Die Stellen fanden die Mädchen zumeist",
+      options: [
+        {
+          optionID: "A",
+          option: "durch Vermittler, die ins Dorf kamen",
+        },
+        {
+          optionID: "B",
+          option: "alleine.",
+        },
+        {
+          optionID: "C",
+          option: "mit Hilfe ihrer Eltern.",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 2,
-      qustion: "Dienstmädchen gab es",
-      answersOne: `fast nur bei reicheren Leuten`,
-      answersTwo: "auch bei den weniger reichen Leuten",
-      answersThree: "in jedem Haus in der Stadt",
+      questionText: "Dienstmädchen gab es",
+      options: [
+        {
+          optionID: "A",
+          option: "fast nur bei reicheren Leuten",
+        },
+        {
+          optionID: "B",
+          option: "auch bei den weniger reichen Leuten",
+        },
+        {
+          optionID: "C",
+          option: "in jedem Haus in der Stadt",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 3,
-      qustion: "Dienstmädchen",
-      answersOne: `mussten länger arbeiten als Fabrikarbeiter.`,
-      answersTwo:
-        "konnten sich am Sonntag zwei Stunden mit anderen Dienstmädchen treffen.",
-      answersThree: "durften nicht alleine einkaufen gehen",
+      questionText: "Dienstmädchen",
+      options: [
+        {
+          optionID: "A",
+          option: "mussten länger arbeiten als Fabrikarbeiter.",
+        },
+        {
+          optionID: "B",
+          option:
+            "konnten sich am Sonntag zwei Stunden mit anderen Dienstmädchen treffen.",
+        },
+        {
+          optionID: "C",
+          option: "durften nicht alleine einkaufen gehen",
+        },
+      ],
+      correctAnswerID: "C",
     },
     {
       id: 4,
-      qustion: "Dienstmädchen bekamen",
-      answersOne: `fast kein Geld`,
-      answersTwo: "ein eigenes Zimmer",
-      answersThree: "Geld, um für später zu sparen.",
+      questionText: "Dienstmädchen bekamen",
+      options: [
+        {
+          optionID: "A",
+          option: "fast kein Geld",
+        },
+        {
+          optionID: "B",
+          option: "ein eigenes Zimmer",
+        },
+        {
+          optionID: "C",
+          option: "Geld, um für später zu sparen.",
+        },
+      ],
+      correctAnswerID: "A",
     },
   ],
 };
@@ -472,76 +621,196 @@ export const sprachbau_1 = {
       `,
     },
   ],
-  aufgabens: [
+  questions: [
     {
       id: 0,
-      qustion: "21",
-      answersOne: ` an`,
-      answersTwo: "von",
-      answersThree: "Ihrer",
+      questionText: "21",
+      options: [
+        {
+          optionID: "A",
+          option: "an",
+        },
+        {
+          optionID: "B",
+          option: "von",
+        },
+        {
+          optionID: "C",
+          option: "zu",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 1,
-      qustion: "22",
-      answersOne: `ankommenden`,
-      answersTwo: "gekommenen",
-      answersThree: "kommenden",
+      questionText: "22",
+      options: [
+        {
+          optionID: "A",
+          option: "ankommenden",
+        },
+        {
+          optionID: "B",
+          option: "gekommenen",
+        },
+        {
+          optionID: "C",
+          option: "kommenden",
+        },
+      ],
+      correctAnswerID: "C",
     },
     {
       id: 2,
-      qustion: "23",
-      answersOne: `aus`,
-      answersTwo: "mit",
-      answersThree: "nach",
+      questionText: "23",
+      options: [
+        {
+          optionID: "A",
+          option: "aus",
+        },
+        {
+          optionID: "B",
+          option: "mit",
+        },
+        {
+          optionID: "C",
+          option: "nach",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 3,
-      qustion: "24",
-      answersOne: `bieten`,
-      answersTwo: "fordern",
-      answersThree: "nehmen",
+      questionText: "24",
+      options: [
+        {
+          optionID: "A",
+          option: "bieten",
+        },
+        {
+          optionID: "B",
+          option: "fordern",
+        },
+        {
+          optionID: "C",
+          option: "nehmen",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 4,
-      qustion: "25",
-      answersOne: `so dass`,
-      answersTwo: "weil",
-      answersThree: "wenn",
+      questionText: "25",
+      options: [
+        {
+          optionID: "A",
+          option: "so dass",
+        },
+        {
+          optionID: "B",
+          option: "weil",
+        },
+        {
+          optionID: "C",
+          option: "wenn",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 5,
-      qustion: "26",
-      answersOne: `Gemeinsam mit`,
-      answersTwo: "Verbunden von",
-      answersThree: "Zusammen neben",
+      questionText: "26",
+      options: [
+        {
+          optionID: "A",
+          option: "Gemeinsam mit",
+        },
+        {
+          optionID: "B",
+          option: "Verbunden von",
+        },
+        {
+          optionID: "C",
+          option: "Zusammen neben",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 6,
-      qustion: "27",
-      answersOne: `die Ansicht`,
-      answersTwo: "der Besuch",
-      answersThree: "das Betrachten",
+      questionText: "27",
+      options: [
+        {
+          optionID: "A",
+          option: "die Ansicht",
+        },
+        {
+          optionID: "B",
+          option: "der Besuch",
+        },
+        {
+          optionID: "C",
+          option: "das Betrachten",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 7,
-      qustion: "28",
-      answersOne: `hat geplant`,
-      answersTwo: "st geplant",
-      answersThree: "wird geplant haben",
+      questionText: "28",
+      options: [
+        {
+          optionID: "A",
+          option: "hat geplant",
+        },
+        {
+          optionID: "B",
+          option: "st geplant",
+        },
+        {
+          optionID: "C",
+          option: "wird geplant haben",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 8,
-      qustion: "29",
-      answersOne: `besprochen`,
-      answersTwo: "gesprochen",
-      answersThree: "versprochen",
+      questionText: "29",
+      options: [
+        {
+          optionID: "A",
+          option: "besprochen",
+        },
+        {
+          optionID: "B",
+          option: "gesprochen",
+        },
+        {
+          optionID: "C",
+          option: "versprochen",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 9,
-      qustion: "30",
-      answersOne: `haben`,
-      answersTwo: "hatten",
-      answersThree: "hatten",
+      questionText: "30",
+      options: [
+        {
+          optionID: "A",
+          option: "haben",
+        },
+        {
+          optionID: "B",
+          option: "hatten",
+        },
+        {
+          optionID: "C",
+          option: "hatten",
+        },
+      ],
+      correctAnswerID: "A",
     },
   ],
 };

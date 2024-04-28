@@ -3,7 +3,6 @@ export const lesenTeil_1 = {
     {
       id: 0,
       idText: "1",
-
       title: `
       Die anhaltenden außergewöhnlich hohen 
       Temperaturen haben im Süden Frankreichs eine 

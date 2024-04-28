@@ -5,6 +5,7 @@ import "./globals.css";
 import Footer from "./components/footer";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
+import Provider from "../components/provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,11 +22,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="w-full h-[100%] dark:bg-dark bg-[#efefef] dark:bg-[#011220d6]  ">
-          {children}
-          <Footer />
-          <ToastContainer position="bottom-right" />
-        </div>
+        <Provider>
+          <div className="w-full h-[100%] dark:bg-dark bg-[#efefef] dark:bg-[#011220d6]  ">
+            {children}
+            <Footer />
+            <ToastContainer position="bottom-right" />
+          </div>
+        </Provider>
       </body>
     </html>
   );
