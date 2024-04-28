@@ -74,7 +74,7 @@ const questions = [
   },
 ];
 
-const Horen_1 = ({ src }) => {
+const Horen_1 = () => {
   const [selectedAnswers, setSelectedAnswers] = useState({});
   const [results, setResults] = useState({});
   const [showResults, setShowResults] = useState(false);

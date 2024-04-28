@@ -44,12 +44,12 @@ const Lesenteiltow = () => {
     session && (
       <div className="container mx-auto w-full px-2">
         <Header
-        pageHome="/grundschulen-1"
-        pageTow="/grundschulen-1/lesenteil-2"
-        pageThree="/grundschulen-1/lesenteil-3"
-        pageFour="/grundschulen-1/sprachbauchteine-1"
-        pageFive="/grundschulen-1/sprachbauchteine-2"
-      />
+          pageHome="/grundschulen-1"
+          pageTow="/grundschulen-1/lesenteil-2"
+          pageThree="/grundschulen-1/lesenteil-3"
+          pageFour="/grundschulen-1/sprachbauchteine-1"
+          pageFive="/grundschulen-1/sprachbauchteine-2"
+        />
 
         <main>
           <div className="w-full bg-blue-900 text-white">
@@ -71,8 +71,8 @@ const Lesenteiltow = () => {
                       <p>{text.text}</p>
                     </div>
                     <div className="py-4 px-4">
-                      <h1 className="font-bold">{text.titleTow}</h1>
-                      <p>{text.textTow}</p>
+                      {/* <h1 className="font-bold">{text.titleTow}</h1>
+                      <p>{text.textTow}</p> */}
                     </div>
                   </div>
                 ))}
