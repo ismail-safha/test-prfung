@@ -146,7 +146,7 @@ const questions = [
   },
 ];
 
-const Horen_1 = ({ src }) => {
+const Horen_2 = () => {
   const [selectedAnswers, setSelectedAnswers] = useState({});
   const [results, setResults] = useState({});
   const [showResults, setShowResults] = useState(false);
@@ -250,4 +250,4 @@ const Horen_1 = ({ src }) => {
   );
 };
 
-export default Horen_1;
+export default Horen_2;
