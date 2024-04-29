@@ -70,10 +70,10 @@ const Lesenteiltow = () => {
                       <h1 className="font-bold">{text.title}</h1>
                       <p>{text.text}</p>
                     </div>
-                    <div className="py-4 px-4">
+                    {/* <div className="py-4 px-4">
                       <h1 className="font-bold">{text.titleTow}</h1>
                       <p>{text.textTow}</p>
-                    </div>
+                    </div> */}
                   </div>
                 ))}
               </div>
