@@ -580,7 +580,7 @@ export const sprachbau_1 = {
   questions: [
     {
       id: 0,
-      question: "21",
+      questionText: "21",
       options: [
         {
           optionID: "A",
@@ -599,7 +599,7 @@ export const sprachbau_1 = {
     },
     {
       id: 1,
-      question: "22",
+      questionText: "22",
       options: [
         {
           optionID: "A",
@@ -618,7 +618,7 @@ export const sprachbau_1 = {
     },
     {
       id: 2,
-      question: "23",
+      questionText: "23",
       options: [
         {
           optionID: "A",
@@ -637,7 +637,7 @@ export const sprachbau_1 = {
     },
     {
       id: 3,
-      question: "24",
+      questionText: "24",
       options: [
         {
           optionID: "A",
@@ -656,7 +656,7 @@ export const sprachbau_1 = {
     },
     {
       id: 4,
-      question: "25",
+      questionText: "25",
       options: [
         {
           optionID: "A",
@@ -675,7 +675,7 @@ export const sprachbau_1 = {
     },
     {
       id: 5,
-      question: "26",
+      questionText: "26",
       options: [
         {
           optionID: "A",
@@ -694,7 +694,7 @@ export const sprachbau_1 = {
     },
     {
       id: 6,
-      question: "27",
+      questionText: "27",
       options: [
         {
           optionID: "A",
@@ -713,7 +713,7 @@ export const sprachbau_1 = {
     },
     {
       id: 7,
-      question: "28",
+      questionText: "28",
       options: [
         {
           optionID: "A",
@@ -732,7 +732,7 @@ export const sprachbau_1 = {
     },
     {
       id: 8,
-      question: "29",
+      questionText: "29",
       options: [
         {
           optionID: "A",
@@ -751,7 +751,7 @@ export const sprachbau_1 = {
     },
     {
       id: 9,
-      question: "30",
+      questionText: "30",
       options: [
         {
           optionID: "A",
