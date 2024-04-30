@@ -157,8 +157,7 @@ export const lesenTeil_3 = {
       www.ticketprofis.eu
       `,
       cartItemAnswers: "",
-      cartAcoordion:
-        "Eine Bekannte interessiert sich für informative Beiträge zur neueren Geschichte.",
+      cartAcoordion: "",
     },
     {
       // B
@@ -188,7 +187,7 @@ export const lesenTeil_3 = {
       Sie uns an: 0800/9900100`,
       cartItemAnswers: "",
       cartAcoordion:
-        " Ein Kollege möchte mit fünf Freunden eine mehrtägige Musikveranstaltung besuchen.",
+        "Ein Kollege möchte mit fünf Freunden eine mehrtägige Musikveranstaltung besuchen.",
     },
     {
       // D
@@ -201,7 +200,7 @@ export const lesenTeil_3 = {
       
       E-Mail: info@musikfestivaltaubertal.eu `,
       cartItemAnswers: "",
-      cartAcoordion: " Sie mögen Musik und möchten in dem Bereich einen Job.",
+      cartAcoordion: "Sie mögen Musik und möchten in dem Bereich einen Job.",
     },
     {
       // E
@@ -215,7 +214,7 @@ export const lesenTeil_3 = {
       www.die-veranstaltungsspezialisten.eu`,
       cartItemAnswers: "",
       cartAcoordion:
-        " Sie möchten einer Freundin Eintrittskarten für eine Musikveranstaltung schenken.",
+        "Sie möchten einer Freundin Eintrittskarten für eine Musikveranstaltung schenken.",
     },
     {
       // F
@@ -228,8 +227,7 @@ export const lesenTeil_3 = {
       
       Musikreisen Gerhardt, Tel 0800/223 997 880`,
       cartItemAnswers: "",
-      cartAcoordion:
-        "Sie würden gern etwas über Großstadtjugendliche erfahren, die am Rand der Gesellschaft leben",
+      cartAcoordion: "",
     },
     {
       // G
@@ -243,7 +241,7 @@ export const lesenTeil_3 = {
       TMC GmbH, info@tmcgmbh.eu`,
       cartItemAnswers: "",
       cartAcoordion:
-        " Ein Bekannter muss eine Jubiläumsfeier organisieren und sucht Unterstützung.",
+        "Ein Bekannter muss eine Jubiläumsfeier organisieren und sucht Unterstützung.",
     },
     {
       // H
@@ -256,8 +254,7 @@ export const lesenTeil_3 = {
       
       www.agentur-lippmann.eu`,
       cartItemAnswers: "",
-      cartAcoordion:
-        "Sie mögen Filme mit viel Action und viel Spaß. Ihre Lieblingshelden können auch mal zuschlagen.",
+      cartAcoordion: "",
     },
     {
       // I
@@ -269,7 +266,7 @@ export const lesenTeil_3 = {
       Im Musikverein Wohlklang lernen schon die ganz Kleinen den spielerischen Umgang mit Instrumenten. Aber auch für die „größeren Kleinen" bieten wir Musikförderung und auch individuellen Unterricht an. In verschiedenen Gruppen (Alter von zwei bis acht Jahren) können Ihre Kinder bei uns Instrumente lernen, singen oder tanzen, kurz: Spaß mit Musik haben und auch selbst das Musizieren lernen. Die ersten beiden Probestunden bieten wir Ihnen kostenlos an, damit Sie und Ihre Kinder uns in Ruhe kennenlernen können. Vereinbaren Sie doch gleich einen Termin unter der 0800/5615 6514. Wohlklang e.V., Neue Straße 218, 77933 Lahr`,
       cartItemAnswers: "",
       cartAcoordion:
-        " Die sechsjährige Tochter eines Nachbarn würde gerne mit andere Kindern Musik machen.",
+        "Die sechsjährige Tochter eines Nachbarn würde gerne mit andere Kindern Musik machen.",
     },
     {
       // J
@@ -282,8 +279,7 @@ export const lesenTeil_3 = {
       
       www.musikhaus-hohenzollern.eu`,
       cartItemAnswers: "",
-      cartAcoordion:
-        "Sie sind gerade umgezogen und möchten neue Leute kennenlernen.",
+      cartAcoordion: "",
     },
     {
       // K
@@ -298,7 +294,7 @@ export const lesenTeil_3 = {
       `,
       cartItemAnswers: "",
       cartAcoordion:
-        " Eine Bekannte ist Musikerin und sucht Möglichkeiten, mit ihrer Gruppe aufzutreten.",
+        "Eine Bekannte ist Musikerin und sucht Möglichkeiten, mit ihrer Gruppe aufzutreten.",
     },
     {
       //L
@@ -450,7 +446,7 @@ export const lesenTeil_2 = {
           option: "wurde als schönste Kuh Europas ausgezeichnet",
         },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "A",
     },
     {
       id: 2,
@@ -469,7 +465,7 @@ export const lesenTeil_2 = {
           option: "wurde Krista ärztlich behandelt.",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 3,
@@ -492,7 +488,7 @@ export const lesenTeil_2 = {
     },
     {
       id: 4,
-      questionText: "“Die schöne Krista” ",
+      questionText: "“Die schöne Krista”",
       options: [
         {
           optionID: "A",
@@ -507,7 +503,7 @@ export const lesenTeil_2 = {
           option: "wurde als beste Dokumentation ausgezeichnet",
         },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "A",
     },
   ],
   // اساسي
@@ -595,7 +591,7 @@ export const sprachbau_1 = {
           option: "allergrößten",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 1,
@@ -614,7 +610,7 @@ export const sprachbau_1 = {
           option: "in",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 2,
@@ -633,7 +629,7 @@ export const sprachbau_1 = {
           option: "wie",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 3,
@@ -652,7 +648,7 @@ export const sprachbau_1 = {
           option: "zu können",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 4,
@@ -766,7 +762,7 @@ export const sprachbau_1 = {
           option: "um auf Ihre Anzeige zu antworten",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "C",
     },
   ],
 };

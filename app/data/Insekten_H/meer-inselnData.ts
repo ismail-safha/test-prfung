@@ -71,7 +71,7 @@ export const lesenTeil_1 = {
       einen Besuch, aber ausschließlich im Rahmen einer geführten Expedition. Nur mit einem
       Experten dürfen sie die Düneninsel im Wattenmeer erkunden`,
       cartItemAnswers: "",
-      cartAcoordion: "Tierparadies auf einer Nordseeinsel      ",
+      cartAcoordion: "Tierparadies auf einer Nordseeinsel",
     },
     {
       id: 3,
@@ -193,7 +193,7 @@ Schlagersängerin Michelle mit dem Titel "Ich schicke dir jetzt einen Engel".
       `,
       cartItemAnswers: "",
       cartAcoordion:
-        "Sie suchen eine abwechslungsreiche Musiksendung mit Klaviermusik.",
+        "Sie suchen eine abwechslungsreiche Musiksendung mit Klaviermusik",
     },
     {
       id: 2,
@@ -222,7 +222,8 @@ Schlagersängerin Michelle mit dem Titel "Ich schicke dir jetzt einen Engel".
       das Wissen des Geheimnisträgers Vincenti abgesehen, das sie fremden Spionen verkaufen
       möchten. `,
       cartItemAnswers: "",
-      cartAcoordion: "Sie sehen gern spannende, aber auch spaßige Agentenfilme",
+      cartAcoordion:
+        "Sie sehen gern spannende, aber auch spaßige Agentenfilme.",
     },
     {
       id: 4,
@@ -239,7 +240,7 @@ Bekanntschaft mit der attraktiven Beth bringt neuen Schwung in sein Leben. Doch 
 Russells Ex-Ehefrau wieder auf.`,
       cartItemAnswers: "",
       cartAcoordion:
-        "Sie mögen Familienkomödien, besonders mit frechen Kindern",
+        "Sie mögen Familienkomödien, besonders mit frechen Kindern.",
     },
     {
       id: 5,
@@ -476,7 +477,7 @@ export const lesenTeil_2 = {
           option: "wurde als schönste Kuh Europas ausgezeichnet",
         },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "A",
     },
     {
       id: 2,
@@ -495,7 +496,7 @@ export const lesenTeil_2 = {
           option: "wurde Krista ärztlich behandelt.",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 3,
@@ -533,7 +534,7 @@ export const lesenTeil_2 = {
           option: "wurde als beste Dokumentation ausgezeichnet",
         },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "A",
     },
   ],
   // اساسي
@@ -623,7 +624,7 @@ export const sprachbau_1 = {
           option: "um",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 1,
@@ -642,7 +643,7 @@ export const sprachbau_1 = {
           option: "wo",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 2,
@@ -661,7 +662,7 @@ export const sprachbau_1 = {
           option: "doch",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "C",
     },
     {
       id: 3,
@@ -699,7 +700,7 @@ export const sprachbau_1 = {
           option: "sich",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 5,
@@ -756,7 +757,7 @@ export const sprachbau_1 = {
           option: "dazu",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 8,
@@ -775,7 +776,7 @@ export const sprachbau_1 = {
           option: "oder",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "A",
     },
     {
       id: 9,
@@ -794,7 +795,7 @@ export const sprachbau_1 = {
           option: "einzig",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
   ],
 };

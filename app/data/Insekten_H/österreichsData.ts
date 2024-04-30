@@ -370,7 +370,7 @@ export const lesenTeil_2 = {
           option: "wird manchmal Wasser zum Befüllen von Pools gestohlen.",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
   ],
 };
@@ -408,7 +408,7 @@ export const sprachbau_1 = {
           option: "waren",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 1,
@@ -427,7 +427,7 @@ export const sprachbau_1 = {
           option: "dass",
         },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "A",
     },
     {
       id: 2,
@@ -446,7 +446,7 @@ export const sprachbau_1 = {
           option: "für",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "C",
     },
     {
       id: 3,
@@ -484,7 +484,7 @@ export const sprachbau_1 = {
           option: "verwandeten",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 5,
@@ -503,7 +503,7 @@ export const sprachbau_1 = {
           option: "unserer",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 6,
@@ -522,7 +522,7 @@ export const sprachbau_1 = {
           option: "wie",
         },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "A",
     },
     {
       id: 7,
@@ -541,7 +541,7 @@ export const sprachbau_1 = {
           option: "ob",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 8,
@@ -560,7 +560,7 @@ export const sprachbau_1 = {
           option: "tun",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "C",
     },
     {
       id: 9,

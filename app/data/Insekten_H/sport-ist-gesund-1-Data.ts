@@ -2,6 +2,8 @@ export const lesenTeil_1 = {
   carts: [
     {
       id: 0,
+      idText: "1",
+
       title: `
       An der Ostküste Attikas in Griechenland
       lag in der Antike der Orte Marathon.
@@ -36,6 +38,8 @@ export const lesenTeil_1 = {
     },
     {
       id: 1,
+      idText: "2",
+
       title: `Warum soll sich der Mensch nun auf Straßen und Wegen fortbewegen? Sich in Feld und Wald, über Stock und
       Stein fortzubewegen, ist mindestens ebenso interessant. Daher erfand die Autoindustrie den Geländewagen
       und die Fahrradindustrie das Mountainbike. Da fehlte eigentlich nur noch eine Neuentwicklung eines
@@ -54,6 +58,8 @@ export const lesenTeil_1 = {
     },
     {
       id: 2,
+      idText: "3",
+
       title: `Schweizer Forscher haben herausgefunden, dass nur 6 Minuten Hochleistungstraining pro Woche
       - also weniger als eine Minute pro Tag - ausreichen, um den Körper �it zu halten. In einem Versuch
       mit mehreren Probanden nahm eine Gruppe an einem traditionellen Ausdauertraining teil, mit je
@@ -69,6 +75,8 @@ export const lesenTeil_1 = {
     },
     {
       id: 3,
+      idText: "4",
+
       title: `Mehr Bewegung als Ausgleich für zu langes Sitzen im Büro und in der Freizeit ist
       zurzeit angesagt, um Übergewicht, Bluthochdruck und
       Herz-Kreislauf-Erkrankungen vorzubeugen und um fit zu bleiben. Gerade für
@@ -87,6 +95,8 @@ export const lesenTeil_1 = {
     },
     {
       id: 4,
+      idText: "5",
+
       title: `Viele frischgebackene Eltern stehen einem riesigen Angebot an Kinderwagen gegenüber,
       das in Kinderläden und Großmärkten feilgeboten wird. Doch welcher ist der richtige?
       Experten raten, beim Kauf dieses für die ersten Jahre mit dem Kleinkind wichtigen
@@ -101,21 +111,50 @@ export const lesenTeil_1 = {
       Kinderwagen auch nach Dauergebrauch nicht zu einem Sicherheitsrisiko für ihr Kind
       werden kann.`,
       cartItemAnswers: "",
-      cartAcoordion: " Geprüfte Qualität für Babys",
+      cartAcoordion: "Geprüfte Qualität für Babys",
     },
   ],
   answers: [
-    "Sport ist gesund - wenn man einige wichtige Regeln beachtet",
-    "Griechische Sportler so erfolgreich wie nie zuvor",
-    "Fitness auch mit wenig Zeitaufwand erreichbar",
-    "Geprüfte Qualität für Babys",
-    "Bluthochdruck beschleunigt das Abnehmen   ",
-    "Sportbegeisterte Eltern - und auch die Babys sind beim Joggen dabei",
-    "Täglich kurzes Sprints besser als langes Ausdauertraining",
-    "Ein Leistungssport für jedes Alter",
-
-    "Unüberschaubares Angebot an Kinderwagen    überfordert junge Eltern",
-    "Autoindustrie: In Zukunft Mobilität ohne Grenzen",
+    {
+      text: "Sport ist gesund - wenn man einige wichtige Regeln beachtet",
+      number: "a",
+    },
+    {
+      text: "Griechische Sportler so erfolgreich wie nie zuvor",
+      number: "b",
+    },
+    {
+      text: "Fitness auch mit wenig Zeitaufwand erreichbar",
+      number: "c",
+    },
+    {
+      text: "Geprüfte Qualität für Babys",
+      number: "d",
+    },
+    {
+      text: "Bluthochdruck beschleunigt das Abnehmen",
+      number: "e",
+    },
+    {
+      text: "Sportbegeisterte Eltern - und auch die Babys sind beim Joggen dabei",
+      number: "f",
+    },
+    {
+      text: "Täglich kurzes Sprints besser als langes Ausdauertraining",
+      number: "g",
+    },
+    {
+      text: "Ein Leistungssport für jedes Alter",
+      number: "h",
+    },
+    {
+      text: "Unüberschaubares Angebot an Kinderwagen überfordert junge Eltern",
+      number: "i",
+    },
+    {
+      text: "Autoindustrie: In Zukunft Mobilität ohne Grenzen",
+      number: "j",
+    },
   ],
 };
 
@@ -124,52 +163,41 @@ export const lesenTeil_3 = {
     {
       // A
       id: 0,
-      title: `Die Nachfrage nach individueller Farb- und Stilberatung ist groß. Denn wer heute im Geschäftswie auch im Privatleben erfolgreich sein möchte, muss sich in Outfit und Benehmen vorteilhaft
-      präsentieren können. Der Leitfaden zeigt Ihnen, wie Sie sich selbst am besten in Szene setzen.
-      Von der passenden und farblich stimmigen Garderobe über Make-up und Accessoires bis zu
-      modernen Umgangsformen. Nutzen Sie also diesen "Kurs" als Eintrittskarte in diese reizvolle
-      Welt der Selbstdarstellung. Sie werden garantiert mit einem überzeugenden und gewinnenden
-      persönlichen Auftritt davon profitieren.
+      idText: "A",
+
+      title: `Die Nachfrage nach individueller Farb- und Stilberatung ist groß. Denn wer heute im Geschäfts- wie auch im Privatleben erfolgreich sein möchte, muss sich in Outfit und Benehmen vorteilhaft präsentieren können. Der Leitfaden zeigt Ihnen, wie Sie sich selbst am besten in Szene setzen. Von der passenden und farblich stimmigen Garderobe über Make-up und Accessoires bis zu modernen Umgangsformen. Nutzen Sie also diesen "Kurs" als Eintrittskarte in diese reizvolle Welt der Selbstdarstellung. Sie werden garantiert mit einem überzeugenden und gewinnenden persönlichen Auftritt davon profitieren.
       `,
       cartItemAnswers: "",
       cartAcoordion:
-        "Eine Bekannte möchte ihr äußeres Erscheinungsbild optimieren",
+        "Eine Bekannte möchte ihr äußeres Erscheinungsbild optimieren.",
     },
     {
       // B
       id: 1,
-      title: `Die meisten Menschen kennen keine Strategien, wie sie ihr Lernverhalten und die Fähigkeit,
-      sich Informationen zu merken, gezielt trainieren können. Dieses Buch gibt zunächst einen
-      Überblick, wie das menschliche Gedächtnis funktioniert, und bietet dann eine Fülle von
-      Techniken an, mit denen auch Ungeübte sich das Lernen und Arbeiten leichter machen können.
-       `,
+      idText: "B",
+
+      title: `Die meisten Menschen kennen keine Strategien, wie sie ihr Lernverhalten und die Fahigkeit, sich Informationen zu merken, gezielt trainieren können. Dieses Buch gibt zunächst einen Überblick, wie das menschliche Gedächtnis funktioniert, und bietet dann eine Fülle von Techniken an, mit denen auch Ungeübte sich das Lernen und Arbeiten leichter machen können.`,
       cartItemAnswers: "",
       cartAcoordion:
-        "Eine Studentin sucht Informationen, wie sie besser und systematischer lernen kann",
+        "Eine Studentin sucht Informationen, wie sie besser und systematischer lernen kann.",
     },
     {
       // C
       id: 2,
-      title: `Dieses erstmals 1788 erschienene Buch handelt von dem Umgang der Menschen miteinander
-      und gibt Ratschläge, wie man sich im Umgang mit Menschen verschiedenster Alters- und
-      Rangstufen richtig verhält. Es definiert, was Gutes und was schlechtes Verhalten ist, und galt so
-      lange Zeit als ein Leitfaden für “richtiges” Benehmen.`,
+      idText: "C",
+
+      title: `Dieses erstmals 1788 erschienene Buch handelt von dem Umgang der Menschen miteinander und gibt Ratschläge, wie man sich im Umgang mit Menschen verschiedenster Alters- und Rangstufen richtig verhält. Es definiert, was Gutes und was schlechtes Verhalten ist, und galt so lange Zeit als ein Leitfaden für "richtiges Benehmen.`,
       cartItemAnswers: "",
-      cartAcoordion: `Ein Bekannter schreibt an einer Hausarbeit über gesellschaftliche Normen und
-      Verhaltensregeln verschiedener Jahrhunderte.`,
+      cartAcoordion:
+        "Ein Bekannter schreibt an einer Hausarbeit über gesellschaftliche Normen und Verhaltensregeln verschiedener Jahrhunderte.",
     },
     {
-      // D
+      //D
       id: 3,
-      title: `
-     
+      idText: "D",
 
-      Tim Gallwey entwickelte die Theorie vom Tennis-Spiel, das sich im Kopf abspielt. Er zeigt, wie
-      jeder sein Leben frei von Angst und mit Eleganz spielen kann, ohne in Selbstzweifel oder
-      Unkonzentriertheit zu verfallen. Das Gallwey'sche Tennisspiel setzt ungeahnte Energien frei und
-      zeigt das grenzenlose Potential des menschlichen Körpers und Geistes, wenn es darum geht,
-      seine Lebensziele zu verfolgen und zu erreichen.
-      `,
+      title: `
+      Tim Gallwey entwickelte die Theorie vom Tennis-Spiel, das sich im Kopf abspielt. Er zeigt, wie jeder sein Leben frei von Angst und mit Eleganz spielen kann, ohne in Selbstzweifel oder Unkonzentriertheit zu verfallen. Das Gallwey'sche Tennisspiel setzt ungeahnte Energien frei und zeigt das grenzenlose Potential des menschlichen Körpers und Geistes, wenn es darum geht. seine Lebensziele zu verfolgen und zu erreichen.`,
       cartItemAnswers: "",
       cartAcoordion:
         "Eine Bekannte interessiert sich für Bücher über den Tennissport.",
@@ -177,116 +205,135 @@ export const lesenTeil_3 = {
     {
       // E
       id: 4,
-      title: `Jeder Mensch kann seine kommunikativen Möglichkeiten entdecken und damit sein Leben
-      bereichern. Die Themen des Buches sind: Die Grundlagen der Kommunikation, Rede und Vortrag,
-      Gespräche erfolgreich führen, Sicherheit gewinnen und Redeängste überwinden,
-      Zeitmanagement für Redner und Konferenzleiter und vieles mehr.
-      Ein ausführlicher Praxisteil mit zahlreichen Übungen ermöglicht es dem Leser, seine
-      rhetorischen Fähigkeiten zu trainieren.`,
+      idText: "E",
+
+      title: `Jeder Mensch kann seine kommunikativen Möglichkeiten entdecken und damit sein Leben bereichern. Die Themen des Buches sind: Die Grundlagen der Kommunikation, Rede und Vortrag. Gespräche erfolgreich führen, Sicherheit gewinnen und Redeångste überwinden, Zeitmanagement für Redner und Konferenzleiter und vieles mehr.
+      Ein ausführlicher Praxisteil mit zahlreichen Übungen ermöglicht es dem Leser, seine rhetorischen Fähigkeiten zu trainieren.`,
       cartItemAnswers: "",
-      cartAcoordion: `Eine Bekannte ist sehr verunsichert, weil sie auf Konferenzen immer wieder Angst hat, frei
-      zu sprechen.`,
+      cartAcoordion:
+        "Eine Bekannte ist sehr verunsichert, weil sie auf Konferenzen immer wieder Angst hat, frei zu sprechen.",
     },
     {
       // F
       id: 5,
-      title: `Gute Umgangsformen sind wieder “in”. Aber gilt das auch in der Schule? Auf humorvolle Weise
-      erzählt die Autorin aus ihrem Alltag als Lehrerin an einer Realschule. Von gutem Benehmen
-      kann da nicht immer die Rede sein - übrigens auch nicht bei den Eltern.`,
+      idText: "F",
+
+      title: `Gute Umgangsformen sind wieder "in". Aber gilt das auch in der Schule? Auf humorvolle Weise erzählt die Autorin aus ihrem Alltag als Lehrerin an einer Realschule. Von gutem Benehmen kann do nicht immer die Rede sein - übrigens auch nicht bei den Eltern.
+      Frieder Schulze "Reden wir miteinander oder aneinander vorbei?"
+      Manche Missverständnisse entstehen, wenn Menschen miteinander reden, besonders im privaten Bereich erleben wir das oft. Wenn Kommunikation erfolgreich sein soll, ist die Fähigkeit erforderlich, den anderen zu durchschauen und seelische Vorgänge und menschliche Probleme zu erkennen. Viele Beispiele zeigen, wie psychologische Aspekte menschliche Kommunikation verkomplizieren können und wie man damit am besten klar kommen kann.`,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion:
+        "Sie würden gern etwas über Großstadtjugendliche erfahren, die am Rand der Gesellschaft leben",
     },
     {
       // G
       id: 6,
+      idText: "G",
+
       title: `Frieder Schulze "Reden wir miteinander oder aneinander vorbei?"
-      Manche Missverständnisse entstehen, wenn Menschen miteinander reden, besonders im
-      privaten Bereich erleben wir das oft. Wenn Kommunikation erfolgreich sein soll, ist die
-      Fähigkeit erforderlich, den anderen zu durchschauen und seelische Vorgänge und menschliche
-      Probleme zu erkennen. Viele Beispiele zeigen, wie psychologische Aspekte menschliche
-      Kommunikation verkomplizieren können und wie man damit am besten klar kommen kann.`,
+      Manche Missverständnisse entstehen, wenn Menschen miteinander reden, besonders im privaten Bereich erleben wir das oft. Wenn Kommunikation erfolgreich sein soll, ist die Fähigkeit erforderlich, den anderen zu durchschauen und seelische Vorgänge und menschliche Probleme zu erkennen. Viele Beispiele zeigen, wie psychologische Aspekte menschliche Kommunikation verkomplizieren können und wie man damit am besten klar kommen kann.`,
       cartItemAnswers: "",
-      cartAcoordion: " X",
+      cartAcoordion:
+        "Sie wollen umziehen, haben aber eigentlich gar keine Zeit, sich darum zu kümmern.",
     },
     {
       // H
       id: 7,
-      title: `Ken Best "Dein Körper lügt nicht"
-      Der Körper lügt nicht, Gesten und Gebärden decken die Ebene des Unbewusstsein auf: Wer
-      einen erhobenen Zeigefinger oder eine gerümpfte Nase sieht, versteht sofort, was der
-      Gesprächspartner meint, auch wenn der mit Worten etwas anderes sagt. Dieses Buch gibt einen
-      anschaulichen Überblick über die Signale, die wir ständig mit unserem Körper senden, und hilft
-      uns zu verstehen, was jemand in Wahrheit gerade denkt und meint.`,
+      idText: "H",
+
+      title: `Ken Best "Dein Körper lugt nicht"
+      Der Körper lügt nicht, Gesten und Gebärden decken die Ebene des Unbewusstsein auf: Wer einen erhobenen Zeigefinger oder eine gerümpfte Nase sieht, versteht sofort, was der Gesprächspartner meint, auch wenn der mit Worten etwas anderes sagt. Dieses Buch gibt einen anschaulichen Uberblick über die Signale, die wir ständig mit unserem Körper senden, und hilft uns zu verstehen, was jemand in Wahrheit gerade denkt und meint.`,
       cartItemAnswers: "",
       cartAcoordion:
-        "Ein Bekannter möchte wissen, welche Botschaften durch Gestik und Mimik transportiert         werden.",
+        "Ein Bekannter möchte wissen, welche Botschaften durch Gestik und Mimik transportiert werden.",
     },
     {
       // I
       id: 8,
+      idText: "I",
+
       title: `Rolph Barth "Basiswissen: Bewerbungstraining"
-      Die Konkurrenz auf dem Arbeitsmarkt um immer knapper werdende freie Stellen ist groß. Umso
-      wichtiger ist es zu wissen, wie man sich richtig bewirbt. Dieses Buch gibt Arbeitsuchenden
-      umfassende Informationen zur erfolgreichen Bewerbung und bereitet optimal auf das
-      Vorstellungsgespräch vor. Im Übungsteil werden gute Formulierungen für das Anschreiben und
-      das sichere Auftreten des Bewerbers im Gespräch trainiert.`,
+      Die Konkurrenz auf dem Arbeitsmarkt um immer knapper werdende freie Stellen ist groß. Umso wichtiger ist es zu wissen, wie man sich richtig bewirbt. Dieses Buch gibt Arbeitsuchenden umfassende Informationen zur erfolgreichen Bewerbung und bereitet optimal auf das Vorstellungsgespräch vor. Im Übungsteil werden gute Formulierungen für das Anschreiben und das sichere Auftreten des Bewerbers im Gespräch trainiert.`,
       cartItemAnswers: "",
       cartAcoordion:
-        " Ein Bekannter ist sich noch unsicher, wie er sich bei einem Vorstellungsgespräch am besten präsentiert.",
+        "Ein Bekannter ist sich noch unsicher, wie er sich bei einem Vorstellungsgespräch am besten präsentiert.",
     },
     {
       // J
       id: 9,
+      idText: "J",
+
       title: `Brigitte Hübner "Richtig präsentieren"
-      Dieses Buch ist ein Leitfaden für alle, die Teamsitzungen, Besprechungen, Workshops und
-      Konferenzen durchführen. Anhand vieler praktischer Beispiele erhält der Leser Anregungen
-      zum gekonnten visualisieren, zur gut geplanten und sicher durchgeführten Präsentation und
-      zur effektiv gestalteten Besprechung. Es zeigt, wie durch den Einsatz von Bildern und Grafiken
-      Präsentationen aufgelockert und Informationen besser verstanden werden können.`,
+      Dieses Buch ist ein Leitfaden für alle, die Teamsitzungen, Besprechungen, Workshops und Konferenzen durchführen. Anhand vieler praktischer Beispiele erhält der Leser Anregungen zum gekonnten visualisieren, zur gut geplanten und sicher durchgeführten Präsentation und zur effektiv gestalteten Besprechung. Es zeigt, wie durch den Einsatz von Bildern und Grahken Präsentationen aufgelockert und Informationen besser verstanden werden können.`,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion:
+        "Sie sind gerade umgezogen und möchten neue Leute kennenlernen.",
     },
     {
       // K
       id: 10,
-      title: `Helga Sinn-Krummacher "Delfin oder Delphin? So schreibt man das jetzt richtig"
-      Dieses Trainingsbuch ist für den Arbeitsplatz und für zu Hause gedacht. Auf humorvolle Art
-      werden die neuen Rechtschreibregeln der deutschen Sprache vorgestellt und eingeübt. Es
-      enthält außerdem die neue amtliche Wortliste zur Rechtschreibung und die neuen
-      Zeichensetzungsregeln.`,
+      idText: "K",
+
+      title: `Helga Sinn-Krummacher "Delfin oder Delphin? So schreibt man das jetzt richtig" Dieses Trainingsbuch ist für den Arbeitsplatz und für zu Hause gedacht. Auf humorvolle Art werden die neuen Rechtschreibregeln der deutschen Sprache vorgestellt und eingeübt. Es enthält außerdem die neue amtliche Wortliste zur Rechtschreibung und die neuen Zeichensetzungsregeln.
+      `,
       cartItemAnswers: "",
       cartAcoordion:
-        "Ein Bekannter möchte Kalligraphie (Schmuckschriften) lernen",
+        "Ein Bekannter möchte Kalligraphie (Schmuckschriften) lernen.",
     },
     {
-      //L
+      // L
       id: 11,
+      idText: "L",
+
       title: `Erika Tack "Zeitmanagement"
-      Viele Menschen wissen nicht mehr, wo Ihnen der Kopf steht. Zu viele Termine und Aufgaben
-      stellen Sie unter ständigen Zeitdruck. Mit Zeitmanagement lernen Sie, wie Sie Ihre Zeit so
-      einteilen können, dass Sie wieder Zeit zum Leben haben. Sie erkennen Ihre persönlichen
-      Zeitdiebe, Sie lernen, Prioritäten und erreichbare Ziele zu setzen. Durch das Führen eines
-      Zeitplanbuchs lernen Sie wieder (und dauerhaft), aus der Zeitfalle herauszukommen.`,
+      Viele Menschen wissen nicht mehr, wo Ihnen der Kopf steht. Zu viele Termine und Aufgaben stellen Sie unter ständigen Zeitdruck. Mit Zeitmanagement lernen Sie, wie Sie Ihre Zeit so einteilen können, dass Sie wieder Zeit zum Leben haben. Sie erkennen Ihre persönlichen Zeitdiebe. Sie lernen, Prioritäten und erreichbare Ziele zu setzen. Durch das Führen eines Zeitplanbuchs lernen Sie wieder (und dauerhaft), aus der Zeitfalle herauszukommen.
+      `,
       cartItemAnswers: "",
-      cartAcoordion: `Ein befreundetes Ehepaar steht andauernd unter Stress und möchte wieder mehr Zeit für
-       sich und andere haben`,
+      cartAcoordion:
+        "Ein befreundetes Ehepaar steht andauernd unter Stress und möchte wieder mehr Zeit für sich und andere haben.",
     },
   ],
   answers: [
-    `
-    Eine Bekannte interessiert sich für Bücher über den Tennissport`,
-    "Ein befreundetes Ehepaar steht andauernd unter Stress und möchte wieder mehr Zeit für sich und andere haben.",
-    "X: Eine Bekannte möchte bei ihren Partys eine perfekte Gastgeberin sein",
-    "Eine Studentin sucht Informationen, wie sie besser und systematischer lernen kann",
-    "Ein Bekannter möchte wissen, welche Botschaften durch Gestik und Mimik transportiert     werden",
-
-    "Eine Bekannte möchte ihr äußeres Erscheinungsbild optimieren",
-    "Ein Bekannter ist sich noch unsicher, wie er sich bei einem Vorstellungsgespräch am besten präsentiert.",
-
-    "Ein Bekannter schreibt an einer Hausarbeit über gesellschaftliche Normen und Verhaltensregeln verschiedener Jahrhunderte.",
-    "Ein Bekannter möchte Kalligraphie (Schmuckschriften) lernen",
-    `Eine Bekannte ist sehr verunsichert, weil sie auf Konferenzen immer wieder Angst hat, frei
-    zu sprechen`,
+    {
+      text: "Eine Bekannte interessiert sich für Bücher über den Tennissport.",
+      number: "11",
+    },
+    {
+      text: "Ein befreundetes Ehepaar steht andauernd unter Stress und möchte wieder mehr Zeit für sich und andere haben.",
+      number: "12",
+    },
+    {
+      text: "Eine Bekannte möchte bei ihren Partys eine perfekte Gastgeberin sein.",
+      number: "13",
+    },
+    {
+      text: "Eine Studentin sucht Informationen, wie sie besser und systematischer lernen kann.",
+      number: "14",
+    },
+    {
+      text: "Ein Bekannter möchte wissen, welche Botschaften durch Gestik und Mimik transportiert werden.",
+      number: "15",
+    },
+    {
+      text: "Eine Bekannte möchte ihr äußeres Erscheinungsbild optimieren.",
+      number: "16",
+    },
+    {
+      text: "Ein Bekannter ist sich noch unsicher, wie er sich bei einem Vorstellungsgespräch am besten präsentiert.",
+      number: "17",
+    },
+    {
+      text: "Ein Bekannter schreibt an einer Hausarbeit über gesellschaftliche Normen und Verhaltensregeln verschiedener Jahrhunderte.",
+      number: "18",
+    },
+    {
+      text: "Ein Bekannter möchte Kalligraphie (Schmuckschriften) lernen.",
+      number: "19",
+    },
+    {
+      text: "Eine Bekannte ist sehr verunsichert, weil sie auf Konferenzen immer wieder Angst hat, frei zu sprechen.",
+      number: "20",
+    },
   ],
 };
 export const lesenTeil_2 = {
@@ -333,46 +380,107 @@ soll aufrechterhalten bleiben”, sagt er schmunzelnd. “Aber nur solange mich 
       `,
     },
   ],
-  aufgabens: [
+  questions: [
     {
       id: 0,
-      qustion: "Helmut Scherer",
-      answersOne: `führt in Unna einen kleinen Karnevalsumzug durch.`,
-      answersTwo: "ist in Unna seit 50 Jahren eine gefeierte Persönlichkeit",
-      answersThree: "veranstalter den einzigen Karnevalsumzug der Welt.",
+      questionText: "Helmut Scherer",
+      options: [
+        {
+          optionID: "A",
+          option: "führt in Unna einen kleinen Karnevalsumzug durch.",
+        },
+        {
+          optionID: "B",
+          option: "ist in Unna seit 50 Jahren eine gefeierte Persönlichkeit",
+        },
+        {
+          optionID: "C",
+          option: "veranstaltet den einzigen Karnevalsumzug der Welt.",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 1,
-      qustion: "Auf seinem Handwagen",
-      answersOne: `fährt traditionell ein blondes Schulmädchen mit.`,
-      answersTwo:
-        "präsentiert er kleine Szenen, die auf den Alltag Bezug nehmen.",
-      answersThree:
-        "stellt er sozialkritische Themen auf witzige Art und Weise dar",
+      questionText: "Auf seinem Handwagen",
+      options: [
+        {
+          optionID: "A",
+          option: "fährt traditionell ein blondes Schulmädchen mit.",
+        },
+        {
+          optionID: "B",
+          option:
+            "präsentiert er kleine Szenen, die auf den Alltag Bezug nehmen.",
+        },
+        {
+          optionID: "C",
+          option:
+            "stellt er sozialkritische Themen auf witzige Art und Weise dar.",
+        },
+      ],
+      correctAnswerID: "C",
     },
     {
       id: 2,
-      qustion: "Die Bevölkerung von Unna",
-      answersOne: `hatte zunächst wenig Verständnis für Helmut Scherer.`,
-      answersTwo: "hielt anfangs Helmut Scherer für kühl und nüchtern.",
-      answersThree: "verhinderte Helmut Scherer ersten Karnevalsumzug",
+      questionText: "Die Bevölkerung von Unna",
+      options: [
+        {
+          optionID: "A",
+          option: "hatte zunächst wenig Verständnis für Helmut Scherer.",
+        },
+        {
+          optionID: "B",
+          option: "hielt anfangs Helmut Scherer für kühl und nüchtern.",
+        },
+        {
+          optionID: "C",
+          option: "verhinderte Helmut Scherers ersten Karnevalsumzug.",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 3,
-      qustion: "Der kleinste Karnevalsumzug der Welt",
-      answersOne: `hat Helmut Scherer sogar Geld eingebracht`,
-      answersTwo: "ist heute eine gute Reklame für die Stadt Unna.",
-      answersThree:
-        "wird in Zukunft von einer ganzen Gruppe von Leuten durchgeführt",
+      questionText: "Der kleinste Karnevalsumzug der Welt",
+      options: [
+        {
+          optionID: "A",
+          option: "hat Helmut Scherer sogar Geld eingebracht.",
+        },
+        {
+          optionID: "B",
+          option: "ist heute eine gute Reklame für die Stadt Unna.",
+        },
+        {
+          optionID: "C",
+          option:
+            "wird in Zukunft von einer ganzen Gruppe von Leuten durchgeführt.",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 4,
-      qustion: "Helmut Scherer",
-      answersOne: `hat an Karnevalsumzügen in mehreren Städten teilgenommen`,
-      answersTwo: "hat inzwischen in ganz Deutschland Fan-Clubs.",
-      answersThree: "sucht einen Nachfolger",
+      questionText: "Helmut Scherer",
+      options: [
+        {
+          optionID: "A",
+          option: "hat an Karnevalsumzügen in mehreren Städten teilgenommen.",
+        },
+        {
+          optionID: "B",
+          option: "hat inzwischen in ganz Deutschland Fan-Clubs.",
+        },
+        {
+          optionID: "C",
+          option: "sucht einen Nachfolger.",
+        },
+      ],
+      correctAnswerID: "A",
     },
   ],
+
   // اساسي
   // aufgabens: [
   //   {
@@ -444,109 +552,196 @@ export const sprachbau_1 = {
       `,
     },
   ],
-  aufgabens: [
+  questions: [
     {
       id: 0,
-      qustion: "21",
-      answersOne: ` an den
-      
-       `,
-      answersTwo: "auf dem",
-      answersThree: "über den ",
+      questionText: "21",
+      options: [
+        {
+          optionID: "A",
+          option: "an den",
+        },
+        {
+          optionID: "B",
+          option: "auf dem",
+        },
+        {
+          optionID: "C",
+          option: "über den",
+        },
+      ],
+      correctAnswerID: "C",
     },
     {
       id: 1,
-      qustion: "22",
-      answersOne: `nichts mehr
-      `,
-      answersTwo: "noch nicht ",
-      answersThree: "keines",
+      questionText: "22",
+      options: [
+        {
+          optionID: "A",
+          option: "nichts mehr",
+        },
+        {
+          optionID: "B",
+          option: "noch nicht",
+        },
+        {
+          optionID: "C",
+          option: "keines",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 2,
-      qustion: "23",
-      answersOne: `doch
-      
-      
-
-       `,
-      answersTwo: "eben",
-      answersThree: "überhaupt",
+      questionText: "23",
+      options: [
+        {
+          optionID: "A",
+          option: "doch",
+        },
+        {
+          optionID: "B",
+          option: "eben",
+        },
+        {
+          optionID: "C",
+          option: "überhaupt",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 3,
-      qustion: "24",
-      answersOne: `Wann
-      
-   
-      
-      
-      
-       `,
-      answersTwo: "Was ",
-      answersThree: "Wie",
+      questionText: "24",
+      options: [
+        {
+          optionID: "A",
+          option: "Wann",
+        },
+        {
+          optionID: "B",
+          option: "Was",
+        },
+        {
+          optionID: "C",
+          option: "Wie",
+        },
+      ],
+      correctAnswerID: "C",
     },
     {
       id: 4,
-      qustion: "25",
-      answersOne: `der
-      
-      
-      
-      `,
-      answersTwo: "die ",
-      answersThree: "von ",
+      questionText: "25",
+      options: [
+        {
+          optionID: "A",
+          option: "der",
+        },
+        {
+          optionID: "B",
+          option: "die",
+        },
+        {
+          optionID: "C",
+          option: "von",
+        },
+      ],
+      correctAnswerID: "A",
     },
     {
       id: 5,
-      qustion: "26",
-      answersOne: `
-      gelaufen
-      
-      
-      
-      
-       `,
-      answersTwo: "getan",
-      answersThree: "geworden",
+      questionText: "26",
+      options: [
+        {
+          optionID: "A",
+          option: "gelaufen",
+        },
+        {
+          optionID: "B",
+          option: "getan",
+        },
+        {
+          optionID: "C",
+          option: "geworden",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 6,
-      qustion: "27",
-      answersOne: `durchfallen
-     `,
-      answersTwo: " umfallen ",
-      answersThree: "  wegfallen ",
+      questionText: "27",
+      options: [
+        {
+          optionID: "A",
+          option: "durchfallen",
+        },
+        {
+          optionID: "B",
+          option: "umfallen",
+        },
+        {
+          optionID: "C",
+          option: "wegfallen",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 7,
-      qustion: "28",
-      answersOne: `dich
-       `,
-      answersTwo: "dir",
-      answersThree: "mal",
+      questionText: "28",
+      options: [
+        {
+          optionID: "A",
+          option: "dich",
+        },
+        {
+          optionID: "B",
+          option: "dir",
+        },
+        {
+          optionID: "C",
+          option: "mal",
+        },
+      ],
+      correctAnswerID: "B",
     },
     {
       id: 8,
-      qustion: "29",
-      answersOne: `alle
-   
-      
-      `,
-      answersTwo: " ganze",
-      answersThree: "jede",
+      questionText: "29",
+      options: [
+        {
+          optionID: "A",
+          option: "alle",
+        },
+        {
+          optionID: "B",
+          option: "ganze",
+        },
+        {
+          optionID: "C",
+          option: "jede",
+        },
+      ],
+      correctAnswerID: "C",
     },
     {
       id: 9,
-      qustion: "30",
-      answersOne: `
-      dabei
-
-
-      
-      `,
-      answersTwo: `damit `,
-      answersThree: ` davon`,
+      questionText: "30",
+      options: [
+        {
+          optionID: "A",
+          option: "dabei",
+        },
+        {
+          optionID: "B",
+          option: "damit",
+        },
+        {
+          optionID: "C",
+          option: "davon",
+        },
+      ],
+      correctAnswerID: "B",
     },
   ],
 };

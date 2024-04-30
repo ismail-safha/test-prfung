@@ -71,7 +71,7 @@ export const lesenTeil_1 = {
       einen Besuch, aber ausschließlich im Rahmen einer geführten Expedition. Nur mit einem
       Experten dürfen sie die Düneninsel im Wattenmeer erkunden`,
       cartItemAnswers: "",
-      cartAcoordion: "Tierparadies auf einer Nordseeinsel      ",
+      cartAcoordion: "Tierparadies auf einer Nordseeinsel",
     },
     {
       id: 3,
@@ -360,11 +360,11 @@ Politik entstand nach dem gleichnamigen Roman von Klaus Mann.
       number: "15",
     },
     {
-      text: "Sie mögen Familienkomödien, besonders mit frechen Kindern",
+      text: "Sie mögen Familienkomödien, besonders mit frechen Kindern.",
       number: "16",
     },
     {
-      text: "Eine Bekannte interessiert sich für informative Beiträge zur neueren Geschichte",
+      text: "Eine Bekannte interessiert sich für informative Beiträge zur neueren Geschichte.",
       number: "17",
     },
     {
@@ -475,7 +475,7 @@ export const lesenTeil_2 = {
           option: "wurde als schönste Kuh Europas ausgezeichnet",
         },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "A",
     },
     {
       id: 2,
@@ -494,7 +494,7 @@ export const lesenTeil_2 = {
           option: "wurde Krista ärztlich behandelt.",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 3,
@@ -532,7 +532,7 @@ export const lesenTeil_2 = {
           option: "wurde als beste Dokumentation ausgezeichnet",
         },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "A",
     },
   ],
   // اساسي
@@ -623,7 +623,7 @@ export const sprachbau_1 = {
           option: "um",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 1,
@@ -642,7 +642,7 @@ export const sprachbau_1 = {
           option: "wo",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 2,
@@ -661,7 +661,7 @@ export const sprachbau_1 = {
           option: "doch",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "A",
     },
     {
       id: 3,
@@ -699,7 +699,7 @@ export const sprachbau_1 = {
           option: "sich",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 5,
@@ -756,7 +756,7 @@ export const sprachbau_1 = {
           option: "dazu",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 8,
@@ -775,7 +775,7 @@ export const sprachbau_1 = {
           option: "oder",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "C",
     },
     {
       id: 9,

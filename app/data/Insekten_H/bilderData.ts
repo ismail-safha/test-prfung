@@ -193,7 +193,7 @@ export const lesenTeil_3 = {
       
       Ohne Übernachtung, daher besonders günstig! Begrenzte Plätze, buchen Sie schnell telefonisch unter 0221/809043 oder über unsere Homepage.`,
       cartItemAnswers: "",
-      cartAcoordion: " Sie interessieren sich für Technikgeschichte",
+      cartAcoordion: "Sie interessieren sich für Technikgeschichte",
     },
     {
       // D
@@ -253,7 +253,7 @@ Von März bis September (bei schönem Wetter auch länger) können Sie bei unser
       Informieren Sie sich jetzt oder buchen Sie sofort unter www.ballamormeu`,
       cartItemAnswers: "",
       cartAcoordion:
-        "Ein Freund möchte mehr über die Geschichte deutscher Städte erfahren.",
+        "Ein Freund möchte mehr über die Geschichte deutscher Städte erfahren",
     },
     {
       // I
@@ -275,7 +275,7 @@ Von März bis September (bei schönem Wetter auch länger) können Sie bei unser
 
       Lernen Sie die schönsten deutschen Landschaften vom Fluss aus mit einer unserer Flusskreuzfahrten kennen. Auf geräumigen modernen Schiffen fahren Sie über Rhein, Mosel oder Donau, sehen die wunderschöne Natur längs der Flüsse und besichtigen auch die kleinen Ortschaften bei Ausflügen an Land. Wir haben Angebote für Reisende aller Altersklassen, für Individual- oder Gruppenreisende. Fordern Sie unser Informationsmaterial an unter der Rufnummer 0800/4455992.`,
       cartItemAnswers: "",
-      cartAcoordion: "Ein Freund möchte gerne eine Schiffsreise machen.",
+      cartAcoordion: "Ein Freund möchte gerne eine Schiffsreise machen",
     },
     {
       // K
@@ -301,7 +301,7 @@ Von März bis September (bei schönem Wetter auch länger) können Sie bei unser
       Sie kennen die typische Kinderfrage: "Wie geht das?" Oder Sie haben selbst als Kind einmal eine Uhr geöffnet, weil Sie wissen wollten, was darin war. Kinder sind neugierig, Kinder interessieren sich für Technik- und zwar nicht nur, wenn sie damit spielen können. Kinder wollen auch wissen, wie die Sachen funktionieren, aber leider können nicht alle Erwachsenen das gut erklären. Deshalb wurde jetzt in Oberhausen das erste Technik-Museum für Kinder eröffnet. Besucher zwischen 6 und 12 Jahren erfahren dort (natürlich in Begleitung eines Erwachsenen) spielerisch oder bei kindgerechten Führungen alles, was sie über Technik wissen wollen. Informationen: www.technik-museum obechauseredele`,
       cartItemAnswers: "",
       cartAcoordion:
-        "Sie möchten etwas mit Ihrer 6-jährigen Nichte unternehmen, die gerne ins Museum geht.",
+        "Sie möchten etwas mit Ihrer 6-jährigen Nichte unternehmen, die gerne ins Museum geht",
     },
   ],
   answers: [
@@ -314,7 +314,7 @@ Von März bis September (bei schönem Wetter auch länger) können Sie bei unser
       number: "12",
     },
     {
-      text: "Eine Bekannte organisiert einen großen Kindergeburtstag und braucht Hilfe. Ihr Sohn mochte einen Freier und braucht eine Hilfe",
+      text: "Eine Bekannte organisiert einen großen Kindergeburtstag und braucht Hilfe.*(Ihr Sohn mochte einen Freier und braucht eine Hilfe)",
       number: "13",
     },
     {
@@ -433,7 +433,8 @@ export const lesenTeil_2 = {
       options: [
         {
           optionID: "A",
-          option: "------",
+          option:
+            "erhöht auch die Sicherheit des Kindes auf dem Weg zur Schule",
         },
         {
           optionID: "B",
@@ -444,7 +445,7 @@ export const lesenTeil_2 = {
           option: "sollte später Vormittag eingenommen werden.",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "A",
     },
     {
       id: 2,
@@ -463,7 +464,7 @@ export const lesenTeil_2 = {
           option: "wird in verschiedenen Geschmacksrichtungen angeboten.",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 3,
@@ -649,7 +650,7 @@ export const sprachbau_1 = {
           option: "würde",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 4,
@@ -668,7 +669,7 @@ export const sprachbau_1 = {
           option: "wäre",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 5,
@@ -706,7 +707,7 @@ export const sprachbau_1 = {
           option: "sondern",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 7,
@@ -725,7 +726,7 @@ export const sprachbau_1 = {
           option: "Beides",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 8,
@@ -744,7 +745,7 @@ export const sprachbau_1 = {
           option: "Schon",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 9,

@@ -464,7 +464,7 @@ Beschäftigten in Großraumbüros deutlich höher als bei anderen.
             "zeigt, dass Mitarbeiter in Großraumbüros seltener krank sind als andere.",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "A",
     },
     {
       id: 1,
@@ -474,7 +474,7 @@ Beschäftigten in Großraumbüros deutlich höher als bei anderen.
         { optionID: "B", option: "sind kostengünstiger zu beheizen." },
         { optionID: "C", option: "werden immer seltener" },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "B",
     },
     {
       id: 2,
@@ -487,7 +487,7 @@ Beschäftigten in Großraumbüros deutlich höher als bei anderen.
         },
         { optionID: "C", option: "leiden unter zu engen Einzelbüros" },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "A",
     },
     {
       id: 3,
@@ -527,7 +527,7 @@ Beschäftigten in Großraumbüros deutlich höher als bei anderen.
           option: "werden meist in Einzelzellen unterteilt.",
         },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "A",
     },
   ],
 };
@@ -565,7 +565,7 @@ export const sprachbau_1 = {
           option: "weiterhin",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 1,
@@ -584,7 +584,7 @@ export const sprachbau_1 = {
           option: "weil",
         },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "B",
     },
     {
       id: 2,
@@ -603,7 +603,7 @@ export const sprachbau_1 = {
           option: "bis",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "C",
     },
     {
       id: 3,
@@ -641,7 +641,7 @@ export const sprachbau_1 = {
           option: "zur",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "A",
     },
     {
       id: 5,
@@ -660,7 +660,7 @@ export const sprachbau_1 = {
           option: "zur",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "A",
     },
     {
       id: 6,
@@ -698,7 +698,7 @@ export const sprachbau_1 = {
           option: "ungeachtet",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "A",
     },
     {
       id: 8,
@@ -717,7 +717,7 @@ export const sprachbau_1 = {
           option: "soltten",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "C",
     },
     {
       id: 9,

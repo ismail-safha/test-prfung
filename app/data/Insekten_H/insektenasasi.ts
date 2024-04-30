@@ -459,7 +459,7 @@ Beschäftigten in Großraumbüros deutlich höher als bei anderen.
             "zeigt, dass Mitarbeiter in Großraumbüros seltener krank sind als andere.",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "A",
     },
     {
       id: 1,
@@ -469,7 +469,7 @@ Beschäftigten in Großraumbüros deutlich höher als bei anderen.
         { optionID: "B", option: "sind kostengünstiger zu beheizen." },
         { optionID: "C", option: "werden immer seltener" },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "B",
     },
     {
       id: 2,
@@ -482,7 +482,7 @@ Beschäftigten in Großraumbüros deutlich höher als bei anderen.
         },
         { optionID: "C", option: "leiden unter zu engen Einzelbüros" },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "A",
     },
     {
       id: 3,
@@ -522,7 +522,7 @@ Beschäftigten in Großraumbüros deutlich höher als bei anderen.
           option: "werden meist in Einzelzellen unterteilt.",
         },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "A",
     },
   ],
 };
@@ -576,7 +576,7 @@ Richard
           option: "über",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "C",
     },
     {
       id: 1,
@@ -595,7 +595,7 @@ Richard
           option: "sicher",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 2,
@@ -614,7 +614,7 @@ Richard
           option: "kaum",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "A",
     },
     {
       id: 3,
@@ -633,7 +633,7 @@ Richard
           option: "schließlich",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "C",
     },
     {
       id: 4,
@@ -652,7 +652,7 @@ Richard
           option: "entfernt",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "C",
     },
     {
       id: 5,
@@ -671,7 +671,7 @@ Richard
           option: "entfernt",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "C",
     },
     {
       id: 6,
@@ -690,7 +690,7 @@ Richard
           option: "zu sagen",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "A",
     },
     {
       id: 7,
@@ -709,7 +709,7 @@ Richard
           option: "kommenden",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "C",
     },
     {
       id: 8,
@@ -747,7 +747,7 @@ Richard
           option: "wäre",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "C",
     },
   ],
 };

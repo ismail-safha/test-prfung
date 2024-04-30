@@ -35,7 +35,7 @@ const HeaderHoren = ({
             router.push("/");
           }}
         >
-          <div className="text-white font-black text-[50px]">telc</div>
+          <div className="text-white font-black text-[50px]">tlc</div>
           <div className="text-white  text-[12px]">LNGUAGE TESTS</div>
         </button>
       </div>

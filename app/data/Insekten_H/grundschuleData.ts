@@ -208,8 +208,7 @@ Und danach aufwärmen am knisternden Kamin, mit süßem Punsch und Bratapfel. Br
 jemand Berge? Infos unter: www.schleswig-holstein.de.
       `,
       cartItemAnswers: "",
-      cartAcoordion: `Ihre Freundin möchte mit ihrem Mann Silvester und Neujahr im Urlaub feiern, aber nicht 
-      schon wieder im Gebirge.`,
+      cartAcoordion: "Ihre Freundin möchte mit ihrem Mann Silvester und Neujahr im Urlaub feiern, aber nicht schon wieder im Gebirge.",
     },
 
     {
@@ -225,8 +224,7 @@ jemand Berge? Infos unter: www.schleswig-holstein.de.
       Schlitten ins Tal, wo im Gasthaus schon eine heiße Suppe auf dem Herd dampft und ein warmes Bett 
       wartet. Für mehr Informationen besuchen Sie unsere Internet-Seite: www.meditation-im-schnee.ch.`,
       cartItemAnswers: "",
-      cartAcoordion: `Ein Bekannter möchte im Winter ein besinnliches Wochenende in den Bergen verbringen, denn 
-   er mag es, durch die verschneite Natur zu laufen.`,
+      cartAcoordion: "Ein Bekannter möchte im Winter ein besinnliches Wochenende in den Bergen verbringen, denn er mag es, durch die verschneite Natur zu laufen.",
     },
     {
       id: 3,
@@ -298,7 +296,7 @@ ins Innere der Orgel steigen können oder wo die “Nacht der Verführung” sta
       `,
       cartItemAnswers: "",
       cartAcoordion:
-        "Eine Bekannte aus dem Rhein-Main-Gebiet sucht Vorschläge für Ein-Tages-Ausflüge, denn sie übernachtet nicht gern in fremden Betten",
+        "Eine Bekannte aus dem Rhein-Main-Gebiet sucht Vorschläge für Ein-Tages-Ausflüge, denn sie übernachtet nicht gern in fremden Betten.",
     },
     {
       id: 7,
@@ -317,7 +315,7 @@ ins Innere der Orgel steigen können oder wo die “Nacht der Verführung” sta
       `,
       cartItemAnswers: "",
       cartAcoordion:
-        "Sie möchten einen netten Abend mit Freunden bei gutem Essen und außergewöhnlichem Unterhaltungsprogramm verleben",
+        "Sie möchten einen netten Abend mit Freunden bei gutem Essen und außergewöhnlichem Unterhaltungsprogramm verleben.",
     },
     {
       id: 8,
@@ -355,7 +353,7 @@ ins Innere der Orgel steigen können oder wo die “Nacht der Verführung” sta
       `,
       cartItemAnswers: "",
       cartAcoordion:
-        "Sie sind neu in Frankfurt a. M. und suchen deshalb nach nützlichen Informationen und praktischen Tipps, um sich schnell in der neuen Umgebung einzuleben",
+        "Sie sind neu in Frankfurt a. M. und suchen deshalb nach nützlichen Informationen und praktischen Tipps, um sich schnell in der neuen Umgebung einzuleben.",
     },
     {
       id: 10,
@@ -504,7 +502,7 @@ und stattdessen war die junge Frau selbser Hausfrau und Herrin eines eigenen Hau
           option: "damit sie besser beaufsichtigt waren als zu Hause.",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 1,
@@ -523,7 +521,7 @@ und stattdessen war die junge Frau selbser Hausfrau und Herrin eines eigenen Hau
           option: "mit Hilfe ihrer Eltern.",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 2,
@@ -562,7 +560,7 @@ und stattdessen war die junge Frau selbser Hausfrau und Herrin eines eigenen Hau
           option: "durften nicht alleine einkaufen gehen",
         },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "A",
     },
     {
       id: 4,
@@ -634,7 +632,7 @@ export const sprachbau_1 = {
           option: "zu",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "C",
     },
     {
       id: 1,
@@ -672,7 +670,7 @@ export const sprachbau_1 = {
           option: "nach",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 3,
@@ -691,7 +689,7 @@ export const sprachbau_1 = {
           option: "nehmen",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "A",
     },
     {
       id: 4,
@@ -710,7 +708,7 @@ export const sprachbau_1 = {
           option: "wenn",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "A",
     },
     {
       id: 5,
@@ -748,7 +746,7 @@ export const sprachbau_1 = {
           option: "das Betrachten",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 7,
@@ -767,7 +765,7 @@ export const sprachbau_1 = {
           option: "wird geplant haben",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 8,
@@ -786,7 +784,7 @@ export const sprachbau_1 = {
           option: "versprochen",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "A",
     },
     {
       id: 9,

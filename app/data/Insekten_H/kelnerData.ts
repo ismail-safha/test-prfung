@@ -498,7 +498,7 @@ Trinkgeld lockerer.
           option: "sollte nicht aus der Ruhe zu bringen sein.",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 2,
@@ -517,7 +517,7 @@ Trinkgeld lockerer.
           option: "weil er mit dem Verdienst ganz zufrieden ist.",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 3,
@@ -556,7 +556,7 @@ Trinkgeld lockerer.
           option: "sich beim Einkauf an einen festen Ablauf halten.",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
   ],
 };
@@ -606,7 +606,7 @@ export const sprachbau_1 = {
           option: "welches",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 1,
@@ -625,7 +625,7 @@ export const sprachbau_1 = {
           option: "mal",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "A",
     },
     {
       id: 2,
@@ -663,7 +663,7 @@ export const sprachbau_1 = {
           option: "nehmen",
         },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "B",
     },
     {
       id: 4,
@@ -682,7 +682,7 @@ export const sprachbau_1 = {
           option: "um",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 5,
@@ -701,7 +701,7 @@ export const sprachbau_1 = {
           option: "sobald",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "C",
     },
     {
       id: 6,
@@ -777,7 +777,7 @@ export const sprachbau_1 = {
           option: "wollen",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
   ],
 };

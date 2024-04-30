@@ -272,16 +272,20 @@ Offiziell wird der Weltspartag am 31. Oktober gefeiert, in Österreich manchmal 
       number: "16",
     },
     {
-      text: "Im Herbst beginnt Ihre Tochter ein Studium. Sie möchte ein Bankkonto eröttnen.",
+      text: "Sie kochen gerne und suchen nach Rezepten aus anderen Ländern.",
       number: "17",
     },
     {
-      text: "Sie wollen Geld nach Kanada überweisen. Sie möchten wissen, wie viel Sie für die Überweisung bezahlen",
+      text: "Im Herbst beginnt Ihre Tochter ein Studium. Sie möchte ein Bankkonto eröttnen.",
       number: "18",
     },
     {
-      text: "Ein Freund aus Salzburg will sich in Frankreich bewerben. Er möchte seine Zeugnisse",
+      text: "Sie wollen Geld nach Kanada überweisen. Sie möchten wissen, wie viel Sie für die Überweisung bezahlen",
       number: "19",
+    },
+    {
+      text: "Ein Freund aus Salzburg will sich in Frankreich bewerben. Er möchte seine Zeugnisse",
+      number: "20",
     },
   ],
 };
@@ -331,7 +335,7 @@ export const lesenTeil_2 = {
           option: "macht es möglich, mit dem Handy zu bezahlen.",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "A",
     },
     {
       id: 1,
@@ -389,7 +393,7 @@ export const lesenTeil_2 = {
             "werden als Zahlungsmittel ebenso akzeptiert wie klassische Kreditkarten.",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "A",
     },
     {
       id: 4,
@@ -474,7 +478,7 @@ export const sprachbau_1 = {
           option: "hätte",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 2,
@@ -493,7 +497,7 @@ export const sprachbau_1 = {
           option: "wollte",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 3,
@@ -512,7 +516,7 @@ export const sprachbau_1 = {
           option: "davon",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "C",
     },
     {
       id: 4,
@@ -531,7 +535,7 @@ export const sprachbau_1 = {
           option: "Zwar...aber",
         },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "A",
     },
     {
       id: 5,
@@ -550,7 +554,7 @@ export const sprachbau_1 = {
           option: "dazu",
         },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "A",
     },
     {
       id: 6,
@@ -569,7 +573,7 @@ export const sprachbau_1 = {
           option: "auszusuchen",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 7,
@@ -588,7 +592,7 @@ export const sprachbau_1 = {
           option: "grundlegender",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "A",
     },
     {
       id: 8,
@@ -626,7 +630,7 @@ export const sprachbau_1 = {
           option: "wie",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
   ],
 };
