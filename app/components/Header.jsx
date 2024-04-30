@@ -2,7 +2,7 @@
 
 import TimerComponent from "./TimerComponent ";
 import { usePathname, useRouter } from "next/navigation";
-import { useSession } from "next-auth/react";
+// import { useSession } from "next-auth/react";
 
 import { MoonIcon, SunIcon } from "./icons/Icons";
 import useThemSwitcher from "./hooks/useThemSwitcher";
@@ -21,7 +21,7 @@ import useThemSwitcher from "./hooks/useThemSwitcher";
 // const Header: React.FC<HeaderProps> = ({
 const Header = ({ pageHome, pageTow, pageThree, pageFour, pageFive }) => {
   const pathname = usePathname();
-  const { data: session, status } = useSession();
+  // const { data: session, status } = useSession();
 
   const router = useRouter();
   // hook dark mode
@@ -130,10 +130,10 @@ const Header = ({ pageHome, pageTow, pageThree, pageFour, pageFive }) => {
           <MoonIcon className={"fill-dark"} />
         )}
       </button>
-
+{/* 
       <h1 className="font-bold text-[#fff]">
         Willkommen🖐 {session.user.name}
-      </h1>
+      </h1> */}
 
       <TimerComponent />
     </div>

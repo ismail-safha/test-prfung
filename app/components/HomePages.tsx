@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import { useSession } from "next-auth/react";
+// import { useSession } from "next-auth/react";
 
 const sections = [
   {
@@ -103,7 +103,7 @@ const sections = [
 // export default async function Home() {
 export default function HomePages() {
   const [currentPage, setCurrentPage] = useState(1);
-  const { data: session, status } = useSession();
+  // const { data: session, status } = useSession();
   const sectionsPerPage = 3;
   const totalPages = Math.ceil(sections.length / sectionsPerPage);
 
@@ -134,7 +134,7 @@ export default function HomePages() {
             <div className="text-white  text-[12px]">LNGUAGE TESTS</div>
           </div>
           <h1 className="font-bold text-[#fff]">
-            Willkommen🖐 {session.user.name}
+            {/* Willkommen🖐 {session.user.name} */}
           </h1>
         </div>
       </div>

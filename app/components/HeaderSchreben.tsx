@@ -2,11 +2,11 @@
 
 import { usePathname, useRouter } from "next/navigation";
 import TimerComponentSch from "./TimerComponentSch";
-import { useSession } from "next-auth/react";
+// import { useSession } from "next-auth/react";
 
 const HeaderSchreben = () => {
   const pathname = usePathname();
-  const { data: session, status } = useSession();
+  // const { data: session, status } = useSession();
 
   const router = useRouter();
 
@@ -29,9 +29,9 @@ const HeaderSchreben = () => {
           <h1 className="font-bold">Schreiben</h1>
         </div>
       </div>
-      <h1 className="font-bold text-[#fff]">
+      {/* <h1 className="font-bold text-[#fff]">
         Willkommen🖐 {session.user.name}
-      </h1>
+      </h1> */}
 
       <TimerComponentSch />
     </div>
