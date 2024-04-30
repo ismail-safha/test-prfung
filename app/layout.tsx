@@ -7,6 +7,8 @@ import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import Provider from "../components/provider";
 
+import { GoogleAnalytics } from "@next/third-parties/google";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -21,6 +23,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      {/* G-Z92WPDCDMK */}
+
       <body className={inter.className}>
         <Provider>
           <div className="w-full h-[100%] dark:bg-dark bg-[#efefef] dark:bg-[#011220d6]  ">
@@ -29,6 +33,7 @@ export default function RootLayout({
             <ToastContainer position="bottom-right" />
           </div>
         </Provider>
+        <GoogleAnalytics gaId="G-Z92WPDCDMK" />
       </body>
     </html>
   );
