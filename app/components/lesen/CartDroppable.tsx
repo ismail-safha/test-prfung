@@ -7,6 +7,7 @@ interface ICartDroppable {
   cart: {
     id: number;
     idText?: string;
+    titleText?: string;
     title: string;
     cartItemAnswers: string;
     cartAcoordion?: string;
@@ -59,6 +60,7 @@ const CartDroppable: React.FC<ICartDroppable> = ({
       </h1>
 
       <p className="bg-[#efefef] dark:bg-[#1d2a35]  dark:text-[#ededed]  font-semibold p-[10px] m-[10px] ">
+        <div className="font-bold text-[15px]">{cart.titleText}</div>
         {cart.title}
       </p>
       <h1 onClick={toggleAccordion} className="accordion-header">
