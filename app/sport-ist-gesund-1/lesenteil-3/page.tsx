@@ -48,6 +48,11 @@ const LesenTeil3 = () => {
   // console.log("checkResult", checkResult);
 
   const resetCheckResult = () => {
+    const updatedCartItems = cartItems.map((cart) => ({
+      ...cart,
+      cartItemAnswers: "",
+    }));
+    setCartItems(updatedCartItems);
     setCheckResult([]);
   };
 
@@ -81,12 +86,12 @@ const LesenTeil3 = () => {
     session && (
       <div className="container m-auto  w-full px-2">
         <Header
-        pageHome="/sport-ist-gesund-1"
-        pageTow="/sport-ist-gesund-1/lesenteil-2"
-        pageThree="/sport-ist-gesund-1/lesenteil-3"
-        pageFour="/sport-ist-gesund-1/sprachbauchteine-1"
-        pageFive="/sport-ist-gesund-1/sprachbauchteine-2"
-      />
+          pageHome="/sport-ist-gesund-1"
+          pageTow="/sport-ist-gesund-1/lesenteil-2"
+          pageThree="/sport-ist-gesund-1/lesenteil-3"
+          pageFour="/sport-ist-gesund-1/sprachbauchteine-1"
+          pageFive="/sport-ist-gesund-1/sprachbauchteine-2"
+        />
         <DndContext onDragEnd={addItemsToCart}>
           <main>
             <div className="w-full bg-blue-900 text-white">

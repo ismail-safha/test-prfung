@@ -9,7 +9,6 @@ import CartDroppable from "../../components/lesen/CartDroppable";
 import AnswerDraggableT from "../../components/lesen/lesen-3/AnswerDraggableT";
 import { lesenTeil_3 } from "../../data/Insekten_H/insektenasasi-3-Data";
 
-
 import Image from "next/image";
 
 const LesenTeil3 = () => {
@@ -50,6 +49,11 @@ const LesenTeil3 = () => {
   // console.log("checkResult", checkResult);
 
   const resetCheckResult = () => {
+    const updatedCartItems = cartItems.map((cart) => ({
+      ...cart,
+      cartItemAnswers: "",
+    }));
+    setCartItems(updatedCartItems);
     setCheckResult([]);
   };
 

@@ -217,7 +217,7 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
       Küchentechnik. Die Teilnahme ist kostenlos, um Anmeldung wird aber gebeten. AWO Kirchhellen, 
       Tel. 0800 / 61619012 `,
       cartItemAnswers: "",
-      cartAcoordion: `X`,
+      cartAcoordion: "",
     },
     {
       id: 4,
@@ -294,7 +294,7 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
       sich auch über unsere günstige Familientarife! Rufen Sie an: Thüringer Versicherungen, Tel. 08074 
       55339. Wichtig: Sie können die Leistungen erst 6 Monate nach Vertragsabschluss in Anspruch nehmen!`,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion: "",
     },
     {
       id: 9,
@@ -340,7 +340,7 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
       an, natürlich nur in bestem Zustand. Schauen Sie sich unsere Ausstellung an! 
       Möbel Weber GmbH, Am Langen Hahn 24, 42188 Dortmund. `,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion: "",
     },
   ],
   answers: [

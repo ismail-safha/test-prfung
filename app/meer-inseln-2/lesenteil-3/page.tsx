@@ -48,6 +48,11 @@ const LesenTeil3 = () => {
   // console.log("checkResult", checkResult);
 
   const resetCheckResult = () => {
+    const updatedCartItems = cartItems.map((cart) => ({
+      ...cart,
+      cartItemAnswers: "",
+    }));
+    setCartItems(updatedCartItems);
     setCheckResult([]);
   };
 
@@ -80,13 +85,13 @@ const LesenTeil3 = () => {
   return (
     session && (
       <div className="container m-auto  w-full px-2">
-         <Header
-        pageHome="/meer-inseln-2"
-        pageTow="/meer-inseln-2/lesenteil-2"
-        pageThree="/meer-inseln-2/lesenteil-3"
-        pageFour="/meer-inseln-2/sprachbauchteine-1"
-        pageFive="/meer-inseln-2/sprachbauchteine-2"
-      />
+        <Header
+          pageHome="/meer-inseln-2"
+          pageTow="/meer-inseln-2/lesenteil-2"
+          pageThree="/meer-inseln-2/lesenteil-3"
+          pageFour="/meer-inseln-2/sprachbauchteine-1"
+          pageFive="/meer-inseln-2/sprachbauchteine-2"
+        />
         <DndContext onDragEnd={addItemsToCart}>
           <main>
             <div className="w-full bg-blue-900 text-white">

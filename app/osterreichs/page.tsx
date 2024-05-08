@@ -49,6 +49,11 @@ const LesenTeil = () => {
   // console.log("checkResult", checkResult);
 
   const resetCheckResult = () => {
+    const updatedCartItems = cartItems.map((cart) => ({
+      ...cart,
+      cartItemAnswers: "",
+    }));
+    setCartItems(updatedCartItems);
     setCheckResult([]);
   };
 
@@ -82,12 +87,12 @@ const LesenTeil = () => {
     session && (
       <div className="container m-auto  w-full px-2">
         <Header
-        pageHome="/osterreichs"
-        pageTow="/osterreichs/lesenteil-2"
-        pageThree="/osterreichs/lesenteil-3"
-        pageFour="/osterreichs/sprachbauchteine-1"
-        pageFive="/osterreichs/sprachbauchteine-2"
-      />
+          pageHome="/osterreichs"
+          pageTow="/osterreichs/lesenteil-2"
+          pageThree="/osterreichs/lesenteil-3"
+          pageFour="/osterreichs/sprachbauchteine-1"
+          pageFive="/osterreichs/sprachbauchteine-2"
+        />
         <DndContext onDragEnd={addItemsToCart}>
           <main>
             <div className="w-full bg-blue-900 text-white">

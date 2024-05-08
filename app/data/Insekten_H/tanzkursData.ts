@@ -15,7 +15,7 @@ export const lesenTeil_1 = {
       title: `
       Musik, Sport, ehrenamtliches Engagement - die Teilnahme von Jugendlichen an diesen sogenannten bildungsorientierten Freizeitaktivitäten hat in den vergangenen zehn Jahren deutlich zugenommen. So lautet das Ergebnis einer Studie des Deutschen Instituts für Wirtschaftsforschung. Während vor 10 Jahren erst 48 Prozent aller 16-bis 17-Jährigen an bildungsorientierten Aktivitäten teilnahmen, waren es im vergangenen Jahr bereits 62 Prozent. Die Daten zeigen außerdem: Während vor 10 Jahren nur etwa 10 Prozent der 16-bis 17-Jährigen musizierten, waren es im letzten Jahr bereits 18 Prozent. Noch stärker hat im gleichen Zeitraum das ehrenamtliche Engagement der 16- bis 17-Jährigen zugenommen (von 11 auf 22 Prozent). Darüber hinaus ist auch der Anteil der Jugendlichen, die Sport treiben, tanzen oder Theater spielen, gestiegen. Gleichzeitig verzeichnen die Forscher einen Abwärtstrend der sogenannten informellen Freizeitbeschäftigungen. So ist der Anteil derer, die täglich mit der besten Freundin oder dem besten Freund unterwegs sind, im Untersuchungszeitraum von 40 auf 25 Prozent zurückgegangen. Auffallend ist, dass Jugendliche aus sozial schwächeren Haushalten bildungsorientierte Angebote viel seltener nutzen als junge Menschen aus gut situierten Familien.`,
       cartItemAnswers: "",
-      cartAcoordion: "Verändertes =Freizeitverhalten von Jugendlichen",
+      cartAcoordion: "Verändertes Freizeitverhalten von Jugendlichen",
     },
     {
       id: 2,
@@ -277,7 +277,7 @@ export const lesenTeil_3 = {
       number: "15",
     },
     {
-      text: "Die sechsjährige Tochter eines Nachbarn würde gerne mit anderen Kindern Musik machen.",
+      text: "Die sechsjährige Tochter eines Nachbarn würde gerne mit andere Kindern Musik machen.",
       number: "16",
     },
     {

@@ -222,8 +222,7 @@ export const lesenTeil_3 = {
       Frieder Schulze "Reden wir miteinander oder aneinander vorbei?"
       Manche Missverständnisse entstehen, wenn Menschen miteinander reden, besonders im privaten Bereich erleben wir das oft. Wenn Kommunikation erfolgreich sein soll, ist die Fähigkeit erforderlich, den anderen zu durchschauen und seelische Vorgänge und menschliche Probleme zu erkennen. Viele Beispiele zeigen, wie psychologische Aspekte menschliche Kommunikation verkomplizieren können und wie man damit am besten klar kommen kann.`,
       cartItemAnswers: "",
-      cartAcoordion:
-        "Sie würden gern etwas über Großstadtjugendliche erfahren, die am Rand der Gesellschaft leben",
+      cartAcoordion: "",
     },
     {
       // G
@@ -233,8 +232,7 @@ export const lesenTeil_3 = {
       title: `Frieder Schulze "Reden wir miteinander oder aneinander vorbei?"
       Manche Missverständnisse entstehen, wenn Menschen miteinander reden, besonders im privaten Bereich erleben wir das oft. Wenn Kommunikation erfolgreich sein soll, ist die Fähigkeit erforderlich, den anderen zu durchschauen und seelische Vorgänge und menschliche Probleme zu erkennen. Viele Beispiele zeigen, wie psychologische Aspekte menschliche Kommunikation verkomplizieren können und wie man damit am besten klar kommen kann.`,
       cartItemAnswers: "",
-      cartAcoordion:
-        "Sie wollen umziehen, haben aber eigentlich gar keine Zeit, sich darum zu kümmern.",
+      cartAcoordion: "",
     },
     {
       // H
@@ -266,8 +264,7 @@ export const lesenTeil_3 = {
       title: `Brigitte Hübner "Richtig präsentieren"
       Dieses Buch ist ein Leitfaden für alle, die Teamsitzungen, Besprechungen, Workshops und Konferenzen durchführen. Anhand vieler praktischer Beispiele erhält der Leser Anregungen zum gekonnten visualisieren, zur gut geplanten und sicher durchgeführten Präsentation und zur effektiv gestalteten Besprechung. Es zeigt, wie durch den Einsatz von Bildern und Grahken Präsentationen aufgelockert und Informationen besser verstanden werden können.`,
       cartItemAnswers: "",
-      cartAcoordion:
-        "Sie sind gerade umgezogen und möchten neue Leute kennenlernen.",
+      cartAcoordion: "",
     },
     {
       // K

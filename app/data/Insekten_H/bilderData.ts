@@ -180,7 +180,7 @@ export const lesenTeil_3 = {
       Gesunde Ernährung ist wichtig, auch schon für die Kleinen. Nur wer von Anfang an lernt, wie frisches Gemüse und Obst schmecken, wie man mit einfachen Mitteln und auch wenig Zeit leckere Gerichte zubereiten kann, wird sich dauerhaft gesund ernähren. Deshalb bietet die Kochschule "Kochlöffel" ab sofort Kochkurse für Eltern und Kinder ab sechs Jahren an. Die Kurse werden zu unterschiedlichen Tageszeiten angeboten und finden auch schon bei wenigen Anmeldungen statt. Nutzen Sie die Gelegenheit, mit ihrem Kind gemeinsam zu kochen und dabei natürlich auch Spaß zu haben! Infos und Anmeldung: www.dhimaffel-kadhstheeeu
        `,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion: "",
     },
     {
       // C
@@ -218,7 +218,7 @@ Von März bis September (bei schönem Wetter auch länger) können Sie bei unser
 
       kennt man natürlich den Hafen der Hansestadt und seine Wirtschaftskraft. Für alle Interessierten, die darüber erst noch etwas erfahren wollen, bietet das Bildungszentrum Buxtehude am nächsten Freitag einen zweistündigen Vortrag an, in dem man Wissenswertes über die wirtschaftliche Bedeutung des Hamburger Hafens erfährt. Von der Gründung des Freihafens bis zu den heutigen modernen Anlagen wird die spannende Entwicklung des größten deutschen Hafens unter ökonomischen. Aspekten dargelegt. Weitere Informationen und Anmeldung im Internet unter.www.buxtehude.eu.`,
       cartItemAnswers: "",
-      cartAcoordion: " X",
+      cartAcoordion: "",
     },
     {
       // F
@@ -241,7 +241,7 @@ Von März bis September (bei schönem Wetter auch länger) können Sie bei unser
 
       Sie mögen Fast Food? Sie glauben aber, dass Fast Food nicht gesund sein kann? Wir zeigen Ihnen das Gegenteil. Lernen Sie viele Gerichte aus den USA in unserem Kochkurs "Hamburger & Co." neu kennen. An drei Wochenenden zeigen wir Ihnen, dass man Hamburger auch so zubereitet kann, dass sie gar nicht so viele Kalorien haben. Und schmecken werden sie natürlich auch. Anmeldung bis nächsten Samstag telefonisch unter 0800/1398700.`,
       cartItemAnswers: "",
-      cartAcoordion: " X",
+      cartAcoordion: "",
     },
     {
       // H
@@ -264,7 +264,7 @@ Von März bis September (bei schönem Wetter auch länger) können Sie bei unser
 
       Unser Stadtteil kann auf eine bewegte Geschichte zurückblicken. Die Mitarbeiter des Stadtteil-Archivs wollen deshalb ein Buch veröffentlichen, in dem die Geschichte lebendig und für Alt- und Neu-Bürger anschaulich wird. Noch bis Jahresende bittet das Archiv alle Bürger, persönliche Erinnerungen einzureichen, sei es in Form kurzer Geschichten oder in Form von Fotos. Auch historische Zeitungsartikel sind willkommen, da nicht alle Zeitungen im Archiv vorhanden sind. Melden Sie sich einfach persönlich im Archiv am Dreiringplatz.`,
       cartItemAnswers: "",
-      cartAcoordion: " X",
+      cartAcoordion: "",
     },
     {
       // J

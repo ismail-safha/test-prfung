@@ -172,7 +172,7 @@ export const lesenTeil_3 = {
       gibt's weitere Informationen.
       www,agenturfuerarbeit.de`,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion: "",
     },
     {
       id: 1,
@@ -208,7 +208,7 @@ export const lesenTeil_3 = {
       Wir informieren Sie gerne über unser Angebot an Superintensivkursen.
       info@superlearning.de`,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion: "",
     },
     {
       id: 3,
@@ -255,7 +255,7 @@ export const lesenTeil_3 = {
       Auch wertvolle Bewerbungstipps finden Sie bei uns.
       Schauen Sie doch mal vorbei: www.azubiportal.eu`,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion: "",
     },
     {
       id: 6,
@@ -338,7 +338,7 @@ export const lesenTeil_3 = {
       Das Programm ist für zahl-reiche Sprachen verfügbar, sprechen Sie uns an.
       Sprachfix GmbH, Eiderstädt, Tel, 01800/81890132`,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion: "",
     },
     {
       id: 11,

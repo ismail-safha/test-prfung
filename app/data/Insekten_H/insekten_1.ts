@@ -209,7 +209,7 @@ Ihr Aufgabenbereich: Übersetzung von einfachen, kurzen Texten (Anfragen, Beantw
 Mit der neuen BaZa-App erledigen Sie Ihre Bankgeschäfte, wann und wo Sie wollen. Für die schnelle Überweisung unterwegs, mit ein paar Klicks: Geben Sie einfach den Namen Ihres Baza-Kontaktes an, alles andere erledigt die App für Sia. Oder per Smartphone-Kamera: Se fotografieren einen Zahlschein, und die App erfasst die Daten automatisch Mit der App können Sie auch direkt mit Ihrer Kundenbetreuerin oder Ihrem Kundenbetreuer Kontakt aufnehmen eine Nachricht schicken, einen Termin vereinbaren oder um einen Rückruf bitten. Für alle, die schon ein BaZa-Konto haben: jetzt die neue App herunterladen! Zum Download 
       `,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion: "",
     },
     {
       id: 9,
@@ -220,7 +220,7 @@ Mit der neuen BaZa-App erledigen Sie Ihre Bankgeschäfte, wann und wo Sie wollen
 Momentan bietet die VHS Laiendolmetscher in den Sprachen Albanisch, Bosnisch, Kroatisch, Serbisch, Slowakisch, Rumänisch, Türkisch, Spanisch und Italienisch an. In Zukunft soll das Angebot um weitere Sprachen erweitert werden. 
       `,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion: "",
     },
     {
       id: 10,
@@ -231,7 +231,7 @@ Momentan bietet die VHS Laiendolmetscher in den Sprachen Albanisch, Bosnisch, Kr
 Viele klassische Gerichte, die in Österreich auf den Tisch kommen, stammen aus den ehemaligen Kronländern der Monarchie: das Schnitzel aus Italien, die Palatschinken aus Ungarn, Golatschen und Knödel aus dem heutigen Tschechien. Dazu kommen zahlreiche regionale Spezialitäten wie Kasnudeln aus Kärnten, Steirisches Wurzelfleisch oder Salzburger Nockerl. Dies und vieles mehr können Sie bei einem unserer Kochkurse kennenlernen, Besonders wilkommen sind Menschen, die aus anderen Ländern zu uns gekommen sind. Die Liste der Veranstaltungen finden Sie weiter unten. 
       `,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion: "",
     },
     {
       id: 11,
@@ -243,7 +243,7 @@ Der Weltspartag wurde am 1. Internationalen Sparkassenkongress in Mailand im Okt
 Offiziell wird der Weltspartag am 31. Oktober gefeiert, in Österreich manchmal auch am letzten Werktag vor dem 31. Oktober. Denn an diesem speziellen Tag sollen die Banken für Kunden geöffnet haben. Besonders bei Kindern ist der Weltspartag sehr beliebt. Sie erhalten nämlich kleine Geschenke, wenn sie an diesem Tag mit ihrem Sparschwein zur Bank kommen. Aber auch für Erwachsene gibt es am Weltspartag oft besondere Angebote. 
       `,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion: "",
     },
   ],
   answers: [

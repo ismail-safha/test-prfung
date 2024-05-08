@@ -248,7 +248,7 @@ export const lesenTeil_3 = {
       Datum: 23.11.-23.12..
       Ort: Fußgängerzone im Zentrum`,
       cartItemAnswers: "",
-      cartAcoordion: " ",
+      cartAcoordion: "",
     },
     {
       // H
@@ -303,7 +303,7 @@ export const lesenTeil_3 = {
       Datum: 5.11.. Uhrzeit: 20.00 Uhr. Ort: Haus des Kabaretts`,
       cartItemAnswers: "",
       cartAcoordion:
-        "Sie wollen mit Bekannten ausgehen um mal wieder herzhaft lachen.",
+        "Sie wollen mit Bekannten ausgehen, um mal wieder herzhaft lachen.",
     },
     {
       //L
@@ -331,7 +331,7 @@ export const lesenTeil_3 = {
       number: "13",
     },
     {
-      text: "Sie möchten alte und neue Weihnachtslieder hören",
+      text: "Sie möchten alte und neue Weihnachtslieder hören.",
       number: "14",
     },
     {

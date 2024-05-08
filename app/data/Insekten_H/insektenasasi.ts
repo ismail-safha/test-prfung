@@ -219,7 +219,7 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
       Küchentechnik. Die Teilnahme ist kostenlos, um Anmeldung wird aber gebeten. AWO Kirchhellen, 
       Tel. 0800 / 61619012 `,
       cartItemAnswers: "",
-      cartAcoordion: `X`,
+      cartAcoordion: "",
     },
     {
       id: 4,
@@ -233,8 +233,8 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
       Informationen unter: www.wohnkonzept.de
       `,
       cartItemAnswers: "",
-      cartAcoordion: `Ihr Bekannter ist beruflich oft unterwegs und sucht eine Alternative zu Hotels. Es soll dort 
-        aber Internetzugang und Frühstück geben `,
+      cartAcoordion:
+        "Ihr Bekannter ist beruflich oft unterwegs und sucht eine Alternative zu Hotels. Es soll dort aber Internetzugang und Frühstück geben.",
     },
     {
       id: 5,
@@ -291,7 +291,7 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
       sich auch über unsere günstige Familientarife! Rufen Sie an: Thüringer Versicherungen, Tel. 08074 
       55339. Wichtig: Sie können die Leistungen erst 6 Monate nach Vertragsabschluss in Anspruch nehmen!`,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion: "",
     },
     {
       id: 9,
@@ -305,8 +305,7 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
       anmelden wollen. Malerei, Musik, Literatur, Geschichte stehen auf dem Programm. Informieren Sie sich 
       jetzt: Kunst Schule Heckmann, Tel. 0800 44450943`,
       cartItemAnswers: "",
-      cartAcoordion:
-        "Sie möchten ausprobieren, ob Ihnen Zeichnen Spaß macht.      ",
+      cartAcoordion: "Sie möchten ausprobieren, ob Ihnen Zeichnen Spaß macht.",
     },
     {
       id: 10,
@@ -334,7 +333,7 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
       an, natürlich nur in bestem Zustand. Schauen Sie sich unsere Ausstellung an! 
       Möbel Weber GmbH, Am Langen Hahn 24, 42188 Dortmund. `,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion: "",
     },
   ],
 

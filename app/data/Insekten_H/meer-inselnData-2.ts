@@ -207,7 +207,7 @@ Schlagersängerin Michelle mit dem Titel "Ich schicke dir jetzt einen Engel".
       Seine Zauber-kräfte werden dringend gebraucht, denn Tom gehört zu den Männern, die
       ziemlich viel Angst vor Liebesbeziehungen haben`,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion: "",
     },
     {
       id: 3,
@@ -319,7 +319,7 @@ Folklore, afrikanischen und keltischen Elementen, aber auch aus Jazz, Pop und Ca
 bekannt.
       `,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion: "",
     },
     {
       id: 11,

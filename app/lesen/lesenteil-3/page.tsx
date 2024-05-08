@@ -49,6 +49,11 @@ const LesenTeil3 = () => {
   // console.log("checkResult", checkResult);
 
   const resetCheckResult = () => {
+    const updatedCartItems = cartItems.map((cart) => ({
+      ...cart,
+      cartItemAnswers: "",
+    }));
+    setCartItems(updatedCartItems);
     setCheckResult([]);
   };
 
