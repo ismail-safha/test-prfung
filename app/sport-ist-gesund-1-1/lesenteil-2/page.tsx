@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useSession } from "next-auth/react";
 
 import Header from "../../components/Header";
-import { lesenTeil_2 } from "../../data/Insekten_H/sport-ist-gesund-1-Data";
+import { lesenTeil_2 } from "../../data/Insekten_H/sport-ist-gesund-1-1-Data";
 
 type Option = {
   optionID: string;
@@ -43,7 +43,7 @@ const Lesenteiltow = () => {
   return (
     session && (
       <div className="container mx-auto w-full px-2">
-         <Header
+        <Header
           pageHome="/sport-ist-gesund-1-1"
           pageTow="/sport-ist-gesund-1-1/lesenteil-2"
           pageThree="/sport-ist-gesund-1-1/lesenteil-3"
