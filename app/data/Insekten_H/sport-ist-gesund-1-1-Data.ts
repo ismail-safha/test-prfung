@@ -111,7 +111,7 @@ export const lesenTeil_1 = {
       Kinderwagen auch nach Dauergebrauch nicht zu einem Sicherheitsrisiko für ihr Kind
       werden kann.`,
       cartItemAnswers: "",
-      cartAcoordion: " Geprüfte Qualität für Babys",
+      cartAcoordion: "Geprüfte Qualität für Babys",
     },
   ],
   answers: [
