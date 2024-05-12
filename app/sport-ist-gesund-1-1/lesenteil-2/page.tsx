@@ -43,12 +43,12 @@ const Lesenteiltow = () => {
   return (
     session && (
       <div className="container mx-auto w-full px-2">
-        <Header
-          pageHome="/sport-ist-gesund-1"
-          pageTow="/sport-ist-gesund-1/lesenteil-2"
-          pageThree="/sport-ist-gesund-1/lesenteil-3"
-          pageFour="/sport-ist-gesund-1/sprachbauchteine-1"
-          pageFive="/sport-ist-gesund-1/sprachbauchteine-2"
+         <Header
+          pageHome="/sport-ist-gesund-1-1"
+          pageTow="/sport-ist-gesund-1-1/lesenteil-2"
+          pageThree="/sport-ist-gesund-1-1/lesenteil-3"
+          pageFour="/sport-ist-gesund-1-1/sprachbauchteine-1"
+          pageFive="/sport-ist-gesund-1-1/sprachbauchteine-2"
         />
 
         <main>
