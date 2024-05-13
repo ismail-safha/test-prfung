@@ -605,7 +605,7 @@ export const sprachbau_1 = {
           option: "von",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 1,
@@ -624,7 +624,7 @@ export const sprachbau_1 = {
           option: "wie",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 2,
