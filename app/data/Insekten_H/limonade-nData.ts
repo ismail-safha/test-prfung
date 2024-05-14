@@ -266,7 +266,7 @@ export const lesenTeil_3 = {
       Im Musikverein Wohlklang lernen schon die ganz Kleinen den spielerischen Umgang mit Instrumenten. Aber auch für die „größeren Kleinen" bieten wir Musikförderung und auch individuellen Unterricht an. In verschiedenen Gruppen (Alter von zwei bis acht Jahren) können Ihre Kinder bei uns Instrumente lernen, singen oder tanzen, kurz: Spaß mit Musik haben und auch selbst das Musizieren lernen. Die ersten beiden Probestunden bieten wir Ihnen kostenlos an, damit Sie und Ihre Kinder uns in Ruhe kennenlernen können. Vereinbaren Sie doch gleich einen Termin unter der 0800/5615 6514. Wohlklang e.V., Neue Straße 218, 77933 Lahr`,
       cartItemAnswers: "",
       cartAcoordion:
-        "Die sechsjährige Tochter eines Nachbarn würde gerne mit andere Kindern Musik machen.",
+        "Die sechsjährige Tochter eines Nachbarn würde gerne mit anderen Kindern Musik machen.",
     },
     {
       // J
