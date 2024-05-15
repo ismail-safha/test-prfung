@@ -82,7 +82,7 @@ export const lesenTeil_1 = {
       number: "i",
     },
     {
-      text: "Wissenswertes über Wiens größten innerstädtischen Markt",
+      text: "wissenswertes über Wiens größten innerstädtischen Markt.",
       number: "j",
     },
   ],
