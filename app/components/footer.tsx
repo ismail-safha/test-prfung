@@ -6,14 +6,7 @@ const Footer = () => {
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
         <span className="block text-sm  sm:text-center text-gray-400">
-          © 2024{" "}
-          <Link
-            target="_blank"
-            href="https://ismail-ten.vercel.app/"
-            className="hover:underline font-medium"
-          >
-            Ismail safha 😎
-          </Link>
+          © 2024 😎
         </span>
       </div>
     </footer>
