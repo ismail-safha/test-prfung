@@ -209,8 +209,8 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
       auch die Gelegenheit, ein Werk gleich zu kaufen und mitzunehmen. Weitere Informationen und 
       Anmeldung unter: www.galeria.de `,
       cartItemAnswers: "",
-      cartAcoordion: `Eine Bekannte malt sehr gut und sucht eine Gelegenheit, anderen ihre Bilder zu zeigen oder 
-        sie zu verkaufen. `,
+      cartAcoordion:
+        "Eine Bekannte malt sehr gut und sucht eine Gelegenheit, anderen ihre Bilder zu zeigen oder sie zu verkaufen.",
     },
     {
       id: 3,
@@ -261,7 +261,8 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
       nur 75,00 Euro pro Jahr! Mieterschutzbund Brandenburg
       `,
       cartItemAnswers: "",
-      cartAcoordion: `Sie haben Streit mit ihrem Vermieter wegen der Nebenkosten und möchten sich beraten lassen`,
+      cartAcoordion:
+        "Sie haben Streit mit ihrem Vermieter wegen der Nebenkosten und möchten sich beraten lassen.",
     },
     {
       id: 6,
@@ -293,7 +294,7 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
       www.urlaubzuhause.inf`,
       cartItemAnswers: "",
       cartAcoordion:
-        "Sie möchten im Urlaub zwar nicht verreisen, aber trotzdem etwas unternehmen",
+        "Sie möchten im Urlaub zwar nicht verreisen, aber trotzdem etwas unternehmen.",
     },
     {
       id: 8,
@@ -341,7 +342,7 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
       Beratungstermin! Kanzlei Hummel und Schröder, Torstraße 211, 80121 München, Tel. 089 1234567. `,
       cartItemAnswers: "",
       cartAcoordion:
-        "Einem Bekannten wurde die Arbeitsstelle gekündigt. Er möchte bei einem Anwalt um Rat fragen",
+        "Einem Bekannten wurde die Arbeitsstelle gekündigt. Er möchte bei einem Anwalt um Rat fragen.",
     },
     {
       id: 11,
