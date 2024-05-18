@@ -160,8 +160,9 @@ export const lesenTeil_3 = {
     {
       id: 0,
       idText: "A",
+      titleText: "Urlaub auf dem Sofa",
       title: `
-      Urlaub auf dem Sofa
+     
 
       Im Urlaub zu Hause bleiben und sich auf dem Sofa ausruhen? Das fanden wir zu langweilig! 
       Sofa ja, aber nicht das eigene - so lässt sich unsere Urlaubsidee zusammenfassen. Wenn Sie 
@@ -179,8 +180,10 @@ export const lesenTeil_3 = {
     {
       id: 1,
       idText: "B",
+      titleText: "Alte Möbel aufarbeiten",
+
       title: `
-      Alte Möbel aufarbeiten
+      
 Viele Menschen hängen an ihren alten Möbeln und möchten sie nicht gegen andere tauschen, 
 obwohl sie die besten Tage schon hinter sich haben. Wir bieten Ihnen für wenig Geld die 
 Restauration Ihrer Möbel an. Mit einer anderen Farbe wirken viele Stücke wieder wie neu! Und 
@@ -195,7 +198,9 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
     {
       id: 2,
       idText: "C",
-      title: `Kunstmarkt
+      titleText: "Kunstmarkt",
+
+      title: `
       In unseren Ausstellungsräumen am Plantanenhof bieten wir an jedem ersten Samstag im Monat 
       jungen Künstlerinnen und Künstlern die Möglichkeit, sich und einige ihrer Werke vorzustellen. Wenn Sie 
       an einer Ausstellung interessiert sind, melden Sie sich bitte spätestens sechs Wochen vor dem 
@@ -210,7 +215,9 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
     {
       id: 3,
       idText: "D",
-      title: `Die eigene Wohnung
+      titleText: "Die eigene Wohnung",
+
+      title: `
       Für viele ist die eigene Wohnung ein Traum - aber es gibt auch Fragen und Probleme. Wir bieten extra für 
       alle, die zum ersten Mal die eigenen vier Wände beziehen, Infoabende an, in denen sie alles Wichtige zur 
       Haushaltsführung erfahren: Wir bewahrt man Lebensmittel richtig auf? Wie viele Vorräte braucht man? 
@@ -224,7 +231,9 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
     {
       id: 4,
       idText: "E",
-      title: `Unser neues Wohnkonzept
+      titleText: "Unser neues Wohnkonzept",
+
+      title: `
       Unser Angebot: 1-Zimmerwohnungen mit kompletter Ausstattung, auch Telefon und Internet, außerdem 
       morgens kostenlose Tageszeitung nach Wunsch sowie ein komplettes Frühstück. Alle Wohnungen 
       verfügen über großzügige Arbeitsplätze sowie Drucker, Fax etc. In über 25 Städten buchbar. Außerdem 
@@ -239,7 +248,9 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
     {
       id: 5,
       idText: "F",
-      title: `Ihr gutes Recht 
+      titleText: "Ihr gutes Recht ",
+
+      title: `
       Wenn es um Rechtsfragen geht, kann es schnell teuer werden. Anwalt- und vielleicht auch 
       Gerichtskosten werden fällig - von den Nerven, die man verliert, ganz zu schweigen. Wir bieten eine 
       günstige und zuverlässige alternative in allen Fragen rund um das Mietrecht: Ihre Miete wurde erhöht 
@@ -255,7 +266,9 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
     {
       id: 6,
       idText: "G",
-      title: `Günstig wohnen in über 70 Städten in Deutschland
+      titleText: "Günstig wohnen in über 70 Städten in Deutschland",
+
+      title: `
       Wir bieten Ihnen die preiswerte Alternative zum teuren Hotelzimmer: erleben Sie Deutschland und 
       wohnen Sie in über 70 Städten von Flensburg bis Konstanz in einer unserer neuen Pensionen. Wir 
       bieten gemütliche Mehrbettzimmer, einige auch mit Bad. Unsere Häuser sind jeweils zentral gelegen 
@@ -269,7 +282,9 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
     {
       id: 7,
       idText: "H",
-      title: `Zuhause bleiben und trotzdem was erleben
+      titleText: "Zuhause bleiben und trotzdem was erleben",
+
+      title: `
       Urlaub zu Hause - für viele das schönste Urlaubserlebnis! Wir haben Tipps, wie Sie Ihren Urlaub noch 
       schöner machen können: Veranstaltungstipps (Konzerte, Theater, ...), Kurse (Kochkurse, Singen, 
       Musikinstrumente, ...), Sport und Ausflugtipps für Ihre Region. Ob allein, zu zweit oder mit der ganzen 
@@ -283,7 +298,9 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
     {
       id: 8,
       idText: "I",
-      title: `Guter Rat ist nicht teuer
+      titleText: "Guter Rat ist nicht teuer",
+
+      title: `
       Probleme mit Arbeitgeber oder Vermieter? Hatten Sie einen Unfall und niemand will die Kosten für Ihren 
       Krankenhausaufenthalt zahlen? In solchen Fragen ist es gut, wenn man einen Anwalt an seiner Seite hat 
       - und ihn auch bezahlen kann. Schließen Sie deshalb unsere kostengünstige Rechtsschutzversicherung 
@@ -296,7 +313,9 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
     {
       id: 9,
       idText: "J",
-      title: `Kunst und Kultur für Einsteiger
+      titleText: "Kunst und Kultur für Einsteiger",
+
+      title: `
       Nicht nur im Urlaub möchten viele Menschen in der Freizeit Neues ausprobieren. Wir bieten 
       Schnupperkurse zu verschiedenen Freizeitaktivitäten an: Malen war schon immer Ihre Leidenschaft? Sie 
       wollten schon lange probieren, welches Instrument zu Ihnen passt? Dann besuchen Sie einfach unsere 
@@ -310,7 +329,10 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
     {
       id: 10,
       idText: "K",
-      title: `Ihr kompetenter Partner für Rechtsberatung seit über 20 Jahren
+      titleText:
+        "Ihr kompetenter Partner für Rechtsberatung seit über 20 Jahren",
+
+      title: `
       Ihre kompetente Rechtsberatung in ganz Deutschland! Unsere Anwälte vertreten Ihre Interessen zügig 
       und zuverlässig im Bereich “Arbeit”. Vom Arbeitsvertrag über Probleme am Arbeitsplatz bis hin zu 
       Kündigungen oder auch Problemen bei der Zahlung des Arbeitslosengeldes unterstützen wir Sie sowohl 
@@ -324,8 +346,10 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
     {
       id: 11,
       idText: "L",
+      titleText: " Immer das richtige Möbel - ob Büro oder Wohnzimmer",
+
       title: `
-      Immer das richtige Möbel - ob Büro oder Wohnzimmer
+     
       Egal, ob sie beruflich oft unterwegs sind oder viel Wert auf ein gemütliches zu Hause legen: Sie wissen, 
       dass es bei Möbeln und weiterer Ausstattung auf die Details ankommt. Wir bieten für jeden Bedarf das 
       Richtige an: Schreibtische mit integrierten Kabel für Telefon- oder Internetverbindungen, Sofas mit 
