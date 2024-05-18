@@ -163,8 +163,9 @@ export const lesenTeil_3 = {
     {
       id: 0,
       idText: "A",
+      titleText: "Nicht nur Urlaub...",
 
-      title: `Nicht nur Urlaub...
+      title: `
       ...kann man in anderen Ländern machen, sondern auch etwas lernen. Die Agentur für Arbeit vermittelt 
       Schülerinnen und Schülern, aber auch Studierenden Praktikumsplätze im Ausland! Nutzt die 
       Gelegenheit, möglichst früh Euren Wunschberuf kennenzulernen, auch wenn Ihr für das Praktikum nicht 
@@ -177,8 +178,9 @@ export const lesenTeil_3 = {
     {
       id: 1,
       idText: "B",
+      titleText: "Neues Ziel, neues Glück!",
 
-      title: `Neues Ziel, neues Glück!
+      title: `
       Du bist gerade “auf dem Sprung”, willst umziehen und suchst noch eine passende Bleibe?
       Dann haben wir das Richtige für dich: In unserem Internetportal findest du günstige Wohnungen oder 
       WG-Zimmer in zahlreichen Städten Deutschlands - und sogar über die Grenzen Deutschlands hinaus. 
@@ -196,8 +198,9 @@ export const lesenTeil_3 = {
     {
       id: 2,
       idText: "C",
+      titleText: "Superlearning",
 
-      title: `Superlearning
+      title: `
       Sie möchten in kurzer Zeit ihre Sprachkenntnisse besonders schnell verbessern und suchen hierfür die 
       beste Methode? Sie möchten sich während des Aufenthaltes gleichzeitig entspannen und etwas für Ihre 
       Gesundheit tun? Dann dürfte dieses Programm für Sie genau das Richtige sein! 
@@ -213,8 +216,9 @@ export const lesenTeil_3 = {
     {
       id: 3,
       idText: "D",
+      titleText: "Andere Länder, ...",
 
-      title: `Andere Länder, ...
+      title: `
       ... andere Sprachen. Und wo lernt man eine Sprache am besten? Genau - in dem Land, in dem sie 
       gesprochen wird. Wir bieten Ihnen die Möglichkeit, Sprachen auf der ganzen Welt zu lernen. Vom 
       Einzelunterricht bis hin zu einem Kurs für eine ganze Gruppe, von A wie Arabisch bis Z wie Zulu. 
@@ -229,8 +233,9 @@ export const lesenTeil_3 = {
     {
       id: 4,
       idText: "E",
+      titleText: "Was bedeutet “Tandemlernen”?",
 
-      title: `Was bedeutet “Tandemlernen”?
+      title: `
       Zwei Menschen mit verschiedenen Muttersprachen treffen sich und helfen sich gegenseitig beim Lernen 
       der jeweiligen Fremdsprache. Tandemlernen hat keine festgelegten Strukturen, sondern kann ganz nach 
       Lust und Laune ablaufen.
@@ -246,8 +251,9 @@ export const lesenTeil_3 = {
     {
       id: 5,
       idText: "F",
+      titleText: "Interesse an einer Ausbildung?",
 
-      title: `Interesse an einer Ausbildung?
+      title: `
       Auf unserem Azubi-Portal finden Sie Informationen zu allen Ausbildungsberufen, die es derzeit in 
       Deutschland gibt. Sie erfahren, welche Voraussetzungen Sie für eine Ausbildung benötigen, was genau 
       Sie in der Ausbildung lernen, wie Ihr späteres Berufsleben aussieht - und natürlich erfahren Sie auch 
@@ -260,8 +266,9 @@ export const lesenTeil_3 = {
     {
       id: 6,
       idText: "G",
+      titleText: "Umzug mal anders",
 
-      title: `Umzug mal anders
+      title: `
       Wer kennt das nicht: Wenn man umziehen will oder muss, gibt es viel zu erledigen. Man muss den 
       Umzug organisieren, sich um Papiere kümmern, die neue Adresse bekanntgeben und vieles mehr. 
       Dabei hat man auch gar keine Zeit, denn arbeiten oder studieren muss man ja auch noch. Deshalb 
@@ -276,8 +283,9 @@ export const lesenTeil_3 = {
     {
       id: 7,
       idText: "H",
+      titleText: "Alle Informationen auf einer Seite",
 
-      title: `Alle Informationen auf einer Seite
+      title: `
       Die neue Internetseite www.studium.de bietet Ihnen alles rund um das Thema”Studium”. So finden Sie 
       neben Informationen zu allen deutschen Hochschulen auch genaue Beschreibungen aller Studiengänge 
       und -fächer auf auf unserer Webseite.
@@ -293,8 +301,9 @@ export const lesenTeil_3 = {
     {
       id: 8,
       idText: "I",
+      titleText: "Hilfe gesucht?",
 
-      title: `Hilfe gesucht?
+      title: `
       Studierende und Auszubildende müssen oft umziehen, ohne dass sie viel Geld dafür hätten. Deshalb 
       haben wir unser Netzwerk “Studis und Azubis ziehen um” gegründet. Bei uns sind viele fleißige Helfer 
       registriert, die gerne beim Umzug helfen: Kisten packen, Möbel abbauen, die Sachen zu neuen Wohnung 
@@ -311,8 +320,9 @@ export const lesenTeil_3 = {
     {
       id: 9,
       idText: "J",
+      titleText: "Neu in der Stadt?",
 
-      title: `Neu in der Stadt?
+      title: `
       Ihr seid umgezogen und habt eine Ausbildung oder ein Studium hier in der Stadt begonnen?
       Ihr sucht neue Kontakte, Leute, mit denen ihr die Freizeit verbringen könnt?
       Der Verein “Triff dich!” organisiert einmal pro Woche eine Stammtisch für alle, die neue Leute treffen 
@@ -326,8 +336,9 @@ export const lesenTeil_3 = {
     {
       id: 10,
       idText: "K",
+      titleText: "Wie es Ihnen gefällt",
 
-      title: `Wie es Ihnen gefällt
+      title: `
       Unser neues Lernprogramm “Sprachenfix” bietet Ihnen die Möglichkeit, eine Sprache zu lernen, wann 
       und wo Sie möchten, ob allein zu Hause oder unterwegs.
       Das Programm bietet alles, was Sie brauchen: von Erklärungen und Wortschatz über Lesetexte und 
@@ -343,8 +354,9 @@ export const lesenTeil_3 = {
     {
       id: 11,
       idText: "L",
+      titleText: "Aller Anfang ist schwer.",
 
-      title: `Aller Anfang ist schwer.
+      title: `
       Einige Fächer sind schon in der Schule nicht beliebt, und das ändert sich auch später in der Berufsschule 
       oder an der Universität nicht. Für viele sind Naturwissenschaften oder Mathematik echte 
       “Problemfächer”. 
