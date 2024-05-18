@@ -176,9 +176,10 @@ export const lesenTeil_3 = {
     {
       id: 0,
       idText: "A",
+      titleText: " Norwegen: Kirkenes-Bergen",
 
       title: `
-      Norwegen: Kirkenes-Bergen
+     
 Die schönste Seereise der Welt - von Anfang April bis Ende Oktober. 6-Tage-Seereise 2009 ab 699,- € p. P. 
 Eindrucksvolle Landschaften entdecken. Die Seele baumeln lassen. Natur mit allen Sinnen genießen. Mit 
 einer Postschiffreise können Sie das unglaubliche Panorama, das Ihnen die norwegische Küste wie im 
@@ -195,9 +196,10 @@ E-Mail: info@eiligruten.de, www.eiligruten.de
     {
       id: 1,
       idText: "B",
+      titleText: "Mal was ganz anderes machen",
 
       title: `
-      Mal was ganz anderes machen
+      
 Winterurlaub am Meer. Denn Nord- und Ostseeküste bieten auch in der kalten Jahreszeit Aktivitäten, die 
 der ganzen Familie Spaß machen. Zum Beispiel "Boßeln". Welche Mannschaft kullert die bleigefüllte 
 Holzkugel auf den gefrorenen Wegen am weitesten? Zwischendurch gibt es heißen Früchtetee oder 
@@ -208,14 +210,16 @@ Und danach aufwärmen am knisternden Kamin, mit süßem Punsch und Bratapfel. Br
 jemand Berge? Infos unter: www.schleswig-holstein.de.
       `,
       cartItemAnswers: "",
-      cartAcoordion: "Ihre Freundin möchte mit ihrem Mann Silvester und Neujahr im Urlaub feiern, aber nicht schon wieder im Gebirge.",
+      cartAcoordion:
+        "Ihre Freundin möchte mit ihrem Mann Silvester und Neujahr im Urlaub feiern, aber nicht schon wieder im Gebirge.",
     },
 
     {
       id: 2,
       idText: "C",
+      titleText: "Meditation im Schnee",
 
-      title: `Meditation im Schnee
+      title: `
       Nur die Schritte knirschen gleichmäßig im Schnee. Sonst ist es absolut still. Rechts und links ragen die 
       Berge schroff in den blauen Himmel. Strahlend weiß glitzert die Landschaft wie von Tausenden kleiner 
       Diamanten. Wer in meditativer Stimmung durch den Schnee stapfen möchte, ist auf einer 
@@ -224,14 +228,16 @@ jemand Berge? Infos unter: www.schleswig-holstein.de.
       Schlitten ins Tal, wo im Gasthaus schon eine heiße Suppe auf dem Herd dampft und ein warmes Bett 
       wartet. Für mehr Informationen besuchen Sie unsere Internet-Seite: www.meditation-im-schnee.ch.`,
       cartItemAnswers: "",
-      cartAcoordion: "Ein Bekannter möchte im Winter ein besinnliches Wochenende in den Bergen verbringen, denn er mag es, durch die verschneite Natur zu laufen.",
+      cartAcoordion:
+        "Ein Bekannter möchte im Winter ein besinnliches Wochenende in den Bergen verbringen, denn er mag es, durch die verschneite Natur zu laufen.",
     },
     {
       id: 3,
       idText: "D",
+      titleText: "  Fluss- und Radreise durch Belgien",
 
       title: `
-      Fluss- und Radreise durch Belgien
+    
 8 Tage Fluss- und Radreise durch Belgien. Abseits der Hauptstraßen fahren Sie mit Schiff und Rad durch 
 die flache Polderlandschaft Belgiens, die dafür ideal geeignet ist. Die Städte Brügge und Brüssel bilden 
 den Anfangs- und Endpunkt der Reise. Im Reisepreis enthalten: Bahnreise in der 2. Klasse ab Frankfurt, 
@@ -248,9 +254,10 @@ Tourenbesprechungen, Landkarten, alle Hafen-, Schleusen- und Brückengebühren, 
     {
       id: 4,
       idText: "E",
+      titleText: "Radwandern durch das Veneto",
 
       title: `
-      Radwandern durch das Veneto
+     
 Radwandern durch das Veneto
 8 Tage Radwandern durch das Veneto. Sogar Goethe war sprachlos - so schön ist Norditalien. Ruhige, 
 flache Wege geleiten Sie vom Gardasee über Verona nach Vicenza. Durchs Etschtal und über die Lagunen 
@@ -261,13 +268,14 @@ mit 8-Gang-Schaltung, sämtliche Eintritte laut Programm, qualifizierte, ortskun
 Kleinbus als Begleitfahrzeug, Gepäcktransport. Termin: 5. bis 12. April. Preis: 1399 € p. P. im DZ.
       `,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion: "",
     },
     {
       id: 5,
       idText: "F",
+      titleText: 'Übernachten "Im Namen der Rose"',
 
-      title: `Übernachten "Im Namen der Rose"
+      title: `
       Berühmt wurde Kloster Eberbach 1988 als Schauplatz für die Innenaufnahmen zum Film "Der Name der 
       Rose". Zwar gibt es heute kein klösterliches Leben mehr, aber das in seinen Baukörpern erhaltene 
       Kloster gilt als das bedeutendste mittelalterliche Gesamtkunstwerk Hessens. Die jahrhundertealte 
@@ -279,14 +287,15 @@ Kleinbus als Begleitfahrzeug, Gepäcktransport. Termin: 5. bis 12. April. Preis:
       gibt es bei den Gastronomiebetrieben im Kloster Eberbach, Eltville, unter Telefon 06723/993-0
       `,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion: "",
     },
     {
       id: 6,
       idText: "G",
+      titleText: " Tagestouren in Rheinhessen und im Rheingau",
 
       title: `
-      Tagestouren in Rheinhessen und im Rheingau
+     
 Mit der Zahnstangenbahn auf den Wiesbadener Neroberg fahren, in Geisenheim mediterran kochen 
 lernen, wandern mit Lamas und Alpakas als Begleiter, in Siefersheim mit Kräuterfrauen nach 
 vergessenen Pflanzen suchen oder eine Führung durch Kloster Eberrbach mit anschließender 
@@ -301,9 +310,10 @@ ins Innere der Orgel steigen können oder wo die “Nacht der Verführung” sta
     {
       id: 7,
       idText: "H",
+      titleText: "Abend im Palladio",
 
       title: `
-      Abend im Palladio
+      
       Wenn die Tage kürzer und die Nächte kälter werden, ist es Zeit für Artistik, Comedy und Gaumenfreuden. 
       Magier, Jongleure, Akrobaten und ein Vier-Gang-Gourmet-Menü im Schein hunderter Kerzen: Ein Abend 
       im Palladio verspricht unterhaltsame Stunden mit perfektem Genuss im stilvollen Ambiente des 
@@ -320,8 +330,9 @@ ins Innere der Orgel steigen können oder wo die “Nacht der Verführung” sta
     {
       id: 8,
       idText: "I",
+      titleText: "Kloster Eberbach",
 
-      title: `Kloster Eberbach
+      title: `
       Kloster Eberbach mit seinen eindrucksvollen mittelalterlichen und barocken Bauten bietet seinen Gästen 
       einzigartige Voraussetzungen für eine stilvolle Veranstaltung in altehrwürdigen Klostermauern. Sie 
       können viele unserer repräsentativen Säle und prachtvollen Räume für Veranstaltungen anmieten. Ob 
@@ -340,8 +351,9 @@ ins Innere der Orgel steigen können oder wo die “Nacht der Verführung” sta
     {
       id: 9,
       idText: "J",
+      titleText: "Stadt-Führer Frankfurt am Main. Kultur & mehr",
 
-      title: `Stadt-Führer Frankfurt am Main. Kultur & mehr
+      title: `
       Viel Lob von der Lokalpresse für einen neuen Stadt-Führer über die Mainmetropole: Anne Schütz: 
       Frankfurt am Main. Kultur & mehr. Paul Müller Verlag, 15,95 €. Dieser umfangreiche Reise-Führer wartet 
       mit einer ganz besonderen Mischung auf: Rundgänge zur Stadtgeschichte stehen neben einer geballten 
@@ -358,8 +370,10 @@ ins Innere der Orgel steigen können oder wo die “Nacht der Verführung” sta
     {
       id: 10,
       idText: "K",
+      titleText:
+        "Tour zu Schauplätzen der berühmtesten Kriminalfälle Frankfurts",
 
-      title: `Tour zu Schauplätzen der berühmtesten Kriminalfälle Frankfurts
+      title: `
       Der Historiker und Stadtfüher Peter Glock begleitet Sie auf einer interessanten zweistündigen Tour durch 
       die Innenstadt zu Schauplätzen der berühmtesten Kriminalfälle in der Geschichte Frankfurts. Sie 
       erfahren alles über spektakuläre Verbrechen, wie z. B. den Mord an Rosemarie Nitribitt, die Hinrichtung 
@@ -368,13 +382,14 @@ ins Innere der Orgel steigen können oder wo die “Nacht der Verführung” sta
       jeden Sonntag ab 14.00 Uhr statt. Treffpunkt: Café Hauptwache
       `,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion: "",
     },
     {
       id: 11,
       idText: "L",
+      titleText: "Statistisches Jahrbuch der Stadt Frankfurt",
 
-      title: `Statistisches Jahrbuch der Stadt Frankfurt
+      title: `
       An einem durchschnittlichen Tag in Frankfurt werden 19 Babya geboren, sieben Brautpaare heiraten, 
       aber fünf Ehepaare lassen sich scheiden. 136 Frankfurter ziehen im Stadtgebiet um, sechs neue 
       Wohnungen werden fertiggestellt und acht Ausländer eingebürgert. Im Statistischen Jahrbuch der Stadt 
@@ -383,7 +398,7 @@ ins Innere der Orgel steigen können oder wo die “Nacht der Verführung” sta
       Internet herunterladen (www.frankfurt.de). Der Download ist kostenfrei.
       `,
       cartItemAnswers: "",
-      cartAcoordion: "X",
+      cartAcoordion: "",
     },
   ],
   answers: [
