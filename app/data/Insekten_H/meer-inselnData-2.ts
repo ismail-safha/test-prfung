@@ -164,8 +164,9 @@ export const lesenTeil_3 = {
     {
       id: 0,
       idText: "A",
+      titleText: `23.15 3SAT Es geschah im August`,
 
-      title: `"23.15 3SAT Es geschah im August".
+      title: `.
       Ullrich Kasten und Hans-Hermann Hertle schildern in ihrer hervorragenden Dokumentation
 23.15 3SAT Es geschah im August
 anhand von Archivmaterial minutiös sämtliche Stationen des Mauerbaus. Sie erzählen die
@@ -182,8 +183,9 @@ auch Grenzsoldaten, Flüchtlinge und Angehörige von Maueropfern.
     {
       id: 1,
       idText: "B",
+      titleText: "21.00 NDR Joja Wendt",
 
-      title: `"21.00 NDR Joja Wendt"
+      title: `
 
       Ob Klassik, Rock'n'Roll oder Jazz, Joja Wendt, Hamburger Pianist mit enormen
 Entertainer-Qualitäten, variiert bekannte Songs und stellt seine Fingerfertigkeit auch in eigenen
@@ -197,8 +199,9 @@ Schlagersängerin Michelle mit dem Titel "Ich schicke dir jetzt einen Engel".
     {
       id: 2,
       idText: "C",
+      titleText: "20.15 SAT1 Einfach unwiderstehlich",
 
-      title: `"20.15 SAT1 Einfach unwiderstehlich"
+      title: `
       Gut kochen kann Amanda nicht. Folglich steht ihr kleines, von der Mutter geerbtes Restaurant
       in Manhattan kurz vor dem Aus. Da entflieht plötzlich ein Krebs aus ihrem Einkaufskorb und
       sorgt mit seinen Zauberkünsten für lukullische Sensationen. Tom, Manager eines
@@ -212,8 +215,9 @@ Schlagersängerin Michelle mit dem Titel "Ich schicke dir jetzt einen Engel".
     {
       id: 3,
       idText: "D",
+      titleText: "22.00 HR New York Express",
 
-      title: `"22.00 HR New York Express"
+      title: `
       Aus Sorge um die nationale Sicherheit versteckt der amerikanische Geheimdienst den genialen,
       aber vermeintlich psychisch kranken Physiker Arthur Vincenti. Der völlig verrückte New Yorker
       Psychiater Dr. Snow erhält den Auftrag, ihn zu heilen. Immer nachts wird er mit verbundenen
@@ -221,13 +225,15 @@ Schlagersängerin Michelle mit dem Titel "Ich schicke dir jetzt einen Engel".
       das Wissen des Geheimnisträgers Vincenti abgesehen, das sie fremden Spionen verkaufen
       möchten. `,
       cartItemAnswers: "",
-      cartAcoordion: "Sie sehen gern spannende, aber auch spaßige Agentenfilme",
+      cartAcoordion:
+        "Sie sehen gern spannende, aber auch spaßige Agentenfilme.",
     },
     {
       id: 4,
       idText: "E",
+      titleText: "20.15 PRO 7 Kein Vater von gestern",
 
-      title: `"20.15 PRO 7 Kein Vater von gestern"
+      title: `
       Er schreit wie am Spieß, wenn er lange Hosen tragen soll, und lacht sich kaputt, wenn er die
 Katze in eine Mülltüte gesteckt hat. Alles ist einfacher, als sich um den 5-jährigen Calvin zu
 kümmern. Doch sein liebevoller Vater Russell, der den Jungen allein erzieht, meistert sämtliche
@@ -238,13 +244,14 @@ Bekanntschaft mit der attraktiven Beth bringt neuen Schwung in sein Leben. Doch 
 Russells Ex-Ehefrau wieder auf.`,
       cartItemAnswers: "",
       cartAcoordion:
-        "Sie mögen Familienkomödien, besonders mit frechen Kindern",
+        "Sie mögen Familienkomödien, besonders mit frechen Kindern.",
     },
     {
       id: 5,
       idText: "F",
+      titleText: "22.45 SAT1 Nur nich' nach Hause",
 
-      title: `"22.45 SAT1 Nur nich' nach Hause"
+      title: `
       "Hier in Berlin bei meinen Freunden habe ich mein Zuhause hinter mir gelassen. Hier geht's mir
       gut. Ich bin endlich frei", sagt Sascha. Der 16-Jährige ist einer der Jugendlichen, die hierzulande
       auf der Straße leben. Sie schlafen in Notunterkünften, Treppenhäusern und U-Bahn-Stationen,
@@ -258,8 +265,9 @@ Russells Ex-Ehefrau wieder auf.`,
     {
       id: 6,
       idText: "G",
+      titleText: "21.15 ARD Großer Kick auf schmalem Grat",
 
-      title: `"21.15 ARD Großer Kick auf schmalem Grat"
+      title: `
       Mit Sandalen und T-Shirt hängen sie in den Felswänden, ihr Handy halten sie für eine
 Lebensversicherung, die Alpen für einen Freizeitpark, Vierzig Menschen verunglücken jedes
 Jahr tödlich am Montblanc, bis zu eintausend Einsätze fliegt die Bergwacht Chamonix pro
@@ -271,8 +279,9 @@ Saison. Filmer Oliver Baumgart begleitet die Retter zwei Wochen lang.`,
     {
       id: 7,
       idText: "H",
+      titleText: "20.15 RTL Zwei Engel mit vier Fäusten: Schwere Jungs",
 
-      title: `"20.15 RTL Zwei Engel mit vier Fäusten: Schwere Jungs"
+      title: `
       "Schwere Jungs" bildet den Auftakt zu einer sechsteiligen Reihe mit Actionkomödien:
 Hau-drauf-Filme, wie sie schon unzählige Male mit dem Schläger-Duo Terence Hill und Bud
 Spencer über den Bildschirm flimmerten. Die Beiden Gauner Joe und Bob fliehen aus dem
@@ -284,8 +293,9 @@ Gefängnis und finden als Mönche getarnt Unterschlupf in einer Missionsstation.
     {
       id: 8,
       idText: "I",
+      titleText: "17.30 ZDF Olympia-Highlights",
 
-      title: `"17.30 ZDF Olympia-Highlights"
+      title: `
       Nach den Weltcup-Siegen in Willingen und Sapporo stehen die Chancen für das österreichische
       Team gut, beim Skispringen ganz weit vorn zu landen. Überflieger Gregor Schlierenzauer und
       sein Mannschaftskollege Thomas Morgenstern sind jedenfalls in blendender Verfassung. Die
@@ -297,8 +307,9 @@ Gefängnis und finden als Mönche getarnt Unterschlupf in einer Missionsstation.
     {
       id: 9,
       idText: "J",
+      titleText: "14.15 DRS Basler Fasnacht",
 
-      title: `"14.15 DRS Basler Fasnacht"Man darf gespannt sein, wie viel Spott die für ihre spitzen Zungen bekannten Basler Fasnächtler
+      title: `Man darf gespannt sein, wie viel Spott die für ihre spitzen Zungen bekannten Basler Fasnächtler
       für das vergangene Jahr übrig haben. DRS überträgt die Straßenfasnacht, den Umzug der
       Pfeifen- und Trommlergruppen, die ihre Themen präsentieren, live. Die fachkundigen
       Kommentare zum Karneval am Oberrhein liefern Robert Pichler und der Basler
@@ -310,8 +321,9 @@ Gefängnis und finden als Mönche getarnt Unterschlupf in einer Missionsstation.
     {
       id: 10,
       idText: "K",
+      titleText: "0.05 BR Rockpalast",
 
-      title: `"0.05 BR Rockpalast"
+      title: `
       Dreizehn Alben hat die vielköpfige korsische Gruppe "I Muvrini" um die Brüder Jean-Francois
 und Alain Bernardini bereits veröffentlicht. Hierzulande galten die "wilden Schafe" noch bis vor
 Kurzem als Geheimtipp. Inzwischen sind die Musiker mit ihrer Mischung aus korsischer
@@ -324,8 +336,9 @@ bekannt.
     {
       id: 11,
       idText: "L",
+      titleText: "20.15 PHOENIX Mephisto",
 
-      title: `"20.15 PHOENIX Mephisto"
+      title: `
       Man sollte meinen, Schauspieler Hendrik Höfgen wäre gegen unmoralische Angebote gefeit.
 Schließlich feierte er zur Zeit der Weimarer Republik große Erfolge in der Rolle des Mephisto. Der
 Mann müsste also wissen, wie schnell es gehen kann, dass man seine Seele verkauft. Als die
@@ -348,7 +361,7 @@ Politik entstand nach dem gleichnamigen Roman von Klaus Mann.
       number: "12",
     },
     {
-      text: "Sie suchen eine abwechslungsreiche Musiksendung mit Klaviermusik",
+      text: "Sie suchen eine abwechslungsreiche Musiksendung mit Klaviermusik.",
       number: "13",
     },
     {
@@ -372,7 +385,7 @@ Politik entstand nach dem gleichnamigen Roman von Klaus Mann.
       number: "18",
     },
     {
-      text: "Sie würden gern etwas über Großstadtjugendliche erfahren, die am Rand der Gesellschaft leben",
+      text: "Sie würden gern etwas über Großstadtjugendliche erfahren, die am Rand der Gesellschaft leben.",
       number: "19",
     },
     {
