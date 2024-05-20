@@ -260,7 +260,7 @@ Russells Ex-Ehefrau wieder auf.`,
       Filmautor die individuelle Geschichte des Jugendlichen`,
       cartItemAnswers: "",
       cartAcoordion:
-        "Sie würden gern etwas über Großstadtjugendliche erfahren, die am Rand der Gesellschaft leben",
+        "Sie würden gern etwas über Großstadtjugendliche erfahren, die am Rand der Gesellschaft leben.",
     },
     {
       id: 6,
@@ -273,8 +273,7 @@ Lebensversicherung, die Alpen für einen Freizeitpark, Vierzig Menschen verungl�
 Jahr tödlich am Montblanc, bis zu eintausend Einsätze fliegt die Bergwacht Chamonix pro
 Saison. Filmer Oliver Baumgart begleitet die Retter zwei Wochen lang.`,
       cartItemAnswers: "",
-      cartAcoordion:
-        "Sie wollen umziehen, haben aber eigentlich gar keine Zeit, sich darum zu kümmern.",
+      cartAcoordion: "",
     },
     {
       id: 7,
@@ -315,8 +314,7 @@ Gefängnis und finden als Mönche getarnt Unterschlupf in einer Missionsstation.
       Kommentare zum Karneval am Oberrhein liefern Robert Pichler und der Basler
       Fastnachtsjournalist Roger Thiriet.`,
       cartItemAnswers: "",
-      cartAcoordion:
-        "Sie sind gerade umgezogen und möchten neue Leute kennenlernen.",
+      cartAcoordion: "",
     },
     {
       id: 10,
