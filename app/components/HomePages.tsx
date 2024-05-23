@@ -92,7 +92,7 @@ const sections = [
     title: "#Tanzkurs 9",
     links: [
       { href: "/tanzkurs", text: "1-Tanzkurs" },
-      { href: "/tanzkurs-1", text: "2-Tanzkurs" },
+      { href: "/tanzkurs-1", text: "2 -Tanzkurs" },
       { href: "/schreiben-9", text: "Schreiben-9" },
     ],
     mainColor: "#bfdbfe",
