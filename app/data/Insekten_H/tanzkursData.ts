@@ -655,70 +655,64 @@ export const sprachbau_1 = {
 export const sprachbau_2 = {
   texts: [
     {
-      title: "Sollte man nicht doch besser aufs Fahrrad umsteigen?",
-      text: ` Welches Fortbewegungsmittel, denken Sie, wird in Deutschland am häufigsten benutzt?
-      Natürlich das Automobil. Volkswagen, Porsche, Mercedes Benz, BMW, Audi: In 31_________
-      einem anderen Land gibt es so viele Automobilfabriken wie in Deutschland, spielt die
-      Automobilindustrie eine so große Rolle. Nahezu jeder Haushalt verfügt über mindestens ein
-      Auto. Das Auto hat im Leben der Deutschen eine große Bedeutung, sowohl als
-      Fortbewegungsmittel, mit dem man zum Arbeitsplatz kommt oder in den Urlaub fährt, als auch
-      als Statussymbol: Zeig mir dein Auto und ich weiß, wer du bist.
-      Doch hat das Autofahren auch Schattenseiten. Mangelnde Bewegungsmöglichkeiten,
-      gesundheitliche Probleme und Stress bringen zumindest in den Großstädten immer mehr
-      Autofahrer dazu, sich vom Automobil freizumachen und 32_________ ein anderes Verkehrsmittel
-      umzusteigen, das in dem Ruf steht, gesünder zu sein als das Auto: das Fahrrad. Nicht nur in der
-      Freizeit, sondern auch auf dem Weg zum Arbeitsplatz wird das Rad benutzt. "Ich habe keine
-      Lust, Morgen für Morgen im Stau zu stehen und Zeit zu verlieren", sagt Bettina Meier (25): "Da
-      ist es viel entspannender, auf den 33_________ gut ausgebauten Fahrradwegen an den im Stau
-      wartenden Fahrzeugen vorbeizufahren und ausgeruht am Arbeitsplatz anzukommen."
-      Dass Fahrradfahren um einiges gesünder ist, als hinter dem Lenkrad zu sitzen, bestätigen auch
-      die Mediziner. Wer Fahrrad fährt 34_________ zu sitzen, bringt seinen Blutkreislauf in Schwung,
-      trainiert seinen Körper und stärkt dessen Abwehrkräfte. Auch die Bewegung an der frischen Luft
-      tut Menschen gut, die sich sonst die meiste Zeit  35_________ geschlossener Räume in Büros,
-      Schulen oder Fabriken aufhalten 36_________ .
-      Auch die Geschäftswelt hat die Fahrradfahrer als Kunden entdeckt. Ein breites Angebot
-      37_________ Zubehör für Fahrräder von schicken Radfelgen über sportliche Mehrganggetriebe, mit
-      denen Berge kein Problem mehr darstellen, bis zur Designer-Trinkflasche machen aus dem
-      einfachen Fahrrad ein exlusives Fahrzeug. Und natürlich darf bei keinem Fahrradfahrer eine
-      aufwändige Sicherheitsausstattung mehr fehlen: Schutzhelme, Ellenbogen- und Knieschützer,
-      die das Fahrrad im Falle eines Unfalls fast so sicher wie einen Panzer machen 38_________ .
-      Nur wenn es regnet - und das passiert in Deutschland leider nicht so selten -, 39_________ sind
-      die Autoschlangen wieder länger. 40_________ einen praktischen Wetterschutz für Radfahrer
-      haben die Geschäfte noch nicht im Angebot.`,
+      title: "Jugend diskutiert - mach mit!      ",
+      text: `Den Wettbewerber “Jugend diskutiert” gibt es bereits 31_________ Herbst 2002. Für das 
+      kommende Jahr werden nun wieder Schülerinnen und Schüler gesucht, die an dem Wettbewerb 
+      teilnehmen möchten. 32_________ immer bereiten sich die Teilnehmer dann im Unterricht auf 
+      “Jugend diskutiert” vor.
+      Du fragst dich, 33_________ du teilnehmen solltest? Ganz einfach: “Jugend diskutiert” bringt dich 
+      weiter! Sich einmischen, mitreden, überzeugen - bei der Vorbereitung im Unterricht trainierst du 
+      viele Fähigkeiten, die dir in der Schule und im Alltag helfen. Im Austausch mit den anderen 
+      entwickelst du deine Persönlichkeit weiter und profitierst langfristig. 34_________ bietet dir 
+      “Jugend diskutiert” die Chance, im Wettstreit mit anderen weiterzukommen. Zuerst werden die 
+      besten einer Schule ermittelt, die dann 35_________ Regionalwettbewerben teilnehmen. Die 
+      Sieger der Regionalwettbewerbe treten im Bundesfinale an. 36_________ Preise kann man 
+      professionelle Trainings gewinnen. 
+      37_________ “Jugend diskutiert” kannst du viel lernen. Du hast bessere Chancen im Unterricht und 
+      bei Referaten, denn du trainierst, frei zu sprechen und Dinge anschaulich und verständlich zu 
+      beschreiben. Du gewinnst mehr Selbstbewusstsein, 38_________ du lernst, wie man das Wort 
+      ergreift und auf sich aufmerksam macht. Du kannst überzeugen, da du eigene Argumente finden 
+      und die Argumente anderer genau prüfen kannst. Die Sichtweisen der anderen zeigen dir darüber 
+      hinaus, 39_________ du vielleicht selbst noch nicht gesehen hast. Du überzeugst bei Auftritten, 
+      Prüfungen und Bewerbungen, da du sicher auftrittst.
+      40_________ das alles im Unterricht gelernt hat, kann gemeinsam mit anderen viel bewegen! 
+      Schließlich ist der Wettbewerb “Jugend diskutiert” auch eine Chance, Jugendliche aus ganz 
+      Deutschland kennenzulernen und neue Freundschaften zu knüpfen.
+      Weitere Informationen zu Anmeldung und Teilnahme gibt es im Internet`,
     },
   ],
   Answers: [
     {
       id: 1,
       title: "A",
-      answer: `AN
+      answer: `ALS
       
       `,
     },
     {
       id: 2,
       title: "B",
-      answer: "AUF ",
+      answer: "AN ",
     },
     {
       id: 3,
       title: "C",
-      answer: "BEINAHE ",
+      answer: "AUSSERDEM",
     },
     {
       id: 4,
       title: "D",
-      answer: "DAFÜR ",
+      answer: "BEI ",
     },
     {
       id: 5,
       title: "E",
-      answer: "DANN ",
+      answer: "DARUNTER",
     },
     {
       id: 6,
       title: "F",
-      answer: `DENN
+      answer: `DIE
       
       
       
@@ -733,29 +727,30 @@ export const sprachbau_2 = {
     {
       id: 7,
       title: "G",
-      answer: "DÜRFEN ",
+      answer: "NACHDEM ",
     },
     {
       id: 8,
       title: "H",
-      answer: "FAST",
+      answer: "OBWOHL",
     },
     {
       id: 9,
       title: "I",
-      answer: "INNERHALB",
+      answer: "SEIT",
     },
     {
       id: 10,
       title: "J",
-      answer: "KAUM ",
+      answer: "VOR ",
     },
     {
       id: 11,
       title: "K",
       answer: `
-      MÜSSEN
-
+      WARUM
+    
+      
 
 
 
@@ -768,22 +763,22 @@ export const sprachbau_2 = {
     {
       id: 12,
       title: "L",
-      answer: "SOLLEN",
+      answer: "  WAS",
     },
     {
       id: 13,
       title: "M",
-      answer: "STATT",
+      answer: "WEIL",
     },
     {
       id: 14,
       title: "N",
-      answer: "VOR",
+      answer: " WER",
     },
     {
       id: 15,
       title: "O",
-      answer: "ZUMEIST ",
+      answer: " WIE ",
     },
   ],
 };
