@@ -35,7 +35,7 @@ const Header = ({ pageHome, pageTow, pageThree, pageFour, pageFive }) => {
             router.push("/");
           }}
         >
-          <div className="text-white font-black text-[50px]">tlc</div>
+          <div className="text-white font-black text-[50px]">t-lc</div>
           <div className="text-white  text-[12px]">LNGUAGE TESTS</div>
         </button>
       </div>
@@ -130,10 +130,10 @@ const Header = ({ pageHome, pageTow, pageThree, pageFour, pageFive }) => {
           <MoonIcon className={"fill-dark"} />
         )}
       </button>
-{/* 
-      <h1 className="font-bold text-[#fff]">
-        Willkommen🖐 {session.user.name}
-      </h1> */}
+
+      {/* <h1 className="font-bold text-[#fff]">
+          Willkommen🖐 {session.user.name}
+        </h1> */}
 
       <TimerComponent />
     </div>

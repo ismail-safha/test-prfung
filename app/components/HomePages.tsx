@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-// import { useSession } from "next-auth/react";
+import { useSession } from "next-auth/react";
 
 const sections = [
   {
@@ -104,7 +104,7 @@ const sections = [
 // export default async function Home() {
 export default function HomePages() {
   const [currentPage, setCurrentPage] = useState(1);
-  // const { data: session, status } = useSession();
+  const { data: session, status } = useSession();
   const sectionsPerPage = 3;
   const totalPages = Math.ceil(sections.length / sectionsPerPage);
 
@@ -127,74 +127,76 @@ export default function HomePages() {
   );
 
   return (
-    <main className="container w-full m-auto px-2 h-[100%]">
-      <div className="   h-[109px]">
-        <div className="flex flex-col items-center  bg-red-800 p-1 ml-1">
-          <div className="flex flex-col">
-            <div className="text-white font-black text-[50px]">tlc</div>
-            <div className="text-white  text-[12px]">LNGUAGE TESTS</div>
+    session && (
+      <main className="container w-full m-auto px-2 h-[100%]">
+        <div className="   h-[109px]">
+          <div className="flex flex-col items-center  bg-red-800 p-1 ">
+            <div className="flex flex-col">
+              <div className="text-white font-black text-[50px]">tlc</div>
+              <div className="text-white  text-[12px]">LNGUAGE TESTS</div>
+            </div>
           </div>
-          <h1 className="font-bold text-[#fff]">
-            {/* Willkommen🖐 {session.user.name} */}
+          <h1 className="font-bold text-[#fff] bg-[#040404] p-[8px] text-right">
+            Willkommen🖐 {session.user.name}
           </h1>
         </div>
-      </div>
-      <h1 className="text-center m-auto bg-[#080f26] text-[#fff] font-bold p-5 rounded-2xl  mt-5">
-        lesen und sprachbauchteine
-      </h1>
-      {/* ===== */}
-      <div className="container mx-auto py-12 px-4">
-        <div className="grid grid-cols-1 gap-8">
-          {visibleSections.map((section, index) => (
-            <div
-              key={index}
-              className="rounded-xl p-6"
-              style={{ background: section.mainColor }}
-            >
-              <div className="flex items-center mb-4">
-                <h1
-                  className="border rounded-full py-1 px-4  text-white text-lg font-bold"
-                  style={{ background: section.color }}
-                >
-                  {section.title}
-                </h1>
-                <hr className="flex-grow border-b border-gray-400 ml-4" />
-              </div>
-              <div className="flex flex-row justify-around items-center flex-wrap gap-4">
-                {section.links.map((link, linkIndex) => (
-                  <Link
-                    className="block p-[40px] m-[30px] rounded-xl bg-gray-700 hover:bg-gray-800 text-white text-center font-bold  transition duration-300"
-                    key={linkIndex}
-                    href={link.href}
-                    passHref
+        <h1 className="text-center m-auto bg-[#080f26] text-[#fff] font-bold p-5 rounded-2xl  mt-[50px]">
+          lesen und sprachbauchteine
+        </h1>
+        {/* ===== */}
+        <div className="container mx-auto py-12 px-4">
+          <div className="grid grid-cols-1 gap-8">
+            {visibleSections.map((section, index) => (
+              <div
+                key={index}
+                className="rounded-xl p-6"
+                style={{ background: section.mainColor }}
+              >
+                <div className="flex items-center mb-4">
+                  <h1
+                    className="border rounded-full py-1 px-4  text-white text-lg font-bold"
+                    style={{ background: section.color }}
                   >
-                    {link.text}
-                  </Link>
-                ))}
+                    {section.title}
+                  </h1>
+                  <hr className="flex-grow border-b border-gray-400 ml-4" />
+                </div>
+                <div className="flex flex-row justify-around items-center flex-wrap gap-4">
+                  {section.links.map((link, linkIndex) => (
+                    <Link
+                      className="block p-[40px] m-[30px] rounded-xl bg-gray-700 hover:bg-gray-800 text-white text-center font-bold  transition duration-300"
+                      key={linkIndex}
+                      href={link.href}
+                      passHref
+                    >
+                      {link.text}
+                    </Link>
+                  ))}
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
+          <div className="flex justify-center mt-8">
+            <button
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-4"
+              onClick={handlePrevPage}
+              disabled={currentPage === 1}
+            >
+              Previous
+            </button>
+            <p className="text-gray-600 font-semibold">
+              Page {currentPage} of {totalPages}
+            </p>
+            <button
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-4"
+              onClick={handleNextPage}
+              disabled={currentPage === totalPages}
+            >
+              Next
+            </button>
+          </div>
         </div>
-        <div className="flex justify-center mt-8">
-          <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-4"
-            onClick={handlePrevPage}
-            disabled={currentPage === 1}
-          >
-            Previous
-          </button>
-          <p className="text-gray-600 font-semibold">
-            Page {currentPage} of {totalPages}
-          </p>
-          <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-4"
-            onClick={handleNextPage}
-            disabled={currentPage === totalPages}
-          >
-            Next
-          </button>
-        </div>
-      </div>
-    </main>
+      </main>
+    )
   );
 }
