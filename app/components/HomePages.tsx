@@ -113,6 +113,13 @@ const sections = [
 
     color: "#ff6387",
   },
+  {
+    title: "#Drogen 11",
+    links: [{ href: "/drogen", text: "1-drogen" }],
+    mainColor: "#bb98",
+
+    color: "#01204E",
+  },
 ];
 
 // export default async function Home() {
