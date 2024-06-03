@@ -35,6 +35,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## code admin "@ismail_Admin@gmail.com@" email "ismail_Admin@gmail.com"
+
 
 <!-- https://supabase.com/dashboard/project/tjuysvcoondgrfxolxlc/editor/28743 -->
