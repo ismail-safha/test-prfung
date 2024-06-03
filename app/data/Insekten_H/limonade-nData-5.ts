@@ -144,369 +144,425 @@ Gesundheit? Dann gehen Sie doch einfach mehr an die frische Luft. Und die ist ko
 export const lesenTeil_3 = {
   carts: [
     {
-      // A
       id: 0,
       idText: "A",
+      titleText: ``,
 
-      title: `Sport, Theater & mehr...
-
-      ...bieten wir ihnen in unserem Online-Kartenshop. Wir sind spezialisiert auf Tickets für Sportveranstaltungen in Deutschland, Theaterkarten (auch im europäischen Ausland) und bieten Ihnen darüber hinaus auch Eintrittskarten zu bekannten Fernseh-Talkshows an. Sicher haben wir auch für Sie das passende Angebot. Wahlen Sie Ihre Wunschplätze einfach im Internet aus und nur zwei Tage später erhalten Sie Ihre Karten mit der Post. Bequem, sicher, schnell. Selbstverständlich bieten wir Ihnen aber auch eine persönliche Beratung unter einer kostenfreien Rufnummer an. Schauen Sie doch gleich online
-      
-      vorbei!
-      
-      www.ticketprofis.eu
+      title: `Das Vorstellungsgespräch ist eine wichtige Hürde bei der Suche nach einem Arbeitsplatz. In der Regel fangen
+      sie mit Smalltalk an: Man redet über das Wetter, den Verkehr und Ähnliches. Doch dabei kommt es schon
+      auf das ”Wie?” an. Wer viel kritisiert, hat schon verloren. Bei der Vorstellung ihrer Person sollten Bewerber
+      darauf achten, dass sie ihre Fähigkeit und den Nutzen, den ihr potentiell zukünftiger Arbeitgeber von
+      ihnen hat, in den Vordergrund stellen. Fragen nach Gesundheit, Familienplanung, Schwangerschaft oder
+      Geld gehören nicht ins Bewerbungsgespräch. Sollten Sie dennoch gestellt werden, ist man nicht
+      verpflichtet, diese wahrheitsgemäß zu beantworten.
       `,
       cartItemAnswers: "",
-      cartAcoordion: "",
+      cartAcoordion:
+        "Ihre Schwägerin erwartet ein Kind. Sie ist nicht sicher, ob Sie in einem Vorstellungsgespräch darauf hinweisen muss.",
     },
     {
-      // B
       id: 1,
       idText: "B",
+      titleText: "",
 
-      title: `Die Veranstaltungsprofis
-
-      Seit mehr als zwanzig Jahren organisieren wir Messen (Buchmessen, Verbrauchermessen, Fahrradmessen, Automessen, Spielemessen) in ganz Europa. Wenn auch Sie sich für eine Tätigkeit im Bereich Messeorganisation und -durchführung interessieren, haben wir ein interessantes Angebot für Sie: Ab Herbst suchen wir für unser Junges motiviertes Tean Verstärkung. Wenn Sie eine abgeschlossene Ausbildung im Veranstaltungs- oder Logistiksektor haben, neben Ihrer Muttersprache noch mindestens eine weitere Sprache fließend beherrschen und reisefreudig sind, melden Sie sich bei uns! Weitere Informationen finden Sie auch auf unserer Website oder sprechen Sie unsere zuständige Mitarbeiterin, Frau Klimke, direkt an.
-      
-      www.die-veranstaltungsprofis.eu
-      klimke@die-veranstaltungsprofis.eu
+      title: `Die Postbank gibt Bewerbern um einen Ausbildungsplatz ein Thema für ein Projekt, das sie ausarbeiten
+      und dann präsentieren sollen. Nur wer diese Hürde nehmen kann und Engagement beweist, hat
+      Chancen, aufgenommen zu werden. Schließlich sollen die Bewerber zeigen, dass sie belastbar und
+      entscheidungsfähig sind. Der Banker von heute hat ein weit gestecktes Tätigkeitsfeld; Kassierer am
+      Schalter, die nichts als Geld oder Formulare ausgeben oder entgegennehmen, wird es in Zukunft immer
+      weniger geben.
       `,
       cartItemAnswers: "",
-      cartAcoordion:
-        "Ein Bekannter hat bei der Messe Frankfurt gearbeitet und sucht eine andere Stelle in diesem Bereich.",
+      cartAcoordion: "",
     },
     {
-      // C
       id: 2,
       idText: "C",
+      titleText: "",
 
-      title: `Gemeinsam mehr erleben Gruppenreisen bieten wir Ihnen bereits ab fünf Personen an - Städtereisen, Wellnesswochenenden und neu im Angebot auch Reisen zu kulturellen Veranstaltungen. Fahren Sie mit uns zum Beispiel Ende August zum Jazzfestival in Brandenburg (25.-29.8.) oder im darauffolgenden Monat zur Klassikwoche nach Wien. Von Anreise und Hotel (verschiedene Kategorien) bis hin zur Eintrittskarte organisieren wir für Sie alles. Genießen Sie entspannte Tage mit Werner Reisen GmbH. Weitere Informationen und auch Buchungsformulare finden Sie unter www.wernerreisen.eu. Oder
-
-      rufen
-      
-      Sie uns an: 0800/9900100`,
+      title: `Rhetoriktrainer raten dazu, dem Anfang und dem Schluss eines Referats besonderes Augenmerk zu
+      schenken. In den ersten zwei Minuten eines Vortrags entscheide sich nämlich, ob ein Zuhörer an dem
+      Referat Interesse hat oder nicht. Daher sei ein effektvoll und interessant gestalteter Einstieg äußerst
+      wichtig. Am Schluss soll man den Zuhörern noch einmal mit auf den Weg geben, was dem Vortragenden
+      besonders wichtig erscheint.`,
       cartItemAnswers: "",
-      cartAcoordion:
-        "Ein Kollege möchte mit fünf Freunden eine mehrtägige Musikveranstaltung besuchen.",
+      cartAcoordion: "",
     },
     {
-      // D
       id: 3,
       idText: "D",
+      titleText: "",
 
-      title: `Musikfestival Taubertal: 24. Juli bis 3. August
-
-      Auch in diesem Jahr kommen wieder viele bekannte Bands und interessante neue Künstler. Das Festival ist schon längst ausverkauft, aber ihr könnt trotzdem noch hinkommen: Wir suchen noch Unterstützung für den Aufbau der Stände, die Betreuung der Musiker und auch für die Ticketkontrolle. Bewerbt euch einfach per E-Mail. Wichtig: Wenn ihr beim Festival arbeitet, könnt ihr zwar auch Musik hören, aber ihr habt keine Gelegenheit, euch die Auftritte in Ruhe anzusehen. Trotzdem macht die Arbeit viel Spaß, und ihr könnt die Musiker sogar hinter der Buhne sehen und kennenlernen.
-      
-      E-Mail: info@musikfestivaltaubertal.eu `,
+      title: `Robert Sonntag, Autor des Buches “Hilfe, ich muss reden” behauptet, die Angst vor einem größeren
+      Publikum zu reden, sei ein Problem für die meisten Menschen. In Deutschland liegt in etwa 60 % der
+      Menschen an diesem Phänomen. Dabei achten Zuhören nur zu 7 % auf das, was jemand sagt, 93 % der
+      Wirkung eines Vortrags erziele man durch Körpersprache und seine Stimme. Der Autor rät zu
+      Entspannungstechniken wie dem Autogenen Training oder Yoga, um gelassener zu werden, und einer
+      gründlichen Vorbereitung des Vortrags.
+      Seminarangebote unter www.rs-rethorik.de.`,
       cartItemAnswers: "",
-      cartAcoordion: "Sie mögen Musik und möchten in dem Bereich einen Job.",
+      cartAcoordion:
+        "Eine Freundin, 20 Jahre alt, muss oft vor Arbeitskollegen Referate halten. Ihr Hauptproblem ist ihre Nervosität.",
     },
     {
-      // E
       id: 4,
       idText: "E",
+      titleText: "",
 
-      title: `Alle Veranstaltungen aus einer Hand
-
-      Ob Jazz, Rock, Klassik, Musical: Bei uns finden Sie Veranstaltungen aus allen Musikbereichen! Reservieren Sie noch heute Karten für Ihre Lieblingsband, wählen Sie Ihren Platz online und drucken Ihre Tickets sofort selbst aus. Oder kaufen Sie Geschenkgutscheine, die man ebenfalls bequem online einlösen kann: die ideale Möglichkeit für alle, die noch keine bestimmte Veranstaltung ausgesucht haben. Besuchen Sie gleich unseren Online-Shop. Bestellungen sind bei uns übrigens auch ohne Registrierung möglich!
-      
-      www.die-veranstaltungsspezialisten.eu`,
+      title: `Bereiten Sie sich auf ein Vorstellungsgespräch intensiv vor. Überlegen Sie sich genau, was Sie Ihrer
+      zukünftigen Firma an Nutzen bringen können, denn Sie werden danach gefragt werden, warum Sie sich
+      gerade bei dieser und nicht bei einer anderen Firma beworben haben. Analysieren Sie Ihre persönlichen
+      Stärken und Schwächen und überlegen Sie, wie Sie Ihre schwachen Seiten möglichst positiv
+      präsentieren können. Überlegen Sie, was Ihre persönlichen Ziele sind, und sammeln Sie so viele
+      Informationen wie möglich über Ihre zukünftige Arbeit und die Firma, bei der Sie sich beworben haben.`,
       cartItemAnswers: "",
-      cartAcoordion:
-        "Sie möchten einer Freundin Eintrittskarten für eine Musikveranstaltung schenken.",
+      cartAcoordion: "",
     },
     {
-      // F
       id: 5,
       idText: "F",
+      titleText: "",
 
-      title: `Mailänder Scala, Deutsche Oper Berlin und vieles mehr
-
-      Der etwas andere Zugang zur Musik: Wir organisieren Besichtigungen von bekannten Opernhäusern oder Konzertsälen. Schauen Sie sich die Technik und Räume vor Ort an, nehmen Sie an einer interessanten Führung teil und lernen Sie so die Geschichte der Häuser und auch der Orchester kennen. Gerne organisieren wir nach Möglichkeit auch Treffen mit Musikern oder Konzertdirektoren, mit denen Sie spannende Gespräche führen und mehr über deren Arbeit erfahren können. Bitte haben Sie Verständnis, dass wir diese Treffen erst ab zehn Teilnehmern organisieren können. Weitere Informationen:
-      
-      Musikreisen Gerhardt, Tel 0800/223 997 880`,
+      title: `
+      "Hier in Berlin bei meinen Freunden habe ich mein Zuhause hinter mir gelassen. Hier geht's mir
+      gut. Ich bin endlich frei", sagt Sascha. Der 16-Jährige ist einer der Jugendlichen, die hierzulande
+      auf der Straße leben. Sie schlafen in Notunterkünften, Treppenhäusern und U-Bahn-Stationen,
+      betteln tagsüber Passanten um Kleingeld an. Peter Schmidt hat Sascha mehrere Wochen lang
+      begleitet und ihn nach seinen Wünschen und Hoffnungen gefragt. Zudem beleuchtet der
+      Filmautor die individuelle Geschichte des Jugendlichen`,
       cartItemAnswers: "",
-      cartAcoordion: "",
+      cartAcoordion:
+        "Ein älteres Ehepaar hat Goldene Hochzeit. Die Tochter möchte eine Rede halten und braucht dafür eine Anleitung.",
     },
     {
-      // G
       id: 6,
       idText: "G",
+      titleText: "",
 
-      title: `Feste feiern?
-
-      Wir organisieren Veranstaltungen in verschiedenen Größenordnungen - von der kleinen Familienfeier mit zehn Personen bis hin zu großen Firmenveranstaltungen mit mehreren Hundert Teilnehmern. Lehnen Sie sich zurück und wir machen die Arbeit! Alternativ bieten wir Ihnen aber auch unsere kompetente Beratung an, damit Sie Ihre Veranstaltung selbst planen können. Unsere Mitarbeiter kommen dann gerne zu Ihnen oder stehen Ihnen telefonisch und per E-Mail zur Verfügung. Sprechen Sie uns an!
-      
-      TMC GmbH, info@tmcgmbh.eu`,
+      title: `Ein Auszubildender bei einer Bank oder Sparkasse bekommt 690,- Euro im ersten Ausbildungsjahr. Am
+      Ende seiner Ausbildung steigt die Vergütung auf 800,- Euro. Das Einstiegsgehalt für Bankangestellte
+      liegt bei etwas über 2.000,- Euro monatlich. Aufstiegschancen haben die jungen Banker nur, wenn sie
+      sich intensiv um ihre berufliche Fortbildung kümmern.
+      Dafür bieten die Banken ihren Mitarbeitern viele Möglichkeiten an, wie das BankCollege der Volksbanken
+      oder die Sparkassen-Akademie. Manche Banken geben besonders qualifizierten Mitarbeitern sogar
+      Stipendien für ein Studium.`,
       cartItemAnswers: "",
       cartAcoordion:
-        "Ein Bekannter muss eine Jubiläumsfeier organisieren und sucht Unterstützung.",
+        "Eine Bekannte möchte eine Ausbildung machen und vielleicht später einmal studieren.",
     },
     {
-      // H
       id: 7,
       idText: "H",
+      titleText: "",
 
-      title: `Künstleragentur Lippmann
-
-      Bei der Künstleragentur Lippmann sind über 100 Künstler registriert, die Sie für Veranstaltungen buchen können. Sie suchen einen Komiker? Kein Problem! Sie möchten auf Ihrer Veranstaltung Schauspieler auftreten lassen? Wir können sie vermitteln! Sie brauchen musikalische Untermalung? Bei uns sind einzelne Musiker ebenso registriert wie Bands. Melden Sie sich noch heute kostenlos und unverbindlich an und schauen Sie in Ruhe alle Angebote durch - einschließlich der Preise und freien Termine. Sicher finden Sie bei uns, was Sie suchen.
-      
-      www.agentur-lippmann.eu`,
-      cartItemAnswers: "",
-      cartAcoordion: "",
-    },
-    {
-      // I
-      id: 8,
-      idText: "I",
-
-      title: `Gitarre, Violine & Co.
-
-      Im Musikverein Wohlklang lernen schon die ganz Kleinen den spielerischen Umgang mit Instrumenten. Aber auch für die „größeren Kleinen" bieten wir Musikförderung und auch individuellen Unterricht an. In verschiedenen Gruppen (Alter von zwei bis acht Jahren) können Ihre Kinder bei uns Instrumente lernen, singen oder tanzen, kurz: Spaß mit Musik haben und auch selbst das Musizieren lernen. Die ersten beiden Probestunden bieten wir Ihnen kostenlos an, damit Sie und Ihre Kinder uns in Ruhe kennenlernen können. Vereinbaren Sie doch gleich einen Termin unter der 0800/5615 6514. Wohlklang e.V., Neue Straße 218, 77933 Lahr`,
+      title: `Wer zu seinem Vorstellungsgespräch eingeladen wird, sollte auf korrekte und saubere Kleidung achten.
+      Für viele Firmen ist es wichtig, dass auch Auszubildende die Firma gegenüber den Kunden
+      repräsentieren können.
+      Zerrissene Jeans und selbst gefärbte T-Shirts mögen zwar trendy sein, zu einem Vorstellungsgespräch
+      gehören sie aber nicht. In Zweifelsfällen ist es ratsam, sich bei Eltern oder Bekannten Rat zu holen.`,
       cartItemAnswers: "",
       cartAcoordion:
-        "Die sechsjährige Tochter eines Nachbarn würde gerne mit anderen Kindern Musik machen.",
+        "Eine Freundin sucht einen Ausbildungsplatz. Sie ist zu einem Bewerbungsgespräch eingeladen und weiß nicht, was sie zu diesem Anlass anziehen soll.",
     },
     {
-      // J
+      id: 8,
+      idText: "I",
+      titleText: "",
+
+      title: `Für junge Leute kann das Internet zu einer Droge werden. Der typische Internet-Süchtige ist ca. 18 Jahre
+      alt, männlich, Single und hat kaum soziale Kontakte. Er surft täglich um die 5 Stunden im World Wide
+      Web und hat schlechte Laune, wenn er nicht vor dem Monitor sitzen kann. Pflichten werden oft
+      vernachlässigt. Psychologen raten, die Surfzeiten schrittweise zu verringern und darüber ein Tagebuch zu
+      führen sowie vor dem Surfen schriftlich zu notieren, was genau man im Internet suchen möchte. Wer
+      diese strengen Regeln einhält, kann aus der Internetsucht aussteigen.`,
+      cartItemAnswers: "",
+      cartAcoordion:
+        "Ein Freund surft täglich viele Stunden im Internet. Sie finden das zu viel und wollen ihm einen Rat geben.",
+    },
+    {
       id: 9,
       idText: "J",
+      titleText: "",
 
-      title: `Instrumente, Noten, Musikbücher
-
-      Das Musikhaus Hohenzollern hat jetzt wieder besondere Angebote für alle Interessierten. Wir haben die Preise von allen Instrumenten bis kommenden Samstag reduziert. Auch zahlreiche Bücher und Notenhefte finden Sie ab sofort in unserem neuen Online-Shop zu günstigen Preisen. Unser Einstiegsangebot: alle Bestellungen im Online-Shop ohne Versandkosten! Schauen Sie sich doch mal im Internet um oder kommen Sie direkt bei uns vorbei. Wir freuen uns auf ihren Besuch! Musikhaus Hohenzollern, Steeler Str. 789, 45276 Essen
-      
-      www.musikhaus-hohenzollern.eu`,
+      title: `Zu einem zunehmend größer werdenden Problem am Arbeitsplatz wird die immer größer werdende
+      Kluft zwischen dem Sprachgebrauch junger und alter Kollegen. Viele junge Leute verstehen laut einer
+      Studie der Universität Kiel traditionelle Redewendungen wie z. B. “Den Nagel auf den Kopf treffen” oder
+      “Öl ins Feuer gießen” nicht mehr, während Ältere nichts mit “keinen Bock haben” anzufangen wissen.
+      Dadurch, dass Jung und Alt heute nicht mehr so lange wie in früheren Zeiten zusammenleben, sondern
+      unter sich bleiben, verstärkt sich das Auseinanderdriften der Jugendsprache und der Sprache der Alten
+      immer mehr auseinander`,
       cartItemAnswers: "",
       cartAcoordion: "",
     },
     {
-      // K
       id: 10,
       idText: "K",
+      titleText:
+        "GRUNDSÄTZLICH HAT JEDER DIE MÖGLICHKEIT, BEI UNS EINE AUSBILDUNG ZU MACHEN",
 
-      title: `Rhein/Ruhr-Festival
-
-      Im kommenden Herbst findet zum ersten Mal das neue Rhein/Ruhr-Festival statt - und wir benötigen noch Hilfe. Im Rahmen des Festivals werden auf fünf unterschiedlichen Bühnen Künstler auftreten. Wir möchten verschiedene Stilrichtungen präsentieren, Solokünstler ebenso wie größere Musikgruppen. Und noch sind Plätze frei! Die Chance also für alle, die sich gerne bei unserem Festival präsentieren möchten. Kurzbewerbungen können ab sofort per E-Mail an office@rheinruhrfestival.eu gesendet werden.
-      
-      Bitte schicken Sie keine größeren Dateianhänge! Vielen Dank
+      title: `heißt es bei der Sparkassen-Akademie in Bonn.
+      Die Bewerber sollen aber gute bis sehr gute Noten in Deutsch und Mathematik von der Schule
+     mitbringen, und sie müssen in Rollenspielen ihre kommunikativen Fähigkeiten unter Beweis stellen,
+     etwa, wie sie mit einem aggressiven Kunden umgehen würden.
       `,
       cartItemAnswers: "",
       cartAcoordion:
-        "Eine Bekannte ist Musikerin und sucht Möglichkeiten, mit ihrer Gruppe aufzutreten.",
+        "Ein Freund möchte wissen, welche schulischen Leistungen bei der Vergabe von Ausbildungsplätzen im Bankgewerbe besonders wichtig sind.",
     },
     {
-      //L
       id: 11,
       idText: "L",
+      titleText: "",
 
-      title: `Musiker gesucht
-
-      Seit einem Jahr vermitteln wir,, Musiktandems" - Musiker suchen Musiker und geben sich gegenseitig Unterricht. Ob Instrument, Gesang, Komposition - alles wird gesucht! Registrieren Sie sich kostenlos auf unserer Homepage www.musiktandems.eu und finden Sie heute noch das Angebot, das Sie schon lange suchen. Wichtig: Sie können sich nur für das Musiktandem anmelden, wenn Sie selbst auch Unterricht anbieten können, also zum Beispiel ein Instrument spielen. Auf unserer Website finden Sie auch weitere Informationen zum Ablauf und können den Service kontaktieren.`,
+      title: `Viele junge Leute flüchten sich in die virtuelle Scheinwelt, weil ihnen die Realität als eine zu große
+      Belastung erscheint. Insbesondere Chatrooms verführen die Jugendlichen zu langen Sitzungen, die oft
+      als Ersatz für mangelnde zwischenmenschliche Beziehungen herhalten. Häufige Folge:
+      Vernachlässigung von Hausaufgaben und schlechte Zensuren. Eltern, die sich Sorgen um ihre
+      Internetabhängigen Kinder machen, sollten viel mit ihnen sprechen - ohne Vorwürfe zu machen - und
+      versuchen ihren Zöglingen Alternativen in der realen Welt aufzuzeigen`,
       cartItemAnswers: "",
       cartAcoordion:
-        "Ein Bekannter spielt Gitarre und möchte ein weiteres Instrument lernen.",
+        "Eine Bekannte sucht Rat bei Ihnen, weil ihr Sohn ständig im Internet surft und dabei die Schule vernachlässigt",
     },
   ],
   answers: [
     {
-      text: "Ein Bekannter spielt Gitarre und möchte ein weiteres Instrument lernen.",
+      text: "Ihre Schwägerin erwartet ein Kind. Sie ist nicht sicher, ob Sie in einem Vorstellungsgespräch darauf hinweisen muss.",
       number: "11",
     },
     {
-      text: "Ein Kollege möchte mit fünf Freunden eine mehrtägige Musikveranstaltung besuchen.",
+      text: "Ihr Neffe sucht einen Ausbildungsplatz als Elektriker. Er weiß nicht genau, wie er seine Bewerbung korrekt schreiben soll.",
       number: "12",
     },
     {
-      text: "Ein Bekannter hat bei der Messe Frankfurt gearbeitet und sucht eine andere Stelle in diesem Bereich.",
+      text: "Eine Freundin, 20 Jahre alt, muss oft vor Arbeitskollegen Referate halten. Ihr Hauptproblem ist ihre Nervosität.",
       number: "13",
     },
     {
-      text: "Sie möchten einer Freundin Eintrittskarten für eine Musikveranstaltung schenken.",
+      text: "Eine Freundin sucht einen Ausbildungsplatz. Sie ist zu einem Bewerbungsgespräch eingeladen und weiß nicht, was sie zu diesem Anlass anziehen soll.",
       number: "14",
     },
     {
-      text: "Sie interessieren sich für Bücher und möchten eine Messe besuchen.",
+      text: "Eine Bekannte sucht Rat bei Ihnen, weil ihr Sohn ständig im Internet surft und dabei die Schule vernachlässigt.",
+
       number: "15",
     },
     {
-      text: "Die sechsjährige Tochter eines Nachbarn würde gerne mit anderen Kindern Musik machen.",
+      text: "Eine Bekannte möchte eine Ausbildung machen und vielleicht später einmal studieren.",
       number: "16",
     },
     {
-      text: "Ein Bekannter muss eine Jubiläumsfeier organisieren und sucht Unterstützung.",
+      text: "Ein Freund surft täglich viele Stunden im Internet. Sie finden das zu viel und wollen ihm einen Rat geben.",
       number: "17",
     },
     {
-      text: "Sie mögen Musik und möchten in dem Bereich einen Job.",
+      text: "Ein Freund möchte wissen, welche schulischen Leistungen bei der Vergabe von Ausbildungsplätzen im Bankgewerbe besonders wichtig sind.",
       number: "18",
     },
     {
-      text: "Ihre Nachbarin möchte ihre Violine verkaufen.",
+      text: "Ein Bekannter ist Bankkaufmann und sucht eine Stelle.",
       number: "19",
     },
     {
-      text: "Eine Bekannte ist Musikerin und sucht Möglichkeiten, mit ihrer Gruppe aufzutreten.",
+      text: "Ein älteres Ehepaar hat Goldene Hochzeit. Die Tochter möchte eine Rede halten und braucht dafür eine Anleitung.",
       number: "20",
     },
   ],
 };
+
 export const lesenTeil_2 = {
   texts: [
     {
-      title: "Krista, der tierische Star",
-      text: `Krista ist die schönste Kuh Deutschlands. Und jetzt auch noch ein Kinostar. Am letzten Donnerstag kam
-      ein Film über die schwarz-weiß gefleckte Kuh und ihre Besitzer in einige norddeutsche Kinos. Wovon der
-      Film handelt? Von Kristas Leben auf dem Hof der Familie Seeger in Bissel, einem kleinen Dorf in
-      Norddeutschland.
-      Antje Schneider und Carsten Waldbauer sind Filmemacher. Vor einigen Jahren hatten sie die Idee, eine
-      Dokumentation über Kühe zu machen, genauer gesagt über Holstein-Rinder. Die Holstein-Rinder sind eine
-      der wichtigsten Rinderrassen weltweit, kommen aber trotz des deutschen Namens aus Nordamerika. Diese
-      Kühe werden überwiegend als Milchvieh gehalten. Die Holstein-Rinder sind so verbreitet, dass sie
-      inzwischen andere Rassen fast vollständig verdrängt haben.
-      Das gilt vor allem für die vielen Bauernhöfe in Deutschland, die ausschließlich Milch produzieren. Auf
-      einem dieser Höfe wollten Antje Schneider und Carsten Waldbauer Aufnahmen für ihre Dokumentation
-      machen, und die Wahl fiel auf den Hof der Familie Seeger. Doch als die beiden Filmemacher mit den
-      Dreharbeiten beginnen wollten, sahen sie plötzlich - Krista. Krista änderte alles. Die Schönheit vom Lande
-      beeindruckte Schneider und Waldbauer so sehr, dass sie den Plan für ihre Dokumentation gegen den
-      Willen ihres Senders komplett änderten. Im Mittelpunkt sollte nun Krista stehen, die schönste
-      Holstein-Kuh Deutschlands.
-      Krista gehört zur Weltelite. Auf Veranstaltungen wird sie immer wieder ausgezeichnet. Bei einer Tierschau
-      in Italien erhielt sie zwar nicht den ersten Preis, aber trotzdem war sie unter den schönsten Kühen
-      Europas. Kristas Besitzer Jörg Seeger ist begeistert von seinem Star im Stall.
-      Jörg und Janine Seeger erlauben dem Kinozuschauer interessante Einblicke in ihren Alltag auf dem
-      Bauernhof. Die Kamera verfolgt zwar immer den Weg von Kuh Krista, aber zu sehen ist dabei natürlich
-      auch die Arbeit der gesamten Familie auf dem Hof. Manchmal ist das auch ein romantisches Leben, es ist
-      aber vor allem immer sehr arbeitsreich.
-      “Für mich sind Kühe nicht nur Nutztiere”, sagt die Bäuerin Janine Seeger. Schon als Kind hätten ihr die
-      Tiere Geborgenheit, manchmal Trost gespendet. Aber sie weiß, dass die Kühe Geld bringen müssen,
-      entweder durch möglichst viel Milch oder durch viel Nachwuchs. Die kleinen Kälber lassen sich zu recht
-      guten Preisen verkaufen, das lohnt sich für die Seegers.
-      Krista kann zunächst aus gesundheitlichen Gründen keine Kälber bekommen. Auch diese Problematik wird
-      im Film gezeigt. Der Zuschauer merkt, dass Jörg Seeger enttäuscht ist: Seine beste Kuh kann kein Kalb
-      bekommen. Aber es geht gut aus, denn Krista wird operiert und nach Ende der Dreharbeiten klappt es dann
-      doch mit dem Nachwuchs für die Kuh.
-      Während der jahrelangen Dreharbeiten hat sich auch die Familie entwickelt. Mittlerweile haben die Seegers
-      zwei Kinder. “Deshalb verändert sich im Film mein Gewicht etwas”, erzählt Janine Seeger und lacht. Und
-      wie ist es so, vor der Kamera zu stehen? “Erst ungewohnt, dann irgendwie vertraut”, sagt die 32-Jährige.
-      Zu den Filmemachern habe sich ein freundschaftliches Verhältnis entwickelt. “Wie schön, Carsten und
-      Antje sind wieder da”, habe es dann nur noch geheißen, wenn das Team anrückte.
-      Der Film zeigt aber auch, wie sich im Laufe der Jahre das Leben auf dem Hof der Seegers verändert hat
-      und wie schwierig es auch hier geworden ist, mit Milchkühen Geld zu verdienen. Der Markt ist hart
-      umkämpft und die Preise sinken immer weiter, denn die Verbraucher im Supermarkt greifen gerne zum
-      günstigsten Produkt. Für viele ist es da nicht wichtig, wie die Milch produziert wurde. Auch das zeigt der
-      Film, wenngleich eher nebenbei.
-      Familie Segeer ist stolz drauf, dass ein Film über ihren Hof und über die schöne Kuh Krista gedreht wurde.
-      So heißt nun übrigens auch der Film: “Die schöne Krista”. Am vergangenen Wochenende haben die
-      Seegers den Film bei einem Hoffest gezeigt. Familie und Freunde sowie Nachbarn waren zu Gast, und alle
-      haben sich über den Film gefreut.
-      “Die schöne Krista” ist auch die in die Auswahl für den Deutschen Filmpreis gekommen, als einer der
-      fünfzehn besten Dokumentarfilme. Die 500 Filmkritiker, die diese 15 Filme ausgewählt haben, waren
-      begeistert. Schwieriger sei es, so die Produktionsfirma, die Kinobetreiber vom Film zu überzeugen. “Was
-      sollen wir mit einer Kuh?“, sei eine häufige Reaktion. Vielleicht würden sie ihre Meinung ändern, wenn Sie
-      Krista einmal auf dem Hof gesehen hätten.
+      title:
+        "Der Fluch der Informationszeitalters Alles schon vergessen || Der Kampf mit der Informationsflut ",
+      text: `
+      Susana Winkler ist Gedächtnistrainerin. Seit fast
+zehn Jahren bietet sie nun schon Seminare an
+Volkshochschulen, in Altenheimen, in Banken und
+Industriebetrieben an, in denen die
+Seminarteilnehmer lernen sollen, wie sie
+informationen besser im Gedächtnis behalten.Jenny
+Helfer ist 30 Jahre alt, Bürokauffrau und einevon
+Susana Winkler Seminarteilnehmerinnen "An
+meinem Arbeitsplatz bekomme ich ständig Massen
+von neuen Informationen: Texte, die zu lesen sind,
+Termine, Anrufe, Anfragen von Kunden, Kurzinfos
+von Kollegen: Diese Informationsflut zu bewältigen
+und möglichst nichts zu vergessen, ist fast
+ausgeschlossen", so Hartmann. Wie ihr geht es vielen
+Menschen in unserer Informationsgesellschaft –
+und das quer durch alle Altersstufen: vom Schüler
+bis zum Renter. Sie fühlen sich den Anforderungen
+an ihr Gedächtnis nicht mehr gewachsen, und unter
+daher besuchen sie Trainingskurse wie die von
+Susana Winkler.
+Während jeder Sekunde, die Jenny Helfer im
+Trainingsseminar, am Arbeitsplatz oder zu Hause
+verbringt, nimmt sie über ihre "Eingangskanäle" –
+die Augen, die Ohren, die Nase, den Mund, die Haut
+– um die zwei Millionen kleinste Informationen
+unbewusst auf. Jede kleinste Schwankung in der
+Licht- oder Farbintensität, Formen und Farben, Licht
+und Schatten, alle nur erdenklichen Geräusche von
+der Stimme der Seminarleiterin oder Kollegin bis
+zum draußen vorbeifahrenden Motorrad,
+verschiedeniste Gerüche vom Schweiß bis zum
+teuren Parfüm, das Kratzen des Pullovers auf der
+Haut: All dies nimmt sie unbewusst wahr. Würde sie
+sich all diese Informationen bewusst merken
+wollen, wäre – wenn man die Sprache der
+Compeuterwelt zu Hilfe nimmt – innerhalb
+kürzester Zeit vor Speicher voll".
+----------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Damit dies nicht passiert, vergisst man fast alle
+Informationseinheiten innerhalb der nöchsteen 20
+Sekunden wieder – und schafft damit Platz für
+neue
+Informationen. Ernst nach etwa 20 Menuten
+behalten wir etwas auf lange Zeit. Dann haben die
+Nervenzellen im Gehirn eine neue Verbindung
+hergestellt, eine Synapse gebildet – und wir
+behalten etwas, statt es gleich wieder zu
+vergessen.
+Die Trainerin Susana Winkler sagt: "Starke
+Sinneseindrücke, die mit Emotionen behaftet sind,
+behält man ebenso wie das, was interessant ist
+oder
+lebensnotwendig. Ein kind, das einmal eine heiße
+Herdplatte angefasst hat,vergisst nie mehr, was
+"heiß" bedeutet. Ein Hobbyastronom, dem seine
+Freizeitbeschäftigung großen Spaß bereitet, kennt
+im Nu alle möglichen Namen von Sternen. Und ich
+habe noch keinen Seminarteilnehmer gehabt, der
+sich nicht mehr daran erinnern könnte, was am
+11.
+September 2001 in Neu York passiert ist".
+In unserer heutigen Informationsgesellschaft ist es
+wichtig, die auf uns einströmende Informationsflut
+zu bündeln. Daten und Begriffe zu gruppieren
+oder
+an Bildern oder Gegenständen festzumachen und
+sich so "Eselsbrücken" zu bauen, die dabei helfen,
+mehr im Gesächtnis zu behalten.
+Jenny Helfer "sortiert" jetzt im Geiste alle
+wichtigen
+Informationen in bestimmte Schubladen ihres
+Aktenschrankes in ihrem Büro: " Ich habe mir
+Zahlensymbole ausgedacht, mit denen ich die
+neuen Informationen bildlich verknüpfe: Die Eins
+wird zur Kerze, die Zwei zum Schwan usw. Wenn
+ich
+nun nicht vergessen möchte, um zwei Uhr eine
+bestimmte Konferenz vorzubereiten, denke ich mir
+meine Konferenzmappe im Schnabel des
+Schwans.
+Und es funktioniert: Ich vergesse viel weniger"
+
       `,
     },
   ],
   questions: [
     {
       id: 0,
-      questionText: "Holstein-Rinder",
+      questionText: "Melanie Hoffmanns Seminare besuchen",
       options: [
         {
           optionID: "A",
-          option: "dominieren als Rinderrasse die Milchviehwirtschaft",
+          option: "ausschließlich Frauen, die im Büro arbeiten",
         },
         {
           optionID: "B",
-          option: "sind für die Milchproduktion wenig geeignet.",
+          option: "junge und alte Menschen gleichermaßen",
         },
         {
           optionID: "C",
-          option: "wurden ursprünglich in Norddeutschland gezüchtet.",
+          option: "überwiegend alte Menschen",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 1,
-      questionText: "Die Kuh Krista",
+      questionText: "Die Teilnehmer besuchen Frau Hoffmanns Seminar, weil sie",
       options: [
         {
           optionID: "A",
-          option: "hat bereits einige Preise gewonnen",
+          option: "das Gefühl haben, dass ihr Gedächtnis schlechter wird",
         },
         {
           optionID: "B",
-          option: "war Siegerin bei einer Veranstaltung in Italien.",
+          option: "immer mehr vergessen",
         },
         {
           optionID: "C",
-          option: "wurde als schönste Kuh Europas ausgezeichnet",
+          option: "sich von den vielen Informationen überfordert fühlen",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 2,
-      questionText: "Während der Filmaufnahmen",
+      questionText: "Jeder Mensch",
       options: [
         {
           optionID: "A",
-          option: "bekam Krista ein Kalb.",
+          option: "kann sich alle erdenklichen Geräusche und Gerüche merken",
         },
         {
           optionID: "B",
-          option: "wäre Krista fast gestorben",
+          option: "kann über einen Zeitraum von 20 Minuten alles behalten.",
         },
         {
           optionID: "C",
-          option: "wurde Krista ärztlich behandelt.",
+          option: "vergisst die meisten Informationen innerhalb kürzester Zeit",
         },
       ],
       correctAnswerID: "C",
     },
     {
       id: 3,
-      questionText: "Die wirtschaftlichen Probleme von Milchbetrieben",
+      questionText: "Besonders gut kann man sich",
       options: [
         {
           optionID: "A",
-          option: "betreffen die Familie Seeger nicht",
+          option: "als Kind etwas merken",
         },
         {
           optionID: "B",
-          option: "sind eine Folge des Verbraucherverhaltens",
+          option: "an Daten und Begriffe erinnern",
         },
         {
           optionID: "C",
-          option: "werden im Film ausführlich behandelt.",
+          option:
+            "emotional aufgeladene Situationen merken * (intensive Gefühle merken.)",
+        },
+      ],
+      correctAnswerID: "C",
+    },
+    {
+      id: 4,
+      questionText: "Suma Hartmann",
+      options: [
+        {
+          optionID: "A",
+          option: "lehrt andere, wie man sich 'Eselsbrücken' ausdenkt.",
+        },
+        {
+          optionID: "B",
+          option: "verbindet Informationen mit Bildern.",
+        },
+        {
+          optionID: "C",
+          option: "verwendet für ihre Aktenablage nur Tiersymbole",
         },
       ],
       correctAnswerID: "B",
     },
-    {
-      id: 4,
-      questionText: "“Die schöne Krista”",
-      options: [
-        {
-          optionID: "A",
-          option: "begeistert Kinobetreiber bislang nicht.",
-        },
-        {
-          optionID: "B",
-          option: "könnte die Kritiker nicht überzeugen",
-        },
-        {
-          optionID: "C",
-          option: "wurde als beste Dokumentation ausgezeichnet",
-        },
-      ],
-      correctAnswerID: "A",
-    },
   ],
 };
+
 export const sprachbau_1 = {
   texts: [
     {
@@ -863,3 +919,5 @@ export const sprachbau_2 = {
     },
   ],
 };
+
+//==================

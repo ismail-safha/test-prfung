@@ -110,8 +110,12 @@ model User {
     id            String    @id @default(cuid())
     name          String?
     email         String?   @unique
-  role           Role      @default(USER)
-  password       String
+     ip        String
+  city      String
+  region    String
+  country   String
+    role           Role      @default(USER)
+    password       String
     image         String?
     createdAt DateTime @default(now())
     accounts      Account[]

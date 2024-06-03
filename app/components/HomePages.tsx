@@ -58,9 +58,16 @@ const sections = [
     color: "#23272ccf",
   },
   {
-    title: "#Limonade-N 6",
+    title: "#Limonade 6",
     links: [
       { href: "/limonade-n", text: "1-limonade-n" },
+      { href: "/limonade-1", text: "2-limonade-1" },
+      { href: "/limonade-2", text: "3-limonade-2" },
+      { href: "/limonade-3", text: "4-limonade-3" },
+      { href: "/limonade-4", text: "5-limonade-4" },
+      { href: "/limonade-5", text: "6-limonade-5" },
+      { href: "/limonade-6", text: "7-limonade-6" },
+      { href: "/limonade-7", text: "8-limonade-7" },
       { href: "/schreiben-6", text: "Schreiben-6" },
     ],
     mainColor: "#bfdbfe",
@@ -99,32 +106,39 @@ const sections = [
 
     color: "#ff6347",
   },
+  {
+    title: "#kinderhandys 10",
+    links: [{ href: "/kinderhandys", text: "1-kinderhandys" }],
+    mainColor: "#bf5bfe",
+
+    color: "#ff6387",
+  },
 ];
 
 // export default async function Home() {
 export default function HomePages() {
   const [currentPage, setCurrentPage] = useState(1);
   const { data: session, status } = useSession();
-  const sectionsPerPage = 3;
-  const totalPages = Math.ceil(sections.length / sectionsPerPage);
+  // const sectionsPerPage = 3;
+  // const totalPages = Math.ceil(sections.length / sectionsPerPage);
 
-  const handleNextPage = () => {
-    if (currentPage < totalPages) {
-      setCurrentPage((prevPage) => prevPage + 1);
-    }
-  };
+  // const handleNextPage = () => {
+  //   if (currentPage < totalPages) {
+  //     setCurrentPage((prevPage) => prevPage + 1);
+  //   }
+  // };
 
-  const handlePrevPage = () => {
-    if (currentPage > 1) {
-      setCurrentPage((prevPage) => prevPage - 1);
-    }
-  };
+  // const handlePrevPage = () => {
+  //   if (currentPage > 1) {
+  //     setCurrentPage((prevPage) => prevPage - 1);
+  //   }
+  // };
 
-  const startIndex = (currentPage - 1) * sectionsPerPage;
-  const visibleSections = sections.slice(
-    startIndex,
-    startIndex + sectionsPerPage
-  );
+  // const startIndex = (currentPage - 1) * sectionsPerPage;
+  // const visibleSections = sections.slice(
+  //   startIndex,
+  //   startIndex + sectionsPerPage
+  // );
 
   return (
     session && (
@@ -146,7 +160,8 @@ export default function HomePages() {
         {/* ===== */}
         <div className="container mx-auto py-12 px-4">
           <div className="grid grid-cols-1 gap-8">
-            {visibleSections.map((section, index) => (
+            {/* {visibleSections.map((section, index) => ( */}
+            {sections.map((section, index) => (
               <div
                 key={index}
                 className="rounded-xl p-6"
@@ -176,7 +191,7 @@ export default function HomePages() {
               </div>
             ))}
           </div>
-          <div className="flex justify-center mt-8">
+          {/* <div className="flex justify-center mt-8">
             <button
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-4"
               onClick={handlePrevPage}
@@ -194,7 +209,7 @@ export default function HomePages() {
             >
               Next
             </button>
-          </div>
+          </div> */}
         </div>
       </main>
     )
