@@ -1,5 +1,3 @@
-// pages/api/logUser.js
-
 import axios from "axios";
 import prisma from "../../../lib/db";
 
@@ -25,7 +23,7 @@ export default async function handler(req, res) {
       region: geoData.region.name,
       country: geoData.country.name,
     };
-
+    console.log(geoData);
     const log = await prisma.userLog.create({
       data: {
         ip,
