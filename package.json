@@ -17,6 +17,7 @@
     "@next/third-parties": "^14.2.3",
     "@prisma/client": "^5.13.0",
     "@types/bcrypt": "^5.0.2",
+    "axios": "^1.7.2",
     "bcrypt": "^5.1.1",
     "device": "^0.3.12",
     "next": "14.0.2",
