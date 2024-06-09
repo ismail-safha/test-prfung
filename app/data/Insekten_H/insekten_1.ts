@@ -50,42 +50,52 @@ export const lesenTeil_1 = {
 
   answers: [
     {
+      id: 1,
       text: "Neue Insektenart in Frankreich",
       number: "a",
     },
     {
+      id: 2,
       text: "Kliene Insekten können Krankheiten bringen",
       number: "b",
     },
     {
+      id: 3,
       text: "Bauern sind gezwungen Gift gegen schädliche",
       number: "c",
     },
     {
+      id: 4,
       text: "Neue Mittel gegen Mücken",
       number: "d",
     },
     {
+      id: 5,
       text: "Neue Studie: Nicht nur Affen und Delfine erkennen sich selbst",
       number: "e",
     },
     {
+      id: 6,
       text: "Probleme beim Versuchsaufbau: Studie gescheitert",
       number: "f",
     },
     {
+      id: 7,
       text: "Rhein nach Chemieunfall noch immer tot",
       number: "g",
     },
     {
+      id: 8,
       text: "Rückblick: Fischsterben im Rhein",
       number: "h",
     },
     {
+      id: 9,
       text: "Um die Zukunft der Nordsee ist es schlecht bestellt",
       number: "i",
     },
     {
+      id: 10,
       text: "WWF zieht positive Bilanz für die Nordsee",
       number: "j",
     },
@@ -248,42 +258,52 @@ Offiziell wird der Weltspartag am 31. Oktober gefeiert, in Österreich manchmal 
   ],
   answers: [
     {
+      id: 1,
       text: "Sie suchen ein Au-pair-Mädchen, das im Haushalt helfen und mit ihren Kindern Englisch sprechen soll.",
       number: "11",
     },
     {
+      id: 2,
       text: "Ihre 14-jährige Nichte möchte sich über einen Auslandsaufenthalt informieren",
       number: "12",
     },
     {
+      id: 3,
       text: "Ihr Sohn möchte als Koch im Ausland arbeiten. Er sucht nach einer passenden Stelle.",
       number: "13",
     },
     {
+      id: 4,
       text: "Eine französische Bekannte ist Übersetzerin und möchte gelegentlich arbeiten.",
       number: "14",
     },
     {
+      id: 5,
       text: "Ihre kinderlose Nachbarsfamilie möchte für einige Zeit einen jungen Menschen aufnehmen.",
       number: "15",
     },
     {
+      id: 6,
       text: "Sie sollen die neue Webseite Ihrer Firma ins Englische übersetzen lassen",
       number: "16",
     },
     {
+      id: 7,
       text: "Sie kochen gerne und suchen nach Rezepten aus anderen Ländern.",
       number: "17",
     },
     {
+      id: 8,
       text: "Im Herbst beginnt Ihre Tochter ein Studium. Sie möchte ein Bankkonto eröttnen.",
       number: "18",
     },
     {
+      id: 9,
       text: "Sie wollen Geld nach Kanada überweisen. Sie möchten wissen, wie viel Sie für die Überweisung bezahlen",
       number: "19",
     },
     {
+      id: 10,
       text: "Ein Freund aus Salzburg will sich in Frankreich bewerben. Er möchte seine Zeugnisse",
       number: "20",
     },

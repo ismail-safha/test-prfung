@@ -1,14 +1,15 @@
 "use client";
-import {
-  DndContext,
-  DragEndEvent,
-  useDroppable,
-  useDraggable,
-} from "@dnd-kit/core";
+import { useDraggable } from "@dnd-kit/core";
 import { CSS } from "@dnd-kit/utilities";
 import { useState } from "react";
 
-const AnswerDraggableT: React.FC<{ answer: string; number: string }> = ({
+interface AnswerDraggableProps {
+  answer: string;
+  number: string;
+  handleAnswerClick: (answerText: string) => void;
+}
+
+const AnswerDraggableT: React.FC<AnswerDraggableProps> = ({
   answer,
   number,
 }) => {

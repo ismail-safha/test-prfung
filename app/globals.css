@@ -130,3 +130,12 @@ body {
   border-radius: 8px;
   padding: 0px 10px;
 }
+
+.svg-icon {
+  background: #cf727a;
+  border: 1px solid;
+  border-radius: 4px;
+
+  height: 33px;
+  width: 51px;
+}
