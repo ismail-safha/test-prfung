@@ -45,42 +45,52 @@ export const lesenTeil_1 = {
   ],
   answers: [
     {
+      id: 1,
       text: "Freie Plätze im Tanzkurs",
       number: "a",
     },
     {
+      id: 2,
       text: "Neue Lerntechniken präsentiert",
       number: "b",
     },
     {
+      id: 3,
       text: "Stolze Eltern: vom Schüler zum Superstar",
       number: "c",
     },
     {
+      id: 4,
       text: "Verändertes Freizeitverhalten von Jugendlichen",
       number: "d",
     },
     {
+      id: 5,
       text: "Höher, schneller, weiter. Suche nach dem Nervenkitzel",
       number: "e",
     },
     {
+      id: 6,
       text: "Hilfen für überforderte Schüler *(schuler/konzentrieren)",
       number: "f",
     },
     {
+      id: 7,
       text: "Keine Zeit für Langeweile",
       number: "g",
     },
     {
+      id: 8,
       text: "Neue Sportarten",
       number: "h",
     },
     {
+      id: 9,
       text: "Tanzlehrer fordern modeme Tänze bekannter machen",
       number: "i",
     },
     {
+      id: 10,
       text: "Befragung bestätigt alte Vorurteile",
       number: "j",
     },
