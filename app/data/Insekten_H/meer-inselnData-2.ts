@@ -118,42 +118,52 @@ export const lesenTeil_1 = {
   ],
   answers: [
     {
+      id: 1,
       text: "Deutscher Forscher startet Expedition auf Vogelinsel in Südamerika",
       number: "a",
     },
     {
+      id: 2,
       text: "Die beliebtesten Reiseziele unter den europäischen Inseln",
       number: "b",
     },
     {
+      id: 3,
       text: "Fernreisen in eine unberührte Tierwelt",
       number: "c",
     },
     {
+      id: 4,
       text: "Geführte Bootsausflüge zu einsamen Badebuchten",
       number: "d",
     },
     {
+      id: 5,
       text: "Grüne Geisterinsel in Asien",
       number: "e",
     },
     {
+      id: 6,
       text: "Immer mehr Reiseunternehmen streichen Thailand aus ihrem Angebot",
       number: "f",
     },
     {
+      id: 7,
       text: "Inseln zählen weltweit zu den wichtigsten Reisedestinationen",
       number: "g",
     },
     {
+      id: 8,
       text: "Nachhaltiger Tourismus auf chinesischen Inseln",
       number: "h",
     },
     {
+      id: 9,
       text: "Tierparadies auf einer Nordseeinsel",
       number: "i",
     },
     {
+      id: 10,
       text: "Umstrittener Umgang mit Tieren als Touristenmagnet",
       number: "j",
     },
@@ -351,42 +361,52 @@ Politik entstand nach dem gleichnamigen Roman von Klaus Mann.
   ],
   answers: [
     {
+      id: 1,
       text: "Ein Bekannter möchte einen Film sehen, der nach dem Werk eines Schriftstellers gedreht wurde.",
       number: "11",
     },
     {
+      id: 2,
       text: "Ihre Bekannten verfolgen gern sportliche Wettkämpfe.",
       number: "12",
     },
     {
+      id: 3,
       text: "Sie suchen eine abwechslungsreiche Musiksendung mit Klaviermusik.",
       number: "13",
     },
     {
+      id: 4,
       text: "Sie mögen Filme mit viel Action und viel Spaß. Ihre Lieblingshelden können auch mal zuschlagen.",
       number: "14",
     },
     {
+      id: 5,
       text: "Ein Bekannter interessiert sich für korsische Geschichte.",
       number: "15",
     },
     {
+      id: 6,
       text: "Sie mögen Familienkomödien, besonders mit frechen Kindern.",
       number: "16",
     },
     {
+      id: 7,
       text: "Eine Bekannte interessiert sich für informative Beiträge zur neueren Geschichte.",
       number: "17",
     },
     {
+      id: 8,
       text: "Sie sehen gern spannende, aber auch spaßige Agentenfilme.",
       number: "18",
     },
     {
+      id: 9,
       text: "Sie würden gern etwas über Großstadtjugendliche erfahren, die am Rand der Gesellschaft leben.",
       number: "19",
     },
     {
+      id: 10,
       text: "Sie möchten im nächsten Urlaub bergsteigen und sich über die Risiken informieren.",
       number: "20",
     },

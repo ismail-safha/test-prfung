@@ -109,42 +109,52 @@ export const lesenTeil_1 = {
   ],
   answers: [
     {
+      id: 1,
       text: "Bilder einer bedeutenden Künstlerin",
       number: "a",
     },
     {
+      id: 2,
       text: "Das Ende der Dunkelheit",
       number: "b",
     },
     {
+      id: 3,
       text: "Die bemerkenswerte Karriere eines Fotografen",
       number: "c",
     },
     {
+      id: 4,
       text: "Ein Fotograf auf Reisen",
       number: "d",
     },
     {
+      id: 5,
       text: "Eine Fotografin dreht einen Film",
       number: "e",
     },
     {
+      id: 6,
       text: "Entwicklungsgeschichte der Lampen",
       number: "f",
     },
     {
+      id: 7,
       text: "Erde, Mond und Sterne - wie man sie noch nie gesehen hat",
       number: "g",
     },
     {
+      id: 8,
       text: "Familienfotos berühmter Persönlichkeiten",
       number: "h",
     },
     {
+      id: 9,
       text: "Gelungene Einführung in die moderne Fotografie",
       number: "i",
     },
     {
+      id: 10,
       text: "Mit Profis eine neue Foto-Technik erlernen",
       number: "j",
     },
@@ -318,42 +328,52 @@ Von März bis September (bei schönem Wetter auch länger) können Sie bei unser
   ],
   answers: [
     {
+      id: 1,
       text: "Sie möchten einen Ganztagesausflug machen und sich dabei bewegen",
       number: "11",
     },
     {
+      id: 2,
       text: "Sie möchten eine Fahrt durch den Hamburger Hafen buchen",
       number: "12",
     },
     {
-      text: "Eine Bekannte organisiert einen großen Kindergeburtstag und braucht Hilfe.*(Ihr Sohn mochte einen Freier und braucht eine Hilfe)",
+      id: 3,
+      text: "Eine Bekannte organisiert einen großen Kindergeburtstag und braucht Hilfe. (Ihr Sohn mochte einen Freier und braucht eine Hilfe)",
       number: "13",
     },
     {
+      id: 4,
       text: "Sie interessieren sich für Technikgeschichte",
       number: "14",
     },
     {
+      id: 5,
       text: "Ein Freund möchte gerne eine Schiffsreise machen",
       number: "15",
     },
     {
+      id: 6,
       text: "Sie möchten helfen, Ihren Stadtteil zu gestalten",
       number: "16",
     },
     {
+      id: 7,
       text: "Sie wollen mit einer Bekannten essen gehen. Sie mag amerikanische Küche",
       number: "17",
     },
     {
+      id: 8,
       text: "Sie sind neu in der Stadt und möchten Ihren Stadtteil kennenlernen",
       number: "18",
     },
     {
+      id: 9,
       text: "Ein Freund möchte mehr über die Geschichte deutscher Städte erfahren",
       number: "19",
     },
     {
+      id: 10,
       text: "Sie möchten etwas mit Ihrer 6-jährigen Nichte unternehmen, die gerne ins Museum geht",
       number: "20",
     },

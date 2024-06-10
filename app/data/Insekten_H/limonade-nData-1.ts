@@ -99,42 +99,52 @@ Gesundheit? Dann gehen Sie doch einfach mehr an die frische Luft. Und die ist ko
   ],
   answers: [
     {
+      id: 1,
       text: "Limonade aus dem Wasserhahn",
       number: "a",
     },
     {
+      id: 2,
       text: "Limonade ist moderner als Wasser",
       number: "b",
     },
     {
+      id: 3,
       text: "Sommer bedeutet in Zukunft nicht unbedingt Sonne",
       number: "c",
     },
     {
+      id: 4,
       text: "Mehr Sauerstoff im Wasser macht müde Menschen fit",
       number: "d",
     },
     {
+      id: 5,
       text: "Viel Wasser trinken - Gesundheit tanken",
       number: "e",
     },
     {
+      id: 6,
       text: "Frische Luft macht stark",
       number: "f",
     },
     {
+      id: 7,
       text: "Die Sonne macht Landwirten Probleme",
       number: "g",
     },
     {
+      id: 8,
       text: "Sprudel hausgemacht - Zeit des Flaschen-Tragens ist vorbei",
       number: "h",
     },
     {
+      id: 9,
       text: "Alarm: Nitrat im Regenwasser bedroht die Gesundheit",
       number: "i",
     },
     {
+      id: 10,
       text: "Vom Regen zum Mineralwasser",
       number: "j",
     },
@@ -333,42 +343,52 @@ Politik entstand nach dem gleichnamigen Roman von Klaus Mann.
   ],
   answers: [
     {
+      id: 1,
       text: "Ein Bekannter möchte einen Film sehen, der nach dem Werk eines Schriftstellers gedreht wurde.",
       number: "11",
     },
     {
+      id: 2,
       text: "Ihre Bekannten verfolgen gern sportliche Wettkämpfe.",
       number: "12",
     },
     {
+      id: 3,
       text: "Sie suchen eine abwechslungsreiche Musiksendung mit Klaviermusik.",
       number: "13",
     },
     {
+      id: 4,
       text: "Sie mögen Filme mit viel Action und viel Spaß. Ihre Lieblingshelden können auch mal zuschlagen.",
       number: "14",
     },
     {
+      id: 5,
       text: "Ein Bekannter interessiert sich für korsische Geschichte.",
       number: "15",
     },
     {
+      id: 6,
       text: "Sie mögen Familienkomödien, besonders mit frechen Kindern.",
       number: "16",
     },
     {
+      id: 7,
       text: "Eine Bekannte interessiert sich für informative Beiträge zur neueren Geschichte.",
       number: "17",
     },
     {
+      id: 8,
       text: "Sie sehen gern spannende, aber auch spaßige Agentenfilme.",
       number: "18",
     },
     {
+      id: 9,
       text: "Sie würden gern etwas über Großstadtjugendliche erfahren, die am Rand der Gesellschaft leben.",
       number: "19",
     },
     {
+      id: 10,
       text: "Sie möchten im nächsten Urlaub bergsteigen und sich über die Risiken informieren.",
       number: "20",
     },

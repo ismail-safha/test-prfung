@@ -116,42 +116,52 @@ Mit einer harmlosen Diät fängt es meist an, mit einer schweren Krankheit kann 
   ],
   answers: [
     {
+      id: 1,
       text: "Jugend forscht - auch auf dem Meer",
       number: "a",
     },
     {
+      id: 2,
       text: "Jugend engagiert sich für den Umweltschutz",
       number: "b",
     },
     {
+      id: 3,
       text: "Kochen für Eltern und Kinder",
       number: "c",
     },
     {
+      id: 4,
       text: "Mehr Gewalt auf Schulhöfen",
       number: "d",
     },
     {
+      id: 5,
       text: "Psychoterror an der Schule",
       number: "e",
     },
     {
+      id: 6,
       text: "Schiffsreise für Jugendliche",
       number: "f",
     },
     {
+      id: 7,
       text: "Starker Wettbewerb um Schüler",
       number: "g",
     },
     {
+      id: 8,
       text: "Von der Diät zur Krankheit",
       number: "h",
     },
     {
+      id: 9,
       text: "Wenn Lernen krank macht",
       number: "i",
     },
     {
+      id: 10,
       text: "Wenn aus Erdbeeren Tomaten werden",
       number: "j",
     },
@@ -361,42 +371,52 @@ export const lesenTeil_3 = {
   ],
   answers: [
     {
+      id: 1,
       text: "Sie brauchen Unterstützung in Mathematik und möchten in einer kleinen Gruppe lernen.",
       number: "11",
     },
     {
+      id: 2,
       text: "Sie möchten Physik studieren und möchten sich zunächst informieren.",
       number: "12",
     },
     {
+      id: 3,
       text: "Sie möchten einen Sprachkurs in einem anderen Land machen.",
       number: "13",
     },
     {
+      id: 4,
       text: "Sie möchten in einer anderen Stadt eine Ausbildung machen und suchen dort eine Wohnung.",
       number: "14",
     },
     {
+      id: 5,
       text: "Sie ziehen wegen einer Ausbildung um und suchen so günstig wie möglich Umzugshelfer.",
       number: "15",
     },
     {
+      id: 6,
       text: "Sie sind gerade umgezogen und möchten neue Leute kennenlernen.",
       number: "16",
     },
     {
+      id: 7,
       text: "Sie suchen einen Nachmieter und wollen eine kostenlose Anzeige aufgeben.",
       number: "17",
     },
     {
+      id: 8,
       text: "Sie wollen gerne noch eine Sprache lernen und suchen einen festen Lernpartner.",
       number: "18",
     },
     {
+      id: 9,
       text: "Sie wollen umziehen, haben aber eigentlich gar keine Zeit, sich darum zu kümmern.",
       number: "19",
     },
     {
+      id: 10,
       text: "Sie suchen für eine 18-jährige Bekannte einen bezahlten Job außerhalb von Deutschland.",
       number: "20",
     },

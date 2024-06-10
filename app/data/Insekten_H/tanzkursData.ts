@@ -45,42 +45,52 @@ export const lesenTeil_1 = {
   ],
   answers: [
     {
+      id: 1,
       text: "Freie Plätze im Tanzkurs",
       number: "a",
     },
     {
+      id: 2,
       text: "Neue Lerntechniken präsentiert",
       number: "b",
     },
     {
+      id: 3,
       text: "Stolze Eltern: vom Schüler zum Superstar",
       number: "c",
     },
     {
+      id: 4,
       text: "Verändertes Freizeitverhalten von Jugendlichen",
       number: "d",
     },
     {
+      id: 5,
       text: "Höher, schneller, weiter. Suche nach dem Nervenkitzel",
       number: "e",
     },
     {
+      id: 6,
       text: "Hilfen für überforderte Schüler *(schuler/konzentrieren)",
       number: "f",
     },
     {
+      id: 7,
       text: "Keine Zeit für Langeweile",
       number: "g",
     },
     {
+      id: 8,
       text: "Neue Sportarten",
       number: "h",
     },
     {
+      id: 9,
       text: "Tanzlehrer fordern modeme Tänze bekannter machen",
       number: "i",
     },
     {
+      id: 10,
       text: "Befragung bestätigt alte Vorurteile",
       number: "j",
     },
@@ -257,42 +267,52 @@ export const lesenTeil_3 = {
   ],
   answers: [
     {
+      id: 1,
       text: "Ein Bekannter spielt Gitarre und möchte ein weiteres Instrument lernen.",
       number: "11",
     },
     {
+      id: 2,
       text: "Ein Kollege möchte mit fünf Freunden eine mehrtägige Musikveranstaltung besuchen.",
       number: "12",
     },
     {
+      id: 3,
       text: "Ein Bekannter hat bei der Messe Frankfurt gearbeitet und sucht eine andere Stelle in diesem Bereich.",
       number: "13",
     },
     {
+      id: 4,
       text: "Sie möchten einer Freundin Eintrittskarten für eine Musikveranstaltung schenken.",
       number: "14",
     },
     {
+      id: 5,
       text: "Sie interessieren sich für Bücher und möchten eine Messe besuchen.",
       number: "15",
     },
     {
-      text: "Die sechsjährige Tochter eines Nachbarn würde gerne mit andere Kindern Musik machen.",
+      id: 6,
+      text: "Die sechsjährige Tochter eines Nachbarn würde gerne mit anderen Kindern Musik machen.",
       number: "16",
     },
     {
+      id: 7,
       text: "Ein Bekannter muss eine Jubiläumsfeier organisieren und sucht Unterstützung.",
       number: "17",
     },
     {
+      id: 8,
       text: "Sie mögen Musik und möchten in dem Bereich einen Job.",
       number: "18",
     },
     {
+      id: 9,
       text: "Ihre Nachbarin möchte ihre Violine verkaufen.",
       number: "19",
     },
     {
+      id: 10,
       text: "Eine Bekannte ist Musikerin und sucht Möglichkeiten, mit ihrer Gruppe aufzutreten.",
       number: "20",
     },

@@ -99,42 +99,52 @@ Gesundheit? Dann gehen Sie doch einfach mehr an die frische Luft. Und die ist ko
   ],
   answers: [
     {
+      id: 1,
       text: "Limonade aus dem Wasserhahn",
       number: "a",
     },
     {
+      id: 2,
       text: "Limonade ist moderner als Wasser",
       number: "b",
     },
     {
+      id: 3,
       text: "Sommer bedeutet in Zukunft nicht unbedingt Sonne",
       number: "c",
     },
     {
+      id: 4,
       text: "Mehr Sauerstoff im Wasser macht müde Menschen fit",
       number: "d",
     },
     {
+      id: 5,
       text: "Viel Wasser trinken - Gesundheit tanken",
       number: "e",
     },
     {
+      id: 6,
       text: "Frische Luft macht stark",
       number: "f",
     },
     {
+      id: 7,
       text: "Die Sonne macht Landwirten Probleme",
       number: "g",
     },
     {
+      id: 8,
       text: "Sprudel hausgemacht - Zeit des Flaschen-Tragens ist vorbei",
       number: "h",
     },
     {
+      id: 9,
       text: "Alarm: Nitrat im Regenwasser bedroht die Gesundheit",
       number: "i",
     },
     {
+      id: 10,
       text: "Vom Regen zum Mineralwasser",
       number: "j",
     },
@@ -282,42 +292,52 @@ export const lesenTeil_3 = {
   ],
   answers: [
     {
+      id: 1,
       text: "Sie suchen Informationen zu den gesundheitlichen Auswirkungen von Sport.",
       number: "11",
     },
     {
+      id: 2,
       text: "Sie suchen Informationen über eine Versicherung gegen Sportverletzungen.",
       number: "12",
     },
     {
+      id: 3,
       text: "Sie interessieren sich für Videos von besonderen Rettungseinsätzen.",
       number: "13",
     },
     {
+      id: 4,
       text: "Sie möchten mehr über die psychischen Aspekte von Klettersport erfahren.",
       number: "14",
     },
     {
+      id: 5,
       text: "Sie möchten einem Freund ein besonderes Sporterlebnis schenken.",
       number: "15",
     },
     {
+      id: 6,
       text: "Sie möchten dazu beitragen, Ihre Stadt schöner zu machen.",
       number: "16",
     },
     {
+      id: 7,
       text: "Ihre sechzehnjährige Cousine beschäftigt sich gerne mit kleinen Kindern.",
       number: "17",
     },
     {
+      id: 8,
       text: "Ihr Vater plant, eine Familienchronik zu schreiben.",
       number: "18",
     },
     {
+      id: 9,
       text: "Ihr kleiner Bruder möchte einmal ein Feuerwehrauto aus der Nähe sehen.",
       number: "19",
     },
     {
+      id: 10,
       text: "Ein Freund von Ihnen möchte gerne bei einer Sportveranstaltung mitarbeiten.",
       number: "20",
     },

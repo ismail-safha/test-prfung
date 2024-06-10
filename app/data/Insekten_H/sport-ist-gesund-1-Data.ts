@@ -116,42 +116,52 @@ export const lesenTeil_1 = {
   ],
   answers: [
     {
+      id: 1,
       text: "Sport ist gesund - wenn man einige wichtige Regeln beachtet",
       number: "a",
     },
     {
+      id: 2,
       text: "Griechische Sportler so erfolgreich wie nie zuvor",
       number: "b",
     },
     {
+      id: 3,
       text: "Fitness auch mit wenig Zeitaufwand erreichbar",
       number: "c",
     },
     {
+      id: 4,
       text: "Geprüfte Qualität für Babys",
       number: "d",
     },
     {
+      id: 5,
       text: "Bluthochdruck beschleunigt das Abnehmen",
       number: "e",
     },
     {
+      id: 6,
       text: "Sportbegeisterte Eltern - und auch die Babys sind beim Joggen dabei",
       number: "f",
     },
     {
+      id: 7,
       text: "Täglich kurzes Sprints besser als langes Ausdauertraining",
       number: "g",
     },
     {
+      id: 8,
       text: "Ein Leistungssport für jedes Alter",
       number: "h",
     },
     {
+      id: 9,
       text: "Unüberschaubares Angebot an Kinderwagen überfordert junge Eltern",
       number: "i",
     },
     {
+      id: 10,
       text: "Autoindustrie: In Zukunft Mobilität ohne Grenzen",
       number: "j",
     },
@@ -292,42 +302,52 @@ export const lesenTeil_3 = {
   ],
   answers: [
     {
+      id: 1,
       text: "Eine Bekannte interessiert sich für Bücher über den Tennissport.",
       number: "11",
     },
     {
+      id: 2,
       text: "Ein befreundetes Ehepaar steht andauernd unter Stress und möchte wieder mehr Zeit für sich und andere haben.",
       number: "12",
     },
     {
+      id: 3,
       text: "Eine Bekannte möchte bei ihren Partys eine perfekte Gastgeberin sein.",
       number: "13",
     },
     {
+      id: 4,
       text: "Eine Studentin sucht Informationen, wie sie besser und systematischer lernen kann.",
       number: "14",
     },
     {
+      id: 5,
       text: "Ein Bekannter möchte wissen, welche Botschaften durch Gestik und Mimik transportiert werden.",
       number: "15",
     },
     {
+      id: 6,
       text: "Eine Bekannte möchte ihr äußeres Erscheinungsbild optimieren.",
       number: "16",
     },
     {
+      id: 7,
       text: "Ein Bekannter ist sich noch unsicher, wie er sich bei einem Vorstellungsgespräch am besten präsentiert.",
       number: "17",
     },
     {
+      id: 8,
       text: "Ein Bekannter schreibt an einer Hausarbeit über gesellschaftliche Normen und Verhaltensregeln verschiedener Jahrhunderte.",
       number: "18",
     },
     {
+      id: 9,
       text: "Ein Bekannter möchte Kalligraphie (Schmuckschriften) lernen.",
       number: "19",
     },
     {
+      id: 10,
       text: "Eine Bekannte ist sehr verunsichert, weil sie auf Konferenzen immer wieder Angst hat, frei zu sprechen.",
       number: "20",
     },

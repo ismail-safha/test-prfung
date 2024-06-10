@@ -42,15 +42,15 @@ const Sprachbauchteine_1 = () => {
           <div className="w-full bg-blue-900 text-white">
             <h1 className="p-2">Sprachbauchteine, TEIL 1</h1>
           </div>
-          <div className="flex justify-between gap-[20px]">
+          <div className="flex flex-col lg:flex-row justify-between gap-[20px]">
             {/* div text */}
-            <div className="w-[55%] mt-[20px]">
+            <div className=" w-full lg:w-[55%] mt-[20px]">
               <p className="bg-[#f6f2bc] text-black rounded-lg p-2">
                 Lesen Sie den folgenden Text und entscheiden Sie, welches Wort
                 (a, b oder c) in die jeweilige Lücke passt. Markieren Sie Ihre
                 Lösungen auf dem Antwortbogen bei den Aufgaben 21 - 30
               </p>
-              <div className="mt-[30px] bg-[#fbfbfb] rounded-lg h-fit">
+              <div className="mt-[30px] bg-[#fbfbfb] rounded-lg  lg:overflow-y-scroll h-fit  lg:h-[500px]">
                 {/* Map through texts array */}
                 {sprachbau_1.texts.map((text, index) => (
                   <div key={index} className="p-5">
@@ -60,7 +60,7 @@ const Sprachbauchteine_1 = () => {
               </div>
             </div>
             {/* div answers */}
-            <div className="w-[45%] mt-[30px] h-fit">
+            <div className=" w-full lg:w-[45%] mt-[30px] h-fit">
               {/* Map through aufgabens array */}
               {sprachbau_1.questions.map((question) => (
                 <div

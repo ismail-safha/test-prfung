@@ -99,42 +99,52 @@ Gesundheit? Dann gehen Sie doch einfach mehr an die frische Luft. Und die ist ko
   ],
   answers: [
     {
+      id: 1,
       text: "Limonade aus dem Wasserhahn",
       number: "a",
     },
     {
+      id: 2,
       text: "Limonade ist moderner als Wasser",
       number: "b",
     },
     {
+      id: 3,
       text: "Sommer bedeutet in Zukunft nicht unbedingt Sonne",
       number: "c",
     },
     {
+      id: 4,
       text: "Mehr Sauerstoff im Wasser macht müde Menschen fit",
       number: "d",
     },
     {
+      id: 5,
       text: "Viel Wasser trinken - Gesundheit tanken",
       number: "e",
     },
     {
+      id: 6,
       text: "Frische Luft macht stark",
       number: "f",
     },
     {
+      id: 7,
       text: "Die Sonne macht Landwirten Probleme",
       number: "g",
     },
     {
+      id: 8,
       text: "Sprudel hausgemacht - Zeit des Flaschen-Tragens ist vorbei",
       number: "h",
     },
     {
+      id: 9,
       text: "Alarm: Nitrat im Regenwasser bedroht die Gesundheit",
       number: "i",
     },
     {
+      id: 10,
       text: "Vom Regen zum Mineralwasser",
       number: "j",
     },
@@ -327,43 +337,52 @@ export const lesenTeil_3 = {
   ],
   answers: [
     {
+      id: 1,
       text: "Ihre Schwägerin erwartet ein Kind. Sie ist nicht sicher, ob Sie in einem Vorstellungsgespräch darauf hinweisen muss.",
       number: "11",
     },
     {
+      id: 2,
       text: "Ihr Neffe sucht einen Ausbildungsplatz als Elektriker. Er weiß nicht genau, wie er seine Bewerbung korrekt schreiben soll.",
       number: "12",
     },
     {
+      id: 3,
       text: "Eine Freundin, 20 Jahre alt, muss oft vor Arbeitskollegen Referate halten. Ihr Hauptproblem ist ihre Nervosität.",
       number: "13",
     },
     {
+      id: 4,
       text: "Eine Freundin sucht einen Ausbildungsplatz. Sie ist zu einem Bewerbungsgespräch eingeladen und weiß nicht, was sie zu diesem Anlass anziehen soll.",
       number: "14",
     },
     {
+      id: 5,
       text: "Eine Bekannte sucht Rat bei Ihnen, weil ihr Sohn ständig im Internet surft und dabei die Schule vernachlässigt.",
-
       number: "15",
     },
     {
+      id: 6,
       text: "Eine Bekannte möchte eine Ausbildung machen und vielleicht später einmal studieren.",
       number: "16",
     },
     {
+      id: 7,
       text: "Ein Freund surft täglich viele Stunden im Internet. Sie finden das zu viel und wollen ihm einen Rat geben.",
       number: "17",
     },
     {
+      id: 8,
       text: "Ein Freund möchte wissen, welche schulischen Leistungen bei der Vergabe von Ausbildungsplätzen im Bankgewerbe besonders wichtig sind.",
       number: "18",
     },
     {
+      id: 9,
       text: "Ein Bekannter ist Bankkaufmann und sucht eine Stelle.",
       number: "19",
     },
     {
+      id: 10,
       text: "Ein älteres Ehepaar hat Goldene Hochzeit. Die Tochter möchte eine Rede halten und braucht dafür eine Anleitung.",
       number: "20",
     },

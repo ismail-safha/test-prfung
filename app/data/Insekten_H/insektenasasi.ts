@@ -113,42 +113,52 @@ export const lesenTeil_1 = {
 
   answers: [
     {
+      id: 1,
       text: "Neue Heuschreckenart in Frankreich entdeckt Insektenart",
       number: "a",
     },
     {
+      id: 2,
       text: "Kleine Plagegeister können Krankheiten bringen",
       number: "b",
     },
     {
+      id: 3,
       text: "Landwirte wollen Gift gegen schädliche Insekten einsetzen Bauern sind gezwungen, Gift gegen schädliche Insekten einsetzen",
       number: "c",
     },
     {
+      id: 4,
       text: "Neue Mittel gegen Mücken",
       number: "d",
     },
     {
+      id: 5,
       text: "Neue Studie: Nicht nur Affen und Delfine erkennen sich selbst",
       number: "e",
     },
     {
+      id: 6,
       text: "Probleme beim Versuchsaufbau: Studie gescheitert",
       number: "f",
     },
     {
+      id: 7,
       text: "Rhein nach Chemieunfall noch immer tot",
       number: "g",
     },
     {
+      id: 8,
       text: "Rückblick: Fischsterben im Rhein",
       number: "h",
     },
     {
+      id: 9,
       text: "Um die Zukunft der Nordsee ist es schlecht bestellt",
       number: "i",
     },
     {
+      id: 10,
       text: "WWF zieht positive Bilanz für die Nordsee",
       number: "j",
     },
@@ -364,42 +374,52 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
 
   answers: [
     {
+      id: 1,
       text: "Einem Bekannten wurde die Arbeitsstelle gekündigt. Er möchte bei einem Anwalt um Rat fragen.",
       number: "11",
     },
     {
+      id: 2,
       text: "Ihr Bekannter ist beruflich oft unterwegs und sucht eine Alternative zu Hotels. Es soll dort aber Internetzugang und Frühstück geben.",
       number: "12",
     },
     {
+      id: 3,
       text: "Sie reisen gerne und oft und möchten nun Informationen zu einer Reiseversicherung.",
       number: "13",
     },
     {
+      id: 4,
       text: "Sie möchten durch Europa reisen und privat übernachten.",
       number: "14",
     },
     {
+      id: 5,
       text: "Eine Bekannte malt sehr gut und sucht eine Gelegenheit, anderen ihre Bilder zu zeigen oder sie zu verkaufen.",
       number: "15",
     },
     {
+      id: 6,
       text: "Sie möchten im Urlaub zwar nicht verreisen, aber trotzdem etwas unternehmen.",
       number: "16",
     },
     {
+      id: 7,
       text: "Sie haben Streit mit ihrem Vermieter wegen der Nebenkosten und möchten sich beraten lassen.",
       number: "17",
     },
     {
+      id: 8,
       text: "Sie möchten ausprobieren, ob Ihnen Zeichnen Spaß macht.",
       number: "18",
     },
     {
+      id: 9,
       text: "Ihre Möbel sehen nicht mehr so gut aus. Daran möchten Sie etwas ändern.",
       number: "19",
     },
     {
+      id: 10,
       text: "Sie möchten mit Freunden durch Deutschland reisen und dabei günstig übernachten.",
       number: "20",
     },

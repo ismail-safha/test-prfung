@@ -112,42 +112,52 @@ export const lesenTeil_1 = {
   ],
   answers: [
     {
+      id: 1,
       text: "Neue Kinderhandys auf den Markt gebracht.",
       number: "a",
     },
     {
+      id: 2,
       text: "Profi - Tipps für bessere Urlaubsbilder.",
       number: "b",
     },
     {
+      id: 3,
       text: "Moderne schnurlose Geräte vermindern die Strahlenbelastung.",
       number: "c",
     },
     {
+      id: 4,
       text: "Mehr Mut zum Fotografieren",
       number: "d",
     },
     {
+      id: 5,
       text: "Handy im Ausland : aufpassen und tricksen",
       number: "e",
     },
     {
+      id: 6,
       text: "Kinder - Überwachung für Eltern per Handy wird geplant.",
       number: "f",
     },
     {
+      id: 7,
       text: "Tipps zum Telefonieren mit weniger Strahlung",
       number: "g",
     },
     {
+      id: 8,
       text: "Der neue Euro - Tarif.",
       number: "h",
     },
     {
+      id: 9,
       text: "Handy - TV zur Fußball - WM 2006.",
       number: "i",
     },
     {
+      id: 10,
       text: "Mobiler Fernsehgenuss wird zum Alltag.",
       number: "j",
     },
@@ -284,42 +294,52 @@ Auf dem Hof von Biobauer Olaf in Schleswig-Holstein sorgt Katrin (32) für jede 
   ],
   answers: [
     {
+      id: 1,
       text: "Sie möchten sich einen Dokumentarfilm über die Einwanderung nach Australien und über den damit verbundenen Prozess ansehen.",
       number: "11",
     },
     {
+      id: 2,
       text: "Ein junges Mädchen möchte später als Au-pair oder Austauschschülerin ins Ausland gehen und deshalb interessiert es sich für das Thema.",
       number: "12",
     },
     {
+      id: 3,
       text: "Ein Mann interessiert sich für die Aufdeckung von Verbrechen, die früher nicht gelöst werden konnten.",
       number: "13",
     },
     {
+      id: 4,
       text: "Sie schwärmen für Krimis, die auf Grund tatsächlicher Fälle rekonstruiert wurden.",
       number: "14",
     },
     {
+      id: 5,
       text: "Sie haben dafür großes Interesse, wie mithilfe von Computertechnik das Wetter an verschiedenen Orten der Welt hervorgesagt werden kann.",
       number: "15",
     },
     {
+      id: 6,
       text: "Ein Mann interessiert sich dafür, wie Wetterphänomene entstehen.",
       number: "16",
     },
     {
+      id: 7,
       text: "Sie suchen ein Gartenmagazin, aus dem Sie alles über den Anbau der Gemüse- und Obstsorten erfahren können.",
       number: "17",
     },
     {
+      id: 8,
       text: "Sie möchten sich eine Quizsendung ansehen, an der Familienmitglieder teilnehmen.",
       number: "18",
     },
     {
+      id: 9,
       text: "Eine Bekannte von Ihnen sucht einen Reisefilm, ähnlich dem 'Traumschiff', in dem es während eines Reiseaufenthaltes alles über den Aufenthaltsort gezeigt wird.",
       number: "19",
     },
     {
+      id: 10,
       text: "Ein Mann interessiert sich für das Bauernleben und sucht deshalb eine passende Sendung.",
       number: "20",
     },

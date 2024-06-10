@@ -6,7 +6,8 @@ const sections = [
   {
     title: "#Insekten 1",
     links: [
-      { href: "/lesen-test", text: "1.1-Insekten معدل", locked: false },
+      // { href: "/lesen-test", text: "1.1-Insekten معدل", locked: false },
+      { href: "/contact", text: "1.1-Insekten معدل", locked: true },
       { href: "/contact", text: "1.2-Insekten Asasi", locked: true },
       { href: "/contact", text: "1.3-Insekten 3", locked: true },
       { href: "/contact", text: "Schreiben-1", locked: true },

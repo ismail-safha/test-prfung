@@ -58,42 +58,52 @@ export const lesenTeil_1 = {
   ],
   answers: [
     {
+      id: 1,
       text: "Doping für Drogenspürhunde",
       number: "a",
     },
     {
+      id: 2,
       text: "Durch den Geruchssinn die Welt neu erfahren",
       number: "b",
     },
     {
+      id: 3,
       text: "Elefanten mit dem feinsten Näschen",
       number: "c",
     },
     {
+      id: 4,
       text: "Erst schmecken, dann riechen",
       number: "d",
     },
     {
+      id: 5,
       text: "Mit vierbeinigen Spürnasen gegen den Drogenschmuggel",
       number: "e",
     },
     {
+      id: 6,
       text: "Nasenkorrektur für jedermann",
       number: "f",
     },
     {
+      id: 7,
       text: "Neue Therapie für Allergikernasen",
       number: "g",
     },
     {
+      id: 8,
       text: "Schönheitsoperationen nicht um jeden Preis",
       number: "h",
     },
     {
+      id: 9,
       text: "Selbstreinigung für unser Riechorgan",
       number: "i",
     },
     {
+      id: 10,
       text: "Tierische Riechorgane - unterschiedlich ausgeprägt",
       number: "j",
     },
@@ -286,43 +296,52 @@ export const lesenTeil_3 = {
   ],
   answers: [
     {
+      id: 1,
       text: "Ihre Schwägerin erwartet ein Kind. Sie ist nicht sicher, ob Sie in einem Vorstellungsgespräch darauf hinweisen muss.",
       number: "11",
     },
     {
+      id: 2,
       text: "Ihr Neffe sucht einen Ausbildungsplatz als Elektriker. Er weiß nicht genau, wie er seine Bewerbung korrekt schreiben soll.",
       number: "12",
     },
     {
+      id: 3,
       text: "Eine Freundin, 20 Jahre alt, muss oft vor Arbeitskollegen Referate halten. Ihr Hauptproblem ist ihre Nervosität.",
       number: "13",
     },
     {
+      id: 4,
       text: "Eine Freundin sucht einen Ausbildungsplatz. Sie ist zu einem Bewerbungsgespräch eingeladen und weiß nicht, was sie zu diesem Anlass anziehen soll.",
       number: "14",
     },
     {
+      id: 5,
       text: "Eine Bekannte sucht Rat bei Ihnen, weil ihr Sohn ständig im Internet surft und dabei die Schule vernachlässigt.",
-
       number: "15",
     },
     {
+      id: 6,
       text: "Eine Bekannte möchte eine Ausbildung machen und vielleicht später einmal studieren.",
       number: "16",
     },
     {
+      id: 7,
       text: "Ein Freund surft täglich viele Stunden im Internet. Sie finden das zu viel und wollen ihm einen Rat geben.",
       number: "17",
     },
     {
+      id: 8,
       text: "Ein Freund möchte wissen, welche schulischen Leistungen bei der Vergabe von Ausbildungsplätzen im Bankgewerbe besonders wichtig sind.",
       number: "18",
     },
     {
+      id: 9,
       text: "Ein Bekannter ist Bankkaufmann und sucht eine Stelle.",
       number: "19",
     },
     {
+      id: 10,
       text: "Ein älteres Ehepaar hat Goldene Hochzeit. Die Tochter möchte eine Rede halten und braucht dafür eine Anleitung.",
       number: "20",
     },

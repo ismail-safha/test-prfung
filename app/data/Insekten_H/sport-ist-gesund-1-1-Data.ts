@@ -116,42 +116,52 @@ export const lesenTeil_1 = {
   ],
   answers: [
     {
+      id: 1,
       text: "Sport ist gesund - wenn man einige wichtige Regeln beachtet",
       number: "a",
     },
     {
+      id: 2,
       text: "Griechische Sportler so erfolgreich wie nie zuvor",
       number: "b",
     },
     {
+      id: 3,
       text: "Fitness auch mit wenig Zeitaufwand erreichbar",
       number: "c",
     },
     {
+      id: 4,
       text: "Geprüfte Qualität für Babys",
       number: "d",
     },
     {
+      id: 5,
       text: "Bluthochdruck beschleunigt das Abnehmen",
       number: "e",
     },
     {
+      id: 6,
       text: "Sportbegeisterte Eltern - und auch die Babys sind beim Joggen dabei",
       number: "f",
     },
     {
+      id: 7,
       text: "Täglich kurzes Sprints besser als langes Ausdauertraining",
       number: "g",
     },
     {
+      id: 8,
       text: "Ein Leistungssport für jedes Alter",
       number: "h",
     },
     {
+      id: 9,
       text: "Unüberschaubares Angebot an Kinderwagen überfordert junge Eltern",
       number: "i",
     },
     {
+      id: 10,
       text: "Autoindustrie: In Zukunft Mobilität ohne Grenzen",
       number: "j",
     },
@@ -319,42 +329,52 @@ export const lesenTeil_3 = {
   ],
   answers: [
     {
+      id: 1,
       text: "Ihre Schwester interessiert sich für die Biographien großer Musiker.",
       number: "11",
     },
     {
+      id: 2,
       text: "Sie leben Auftritte von herausragenden Musik.",
       number: "12",
     },
     {
+      id: 3,
       text: "Sie möchten in Dezember essen gehen und ein buntes, künstlerisches Programm genießen",
       number: "13",
     },
     {
+      id: 4,
       text: "Sie möchten alte und neue Weihnachtslieder hören.",
       number: "14",
     },
     {
+      id: 5,
       text: "Sie möchten mit Ihrer zwölfjährigen Tochter ein altersgerechtes Theaterstück sehen.",
       number: "15",
     },
     {
+      id: 6,
       text: "Sie möchten zusammen mit ihrem Kleinen Neffen einen Kinderfilm sehen",
       number: "16",
     },
     {
+      id: 7,
       text: "Sie wollen eine Stadtbesichtigung mit ein wenig Sport verbinden",
       number: "17",
     },
     {
+      id: 8,
       text: "Sie wollen ihrem Freund, der Tanztheater liebt, eine Eintrittskarte zum Geburtstag schenken.",
       number: "18",
     },
     {
+      id: 9,
       text: "Sie wollen mit ihren Kindern eine etwas andere, eher lustige Seite von Weihnachten erleben.",
       number: "19",
     },
     {
+      id: 10,
       text: "Sie wollen mit Bekannten ausgehen, um mal wieder herzhaft lachen.",
       number: "20",
     },

@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { useSession } from "next-auth/react";
-
 import Header from "../../components/Header";
 import { lesenTeil_2 } from "../../data/Insekten_H/österreichsData";
 
@@ -54,14 +53,14 @@ const Lesenteiltow = () => {
           <div className="w-full bg-blue-900 text-white">
             <h1 className="p-2">Leseverstehen, TEIL 2</h1>
           </div>
-          <div className="flex justify-between gap-[10px]">
+          <div className="flex flex-col lg:flex-row justify-between gap-[10px]">
             {/* div text */}
-            <div className="w-[50%] mt-20">
+            <div className=" w-full lg:w-[50%]  mt-20">
               <p className="bg-yellow-200 text-black rounded-lg p-2">
                 Lesen Sie zuerst die beiden Artikel und lösen Sie dann die
                 Aufgaben 6-10 zu den Texten.
               </p>
-              <div className="mt-30 bg-gray-100 rounded-lg">
+              <div className="mt-30 bg-gray-100 rounded-lg overflow-y-scroll h-[650px]">
                 {/* Map through texts array */}
                 {lesenTeil_2.texts.map((text, index) => (
                   <div key={index} className="p-5 border border-black">
@@ -69,16 +68,12 @@ const Lesenteiltow = () => {
                       <h1 className="font-bold">{text.title}</h1>
                       <p>{text.text}</p>
                     </div>
-                    {/* <div className="py-4 px-4">
-                      <h1 className="font-bold">{text.titleTow}</h1>
-                      <p>{text.textTow}</p>
-                    </div> */}
                   </div>
                 ))}
               </div>
             </div>
             {/* div answers */}
-            <div className="w-[50%] mt-[30px] h-fit">
+            <div className=" w-full lg:w-[50%]  mt-[30px] h-fit">
               {lesenTeil_2.questions.map((question) => (
                 <div key={question.id} className="bg-[#ccc] rounded-lg my-3">
                   <h1 className="px-3 pt-5 font-bold">

@@ -99,42 +99,52 @@ Gesundheit? Dann gehen Sie doch einfach mehr an die frische Luft. Und die ist ko
   ],
   answers: [
     {
+      id: 1,
       text: "Limonade aus dem Wasserhahn",
       number: "a",
     },
     {
+      id: 2,
       text: "Limonade ist moderner als Wasser",
       number: "b",
     },
     {
+      id: 3,
       text: "Sommer bedeutet in Zukunft nicht unbedingt Sonne",
       number: "c",
     },
     {
+      id: 4,
       text: "Mehr Sauerstoff im Wasser macht müde Menschen fit",
       number: "d",
     },
     {
+      id: 5,
       text: "Viel Wasser trinken - Gesundheit tanken",
       number: "e",
     },
     {
+      id: 6,
       text: "Frische Luft macht stark",
       number: "f",
     },
     {
+      id: 7,
       text: "Die Sonne macht Landwirten Probleme",
       number: "g",
     },
     {
+      id: 8,
       text: "Sprudel hausgemacht - Zeit des Flaschen-Tragens ist vorbei",
       number: "h",
     },
     {
+      id: 9,
       text: "Alarm: Nitrat im Regenwasser bedroht die Gesundheit",
       number: "i",
     },
     {
+      id: 10,
       text: "Vom Regen zum Mineralwasser",
       number: "j",
     },
@@ -311,42 +321,52 @@ export const lesenTeil_3 = {
   ],
   answers: [
     {
+      id: 1,
       text: "Ein Bekannter spielt Gitarre und möchte ein weiteres Instrument lernen.",
       number: "11",
     },
     {
+      id: 2,
       text: "Ein Kollege möchte mit fünf Freunden eine mehrtägige Musikveranstaltung besuchen.",
       number: "12",
     },
     {
+      id: 3,
       text: "Ein Bekannter hat bei der Messe Frankfurt gearbeitet und sucht eine andere Stelle in diesem Bereich.",
       number: "13",
     },
     {
+      id: 4,
       text: "Sie möchten einer Freundin Eintrittskarten für eine Musikveranstaltung schenken.",
       number: "14",
     },
     {
+      id: 5,
       text: "Sie interessieren sich für Bücher und möchten eine Messe besuchen.",
       number: "15",
     },
     {
+      id: 6,
       text: "Die sechsjährige Tochter eines Nachbarn würde gerne mit anderen Kindern Musik machen.",
       number: "16",
     },
     {
+      id: 7,
       text: "Ein Bekannter muss eine Jubiläumsfeier organisieren und sucht Unterstützung.",
       number: "17",
     },
     {
+      id: 8,
       text: "Sie mögen Musik und möchten in dem Bereich einen Job.",
       number: "18",
     },
     {
+      id: 9,
       text: "Ihre Nachbarin möchte ihre Violine verkaufen.",
       number: "19",
     },
     {
+      id: 10,
       text: "Eine Bekannte ist Musikerin und sucht Möglichkeiten, mit ihrer Gruppe aufzutreten.",
       number: "20",
     },

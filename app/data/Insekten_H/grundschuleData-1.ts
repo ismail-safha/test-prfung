@@ -134,42 +134,52 @@ schwer haben werden
   ],
   answers: [
     {
+      id: 1,
       text: "An deutschen Grundschulen sind männliche Lehrkräfte selten",
       number: "a",
     },
     {
+      id: 2,
       text: "Bildungsexperten warnen: Deutsche Lehrer sind schlecht ausgebildet",
       number: "b",
     },
     {
+      id: 3,
       text: "Bildungsforscher: Lehrermangel wird in Deutschland nicht eintreten",
       number: "c",
     },
     {
+      id: 4,
       text: "Die Zahl der männlichen Lehrkräfte an Grundschulen nimmt zu",
       number: "d",
     },
     {
+      id: 5,
       text: "Experten befürchten zunehmenden Lehrermangel in Deutschland",
       number: "e",
     },
     {
+      id: 6,
       text: "Gewerkschaft erwartet Lehrermangel in Berlin",
       number: "f",
     },
     {
+      id: 7,
       text: "GEW befürchtet Abwanderung von gut ausgebildeten Lehrkräften aus Berlin",
       number: "g",
     },
     {
+      id: 8,
       text: "Immer mehr Berliner wandern aus",
       number: "h",
     },
     {
+      id: 9,
       text: "Immer weniger Frauen machen ein Grundschullehrer-Studium",
       number: "i",
     },
     {
+      id: 10,
       text: "Vorausschauende Politiker verhindern Lehrermangel in Berlin",
       number: "j",
     },
@@ -408,42 +418,52 @@ ins Innere der Orgel steigen können oder wo die “Nacht der Verführung” sta
   ],
   answers: [
     {
+      id: 1,
       text: "Sie möchten Ihren Eltern zur Silberhochzeit eine besondere Schiffsreise auf dem Meer schenken.",
       number: "11",
     },
     {
+      id: 2,
       text: "Ihre Freundin möchte mit ihrem Mann Silvester und Neujahr im Urlaub feiern, aber nicht schon wieder im Gebirge.",
       number: "12",
     },
     {
+      id: 3,
       text: "Ein Bekannter möchte im Winter ein besinnliches Wochenende in den Bergen verbringen, denn er mag es, durch die verschneite Natur zu laufen.",
       number: "13",
     },
     {
+      id: 4,
       text: "Eine Bekannte aus dem Rhein-Main-Gebiet sucht Vorschläge für Ein-Tages-Ausflüge, denn sie übernachtet nicht gern in fremden Betten.",
       number: "14",
     },
     {
+      id: 5,
       text: "Sie wollen wie jedes Jahr in der zweiten Jahreshälfte eine zirka einwöchige organisierte Urlaubsreise in Europa machen und sich dabei viel mit dem Fahrrad fortbewegen.",
       number: "15",
     },
     {
+      id: 6,
       text: "Sie möchten einen netten Abend mit Freunden bei gutem Essen und außergewöhnlichem Unterhaltungsprogramm verleben.",
       number: "16",
     },
     {
+      id: 7,
       text: "Sie suchen für eine prunkvolle Hochzeitsfeier geeignete festliche Räumlichkeiten in einer stimmungsvollen klösterlichen Umgebung für zirka 50 Personen.",
       number: "17",
     },
     {
+      id: 8,
       text: "Sie sind neu in Frankfurt a. M. und suchen deshalb nach nützlichen Informationen und praktischen Tipps, um sich schnell in der neuen Umgebung einzuleben.",
       number: "18",
     },
     {
+      id: 9,
       text: "Sie interessieren sich für Bücher über Architektur und Gartenarchitektur deutscher Klosteranlagen.",
       number: "19",
     },
     {
+      id: 10,
       text: "Sie suchen gute Kriminalromane, deren Handlung im Rhein-Main-Gebiet und besonders in Frankfurt spielt.",
       number: "20",
     },
