@@ -679,7 +679,7 @@ export const sprachbau_1 = {
       options: [
         {
           optionID: "A",
-          option: "ahf",
+          option: "auf",
         },
         {
           optionID: "B",

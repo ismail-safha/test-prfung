@@ -40,15 +40,15 @@ const sprachbau_2_t = {
 };
 
 const initialCartItems: Text[] = [
-  { title: "input1", text: "", anserText: "AUßERDEM" },
-  { title: "input2", text: "", anserText: "DASS" },
-  { title: "input3", text: "", anserText: "FÜR" },
-  { title: "input4", text: "", anserText: "EIN" },
-  { title: "input5", text: "", anserText: "VERANTWORTUNG" },
-  { title: "input6", text: "", anserText: "VON" },
+  { title: "input1", text: "", anserText: "OB" },
+  { title: "input2", text: "", anserText: "AUßERDEM" },
+  { title: "input3", text: "", anserText: "ENTHALTEN" },
+  { title: "input4", text: "", anserText: "HINTER" },
+  { title: "input5", text: "", anserText: "ENTLASTET" },
+  { title: "input6", text: "", anserText: "AUS" },
   { title: "input7", text: "", anserText: "AUF" },
-  { title: "input8", text: "", anserText: "EINGESETZT" },
-  { title: "input9", text: "", anserText: "NUR" },
+  { title: "input8", text: "", anserText: "VERWENDET" },
+  { title: "input9", text: "", anserText: "WIRKLICH" },
   { title: "input10", text: "", anserText: "DASS" },
 ];
 
@@ -111,11 +111,11 @@ const Sprachbauchteine_2: React.FC = () => {
     session && (
       <div className="container m-auto  w-full px-2">
         <Header
-          pageHome="/insektenasasi"
-          pageTow="/insektenasasi/lesenteil-2"
-          pageThree="/insektenasasi/lesenteil-3"
-          pageFour="/insektenasasi/sprachbauchteine-1"
-          pageFive="/insektenasasi/sprachbauchteine-2"
+          pageHome="/lesen"
+          pageTow="/lesen/lesenteil-2"
+          pageThree="/lesen/lesenteil-3"
+          pageFour="/lesen/sprachbauchteine-1"
+          pageFive="/lesen/sprachbauchteine-2"
         />
         <main>
           <div className="w-full bg-blue-900 text-white">
@@ -317,7 +317,7 @@ const Sprachbauchteine_2: React.FC = () => {
 
             <div className="w-full lg:w-[45%] mt-[30px] bg-[#ccc] dark:bg-[#777] rounded-lg h-fit p-4">
               <div>
-                {sprachbau_2_t.answers.map((answer) => (
+                {answers.map((answer) => (
                   <div
                     key={answer.id}
                     className="flex items-center cursor-pointer"

@@ -40,15 +40,15 @@ const sprachbau_2_t = {
 };
 
 const initialCartItems: Text[] = [
-  { title: "input1", text: "", anserText: "AUßERDEM" },
-  { title: "input2", text: "", anserText: "DASS" },
-  { title: "input3", text: "", anserText: "FÜR" },
-  { title: "input4", text: "", anserText: "EIN" },
-  { title: "input5", text: "", anserText: "VERANTWORTUNG" },
-  { title: "input6", text: "", anserText: "VON" },
+  { title: "input1", text: "", anserText: "OB" },
+  { title: "input2", text: "", anserText: "AUßERDEM" },
+  { title: "input3", text: "", anserText: "ENTHALTEN" },
+  { title: "input4", text: "", anserText: "HINTER" },
+  { title: "input5", text: "", anserText: "ENTLASTET" },
+  { title: "input6", text: "", anserText: "AUS" },
   { title: "input7", text: "", anserText: "AUF" },
-  { title: "input8", text: "", anserText: "EINGESETZT" },
-  { title: "input9", text: "", anserText: "NUR" },
+  { title: "input8", text: "", anserText: "VERWENDET" },
+  { title: "input9", text: "", anserText: "WIRKLICH" },
   { title: "input10", text: "", anserText: "DASS" },
 ];
 

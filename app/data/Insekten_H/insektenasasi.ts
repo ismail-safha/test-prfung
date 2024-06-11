@@ -704,15 +704,15 @@ Richard
       options: [
         {
           optionID: "A",
-          option: "-",
+          option: "ändern",
         },
         {
           optionID: "B",
-          option: "abgerückt",
+          option: "verwechseln",
         },
         {
           optionID: "C",
-          option: "entfernt",
+          option: "wechseln",
         },
       ],
       correctAnswerID: "C",

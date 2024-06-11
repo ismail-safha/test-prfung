@@ -21,35 +21,35 @@ const shuffleArray = (array: any[]) => {
 
 const sprachbau_2_t = {
   answers: [
-    { id: 1, number: "A", text: "AN" },
-    { id: 2, number: "B", text: "AUF" },
-    { id: 3, number: "C", text: "AUS" },
-    { id: 4, number: "D", text: "AUßERDEM" },
-    { id: 5, number: "E", text: "DASS" },
-    { id: 6, number: "F", text: "ENTHALTEN" },
-    { id: 7, number: "G", text: "ENTLASTET" },
-    { id: 8, number: "H", text: "FÜR" },
-    { id: 9, number: "I", text: "HINTER" },
-    { id: 10, number: "J", text: "OB" },
-    { id: 11, number: "K", text: "SOGAR" },
-    { id: 12, number: "L", text: "SONDERN" },
-    { id: 13, number: "M", text: "VERWENDET" },
-    { id: 14, number: "N", text: "WENN" },
-    { id: 15, number: "O", text: "WIRKLICH" },
+    { id: 1, number: "A", text: "ALS" },
+    { id: 2, number: "B", text: "BEHÄLT" },
+    { id: 3, number: "C", text: "BERETT" },
+    { id: 4, number: "D", text: "BLEIBT" },
+    { id: 5, number: "E", text: "DAGEGEN" },
+    { id: 6, number: "F", text: "FERTIG" },
+    { id: 7, number: "G", text: "GEHÖREN" },
+    { id: 8, number: "H", text: "JEDER" },
+    { id: 9, number: "I", text: "KLAR" },
+    { id: 10, number: "J", text: "MANCHER" },
+    { id: 11, number: "K", text: "MIT" },
+    { id: 12, number: "L", text: "TAKT" },
+    { id: 13, number: "M", text: "TIPP" },
+    { id: 14, number: "N", text: "WAS" },
+    { id: 15, number: "O", text: "WINK" },
   ],
 };
 
 const initialCartItems: Text[] = [
-  { title: "input1", text: "", anserText: "AUßERDEM" },
-  { title: "input2", text: "", anserText: "DASS" },
-  { title: "input3", text: "", anserText: "FÜR" },
-  { title: "input4", text: "", anserText: "EIN" },
-  { title: "input5", text: "", anserText: "VERANTWORTUNG" },
-  { title: "input6", text: "", anserText: "VON" },
-  { title: "input7", text: "", anserText: "AUF" },
-  { title: "input8", text: "", anserText: "EINGESETZT" },
-  { title: "input9", text: "", anserText: "NUR" },
-  { title: "input10", text: "", anserText: "DASS" },
+  { title: "input1", text: "", anserText: "GEHÖREN" },
+  { title: "input2", text: "", anserText: "BEHÄLT" },
+  { title: "input3", text: "", anserText: "MANCHEM" },
+  { title: "input4", text: "", anserText: "MIT" },
+  { title: "input5", text: "", anserText: "DAGEGEN" },
+  { title: "input6", text: "", anserText: "WINK" },
+  { title: "input7", text: "", anserText: "FERTIG" },
+  { title: "input8", text: "", anserText: "TAKTGEFÜHL" },
+  { title: "input9", text: "", anserText: "KLAR" },
+  { title: "input10", text: "", anserText: "WAS" },
 ];
 
 const Sprachbauchteine_2: React.FC = () => {
@@ -131,11 +131,17 @@ const Sprachbauchteine_2: React.FC = () => {
                 Lösungen auf dem Antwortbogen bei den Aufgaben 21 - 30
               </p>
               <div className="mt-[30px] dark:bg-[#1d2a35] dark:text-[#ededed] bg-[#fbfbfb] rounded-lg lg:overflow-y-scroll h-fit  lg:h-[500px] p-4">
-                <h1 className="text-xl font-bold">Was steckt hinter “Bio”?</h1>
+                <h1 className="text-xl font-bold">Im Restaurant</h1>
                 <p>
-                  Überall gibt es inzwischen Bio-Lebensmittel - aber häufig
-                  fehlen den Käufern Hintergrundinformationen. Viele Verbraucher
-                  fragen sich beispielsweise,{" "}
+                  Eine unterhaltsame, schöne und gesellige Zeit. Das stellt man
+                  sich unter einem guten Essen vor. Störend wirkt da der
+                  anschauliche Erlebnisbericht der letzten Operation im
+                  Krankenhaus oder das Klingeln des Handys. Sowohl Gastgeber als
+                  Gast sollen alles dafür tun, dass das gemeinsame Essen Freude
+                  macht. Das Handy stellt man selbstverständlich ab. Das Essen
+                  beginnt, wenn der Gastgeber zur Serviette greift oder zum Gruß
+                  sein Glas erhebt. Besonders bei Kindern ein unbeliebtes Thema:
+                  die richtige Körperhaltung beim Essen. Die Arme{" "}
                   <input
                     type="text"
                     placeholder="____31"
@@ -150,9 +156,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(0)}
                     readOnly
                   />{" "}
-                  Bio-Produkte nun auch wirklich die gesünderen sind. Skepsis
-                  macht sich breit, spätestens wenn wieder einmal ein Skandal in
-                  den Nachrichten ist.{" "}
+                  nicht auf den Tisch und die Hände nicht unter den Tisch. Mal
+                  sitzt gerade, ohne unruhig hin und her zu rücken. Die Beine
+                  werden nebeneinander gestellt, nicht übereinander gelegt. Die
+                  Schuhe{" "}
                   <input
                     type="text"
                     placeholder="____32"
@@ -166,13 +173,11 @@ const Sprachbauchteine_2: React.FC = () => {
                     value={cartItems[1].text}
                     onClick={() => handleInputClick(1)}
                     readOnly
-                  />{" "}
-                  sind Bio-Produkte teurer - und den Aufpreis will man nur
-                  zahlen, wenn man sicher ist, dass die Bio-Lebensmittel die
-                  bessere Wahl sind. Der Informationsdienst der
-                  Bundesministeriums für Ernährung, Landwirtschaft und
-                  Verbraucherschutz gibt darüber eine eindeutige Auskunft:
-                  Bio-Lebensmittel sind gesünder. Sie{" "}
+                  />
+                  in jedem Fall an. Nur keine Angst vor guten Restaurants mit
+                  ihrem Luxus! Denn je besser die Küche, umso aufmerksamer ist
+                  in der Regel das Personal. Doch schon bei der Anrede der
+                  Bedienung steht so{" "}
                   <input
                     type="text"
                     placeholder="____33"
@@ -187,9 +192,7 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(2)}
                     readOnly
                   />{" "}
-                  weniger Nitrat, mehr Nährstoffe und sind besser geeignet, wenn
-                  man Allergien hat. Doch Bio-Lebensmittel sind nicht nur gut
-                  für die Gesundheit. Bei vielen Verbrauchern steht{" "}
+                  vor einem Problem. Die Bedienung
                   <input
                     type="text"
                     placeholder="____34"
@@ -204,10 +207,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(3)}
                     readOnly
                   />{" "}
-                  ihrem Einkaufsverhalten ein ökologisches Bewusstsein. Bio-
-                  Verbraucher machen sich Gedanken über die Herkunft der
-                  Lebensmittel, denn auch die umweltfreundliche Landwirtschaft
-                  ist besser für Tiere und Pflanzen, kurz: Sie{" "}
+                  Fräulein an den Tisch zu rufen, ist in Zeiten dert
+                  Gleichberechtigung veraltet. Herr Ober oder Bedienung ist{" "}
                   <input
                     type="text"
                     placeholder="____35"
@@ -222,10 +223,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(4)}
                     readOnly
                   />{" "}
-                  unsere Umwelt. Und viele Bio-Verbraucher wollen als gesunde
-                  Menschen in einer gesunden Umwelt leben und auch der nächsten
-                  Generation eine gesunde Umwelt hinterlassen. Bio-Lebensmittel
-                  kommen{" "}
+                  noch möglich, aber auch schon etwas ungewöhnlich. Am besten
+                  versucht man sich Blickkontakt zu verschaffen, um mit einem
+                  kleinen{" "}
                   <input
                     type="text"
                     placeholder="____36"
@@ -240,12 +240,11 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(5)}
                     readOnly
                   />{" "}
-                  ökologischer Landwirtschaft, die im Einklang mit der Natur
-                  steht. Die Mindestrichtlinien der Bio-Landwirtschaft
-                  beinhalten eine artgerechte Tierhaltung: Alle Tiere müssen
-                  ausreichend Platz haben, es gibt keine langen Tiertransporte,
-                  keine Gentechnik. Die Produkte werden möglichst in der näheren
-                  Umgebung verkauft, beispielsweise{" "}
+                  mit der Hand den Kellner an den Tisch zu bitten. Zudem gibt es
+                  zwischen Gast und Service eine Zeichensprache. Schließt der
+                  Gast die Speisekarte und legt sie auf den Tisch, ist dies für
+                  den Kellner das Signal, die Bestellung aufzunehmen. Ist man
+                  mit dem Essen{" "}
                   <input
                     type="text"
                     placeholder="____37"
@@ -260,8 +259,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(6)}
                     readOnly
                   />{" "}
-                  Wochenmärkten oder in Bio-Supermärkten. Außerdem dürfen weder
-                  Kunstdünger noch chemische Schädlingsbekämpfungsmittel{" "}
+                  , legt man das Besteck parallel nebeneinander auf den rechten
+                  Tellerrand. Der Kellner wir dann abräumen. Macht man hingegen
+                  nur eine Pause, wird es gekreuzt oder offen auf den Teller
+                  gelegt. Beim Bezahlen ist{" "}
                   <input
                     type="text"
                     placeholder="____38"
@@ -276,9 +277,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(7)}
                     readOnly
                   />{" "}
-                  werden. Wenn die Bio-Lebensmittel weiterverarbeitet werden -
-                  beispielsweise aus Bio-Eiern, Bio-Mehl und Bio-Zucker ein
-                  Bio-Kuchen gebacken wird -, dürfen{" "}
+                  gefragt. Übernimmt ein Gastgeber die Kosten, macht er dies dem
+                  Kellner{" "}
                   <input
                     type="text"
                     placeholder="____39"
@@ -293,9 +293,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(8)}
                     readOnly
                   />{" "}
-                  nur Bio-Lebensmittel benutzt werden. Für Bio-Produkte gibt es
-                  übrigens auch ein Zertifikat, das Bio-Siegel. Diese
-                  Richtlinien garantieren,{" "}
+                  . Ein Bringen Sie mir bitte die Rechnung reicht da völlig aus.
+                  Möchte man hingegen getrennt bezahlen,{" "}
                   <input
                     type="text"
                     placeholder="____40"
@@ -310,14 +309,18 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(9)}
                     readOnly
                   />{" "}
-                  dass die Produkte wirklich “bio” sind.
+                  durchaus üblich ist, teilt man dies ebenfalls rechtzeitig der
+                  Bedienung mit. In Deutschland gibt man, je nach Zufriedenheit
+                  mit dem Service und der Höhe der Gesamtsumme zwischen drei und
+                  zehn Prozent Trinkgeld. Ist man mit dem Service unzufrieden
+                  gewesen, gibt man kein Trinkgeld.
                 </p>
               </div>
             </div>
 
             <div className="w-full lg:w-[45%] mt-[30px] bg-[#ccc] dark:bg-[#777] rounded-lg h-fit p-4">
               <div>
-                {sprachbau_2_t.answers.map((answer) => (
+                {answers.map((answer) => (
                   <div
                     key={answer.id}
                     className="flex items-center cursor-pointer"

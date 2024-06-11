@@ -26,7 +26,7 @@ const Header = ({ pageHome, pageTow, pageThree, pageFour, pageFive }) => {
           }}
           className="flex flex-col items-center bg-red-800 p-1 ml-1"
         >
-          <div className="text-white font-black text-[30px] lg:text-[50px]">
+          <div className="text-white font-black text-[30px] lg:text-[35px]">
             t-elc
           </div>
           <div className="text-white text-[10px] lg:text-[12px]">
