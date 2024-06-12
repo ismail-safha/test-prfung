@@ -21,35 +21,35 @@ const shuffleArray = (array: any[]) => {
 
 const sprachbau_2_t = {
   answers: [
-    { id: 1, number: "A", text: "AN" },
-    { id: 2, number: "B", text: "AUF" },
-    { id: 3, number: "C", text: "AUS" },
-    { id: 4, number: "D", text: "AUßERDEM" },
-    { id: 5, number: "E", text: "DASS" },
-    { id: 6, number: "F", text: "ENTHALTEN" },
-    { id: 7, number: "G", text: "ENTLASTET" },
-    { id: 8, number: "H", text: "FÜR" },
-    { id: 9, number: "I", text: "HINTER" },
-    { id: 10, number: "J", text: "OB" },
+    { id: 1, number: "A", text: "ABER" },
+    { id: 2, number: "B", text: "ANSTATT" },
+    { id: 3, number: "C", text: "BESONDERS" },
+    { id: 4, number: "D", text: "FÜR" },
+    { id: 5, number: "E", text: "KAUM" },
+    { id: 6, number: "F", text: "MIT" },
+    { id: 7, number: "G", text: "MÜSSTE" },
+    { id: 8, number: "H", text: "OHNE" },
+    { id: 9, number: "I", text: "SCHON" },
+    { id: 10, number: "J", text: "SO" },
     { id: 11, number: "K", text: "SOGAR" },
-    { id: 12, number: "L", text: "SONDERN" },
-    { id: 13, number: "M", text: "VERWENDET" },
-    { id: 14, number: "N", text: "WENN" },
-    { id: 15, number: "O", text: "WIRKLICH" },
+    { id: 12, number: "L", text: "SOLLTE" },
+    { id: 13, number: "M", text: "SONDERN" },
+    { id: 14, number: "N", text: "UM" },
+    { id: 15, number: "O", text: "VON" },
   ],
 };
 
 const initialCartItems: Text[] = [
-  { title: "input1", text: "", anserText: "AUßERDEM" },
-  { title: "input2", text: "", anserText: "DASS" },
-  { title: "input3", text: "", anserText: "FÜR" },
-  { title: "input4", text: "", anserText: "EIN" },
-  { title: "input5", text: "", anserText: "VERANTWORTUNG" },
-  { title: "input6", text: "", anserText: "VON" },
-  { title: "input7", text: "", anserText: "AUF" },
-  { title: "input8", text: "", anserText: "EINGESETZT" },
-  { title: "input9", text: "", anserText: "NUR" },
-  { title: "input10", text: "", anserText: "DASS" },
+  { title: "input1", text: "", anserText: "SOGAR" },
+  { title: "input2", text: "", anserText: "MIT" },
+  { title: "input3", text: "", anserText: "SONDERN" },
+  { title: "input4", text: "", anserText: "OHNE" },
+  { title: "input5", text: "", anserText: "ANSTATT" },
+  { title: "input6", text: "", anserText: "BESONDERS" },
+  { title: "input7", text: "", anserText: "ABER" },
+  { title: "input8", text: "", anserText: "SOLLTE" },
+  { title: "input9", text: "", anserText: "UM" },
+  { title: "input10", text: "", anserText: "SCHON" },
 ];
 
 const Sprachbauchteine_2: React.FC = () => {
@@ -131,11 +131,12 @@ const Sprachbauchteine_2: React.FC = () => {
                 Lösungen auf dem Antwortbogen bei den Aufgaben 21 - 30
               </p>
               <div className="mt-[30px] dark:bg-[#1d2a35] dark:text-[#ededed] bg-[#fbfbfb] rounded-lg lg:overflow-y-scroll h-fit  lg:h-[500px] p-4">
-                <h1 className="text-xl font-bold">Was steckt hinter “Bio”?</h1>
+                <h1 className="text-xl font-bold">
+                  Online-Sprachkurse & Co. - Wie lernt man heute am besten eine
+                  Sprache?{" "}
+                </h1>
                 <p>
-                  Überall gibt es inzwischen Bio-Lebensmittel - aber häufig
-                  fehlen den Käufern Hintergrundinformationen. Viele Verbraucher
-                  fragen sich beispielsweise,{" "}
+                  Es gibt inzwischen zahlreiche 31 Online-Sprachkurse und
                   <input
                     type="text"
                     placeholder="____31"
@@ -150,9 +151,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(0)}
                     readOnly
                   />{" "}
-                  Bio-Produkte nun auch wirklich die gesünderen sind. Skepsis
-                  macht sich breit, spätestens wenn wieder einmal ein Skandal in
-                  den Nachrichten ist.{" "}
+                  mit Smartphones kann ma Sprachen lernen. Eine weitere
+                  Lernmöglichkeit ist zum Beispiel eine Tandem-Partnerschaft
                   <input
                     type="text"
                     placeholder="____32"
@@ -167,12 +167,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(1)}
                     readOnly
                   />{" "}
-                  sind Bio-Produkte teurer - und den Aufpreis will man nur
-                  zahlen, wenn man sicher ist, dass die Bio-Lebensmittel die
-                  bessere Wahl sind. Der Informationsdienst der
-                  Bundesministeriums für Ernährung, Landwirtschaft und
-                  Verbraucherschutz gibt darüber eine eindeutige Auskunft:
-                  Bio-Lebensmittel sind gesünder. Sie{" "}
+                  einem Muttersprachler. Welche Vorteile und Nachteile haben die
+                  unterschiedlichem Methoden? Es gibt inzwischen zahlreiche
+                  Online-Lernportale, die leicht zu überblicken und zu bedienen
+                  sind. Der Vorteil: Man kann die Wörter nicht nur lesen,
                   <input
                     type="text"
                     placeholder="____33"
@@ -187,9 +185,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(2)}
                     readOnly
                   />{" "}
-                  weniger Nitrat, mehr Nährstoffe und sind besser geeignet, wenn
-                  man Allergien hat. Doch Bio-Lebensmittel sind nicht nur gut
-                  für die Gesundheit. Bei vielen Verbrauchern steht{" "}
+                  gleichzeitig auch hören. Außerdem kann man Wörter
+                  nachsprechen,
                   <input
                     type="text"
                     placeholder="____34"
@@ -204,10 +201,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(3)}
                     readOnly
                   />{" "}
-                  ihrem Einkaufsverhalten ein ökologisches Bewusstsein. Bio-
-                  Verbraucher machen sich Gedanken über die Herkunft der
-                  Lebensmittel, denn auch die umweltfreundliche Landwirtschaft
-                  ist besser für Tiere und Pflanzen, kurz: Sie{" "}
+                  dass ein ganzer Kurs zuhört. Auch Lerntipps bekommt34 man bei
+                  Online-Portalen, bespielsweise diesen: Vokabeln sollte man
+                  lieber mehrmals täglich in Fünf-Minuten-Blöcken wiederholen,
                   <input
                     type="text"
                     placeholder="____35"
@@ -222,10 +218,11 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(4)}
                     readOnly
                   />{" "}
-                  unsere Umwelt. Und viele Bio-Verbraucher wollen als gesunde
-                  Menschen in einer gesunden Umwelt leben und auch der nächsten
-                  Generation eine gesunde Umwelt hinterlassen. Bio-Lebensmittel
-                  kommen{" "}
+                  sie in einer Stunde alle auf einmal zu lernen. Wer auch
+                  unterwegs 3 5 lernen möchte, kann es mit einer Smartphone-App
+                  versuchen, einem kleinen Programm, das auf dem Handy läuft.
+                  Viele Programme gibt es kostenlos, andere kosten zwischen
+                  einem und mehreren Euro. Die kleinen Helfer sind
                   <input
                     type="text"
                     placeholder="____36"
@@ -240,12 +237,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(5)}
                     readOnly
                   />{" "}
-                  ökologischer Landwirtschaft, die im Einklang mit der Natur
-                  steht. Die Mindestrichtlinien der Bio-Landwirtschaft
-                  beinhalten eine artgerechte Tierhaltung: Alle Tiere müssen
-                  ausreichend Platz haben, es gibt keine langen Tiertransporte,
-                  keine Gentechnik. Die Produkte werden möglichst in der näheren
-                  Umgebung verkauft, beispielsweise{" "}
+                  gut zum Vokabellernen geeignet36 - mehr aber meist nicht. Das
+                  spielerische Vokabeltraining macht zwar Spaß,
                   <input
                     type="text"
                     placeholder="____37"
@@ -260,8 +253,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(6)}
                     readOnly
                   />{" "}
-                  Wochenmärkten oder in Bio-Supermärkten. Außerdem dürfen weder
-                  Kunstdünger noch chemische Schädlingsbekämpfungsmittel{" "}
+                  Satzbau oder andere Grammatikthemen werden allenfalls kurz
+                  angesprochen. Ein richtiges Gespräch kann man mit dieser
+                  Methode erst recht nicht üben. Dafür
                   <input
                     type="text"
                     placeholder="____38"
@@ -276,9 +270,11 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(7)}
                     readOnly
                   />{" "}
-                  werden. Wenn die Bio-Lebensmittel weiterverarbeitet werden -
-                  beispielsweise aus Bio-Eiern, Bio-Mehl und Bio-Zucker ein
-                  Bio-Kuchen gebacken wird -, dürfen{" "}
+                  man besser in einen Kurs gehen oder einen Tandem-Partner
+                  suchen. Ein Tandem-Partner ist ein Muttersprachler, der die
+                  Grammatik erklärt, die Aussprache verbessert und seinerseits
+                  die Muttersprache des anderen lernen möchte. Der schnellste
+                  Weg,
                   <input
                     type="text"
                     placeholder="____39"
@@ -293,9 +289,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(8)}
                     readOnly
                   />{" "}
-                  nur Bio-Lebensmittel benutzt werden. Für Bio-Produkte gibt es
-                  übrigens auch ein Zertifikat, das Bio-Siegel. Diese
-                  Richtlinien garantieren,{" "}
+                  einen passenden Tandem-Partner zu finden, ist die
+                  Online-Suche: Muttersprache, Zielsprache und Wohnort eingeben,
                   <input
                     type="text"
                     placeholder="____40"
@@ -310,14 +305,16 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(9)}
                     readOnly
                   />{" "}
-                  dass die Produkte wirklich “bio” sind.
+                  werden alle Treffer angezeigt. Man trifft sich beispielsweise
+                  in einem Restaurant, schickt sich Nachrichten oder E-Mails und
+                  erklärt sich gegenseitig die eigene Sprache.
                 </p>
               </div>
             </div>
 
             <div className="w-full lg:w-[45%] mt-[30px] bg-[#ccc] dark:bg-[#777] rounded-lg h-fit p-4">
               <div>
-                {sprachbau_2_t.answers.map((answer) => (
+                {answers.map((answer) => (
                   <div
                     key={answer.id}
                     className="flex items-center cursor-pointer"
