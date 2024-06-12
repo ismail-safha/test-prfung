@@ -68,34 +68,36 @@ const Sprachbauchteine_1 = () => {
                   <h1 className=" text-[#fff] bg-[#040416] p-1 rounded-[50%] font-bold">
                     {question.questionText}
                   </h1>
-                  {question.options.map((option) => (
-                    <div
-                      className={`flex gap-2 ml-5 py-1 items-center ${
-                        showResults &&
-                        selectedAnswers[question.id] === option.optionID
-                          ? option.optionID === question.correctAnswerID
-                            ? "bg-green-300"
-                            : "bg-red-300"
-                          : ""
-                      }`}
-                      key={option.optionID}
-                    >
-                      <input
-                        type="radio"
-                        name={`question${question.id}`}
-                        value={option.optionID}
-                        checked={
+                  <div className="flex justify-around w-full">
+                    {question.options.map((option) => (
+                      <div
+                        className={`flex gap-2 ml-5 py-1 items-center ${
+                          showResults &&
                           selectedAnswers[question.id] === option.optionID
-                        }
-                        onChange={() =>
-                          handleOptionChange(question.id, option.optionID)
-                        }
-                        className="w-4 h-4"
-                      />
-                      <p className="font-bold">{option.optionID}</p>
-                      {option.option}
-                    </div>
-                  ))}
+                            ? option.optionID === question.correctAnswerID
+                              ? "bg-green-300"
+                              : "bg-red-300"
+                            : ""
+                        }`}
+                        key={option.optionID}
+                      >
+                        <input
+                          type="radio"
+                          name={`question${question.id}`}
+                          value={option.optionID}
+                          checked={
+                            selectedAnswers[question.id] === option.optionID
+                          }
+                          onChange={() =>
+                            handleOptionChange(question.id, option.optionID)
+                          }
+                          className="w-4 h-4"
+                        />
+                        <p className="font-bold">{option.optionID}</p>
+                        {option.option}
+                      </div>
+                    ))}
+                  </div>
                 </div>
               ))}
               <div className="flex justify-between">

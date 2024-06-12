@@ -131,11 +131,15 @@ const Sprachbauchteine_2: React.FC = () => {
                 Lösungen auf dem Antwortbogen bei den Aufgaben 21 - 30
               </p>
               <div className="mt-[30px] dark:bg-[#1d2a35] dark:text-[#ededed] bg-[#fbfbfb] rounded-lg lg:overflow-y-scroll h-fit  lg:h-[500px] p-4">
-                <h1 className="text-xl font-bold">Was steckt hinter “Bio”?</h1>
+                <h1 className="text-xl font-bold">
+                  Das Schicksal des Braunbärnen
+                </h1>
+
                 <p>
-                  Überall gibt es inzwischen Bio-Lebensmittel - aber häufig
-                  fehlen den Käufern Hintergrundinformationen. Viele Verbraucher
-                  fragen sich beispielsweise,{" "}
+                  Klimatische Veränderungen seit der letzten Kaltzeit könnten
+                  für den stetigen Rückgang der Braunbären zahl in Europa
+                  verantwortlich sein. wie eine aktuelle Studie nahelegt, haben
+                  vor allem steigende Wintertemperaturen
                   <input
                     type="text"
                     placeholder="____31"
@@ -150,9 +154,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(0)}
                     readOnly
                   />{" "}
-                  Bio-Produkte nun auch wirklich die gesünderen sind. Skepsis
-                  macht sich breit, spätestens wenn wieder einmal ein Skandal in
-                  den Nachrichten ist.{" "}
+                  der vergangen 12000 jahre die Fortpflanzungsrate der Tiere
+                  verringert, was entscheidend zu deren Verschwinden beigetragen
+                  hat. Zudem wurden durch die Klimaveränderung größere Flächen
+                  für den Ackerbau nutzbar.
                   <input
                     type="text"
                     placeholder="____32"
@@ -167,12 +172,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(1)}
                     readOnly
                   />{" "}
-                  sind Bio-Produkte teurer - und den Aufpreis will man nur
-                  zahlen, wenn man sicher ist, dass die Bio-Lebensmittel die
-                  bessere Wahl sind. Der Informationsdienst der
-                  Bundesministeriums für Ernährung, Landwirtschaft und
-                  Verbraucherschutz gibt darüber eine eindeutige Auskunft:
-                  Bio-Lebensmittel sind gesünder. Sie{" "}
+                  wurde der Lebensraum der Tiere verkleinert. Es ist längst
+                  unumstriten,
                   <input
                     type="text"
                     placeholder="____33"
@@ -187,9 +188,11 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(2)}
                     readOnly
                   />{" "}
-                  weniger Nitrat, mehr Nährstoffe und sind besser geeignet, wenn
-                  man Allergien hat. Doch Bio-Lebensmittel sind nicht nur gut
-                  für die Gesundheit. Bei vielen Verbrauchern steht{" "}
+                  das Verschwinden der der Braunbären mit der Landnutzung durch
+                  den Menschen zuzammenhängt. def Ein internationales Experten
+                  Team untersuchte nun die Rolle des Klimas beim Rückgang der
+                  Bären zahl. In den letzten 12000 jahren ist Winter Temperatur
+                  in weiten Teilen Europas
                   <input
                     type="text"
                     placeholder="____34"
@@ -204,10 +207,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(3)}
                     readOnly
                   />{" "}
-                  ihrem Einkaufsverhalten ein ökologisches Bewusstsein. Bio-
-                  Verbraucher machen sich Gedanken über die Herkunft der
-                  Lebensmittel, denn auch die umweltfreundliche Landwirtschaft
-                  ist besser für Tiere und Pflanzen, kurz: Sie{" "}
+                  zwei bis vier Grad angestiegen. In der Folge bekamen die
+                  Braunbären weniger
                   <input
                     type="text"
                     placeholder="____35"
@@ -222,10 +223,7 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(4)}
                     readOnly
                   />{" "}
-                  unsere Umwelt. Und viele Bio-Verbraucher wollen als gesunde
-                  Menschen in einer gesunden Umwelt leben und auch der nächsten
-                  Generation eine gesunde Umwelt hinterlassen. Bio-Lebensmittel
-                  kommen{" "}
+                  , und ihre Zahl schrumpfte. Der Grund
                   <input
                     type="text"
                     placeholder="____36"
@@ -240,12 +238,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(5)}
                     readOnly
                   />{" "}
-                  ökologischer Landwirtschaft, die im Einklang mit der Natur
-                  steht. Die Mindestrichtlinien der Bio-Landwirtschaft
-                  beinhalten eine artgerechte Tierhaltung: Alle Tiere müssen
-                  ausreichend Platz haben, es gibt keine langen Tiertransporte,
-                  keine Gentechnik. Die Produkte werden möglichst in der näheren
-                  Umgebung verkauft, beispielsweise{" "}
+                  ist, dass Braunbären bei steigenden Wintertemperaturen in mehr
+                  Energie für ihre Winterruhe verbrauchen. Braunbärenweibchen
+                  benötigen ihre Enrergie reserven auch für die Fortpflanzung,
                   <input
                     type="text"
                     placeholder="____37"
@@ -260,8 +255,12 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(6)}
                     readOnly
                   />{" "}
-                  Wochenmärkten oder in Bio-Supermärkten. Außerdem dürfen weder
-                  Kunstdünger noch chemische Schädlingsbekämpfungsmittel{" "}
+                  sie bringen im Winter ihre ungen zur Welt. Wird mehr Energie
+                  für die Winterruhe verbraucht. bleibt nicht so viel für die
+                  Fortpflanzung übrig, und gibt es weniger Nachwuchs. steigende
+                  Wintertemperaturen könnten auch in direkt für das Schicksal
+                  des Braunbären wortlich gewesen sein. Wärmer Winter
+                  begünstigten nämlich auch die menschlicher
                   <input
                     type="text"
                     placeholder="____38"
@@ -276,9 +275,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(7)}
                     readOnly
                   />{" "}
-                  werden. Wenn die Bio-Lebensmittel weiterverarbeitet werden -
-                  beispielsweise aus Bio-Eiern, Bio-Mehl und Bio-Zucker ein
-                  Bio-Kuchen gebacken wird -, dürfen{" "}
+                  in die Naturlandschaften und damit in den Lebensraum der
+                  Braunbären. Am Ende der letzten Eiszeit war der Braunbar
                   <input
                     type="text"
                     placeholder="____39"
@@ -293,9 +291,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(8)}
                     readOnly
                   />{" "}
-                  nur Bio-Lebensmittel benutzt werden. Für Bio-Produkte gibt es
-                  übrigens auch ein Zertifikat, das Bio-Siegel. Diese
-                  Richtlinien garantieren,{" "}
+                  überall in Europa heimlich großes Aussterben gab es in
+                  Südwesteuropa vor 7000 bis 5000 jahren. Richtig begrab-
                   <input
                     type="text"
                     placeholder="____40"
@@ -310,14 +307,15 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(9)}
                     readOnly
                   />{" "}
-                  dass die Produkte wirklich “bio” sind.
+                  es mit dem Braunbären aber vor etwa 2000 jahre, als sich
+                  verringerte
                 </p>
               </div>
             </div>
 
             <div className="w-full lg:w-[45%] mt-[30px] bg-[#ccc] dark:bg-[#777] rounded-lg h-fit p-4">
               <div>
-                {sprachbau_2_t.answers.map((answer) => (
+                {answers.map((answer) => (
                   <div
                     key={answer.id}
                     className="flex items-center cursor-pointer"

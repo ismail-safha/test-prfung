@@ -21,35 +21,35 @@ const shuffleArray = (array: any[]) => {
 
 const sprachbau_2_t = {
   answers: [
-    { id: 1, number: "A", text: "AN" },
-    { id: 2, number: "B", text: "AUF" },
-    { id: 3, number: "C", text: "AUS" },
-    { id: 4, number: "D", text: "AUßERDEM" },
-    { id: 5, number: "E", text: "DASS" },
-    { id: 6, number: "F", text: "ENTHALTEN" },
-    { id: 7, number: "G", text: "ENTLASTET" },
-    { id: 8, number: "H", text: "FÜR" },
-    { id: 9, number: "I", text: "HINTER" },
-    { id: 10, number: "J", text: "OB" },
-    { id: 11, number: "K", text: "SOGAR" },
-    { id: 12, number: "L", text: "SONDERN" },
-    { id: 13, number: "M", text: "VERWENDET" },
-    { id: 14, number: "N", text: "WENN" },
-    { id: 15, number: "O", text: "WIRKLICH" },
+    { id: 1, number: "A", text: "AUF" },
+    { id: 2, number: "B", text: "BEI" },
+    { id: 3, number: "C", text: "DABEI" },
+    { id: 4, number: "D", text: "DAFÜR" },
+    { id: 5, number: "E", text: "DAS" },
+    { id: 6, number: "F", text: "DASS" },
+    { id: 7, number: "G", text: "DAVON" },
+    { id: 8, number: "H", text: "DENNOCH" },
+    { id: 9, number: "I", text: "DOCH" },
+    { id: 10, number: "J", text: "JEDOCH" },
+    { id: 11, number: "K", text: "MIT" },
+    { id: 12, number: "L", text: "OBWOHL" },
+    { id: 13, number: "M", text: "SONDERN" },
+    { id: 14, number: "N", text: "VON" },
+    { id: 15, number: "O", text: "WEIL" },
   ],
 };
 
 const initialCartItems: Text[] = [
-  { title: "input1", text: "", anserText: "AUßERDEM" },
-  { title: "input2", text: "", anserText: "DASS" },
-  { title: "input3", text: "", anserText: "FÜR" },
-  { title: "input4", text: "", anserText: "EIN" },
-  { title: "input5", text: "", anserText: "VERANTWORTUNG" },
-  { title: "input6", text: "", anserText: "VON" },
-  { title: "input7", text: "", anserText: "AUF" },
-  { title: "input8", text: "", anserText: "EINGESETZT" },
-  { title: "input9", text: "", anserText: "NUR" },
-  { title: "input10", text: "", anserText: "DASS" },
+  { title: "input1", text: "", anserText: "MIT" },
+  { title: "input2", text: "", anserText: "BEI" },
+  { title: "input3", text: "", anserText: "DAS" },
+  { title: "input4", text: "", anserText: "DAFÜR" },
+  { title: "input5", text: "", anserText: "SONDERN" },
+  { title: "input6", text: "", anserText: "OBWOHL" },
+  { title: "input7", text: "", anserText: "WEIL" },
+  { title: "input8", text: "", anserText: "DASS" },
+  { title: "input9", text: "", anserText: "AUF" },
+  { title: "input10", text: "", anserText: "VON" },
 ];
 
 const Sprachbauchteine_2: React.FC = () => {
@@ -131,11 +131,11 @@ const Sprachbauchteine_2: React.FC = () => {
                 Lösungen auf dem Antwortbogen bei den Aufgaben 21 - 30
               </p>
               <div className="mt-[30px] dark:bg-[#1d2a35] dark:text-[#ededed] bg-[#fbfbfb] rounded-lg lg:overflow-y-scroll h-fit  lg:h-[500px] p-4">
-                <h1 className="text-xl font-bold">Was steckt hinter “Bio”?</h1>
+                <h1 className="text-xl font-bold">
+                  Deutschland - ein Paradies für Kinder?
+                </h1>
                 <p>
-                  Überall gibt es inzwischen Bio-Lebensmittel - aber häufig
-                  fehlen den Käufern Hintergrundinformationen. Viele Verbraucher
-                  fragen sich beispielsweise,{" "}
+                  17 Millionen Kinder leben in Deutschland. Verglichen{" "}
                   <input
                     type="text"
                     placeholder="____31"
@@ -150,9 +150,15 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(0)}
                     readOnly
                   />{" "}
-                  Bio-Produkte nun auch wirklich die gesünderen sind. Skepsis
-                  macht sich breit, spätestens wenn wieder einmal ein Skandal in
-                  den Nachrichten ist.{" "}
+                  der Bevölkerungszahl von ungefähr 80 Millionen ist das fast
+                  ein Viertel der Einwohner. Doch nur für jedes zehnte Kind
+                  unter drei Jahren steht ein Betreuungsplatz in einer
+                  Kindertagesstätte zur Verfügung. Die Folge: Nur etwas mehr als
+                  die Hälfte der Mütter dieser Kinder ist berufstätig - und nur
+                  ein Viertel kann ganztägig zur Arbeit gehen. Um dem
+                  entgegenzuwirken, gibt es in Deutschland die dreijährige
+                  Elternzeit, die es einem Elternteil ermöglichen soll, drei
+                  Jahre{" "}
                   <input
                     type="text"
                     placeholder="____32"
@@ -167,12 +173,7 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(1)}
                     readOnly
                   />{" "}
-                  sind Bio-Produkte teurer - und den Aufpreis will man nur
-                  zahlen, wenn man sicher ist, dass die Bio-Lebensmittel die
-                  bessere Wahl sind. Der Informationsdienst der
-                  Bundesministeriums für Ernährung, Landwirtschaft und
-                  Verbraucherschutz gibt darüber eine eindeutige Auskunft:
-                  Bio-Lebensmittel sind gesünder. Sie{" "}
+                  dem Kind zu Hause zu bleiben,{" "}
                   <input
                     type="text"
                     placeholder="____33"
@@ -187,9 +188,15 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(2)}
                     readOnly
                   />{" "}
-                  weniger Nitrat, mehr Nährstoffe und sind besser geeignet, wenn
-                  man Allergien hat. Doch Bio-Lebensmittel sind nicht nur gut
-                  für die Gesundheit. Bei vielen Verbrauchern steht{" "}
+                  hat den Vorteil, dass der zu Hause bleibende Elternteil seinen
+                  Arbeitsplatz nicht verliert. Dennoch wird die Elternzeit für
+                  viele Eltern in finanzieller Hinsicht zu einem gravierenden
+                  Problem. Außerdem gilt die Elternzeit nur für Angestellte.
+                  Mütter zum Beispiel, die vor der Geburt ihres Kindes
+                  selbständig waren und mit dem Baby zu Hause bleiben wollen,
+                  stehen weit schlechter da. Kind und Karriere zu vereinbaren
+                  ist daher in Deutschland für die meisten Mütter so gut wie
+                  unmöglich. Dies scheinen die Hauptgründe{" "}
                   <input
                     type="text"
                     placeholder="____34"
@@ -204,10 +211,11 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(3)}
                     readOnly
                   />{" "}
-                  ihrem Einkaufsverhalten ein ökologisches Bewusstsein. Bio-
-                  Verbraucher machen sich Gedanken über die Herkunft der
-                  Lebensmittel, denn auch die umweltfreundliche Landwirtschaft
-                  ist besser für Tiere und Pflanzen, kurz: Sie{" "}
+                  zu sein, warum in Deutschland zurzeit weltweit die wenigsten
+                  Kinder geboren werden. Doch auch andere Dinge machen Familien
+                  mit Kindern in Deutschland das Leben schwer: In Restaurants
+                  zum Beispiel sind Kinder selten willkommen. Sie sitzen eben
+                  nicht still am Tisch,{" "}
                   <input
                     type="text"
                     placeholder="____35"
@@ -222,10 +230,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(4)}
                     readOnly
                   />{" "}
-                  unsere Umwelt. Und viele Bio-Verbraucher wollen als gesunde
-                  Menschen in einer gesunden Umwelt leben und auch der nächsten
-                  Generation eine gesunde Umwelt hinterlassen. Bio-Lebensmittel
-                  kommen{" "}
+                  stören mit ihrem Lachen und lauten Sprechen die anderen
+                  (kinderlosen) Gäste. Bei den kinderlosen Erwachsenen werden
+                  andere Maßstäbe angelegt.{" "}
                   <input
                     type="text"
                     placeholder="____36"
@@ -240,12 +247,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(5)}
                     readOnly
                   />{" "}
-                  ökologischer Landwirtschaft, die im Einklang mit der Natur
-                  steht. Die Mindestrichtlinien der Bio-Landwirtschaft
-                  beinhalten eine artgerechte Tierhaltung: Alle Tiere müssen
-                  ausreichend Platz haben, es gibt keine langen Tiertransporte,
-                  keine Gentechnik. Die Produkte werden möglichst in der näheren
-                  Umgebung verkauft, beispielsweise{" "}
+                  diese selbst häufig lautstark telefonieren, stört das
+                  niemanden: Telefonate sind eben wichtiger als Kinder. In
+                  zahlreichen deutschen Städten wie Mainz strengen Anwohner
+                  Prozesse gegen Kindergärten und Spielplätze an,{" "}
                   <input
                     type="text"
                     placeholder="____37"
@@ -260,8 +265,14 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(6)}
                     readOnly
                   />{" "}
-                  Wochenmärkten oder in Bio-Supermärkten. Außerdem dürfen weder
-                  Kunstdünger noch chemische Schädlingsbekämpfungsmittel{" "}
+                  die Kinder die Ruhe der banachbarten (kinderlosen)
+                  Hausbewohner stören. Die Folge: Spielplätze werden von
+                  Gerichts wegen geschlossen. An Wiesen, auf denen früher Kinder
+                  tobten und Ball spielten, stehen nun Schilder: Betreten und
+                  spielen verboten. Bei Zuwiderhandlung drohen Geldstrafen.
+                  Eltern, die mit der deutschen Bahn mit ihren Kindern verreisen
+                  möchten, haben schlechte Karten. In den meisten Zügen sind die
+                  Gänge so angeordnet,{" "}
                   <input
                     type="text"
                     placeholder="____38"
@@ -276,9 +287,11 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(7)}
                     readOnly
                   />{" "}
-                  werden. Wenn die Bio-Lebensmittel weiterverarbeitet werden -
-                  beispielsweise aus Bio-Eiern, Bio-Mehl und Bio-Zucker ein
-                  Bio-Kuchen gebacken wird -, dürfen{" "}
+                  mit einem Kinderwagen kein Durchkommen ist. Und in den
+                  Mutter-Kind-Abteilen haben sich schon andere Reisende
+                  breitgemacht, die nicht einsehen, warum sie Müttern mit Kind
+                  Platz machen sollten. Schließlich hätten sie ja eine Fahrkarte
+                  gekauft und damit Anspruch{" "}
                   <input
                     type="text"
                     placeholder="____39"
@@ -293,9 +306,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(8)}
                     readOnly
                   />{" "}
-                  nur Bio-Lebensmittel benutzt werden. Für Bio-Produkte gibt es
-                  übrigens auch ein Zertifikat, das Bio-Siegel. Diese
-                  Richtlinien garantieren,{" "}
+                  einen Platz. In vielen Berichten in Zeitungen oder im
+                  Fernsehen, die sich mit Kindern, ihrer Erziehung oder mit dem
+                  Schulsystem befassen, spricht man in Deutschland gerne{" "}
                   <input
                     type="text"
                     placeholder="____40"
@@ -310,14 +323,16 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(9)}
                     readOnly
                   />{" "}
-                  dass die Produkte wirklich “bio” sind.
+                  Problemen. Man meint damit die Kinder. Kann eine Gesellschaft,
+                  in der ein Kind als ein Problemfall angesehen wird, ein
+                  Paradies für Kinder sein?
                 </p>
               </div>
             </div>
 
             <div className="w-full lg:w-[45%] mt-[30px] bg-[#ccc] dark:bg-[#777] rounded-lg h-fit p-4">
               <div>
-                {sprachbau_2_t.answers.map((answer) => (
+                {answers.map((answer) => (
                   <div
                     key={answer.id}
                     className="flex items-center cursor-pointer"

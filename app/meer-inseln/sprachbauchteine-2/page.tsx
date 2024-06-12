@@ -23,33 +23,33 @@ const sprachbau_2_t = {
   answers: [
     { id: 1, number: "A", text: "AN" },
     { id: 2, number: "B", text: "AUF" },
-    { id: 3, number: "C", text: "AUS" },
-    { id: 4, number: "D", text: "AUßERDEM" },
-    { id: 5, number: "E", text: "DASS" },
-    { id: 6, number: "F", text: "ENTHALTEN" },
-    { id: 7, number: "G", text: "ENTLASTET" },
-    { id: 8, number: "H", text: "FÜR" },
-    { id: 9, number: "I", text: "HINTER" },
-    { id: 10, number: "J", text: "OB" },
-    { id: 11, number: "K", text: "SOGAR" },
-    { id: 12, number: "L", text: "SONDERN" },
-    { id: 13, number: "M", text: "VERWENDET" },
-    { id: 14, number: "N", text: "WENN" },
-    { id: 15, number: "O", text: "WIRKLICH" },
+    { id: 3, number: "C", text: "BEINAHE" },
+    { id: 4, number: "D", text: "DAFÜR" },
+    { id: 5, number: "E", text: "DANN" },
+    { id: 6, number: "F", text: "DENN" },
+    { id: 7, number: "G", text: "DÜRFEN" },
+    { id: 8, number: "H", text: "FAST" },
+    { id: 9, number: "I", text: "INNERHALB" },
+    { id: 10, number: "J", text: "KAUM" },
+    { id: 11, number: "K", text: "MÜSSEN" },
+    { id: 12, number: "L", text: "SOLLEN" },
+    { id: 13, number: "M", text: "STATT" },
+    { id: 14, number: "N", text: "VOR" },
+    { id: 15, number: "O", text: "VORBEI" },
   ],
 };
 
 const initialCartItems: Text[] = [
-  { title: "input1", text: "", anserText: "AUßERDEM" },
-  { title: "input2", text: "", anserText: "DASS" },
-  { title: "input3", text: "", anserText: "FÜR" },
-  { title: "input4", text: "", anserText: "EIN" },
-  { title: "input5", text: "", anserText: "VERANTWORTUNG" },
-  { title: "input6", text: "", anserText: "VON" },
-  { title: "input7", text: "", anserText: "AUF" },
-  { title: "input8", text: "", anserText: "EINGESETZT" },
-  { title: "input9", text: "", anserText: "NUR" },
-  { title: "input10", text: "", anserText: "DASS" },
+  { title: "input1", text: "", anserText: "KAUM" },
+  { title: "input2", text: "", anserText: "AUF" },
+  { title: "input3", text: "", anserText: "SOLLEN" },
+  { title: "input4", text: "", anserText: "STATT" },
+  { title: "input5", text: "", anserText: "INNERHALB" },
+  { title: "input6", text: "", anserText: "MÜSSEN" },
+  { title: "input7", text: "", anserText: "AN" },
+  { title: "input8", text: "", anserText: "SOLLEN" },
+  { title: "input9", text: "", anserText: "DANN" },
+  { title: "input10", text: "", anserText: "DENN" },
 ];
 
 const Sprachbauchteine_2: React.FC = () => {
@@ -131,11 +131,13 @@ const Sprachbauchteine_2: React.FC = () => {
                 Lösungen auf dem Antwortbogen bei den Aufgaben 21 - 30
               </p>
               <div className="mt-[30px] dark:bg-[#1d2a35] dark:text-[#ededed] bg-[#fbfbfb] rounded-lg lg:overflow-y-scroll h-fit  lg:h-[500px] p-4">
-                <h1 className="text-xl font-bold">Was steckt hinter “Bio”?</h1>
+                <h1 className="text-xl font-bold">
+                  Sollte man nicht doch besser aufs Fahrrad umsteigen?
+                </h1>
                 <p>
-                  Überall gibt es inzwischen Bio-Lebensmittel - aber häufig
-                  fehlen den Käufern Hintergrundinformationen. Viele Verbraucher
-                  fragen sich beispielsweise,{" "}
+                  Welches Fortbewegungsmittel, denken Sie, wird in Deutschland
+                  am häufigsten benutzt? Natürlich das Automobil. Volkswagen,
+                  Porsche, Mercedes Benz, BMW, Audi: In
                   <input
                     type="text"
                     placeholder="____31"
@@ -150,9 +152,17 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(0)}
                     readOnly
                   />{" "}
-                  Bio-Produkte nun auch wirklich die gesünderen sind. Skepsis
-                  macht sich breit, spätestens wenn wieder einmal ein Skandal in
-                  den Nachrichten ist.{" "}
+                  einem anderen Land gibt es so viele Automobilfabriken wie in
+                  Deutschland, spielt die Automobilindustrie eine so große
+                  Rolle. Nahezu jeder Haushalt verfügt über mindestens ein Auto,
+                  das Auto spielt im Leben der Deutschen eine große Rolle,
+                  sowohl als Fortbewegungsmittel zum Arbeitsplatz oder in den
+                  Urlaub als auch als Statussymbol: Zeig mir dein Auto und ich
+                  weiß, wer du bist. Doch hat das Autofahren auch
+                  Schattenseiten. Mangelnde Bewegungsmöglichkeiten,
+                  gesundheitliche Probleme und Stress bringen zumindest in den
+                  Großstädten immer mehr Autofahrer dazu, sich vom Automobil
+                  freizumachen und
                   <input
                     type="text"
                     placeholder="____32"
@@ -167,12 +177,13 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(1)}
                     readOnly
                   />{" "}
-                  sind Bio-Produkte teurer - und den Aufpreis will man nur
-                  zahlen, wenn man sicher ist, dass die Bio-Lebensmittel die
-                  bessere Wahl sind. Der Informationsdienst der
-                  Bundesministeriums für Ernährung, Landwirtschaft und
-                  Verbraucherschutz gibt darüber eine eindeutige Auskunft:
-                  Bio-Lebensmittel sind gesünder. Sie{" "}
+                  ein anderes Verkehrsmittel umzusteigen, das in dem Ruf steht,
+                  gesünder zu sein als das Auto: das Fahrrad. Nicht nur in der
+                  Freizeit, sondern auch auf dem Weg zum Arbeitsplatz wird das
+                  Rad benutzt. Ich habe keine Lust, Morgen für Morgen im Stau zu
+                  stehen und Zeit zu verlieren, sagt Bettina Meier (25): Da ist
+                  es viel entspannender, auf den zumeist gut ausgebauten
+                  Fahrradwegen an den im Stau wartenden Fahrzeugen
                   <input
                     type="text"
                     placeholder="____33"
@@ -187,9 +198,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(2)}
                     readOnly
                   />{" "}
-                  weniger Nitrat, mehr Nährstoffe und sind besser geeignet, wenn
-                  man Allergien hat. Doch Bio-Lebensmittel sind nicht nur gut
-                  für die Gesundheit. Bei vielen Verbrauchern steht{" "}
+                  und ausgeruht am Arbeitsplatz anzukommen. Dass Fahrradfahren
+                  um einiges gesünder ist, als hinter dem Lenkrad zu sitzen,
+                  bestätigen auch die Mediziner. Wer Fahrrad fährt
                   <input
                     type="text"
                     placeholder="____34"
@@ -204,10 +215,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(3)}
                     readOnly
                   />{" "}
-                  ihrem Einkaufsverhalten ein ökologisches Bewusstsein. Bio-
-                  Verbraucher machen sich Gedanken über die Herkunft der
-                  Lebensmittel, denn auch die umweltfreundliche Landwirtschaft
-                  ist besser für Tiere und Pflanzen, kurz: Sie{" "}
+                  zu sitzen, bringt seinen Blutkreislauf in Schwung, stärkt die
+                  Abwehrkräfte des Körpers und trainiert seinen Körper. Auch die
+                  Bewegung an der frischen Luft tut Menschen gut, die sich sonst
+                  die meiste Zeit
                   <input
                     type="text"
                     placeholder="____35"
@@ -222,10 +233,7 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(4)}
                     readOnly
                   />{" "}
-                  unsere Umwelt. Und viele Bio-Verbraucher wollen als gesunde
-                  Menschen in einer gesunden Umwelt leben und auch der nächsten
-                  Generation eine gesunde Umwelt hinterlassen. Bio-Lebensmittel
-                  kommen{" "}
+                  geschlossener Räume in Büros, Schulen oder Fabriken aufhalten
                   <input
                     type="text"
                     placeholder="____36"
@@ -240,12 +248,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(5)}
                     readOnly
                   />{" "}
-                  ökologischer Landwirtschaft, die im Einklang mit der Natur
-                  steht. Die Mindestrichtlinien der Bio-Landwirtschaft
-                  beinhalten eine artgerechte Tierhaltung: Alle Tiere müssen
-                  ausreichend Platz haben, es gibt keine langen Tiertransporte,
-                  keine Gentechnik. Die Produkte werden möglichst in der näheren
-                  Umgebung verkauft, beispielsweise{" "}
+                  . Auch die Geschäftswelt hat die Fahrradfahrer als Kunden
+                  entdeckt. Ein breites Angebot
                   <input
                     type="text"
                     placeholder="____37"
@@ -260,8 +264,14 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(6)}
                     readOnly
                   />{" "}
-                  Wochenmärkten oder in Bio-Supermärkten. Außerdem dürfen weder
-                  Kunstdünger noch chemische Schädlingsbekämpfungsmittel{" "}
+                  Zubehör für Fahrräder von schicken Radfelgen über sportliche
+                  Mehrganggetriebe, mit denen Berge kein Problem mehr
+                  darstellen, bis zur Designer-Trinkflasche machen aus dem
+                  einfachen Fahrrad ein exlusives Fahrzeug. Und natürlich darf
+                  bei keinem Fahrradfahrer eine aufwändige
+                  Sicherheitsausstattung mehr fehlen: Schutzhelme, Ellenbogen-
+                  und Knieschützer, die das Fahrrad im Falle eines Unfalls fast
+                  so sicher wie einen Panzer machen
                   <input
                     type="text"
                     placeholder="____38"
@@ -276,9 +286,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(7)}
                     readOnly
                   />{" "}
-                  werden. Wenn die Bio-Lebensmittel weiterverarbeitet werden -
-                  beispielsweise aus Bio-Eiern, Bio-Mehl und Bio-Zucker ein
-                  Bio-Kuchen gebacken wird -, dürfen{" "}
+                  . Nur wenn es regnet - und das passiert in Deutschland leider
+                  nicht so selten -,
                   <input
                     type="text"
                     placeholder="____39"
@@ -293,9 +302,7 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(8)}
                     readOnly
                   />{" "}
-                  nur Bio-Lebensmittel benutzt werden. Für Bio-Produkte gibt es
-                  übrigens auch ein Zertifikat, das Bio-Siegel. Diese
-                  Richtlinien garantieren,{" "}
+                  sind die Autoschlangen wieder länger.
                   <input
                     type="text"
                     placeholder="____40"
@@ -310,14 +317,15 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(9)}
                     readOnly
                   />{" "}
-                  dass die Produkte wirklich “bio” sind.
+                  einen praktischen Wetterschutz für Radfahrer haben die
+                  Geschäfte noch nicht im Angebot.
                 </p>
               </div>
             </div>
 
             <div className="w-full lg:w-[45%] mt-[30px] bg-[#ccc] dark:bg-[#777] rounded-lg h-fit p-4">
               <div>
-                {sprachbau_2_t.answers.map((answer) => (
+                {answers.map((answer) => (
                   <div
                     key={answer.id}
                     className="flex items-center cursor-pointer"

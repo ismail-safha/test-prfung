@@ -701,7 +701,7 @@ export const sprachbau_1 = {
           option: "um",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "C",
     },
     {
       id: 5,
@@ -758,7 +758,7 @@ export const sprachbau_1 = {
           option: "über",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 8,
@@ -777,7 +777,7 @@ export const sprachbau_1 = {
           option: "noch nicht",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
     {
       id: 9,

@@ -67,7 +67,7 @@ const Sprachbauchteine_1 = () => {
                   <h1 className=" text-[#fff] bg-[#040416] p-1 rounded-[50%] font-bold">
                     {question.questionText}
                   </h1>
-                  <div className="flex justify-around">
+                  <div className="flex justify-around w-full">
                     {question.options.map((option) => (
                       <div
                         className={`flex gap-2  py-1 items-center ${

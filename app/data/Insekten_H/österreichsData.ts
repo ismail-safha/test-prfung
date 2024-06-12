@@ -504,7 +504,7 @@ export const sprachbau_1 = {
           option: "verwandeten",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "C",
     },
     {
       id: 5,

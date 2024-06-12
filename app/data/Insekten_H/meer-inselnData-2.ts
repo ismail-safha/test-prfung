@@ -476,15 +476,16 @@ export const lesenTeil_2 = {
       options: [
         {
           optionID: "A",
-          option: "dominieren als Rinderrasse die Milchviehwirtschaft",
+          option:
+            "sind in der Milchproduktion beliebter als and andere Rinderrasse ",
         },
         {
           optionID: "B",
-          option: "sind für die Milchproduktion wenig geeignet.",
+          option: "spielen in der Milchproduktion kaum eine Rolle",
         },
         {
           optionID: "C",
-          option: "wurden ursprünglich in Norddeutschland gezüchtet.",
+          option: "stammen aus Norddeutschland",
         },
       ],
       correctAnswerID: "A",
@@ -522,7 +523,7 @@ export const lesenTeil_2 = {
         },
         {
           optionID: "C",
-          option: "wurde Krista ärztlich behandelt.",
+          option: "wurde Krista operiert",
         },
       ],
       correctAnswerID: "C",
@@ -692,7 +693,7 @@ export const sprachbau_1 = {
           option: "doch",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 3,
@@ -806,7 +807,7 @@ export const sprachbau_1 = {
           option: "oder",
         },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "A",
     },
     {
       id: 9,
@@ -825,7 +826,7 @@ export const sprachbau_1 = {
           option: "einzig",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
   ],
 };

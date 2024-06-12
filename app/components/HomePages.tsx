@@ -153,7 +153,7 @@ export default function HomePages() {
         <div className="   h-[109px]">
           <div className="flex flex-col items-center  bg-red-800 p-1 ">
             <div className="flex flex-col">
-              <div className="text-white font-black text-[50px]">tlc</div>
+              <div className="text-white font-black text-[50px]">t-elc</div>
               <div className="text-white  text-[12px]">LNGUAGE TESTS</div>
             </div>
           </div>

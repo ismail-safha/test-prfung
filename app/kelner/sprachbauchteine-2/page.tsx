@@ -21,35 +21,35 @@ const shuffleArray = (array: any[]) => {
 
 const sprachbau_2_t = {
   answers: [
-    { id: 1, number: "A", text: "AN" },
-    { id: 2, number: "B", text: "AUF" },
-    { id: 3, number: "C", text: "AUS" },
-    { id: 4, number: "D", text: "AUßERDEM" },
-    { id: 5, number: "E", text: "DASS" },
-    { id: 6, number: "F", text: "ENTHALTEN" },
-    { id: 7, number: "G", text: "ENTLASTET" },
-    { id: 8, number: "H", text: "FÜR" },
-    { id: 9, number: "I", text: "HINTER" },
-    { id: 10, number: "J", text: "OB" },
-    { id: 11, number: "K", text: "SOGAR" },
-    { id: 12, number: "L", text: "SONDERN" },
-    { id: 13, number: "M", text: "VERWENDET" },
-    { id: 14, number: "N", text: "WENN" },
-    { id: 15, number: "O", text: "WIRKLICH" },
+    { id: 1, number: "A", text: "ANHAND" },
+    { id: 2, number: "B", text: "ANSTRENGEND" },
+    { id: 3, number: "C", text: "AUF" },
+    { id: 4, number: "D", text: "AUS" },
+    { id: 5, number: "E", text: "EHER" },
+    { id: 6, number: "F", text: "FAST" },
+    { id: 7, number: "G", text: "FOLGLICH" },
+    { id: 8, number: "H", text: "IN" },
+    { id: 9, number: "I", text: "KAUM" },
+    { id: 10, number: "J", text: "LANGWEILIG" },
+    { id: 11, number: "K", text: "SOWIE" },
+    { id: 12, number: "L", text: "VON" },
+    { id: 13, number: "M", text: "WEGEN" },
+    { id: 14, number: "N", text: "WOHL" },
+    { id: 15, number: "O", text: "ZU" },
   ],
 };
 
 const initialCartItems: Text[] = [
-  { title: "input1", text: "", anserText: "AUßERDEM" },
-  { title: "input2", text: "", anserText: "DASS" },
-  { title: "input3", text: "", anserText: "FÜR" },
-  { title: "input4", text: "", anserText: "EIN" },
-  { title: "input5", text: "", anserText: "VERANTWORTUNG" },
-  { title: "input6", text: "", anserText: "VON" },
-  { title: "input7", text: "", anserText: "AUF" },
-  { title: "input8", text: "", anserText: "EINGESETZT" },
-  { title: "input9", text: "", anserText: "NUR" },
-  { title: "input10", text: "", anserText: "DASS" },
+  { title: "input1", text: "", anserText: "ANHAND" },
+  { title: "input2", text: "", anserText: "VON" },
+  { title: "input3", text: "", anserText: "SOWIE" },
+  { title: "input4", text: "", anserText: "AUS" },
+  { title: "input5", text: "", anserText: "AUF" },
+  { title: "input6", text: "", anserText: "ANSTRENGEND" },
+  { title: "input7", text: "", anserText: "FOLGLICH" },
+  { title: "input8", text: "", anserText: "EHER" },
+  { title: "input9", text: "", anserText: "ZU" },
+  { title: "input10", text: "", anserText: "WOHL" },
 ];
 
 const Sprachbauchteine_2: React.FC = () => {
@@ -131,11 +131,12 @@ const Sprachbauchteine_2: React.FC = () => {
                 Lösungen auf dem Antwortbogen bei den Aufgaben 21 - 30
               </p>
               <div className="mt-[30px] dark:bg-[#1d2a35] dark:text-[#ededed] bg-[#fbfbfb] rounded-lg lg:overflow-y-scroll h-fit  lg:h-[500px] p-4">
-                <h1 className="text-xl font-bold">Was steckt hinter “Bio”?</h1>
+                <h1 className="text-xl font-bold">
+                  Liebesgrüße aus der Kühltruhe
+                </h1>
                 <p>
-                  Überall gibt es inzwischen Bio-Lebensmittel - aber häufig
-                  fehlen den Käufern Hintergrundinformationen. Viele Verbraucher
-                  fragen sich beispielsweise,{" "}
+                  Wer sich einen Mann angeln will, sollte einen Blick in dessen
+                  Tiefkühlfach werfen. Einer Studie zufolge kann man{" "}
                   <input
                     type="text"
                     placeholder="____31"
@@ -150,9 +151,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(0)}
                     readOnly
                   />{" "}
-                  Bio-Produkte nun auch wirklich die gesünderen sind. Skepsis
-                  macht sich breit, spätestens wenn wieder einmal ein Skandal in
-                  den Nachrichten ist.{" "}
+                  des Inhalts des Tiefkühlfachs den Charakter seines Besitzers
+                  erkennen. Die Meinungsforscher unterscheiden fünf Kategorien{" "}
                   <input
                     type="text"
                     placeholder="____32"
@@ -167,12 +167,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(1)}
                     readOnly
                   />{" "}
-                  sind Bio-Produkte teurer - und den Aufpreis will man nur
-                  zahlen, wenn man sicher ist, dass die Bio-Lebensmittel die
-                  bessere Wahl sind. Der Informationsdienst der
-                  Bundesministeriums für Ernährung, Landwirtschaft und
-                  Verbraucherschutz gibt darüber eine eindeutige Auskunft:
-                  Bio-Lebensmittel sind gesünder. Sie{" "}
+                  Single-Männern: den spontanen Typ, den Bequemen, den
+                  Kreativen,{" "}
                   <input
                     type="text"
                     placeholder="____33"
@@ -187,9 +183,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(2)}
                     readOnly
                   />{" "}
-                  weniger Nitrat, mehr Nährstoffe und sind besser geeignet, wenn
-                  man Allergien hat. Doch Bio-Lebensmittel sind nicht nur gut
-                  für die Gesundheit. Bei vielen Verbrauchern steht{" "}
+                  den Cocktail- und den Gourmet-Typen. Am häufigsten gibt es in
+                  Deutschland den spontanen Typ. Er hat neben kompletten
+                  Gerichten auch tiefgekühlte Produkte wie Brokkoligemüse oder
+                  Putenfilet in der Truhe,{" "}
                   <input
                     type="text"
                     placeholder="____34"
@@ -204,10 +201,12 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(3)}
                     readOnly
                   />{" "}
-                  ihrem Einkaufsverhalten ein ökologisches Bewusstsein. Bio-
-                  Verbraucher machen sich Gedanken über die Herkunft der
-                  Lebensmittel, denn auch die umweltfreundliche Landwirtschaft
-                  ist besser für Tiere und Pflanzen, kurz: Sie{" "}
+                  denen er eine Mahlzeit zusammenstellen kann. Dieser Typ liebt
+                  die Abwechslung auf dem Teller und auch sonst im Leben. Da
+                  wird es vermutlich auch in der Liebe nicht langweilig.
+                  Hauptgewinn für jede Frau ist aber der Gourmet-Typ. In seinem
+                  Tiefkühlfach liegen Produkte wie Garnelen, Muscheln oder Ente.
+                  Dieser Typ liebt es, Frauen zu verwöhnen. Der Nachteil liegt{" "}
                   <input
                     type="text"
                     placeholder="____35"
@@ -222,10 +221,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(4)}
                     readOnly
                   />{" "}
-                  unsere Umwelt. Und viele Bio-Verbraucher wollen als gesunde
-                  Menschen in einer gesunden Umwelt leben und auch der nächsten
-                  Generation eine gesunde Umwelt hinterlassen. Bio-Lebensmittel
-                  kommen{" "}
+                  der Hand: Dieser Typ Single-Mann ist selten. Was man in der
+                  Teifkühltruhe von bequemen Single-Männern findet, kann man
+                  leicht erraten, denn diese Männer haben gar keine Lust zu
+                  kochen. Ihnen ist es sogar zu{" "}
                   <input
                     type="text"
                     placeholder="____36"
@@ -240,12 +239,7 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(5)}
                     readOnly
                   />{" "}
-                  ökologischer Landwirtschaft, die im Einklang mit der Natur
-                  steht. Die Mindestrichtlinien der Bio-Landwirtschaft
-                  beinhalten eine artgerechte Tierhaltung: Alle Tiere müssen
-                  ausreichend Platz haben, es gibt keine langen Tiertransporte,
-                  keine Gentechnik. Die Produkte werden möglichst in der näheren
-                  Umgebung verkauft, beispielsweise{" "}
+                  zwei Tüten zu öffnen statt nur einer.{" "}
                   <input
                     type="text"
                     placeholder="____37"
@@ -260,8 +254,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(6)}
                     readOnly
                   />{" "}
-                  Wochenmärkten oder in Bio-Supermärkten. Außerdem dürfen weder
-                  Kunstdünger noch chemische Schädlingsbekämpfungsmittel{" "}
+                  kaufen diese Männer am häufigsten komplette Gerichte, die sie
+                  nur noch in die Mikrowelle oder den Backofen stellen müssen.
+                  Aber ob sie so das Herz einer Frau erobern können? Zumindest
+                  Frauen sehen das wohl{" "}
                   <input
                     type="text"
                     placeholder="____38"
@@ -276,9 +272,7 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(7)}
                     readOnly
                   />{" "}
-                  werden. Wenn die Bio-Lebensmittel weiterverarbeitet werden -
-                  beispielsweise aus Bio-Eiern, Bio-Mehl und Bio-Zucker ein
-                  Bio-Kuchen gebacken wird -, dürfen{" "}
+                  skeptisch. Doch egal,{" "}
                   <input
                     type="text"
                     placeholder="____39"
@@ -293,9 +287,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(8)}
                     readOnly
                   />{" "}
-                  nur Bio-Lebensmittel benutzt werden. Für Bio-Produkte gibt es
-                  übrigens auch ein Zertifikat, das Bio-Siegel. Diese
-                  Richtlinien garantieren,{" "}
+                  welcher Kategorie ein Mann gehört - eines haben alle
+                  gemeinsam: Sie kaufen immer mehr Tiefkühlkost. Warum das so
+                  ist, kann die Studie nicht beantworten - da kann man nur
+                  raten: Einige haben vermutlich wenig Zeit zum Kochen, andere{" "}
                   <input
                     type="text"
                     placeholder="____40"
@@ -310,14 +305,15 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(9)}
                     readOnly
                   />{" "}
-                  dass die Produkte wirklich “bio” sind.
+                  eher keine Lust. Dabei wäre das doch der beste Weg, um eine
+                  Frau zu erobern.
                 </p>
               </div>
             </div>
 
             <div className="w-full lg:w-[45%] mt-[30px] bg-[#ccc] dark:bg-[#777] rounded-lg h-fit p-4">
               <div>
-                {sprachbau_2_t.answers.map((answer) => (
+                {answers.map((answer) => (
                   <div
                     key={answer.id}
                     className="flex items-center cursor-pointer"
