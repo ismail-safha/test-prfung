@@ -21,35 +21,35 @@ const shuffleArray = (array: any[]) => {
 
 const sprachbau_2_t = {
   answers: [
-    { id: 1, number: "A", text: "AN" },
-    { id: 2, number: "B", text: "AUF" },
-    { id: 3, number: "C", text: "AUS" },
-    { id: 4, number: "D", text: "AUßERDEM" },
-    { id: 5, number: "E", text: "DASS" },
-    { id: 6, number: "F", text: "ENTHALTEN" },
-    { id: 7, number: "G", text: "ENTLASTET" },
-    { id: 8, number: "H", text: "FÜR" },
-    { id: 9, number: "I", text: "HINTER" },
-    { id: 10, number: "J", text: "OB" },
-    { id: 11, number: "K", text: "SOGAR" },
-    { id: 12, number: "L", text: "SONDERN" },
-    { id: 13, number: "M", text: "VERWENDET" },
-    { id: 14, number: "N", text: "WENN" },
-    { id: 15, number: "O", text: "WIRKLICH" },
+    { id: 1, number: "A", text: "erheblich" },
+    { id: 2, number: "B", text: "schnell" },
+    { id: 3, number: "C", text: "immer" },
+    { id: 4, number: "D", text: "wird" },
+    { id: 5, number: "E", text: "dass" },
+    { id: 6, number: "F", text: "einem" },
+    { id: 7, number: "G", text: "aller" },
+    { id: 8, number: "H", text: "sollte" },
+    { id: 9, number: "I", text: "ist" },
+    { id: 10, number: "J", text: "sind" },
+    { id: 11, number: "K", text: "bequem" },
+    { id: 12, number: "L", text: "unter" },
+    { id: 13, number: "M", text: "bei" },
+    { id: 14, number: "N", text: "dabei" },
+    { id: 15, number: "O", text: "wie" },
   ],
 };
 
 const initialCartItems: Text[] = [
-  { title: "input1", text: "", anserText: "AUßERDEM" },
-  { title: "input2", text: "", anserText: "DASS" },
-  { title: "input3", text: "", anserText: "FÜR" },
-  { title: "input4", text: "", anserText: "EIN" },
-  { title: "input5", text: "", anserText: "VERANTWORTUNG" },
-  { title: "input6", text: "", anserText: "VON" },
-  { title: "input7", text: "", anserText: "AUF" },
-  { title: "input8", text: "", anserText: "EINGESETZT" },
-  { title: "input9", text: "", anserText: "NUR" },
-  { title: "input10", text: "", anserText: "DASS" },
+  { title: "input1", text: "", anserText: "bequem" },
+  { title: "input2", text: "", anserText: "sind" },
+  { title: "input3", text: "", anserText: "dabei" },
+  { title: "input4", text: "", anserText: "ist" },
+  { title: "input5", text: "", anserText: "sollte" },
+  { title: "input6", text: "", anserText: "dass" },
+  { title: "input7", text: "", anserText: "aller" },
+  { title: "input8", text: "", anserText: "einem" },
+  { title: "input9", text: "", anserText: "bei" },
+  { title: "input10", text: "", anserText: "wie" },
 ];
 
 const Sprachbauchteine_2: React.FC = () => {
@@ -131,11 +131,11 @@ const Sprachbauchteine_2: React.FC = () => {
                 Lösungen auf dem Antwortbogen bei den Aufgaben 21 - 30
               </p>
               <div className="mt-[30px] dark:bg-[#1d2a35] dark:text-[#ededed] bg-[#fbfbfb] rounded-lg lg:overflow-y-scroll h-fit  lg:h-[500px] p-4">
-                <h1 className="text-xl font-bold">Was steckt hinter “Bio”?</h1>
+                <h1 className="text-xl font-bold">
+                  Joggen: Mehr als nur Laufen
+                </h1>
                 <p>
-                  Überall gibt es inzwischen Bio-Lebensmittel - aber häufig
-                  fehlen den Käufern Hintergrundinformationen. Viele Verbraucher
-                  fragen sich beispielsweise,{" "}
+                  Auto, Rolltreppe, Fahrstuhl - das moderne Leben ist
                   <input
                     type="text"
                     placeholder="____31"
@@ -150,9 +150,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(0)}
                     readOnly
                   />{" "}
-                  Bio-Produkte nun auch wirklich die gesünderen sind. Skepsis
-                  macht sich breit, spätestens wenn wieder einmal ein Skandal in
-                  den Nachrichten ist.{" "}
+                  geworden. Ein Großteil der Bevölkerung verbringt den Tag
+                  sitzend. Zum Leidwesen unseres Körpers, denn das geht zu
+                  Lasten der Gesundheit. Herz-Kreislauf-Erkrankungen
                   <input
                     type="text"
                     placeholder="____32"
@@ -167,12 +167,16 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(1)}
                     readOnly
                   />{" "}
-                  sind Bio-Produkte teurer - und den Aufpreis will man nur
-                  zahlen, wenn man sicher ist, dass die Bio-Lebensmittel die
-                  bessere Wahl sind. Der Informationsdienst der
-                  Bundesministeriums für Ernährung, Landwirtschaft und
-                  Verbraucherschutz gibt darüber eine eindeutige Auskunft:
-                  Bio-Lebensmittel sind gesünder. Sie{" "}
+                  in den westlichen Industrieländern mittlerweile die
+                  Todesursache Nummer Eins. Dennoch: Rund zehn Millionen
+                  Menschen in Deutschland joggen, etwa acht Millionen gehen
+                  Inline-Skaten oder Rad fahren, jeder Dritte schwimmt. Wer
+                  regelmäßig, richtig und vor allem in Maßen trainiert, fördert
+                  Gesundheit, Körper- und Selbstbewusstsein. Zahlreiche
+                  Sportarten bieten einen einfachen und abwechslungsreichen
+                  Einstieg auch für Ungeübte. Vom Klassiker Jogging bis hin zu
+                  Walking, Radfahren, Schwimmen, Aerobic, Inline-Skating und
+                  Langlauf im Winter. Wichtig ist
                   <input
                     type="text"
                     placeholder="____33"
@@ -187,9 +191,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(2)}
                     readOnly
                   />{" "}
-                  weniger Nitrat, mehr Nährstoffe und sind besser geeignet, wenn
-                  man Allergien hat. Doch Bio-Lebensmittel sind nicht nur gut
-                  für die Gesundheit. Bei vielen Verbrauchern steht{" "}
+                  richtig zu trainieren, den Körper nicht zu überfordern - vor
+                  allem nach einer längeren Sportpause: Empfehlenswert ist
+                  aerobes Herz-Kreislauf-Training. Das bedeutet Ausdauertraining
                   <input
                     type="text"
                     placeholder="____34"
@@ -204,10 +208,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(3)}
                     readOnly
                   />{" "}
-                  ihrem Einkaufsverhalten ein ökologisches Bewusstsein. Bio-
-                  Verbraucher machen sich Gedanken über die Herkunft der
-                  Lebensmittel, denn auch die umweltfreundliche Landwirtschaft
-                  ist besser für Tiere und Pflanzen, kurz: Sie{" "}
+                  Verbrennung von Sauerstoff. Dreimal in der Woche 30 bis 40
+                  Minuten genügen. Dabei
                   <input
                     type="text"
                     placeholder="____35"
@@ -222,10 +224,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(4)}
                     readOnly
                   />{" "}
-                  unsere Umwelt. Und viele Bio-Verbraucher wollen als gesunde
-                  Menschen in einer gesunden Umwelt leben und auch der nächsten
-                  Generation eine gesunde Umwelt hinterlassen. Bio-Lebensmittel
-                  kommen{" "}
+                  der Puls kontrolliert werden. Der Richtwert ist hier 180 minus
+                  Lebensalter. Dann wird auch Fett verbrannt, der Körper nicht
+                  überfordert.
                   <input
                     type="text"
                     placeholder="____36"
@@ -240,12 +241,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(5)}
                     readOnly
                   />{" "}
-                  ökologischer Landwirtschaft, die im Einklang mit der Natur
-                  steht. Die Mindestrichtlinien der Bio-Landwirtschaft
-                  beinhalten eine artgerechte Tierhaltung: Alle Tiere müssen
-                  ausreichend Platz haben, es gibt keine langen Tiertransporte,
-                  keine Gentechnik. Die Produkte werden möglichst in der näheren
-                  Umgebung verkauft, beispielsweise{" "}
+                  mehr Menschen den Schritt in ein aktiveres Leben wagen
+                  sollten, machen zahlreiche Studien deutlich: Rund 40 Prozent
                   <input
                     type="text"
                     placeholder="____37"
@@ -260,8 +257,12 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(6)}
                     readOnly
                   />{" "}
-                  Wochenmärkten oder in Bio-Supermärkten. Außerdem dürfen weder
-                  Kunstdünger noch chemische Schädlingsbekämpfungsmittel{" "}
+                  Deutschen bringen zu viel auf die Waage, jeder zehnte ist
+                  sogar stark fettleibig - Tendenz steigend. Auch vor Kindern
+                  und Jugendlichen macht diese Entwicklung nicht halt. Oft fehlt
+                  die Zeit für regelmäßiges Essen, Sport und Entspannung. Der
+                  Körper quittiert dies meist mit Herz-Kreislauf-Erkrankungen,
+                  nicht selten mit
                   <input
                     type="text"
                     placeholder="____38"
@@ -276,9 +277,7 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(7)}
                     readOnly
                   />{" "}
-                  werden. Wenn die Bio-Lebensmittel weiterverarbeitet werden -
-                  beispielsweise aus Bio-Eiern, Bio-Mehl und Bio-Zucker ein
-                  Bio-Kuchen gebacken wird -, dürfen{" "}
+                  Herzinfarkt - auch, und immer häufiger
                   <input
                     type="text"
                     placeholder="____39"
@@ -293,9 +292,11 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(8)}
                     readOnly
                   />{" "}
-                  nur Bio-Lebensmittel benutzt werden. Für Bio-Produkte gibt es
-                  übrigens auch ein Zertifikat, das Bio-Siegel. Diese
-                  Richtlinien garantieren,{" "}
+                  Frauen. Ausdauersport hingegen wirkt auf Herz, Gefäße,
+                  Muskeln, Körpergewicht, Hormone und Stimmungen. Stress wird
+                  wegtrainiert, Krankheiten geheilt und vorgebeugt. Zusammen mit
+                  der richtigen Ernährung minimiert sich das Risiko, einen
+                  Herzinfarkt oder Schlaganfall zu erleiden,
                   <input
                     type="text"
                     placeholder="____40"
@@ -310,14 +311,16 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(9)}
                     readOnly
                   />{" "}
-                  dass die Produkte wirklich “bio” sind.
+                  Milch und Milchprodukte, pflanzliche Lebensmittel wie
+                  Vollkornprodukte, Obst, Gemüse, Salat, magere Wurst und
+                  Käsesorten unterstützen das richtige Training.
                 </p>
               </div>
             </div>
 
             <div className="w-full lg:w-[45%] mt-[30px] bg-[#ccc] dark:bg-[#777] rounded-lg h-fit p-4">
               <div>
-                {sprachbau_2_t.answers.map((answer) => (
+                {answers.map((answer) => (
                   <div
                     key={answer.id}
                     className="flex items-center cursor-pointer"

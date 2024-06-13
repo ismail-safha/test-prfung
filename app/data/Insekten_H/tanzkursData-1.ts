@@ -535,29 +535,30 @@ Und es funktioniert: Ich vergesse viel weniger"
 export const sprachbau_1 = {
   texts: [
     {
-      text: `"Hallo Philip, ",nun habe ich mich schon so lange nicht bei dir gemeldet - das tut mir wirklich leid! Ich
-      hatte in den vergangenen Monaten viel Stress, weil ich ja nun studiere und nebenbei noch
-      arbeiten muss, ____21_____ meine Miete und alles andere bezahlen zu können. Zum Glück
-      macht mir mein Nebenjob wenigstens Spaß. Ich weiß nicht, ____22_____ ich das sonst
-      durchhalten würde. Vielleicht habe ich dir schon erzählt, dass ich abends und am
-      Wochenende in einer Kneipe in der Küche helfe. Das ist zwar oft sehr anstrengend,
-      ____23_____ anderseits ist dauernd was los, es wird nicht langweilig, und meine Kollegen
-      sind total nett. Erinnerst du dich noch an unsere Zeit in der Grundschule? Mit acht Jahren
-      wollte ich ja ____24_____ Kellnerin werden, weil man da Trinkgeld bekommt. Naja, jetzt
-      bin ich in der Küche gelandet, knapp daneben ist auch vorbei ;)
-      Was macht denn deine Ausbildung? Wenn ich ____25_____ nicht täusche, bist du ja in
+      text: `Hallo Ferdinand, 
+      nun habe ich mich schon so lange nicht bei dir gemeldet - das tut mir wirklich leid! Ich 
+      hatte in den vergangenen Monaten viel Stress, weil ich ja nun studiere und nebenbei noch 
+      arbeiten muss, ____21_____ meine Miete und alles andere bezahlen zu können. Zum Glück 
+      macht mir mein Nebenjob wenigstens Spaß. Ich weiß nicht, _____22____ ich das sonst 
+      durchhalten würde. Vielleicht habe ich dir schon erzählt, dass ich abends und am 
+      Wochenende in einer Kneipe in der Küche helfe. Das ist zwar oft sehr anstrengend, 
+      _____23____ anderseits ist dauernd was los, es wird nicht langweilig, und meine Kollegen 
+      sind total nett. Erinnerst du dich noch an unsere Zeit in der Grundschule? Mit acht Jahren 
+      wollte ich ja ____24_____ Kellnerin werden, weil man da Trinkgeld bekommt. Naja, jetzt 
+      bin ich in der Küche gelandet, knapp daneben ist auch vorbei ;) 
+      Was macht denn deine Ausbildung? Wenn ich ____25_____ nicht täusche, bist du ja in 
       einem halben Jahr schon fertig, oder? Das ist ja nicht mehr lang!
-      Neulich habe ich übrigens Tina und Kevin hier in der Nähe der Uni getroffen - die waren
-      ja schon ein Paar, _____26____ wir noch in der Schule gegangen sind, und jetzt will sie
+      Neulich habe ich übrigens Tina und Kevin hier in der Nähe der Uni getroffen - die waren 
+      ja schon ein Paar, ____26_____ wir noch in der Schule gegangen sind, und jetzt will sie 
       tatsächlich verheiratet!
-      Wie sehen denn deine Pläne für die ___27______ Wochenenden aus? Wir könnten uns ja
+      Wie sehen denn deine Pläne für die ____27_____ Wochenenden aus? Wir könnten uns ja 
       vielleicht mal wieder treffen und in Ruhe quatschen - hättest du Lust ____28_____?
-      In meiner Straße hat vor einem Monat ein nettes kleines Café aufgemacht, die haben
-      sowohl sehr leckere Kuchen _____29____ auch einige kleine Gerichte zu wirklich günstigen
-      Preisen. Wäre das was für dich? Mail wir doch ____30_____ , wenn du magst, ich würde
-      mich freuen!
+      In meiner Straße hat vor einem Monat ein nettes kleines Café aufgemacht, die haben 
+      nicht nur sehr leckere Kuchen, ____29_____ auch einige kleine Gerichte zu wirklich 
+      günstigen Preisen. Wäre das was ____30_____ dich? Mail wir doch einfach, wenn du 
+      magst, ich würde mich freuen.
       Viele Grüße,
-      Tanja
+      Nadine
       
       `,
     },

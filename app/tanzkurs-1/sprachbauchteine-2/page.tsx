@@ -21,35 +21,35 @@ const shuffleArray = (array: any[]) => {
 
 const sprachbau_2_t = {
   answers: [
-    { id: 1, number: "A", text: "AN" },
-    { id: 2, number: "B", text: "AUF" },
-    { id: 3, number: "C", text: "AUS" },
-    { id: 4, number: "D", text: "AUßERDEM" },
-    { id: 5, number: "E", text: "DASS" },
-    { id: 6, number: "F", text: "ENTHALTEN" },
-    { id: 7, number: "G", text: "ENTLASTET" },
-    { id: 8, number: "H", text: "FÜR" },
-    { id: 9, number: "I", text: "HINTER" },
-    { id: 10, number: "J", text: "OB" },
-    { id: 11, number: "K", text: "SOGAR" },
-    { id: 12, number: "L", text: "SONDERN" },
-    { id: 13, number: "M", text: "VERWENDET" },
-    { id: 14, number: "N", text: "WENN" },
-    { id: 15, number: "O", text: "WIRKLICH" },
+    { id: 1, number: "A", text: "AB" },
+    { id: 2, number: "B", text: "ABER " },
+    { id: 3, number: "C", text: "AM " },
+    { id: 4, number: "D", text: "AUF " },
+    { id: 5, number: "E", text: "DA " },
+    { id: 6, number: "F", text: "DARUM" },
+    { id: 7, number: "G", text: "DAZU " },
+    { id: 8, number: "H", text: "ES" },
+    { id: 9, number: "I", text: "OHNE" },
+    { id: 10, number: "J", text: "SEIT " },
+    { id: 11, number: "K", text: "SONDERN" },
+    { id: 12, number: "L", text: "TROTZ" },
+    { id: 13, number: "M", text: "UM" },
+    { id: 14, number: "N", text: "VOR" },
+    { id: 15, number: "O", text: "WEGEN " },
   ],
 };
 
 const initialCartItems: Text[] = [
-  { title: "input1", text: "", anserText: "AUßERDEM" },
-  { title: "input2", text: "", anserText: "DASS" },
-  { title: "input3", text: "", anserText: "FÜR" },
-  { title: "input4", text: "", anserText: "EIN" },
-  { title: "input5", text: "", anserText: "VERANTWORTUNG" },
-  { title: "input6", text: "", anserText: "VON" },
-  { title: "input7", text: "", anserText: "AUF" },
-  { title: "input8", text: "", anserText: "EINGESETZT" },
-  { title: "input9", text: "", anserText: "NUR" },
-  { title: "input10", text: "", anserText: "DASS" },
+  { title: "input1", text: "", anserText: "SONDERN" },
+  { title: "input2", text: "", anserText: "SEIT" },
+  { title: "input3", text: "", anserText: "WEGEN" },
+  { title: "input4", text: "", anserText: "AB" },
+  { title: "input5", text: "", anserText: "AM" },
+  { title: "input6", text: "", anserText: "ES" },
+  { title: "input7", text: "", anserText: "DA" },
+  { title: "input8", text: "", anserText: "DARUM" },
+  { title: "input9", text: "", anserText: "AUF" },
+  { title: "input10", text: "", anserText: "UM" },
 ];
 
 const Sprachbauchteine_2: React.FC = () => {
@@ -131,11 +131,11 @@ const Sprachbauchteine_2: React.FC = () => {
                 Lösungen auf dem Antwortbogen bei den Aufgaben 21 - 30
               </p>
               <div className="mt-[30px] dark:bg-[#1d2a35] dark:text-[#ededed] bg-[#fbfbfb] rounded-lg lg:overflow-y-scroll h-fit  lg:h-[500px] p-4">
-                <h1 className="text-xl font-bold">Was steckt hinter “Bio”?</h1>
+                <h1 className="text-xl font-bold">
+                  Theater für Kinder und Jugendliche
+                </h1>
                 <p>
-                  Überall gibt es inzwischen Bio-Lebensmittel - aber häufig
-                  fehlen den Käufern Hintergrundinformationen. Viele Verbraucher
-                  fragen sich beispielsweise,{" "}
+                  Theater fördert nicht nur die Kreativität,
                   <input
                     type="text"
                     placeholder="____31"
@@ -150,9 +150,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(0)}
                     readOnly
                   />{" "}
-                  Bio-Produkte nun auch wirklich die gesünderen sind. Skepsis
-                  macht sich breit, spätestens wenn wieder einmal ein Skandal in
-                  den Nachrichten ist.{" "}
+                  auch die Körpererfahrung von Kindern. Der Verein “Jugendhilfe
+                  Düsseldorf e. V.“ arbeitet
                   <input
                     type="text"
                     placeholder="____32"
@@ -167,12 +166,11 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(1)}
                     readOnly
                   />{" "}
-                  sind Bio-Produkte teurer - und den Aufpreis will man nur
-                  zahlen, wenn man sicher ist, dass die Bio-Lebensmittel die
-                  bessere Wahl sind. Der Informationsdienst der
-                  Bundesministeriums für Ernährung, Landwirtschaft und
-                  Verbraucherschutz gibt darüber eine eindeutige Auskunft:
-                  Bio-Lebensmittel sind gesünder. Sie{" "}
+                  vielen Jahren in der Jugendförderung, und deshalb unterstützt
+                  er auch ein neues Theaterprojekt für Kinder. Üben und spielen
+                  werden die Teilnehmer im Jugendzentrum. Das Jugendzentrum ist
+                  eine Einrichtung des städtischen Jugendamtes und kümmert sich
+                  um Kinder, Jugendliche und junge Volljährige, die
                   <input
                     type="text"
                     placeholder="____33"
@@ -187,9 +185,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(2)}
                     readOnly
                   />{" "}
-                  weniger Nitrat, mehr Nährstoffe und sind besser geeignet, wenn
-                  man Allergien hat. Doch Bio-Lebensmittel sind nicht nur gut
-                  für die Gesundheit. Bei vielen Verbrauchern steht{" "}
+                  familiärer und anderer Probleme Hilfe benötigen. Bis zu
+                  zwanzig Mädchen und Jungen werden
                   <input
                     type="text"
                     placeholder="____34"
@@ -204,10 +201,7 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(3)}
                     readOnly
                   />{" "}
-                  ihrem Einkaufsverhalten ein ökologisches Bewusstsein. Bio-
-                  Verbraucher machen sich Gedanken über die Herkunft der
-                  Lebensmittel, denn auch die umweltfreundliche Landwirtschaft
-                  ist besser für Tiere und Pflanzen, kurz: Sie{" "}
+                  dem kommenden Jahr die Welt des Theaters kennenlernen.
                   <input
                     type="text"
                     placeholder="____35"
@@ -222,10 +216,12 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(4)}
                     readOnly
                   />{" "}
-                  unsere Umwelt. Und viele Bio-Verbraucher wollen als gesunde
-                  Menschen in einer gesunden Umwelt leben und auch der nächsten
-                  Generation eine gesunde Umwelt hinterlassen. Bio-Lebensmittel
-                  kommen{" "}
+                  Ende des Projekts werden die Nachwuchsschauspieler bei einem
+                  Theaterfestival auftreten, was sicher ein Höhepunkt für alle
+                  Teilnehmer sein wird. Geleitet wird die Gruppe vom
+                  Schauspieler Wolfgang Neuhausen. Er arbeitet mit dem
+                  Jugendzentrum zusammen und wird von zwei Theaterpädagogen
+                  unterstützt. Allen Mitarbeitern ist
                   <input
                     type="text"
                     placeholder="____36"
@@ -240,12 +236,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(5)}
                     readOnly
                   />{" "}
-                  ökologischer Landwirtschaft, die im Einklang mit der Natur
-                  steht. Die Mindestrichtlinien der Bio-Landwirtschaft
-                  beinhalten eine artgerechte Tierhaltung: Alle Tiere müssen
-                  ausreichend Platz haben, es gibt keine langen Tiertransporte,
-                  keine Gentechnik. Die Produkte werden möglichst in der näheren
-                  Umgebung verkauft, beispielsweise{" "}
+                  wichtig, dass die Kinder auf der Bühne Anerkennung für ihre
+                  Leistung bekommen. Ohne die finanzielle Unterstützung wäre das
+                  Vorhaben unmöglich,
                   <input
                     type="text"
                     placeholder="____37"
@@ -260,8 +253,11 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(6)}
                     readOnly
                   />{" "}
-                  Wochenmärkten oder in Bio-Supermärkten. Außerdem dürfen weder
-                  Kunstdünger noch chemische Schädlingsbekämpfungsmittel{" "}
+                  bei der Stadt keine Gelder vorhanden waren. Dieses
+                  Theaterprojekt ist nicht das erste, das gefördert wird. Im
+                  vergangenen Jahr erhielt das Theaterprojekt “Schiller - das
+                  wilde, freie Leben“ finanzielle Unterstützung. Allerdings ist
+                  nicht nur Geld wichtig: Der Verein kümmert sich auch
                   <input
                     type="text"
                     placeholder="____38"
@@ -276,9 +272,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(7)}
                     readOnly
                   />{" "}
-                  werden. Wenn die Bio-Lebensmittel weiterverarbeitet werden -
-                  beispielsweise aus Bio-Eiern, Bio-Mehl und Bio-Zucker ein
-                  Bio-Kuchen gebacken wird -, dürfen{" "}
+                  , die Projekte bekannt zu machen. In verschiedenen
+                  Theaterhäusern der Stadt werden Plakate aufgehängt, mit denen
+                  der Verein für das Jugendtheater wirbt. Man hofft,
                   <input
                     type="text"
                     placeholder="____39"
@@ -293,9 +289,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(8)}
                     readOnly
                   />{" "}
-                  nur Bio-Lebensmittel benutzt werden. Für Bio-Produkte gibt es
-                  übrigens auch ein Zertifikat, das Bio-Siegel. Diese
-                  Richtlinien garantieren,{" "}
+                  diese Weise noch mehr Unterstützer zu finden. Auch unsere
+                  Leser können die Jugendlichen unterstützen: Aktuell sammelt
+                  das Jugendzentrum Spenden,
                   <input
                     type="text"
                     placeholder="____40"
@@ -310,14 +306,16 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(9)}
                     readOnly
                   />{" "}
-                  dass die Produkte wirklich “bio” sind.
+                  weitere Projekte finanzieren zu können. Außerdem werden für
+                  die Theaterproben und die Aufführungen noch ehrenamtliche
+                  Helfer gesucht.
                 </p>
               </div>
             </div>
 
             <div className="w-full lg:w-[45%] mt-[30px] bg-[#ccc] dark:bg-[#777] rounded-lg h-fit p-4">
               <div>
-                {sprachbau_2_t.answers.map((answer) => (
+                {answers.map((answer) => (
                   <div
                     key={answer.id}
                     className="flex items-center cursor-pointer"

@@ -21,35 +21,35 @@ const shuffleArray = (array: any[]) => {
 
 const sprachbau_2_t = {
   answers: [
-    { id: 1, number: "A", text: "AN" },
-    { id: 2, number: "B", text: "AUF" },
-    { id: 3, number: "C", text: "AUS" },
-    { id: 4, number: "D", text: "AUßERDEM" },
-    { id: 5, number: "E", text: "DASS" },
-    { id: 6, number: "F", text: "ENTHALTEN" },
-    { id: 7, number: "G", text: "ENTLASTET" },
-    { id: 8, number: "H", text: "FÜR" },
-    { id: 9, number: "I", text: "HINTER" },
-    { id: 10, number: "J", text: "OB" },
-    { id: 11, number: "K", text: "SOGAR" },
-    { id: 12, number: "L", text: "SONDERN" },
-    { id: 13, number: "M", text: "VERWENDET" },
-    { id: 14, number: "N", text: "WENN" },
-    { id: 15, number: "O", text: "WIRKLICH" },
+    { id: 1, number: "A", text: "AUSWAHL" },
+    { id: 2, number: "B", text: "CHANCE" },
+    { id: 3, number: "C", text: "DA" },
+    { id: 4, number: "D", text: "DAGEGEN" },
+    { id: 5, number: "E", text: "DENN" },
+    { id: 6, number: "F", text: "DURFTEN" },
+    { id: 7, number: "G", text: "KÖNNTEN" },
+    { id: 8, number: "H", text: "MÖCHTE" },
+    { id: 9, number: "I", text: "SOLLTE" },
+    { id: 10, number: "J", text: "SONDERN" },
+    { id: 11, number: "K", text: "TROTZDEM" },
+    { id: 12, number: "L", text: "ÜBERNEHMEN" },
+    { id: 13, number: "M", text: "VERFÜGUNG" },
+    { id: 14, number: "N", text: "WARUM" },
+    { id: 15, number: "O", text: "ZIEHEN" },
   ],
 };
 
 const initialCartItems: Text[] = [
-  { title: "input1", text: "", anserText: "AUßERDEM" },
-  { title: "input2", text: "", anserText: "DASS" },
-  { title: "input3", text: "", anserText: "FÜR" },
-  { title: "input4", text: "", anserText: "EIN" },
-  { title: "input5", text: "", anserText: "VERANTWORTUNG" },
-  { title: "input6", text: "", anserText: "VON" },
-  { title: "input7", text: "", anserText: "AUF" },
-  { title: "input8", text: "", anserText: "EINGESETZT" },
-  { title: "input9", text: "", anserText: "NUR" },
-  { title: "input10", text: "", anserText: "DASS" },
+  { title: "input1", text: "", anserText: "DENN" },
+  { title: "input2", text: "", anserText: "MÖCHTE" },
+  { title: "input3", text: "", anserText: "DA" },
+  { title: "input4", text: "", anserText: "CHANCE" },
+  { title: "input5", text: "", anserText: "WARUM" },
+  { title: "input6", text: "", anserText: "ÜBERNEHMEN" },
+  { title: "input7", text: "", anserText: "KÖNNTEN" },
+  { title: "input8", text: "", anserText: "VERFÜGUNG" },
+  { title: "input9", text: "", anserText: "TROTZDEM" },
+  { title: "input10", text: "", anserText: "SONDERN" },
 ];
 
 const Sprachbauchteine_2: React.FC = () => {
@@ -131,11 +131,10 @@ const Sprachbauchteine_2: React.FC = () => {
                 Lösungen auf dem Antwortbogen bei den Aufgaben 21 - 30
               </p>
               <div className="mt-[30px] dark:bg-[#1d2a35] dark:text-[#ededed] bg-[#fbfbfb] rounded-lg lg:overflow-y-scroll h-fit  lg:h-[500px] p-4">
-                <h1 className="text-xl font-bold">Was steckt hinter “Bio”?</h1>
+                <h1 className="text-xl font-bold">Ausbildung mit über 30</h1>
                 <p>
-                  Überall gibt es inzwischen Bio-Lebensmittel - aber häufig
-                  fehlen den Käufern Hintergrundinformationen. Viele Verbraucher
-                  fragen sich beispielsweise,{" "}
+                  Die gelernte Krankenschwester Jaqueline Delgado drückt mit 38
+                  Jahren noch einmal die Schulbank.
                   <input
                     type="text"
                     placeholder="____31"
@@ -150,9 +149,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(0)}
                     readOnly
                   />{" "}
-                  Bio-Produkte nun auch wirklich die gesünderen sind. Skepsis
-                  macht sich breit, spätestens wenn wieder einmal ein Skandal in
-                  den Nachrichten ist.{" "}
+                  sie hat sich für einen beruflichen Neustart entschieden. Da
+                  ihr früherer Beruf ihr keinen Spaß mehr machte, begann sie
+                  eine Berufsausbildung bei der Polizei. Ihr Ziel: Sie
                   <input
                     type="text"
                     placeholder="____32"
@@ -167,12 +166,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(1)}
                     readOnly
                   />{" "}
-                  sind Bio-Produkte teurer - und den Aufpreis will man nur
-                  zahlen, wenn man sicher ist, dass die Bio-Lebensmittel die
-                  bessere Wahl sind. Der Informationsdienst der
-                  Bundesministeriums für Ernährung, Landwirtschaft und
-                  Verbraucherschutz gibt darüber eine eindeutige Auskunft:
-                  Bio-Lebensmittel sind gesünder. Sie{" "}
+                  in den Streifendienst gehen. Mit über 30 noch einmal einen
+                  ganz neuen Job zu erlernen - lange Zeit war das kaum möglich.
+                  Arbeitgeber suchten nur junge Berufseinsteiger.
                   <input
                     type="text"
                     placeholder="____33"
@@ -187,9 +183,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(2)}
                     readOnly
                   />{" "}
-                  weniger Nitrat, mehr Nährstoffe und sind besser geeignet, wenn
-                  man Allergien hat. Doch Bio-Lebensmittel sind nicht nur gut
-                  für die Gesundheit. Bei vielen Verbrauchern steht{" "}
+                  es heute in vielen Branchen aber an Nachwuchs fehlt, geben sie
+                  öfter auch Älteren eine
                   <input
                     type="text"
                     placeholder="____34"
@@ -204,10 +199,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(3)}
                     readOnly
                   />{" "}
-                  ihrem Einkaufsverhalten ein ökologisches Bewusstsein. Bio-
-                  Verbraucher machen sich Gedanken über die Herkunft der
-                  Lebensmittel, denn auch die umweltfreundliche Landwirtschaft
-                  ist besser für Tiere und Pflanzen, kurz: Sie{" "}
+                  . Thomas Neuendorfer, der stellvertretende Sprecher der
+                  Polizei Berlin, erklärt,
                   <input
                     type="text"
                     placeholder="____35"
@@ -222,10 +215,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(4)}
                     readOnly
                   />{" "}
-                  unsere Umwelt. Und viele Bio-Verbraucher wollen als gesunde
-                  Menschen in einer gesunden Umwelt leben und auch der nächsten
-                  Generation eine gesunde Umwelt hinterlassen. Bio-Lebensmittel
-                  kommen{" "}
+                  sein Arbeitgeber gerne Ältere ausbildet: Sie haben in ihrem
+                  Berufsleben Erfahrungen gesammelt, die der Polizei und auch
+                  den Bürgern der Stadt zu Gute kommen. Sie seien häufig
+                  emotional reifer, außerdem bereit, Verantwortung zu
                   <input
                     type="text"
                     placeholder="____36"
@@ -240,12 +233,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(5)}
                     readOnly
                   />{" "}
-                  ökologischer Landwirtschaft, die im Einklang mit der Natur
-                  steht. Die Mindestrichtlinien der Bio-Landwirtschaft
-                  beinhalten eine artgerechte Tierhaltung: Alle Tiere müssen
-                  ausreichend Platz haben, es gibt keine langen Tiertransporte,
-                  keine Gentechnik. Die Produkte werden möglichst in der näheren
-                  Umgebung verkauft, beispielsweise{" "}
+                  , und motiviert, die Ausbildung erfolgreich abzuschließen.
+                  Zudem
                   <input
                     type="text"
                     placeholder="____37"
@@ -260,8 +249,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(6)}
                     readOnly
                   />{" "}
-                  Wochenmärkten oder in Bio-Supermärkten. Außerdem dürfen weder
-                  Kunstdünger noch chemische Schädlingsbekämpfungsmittel{" "}
+                  sie die Jüngeren unterstützen und ihnen als Vorbild dienen.
+                  Davon profitieren dann auch die Arbeitgeber. Gegen die
+                  Einstellung von Älteren spreche nur, dass die Unternehmen
+                  kürzer vor
                   <input
                     type="text"
                     placeholder="____38"
@@ -276,9 +267,7 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(7)}
                     readOnly
                   />{" "}
-                  werden. Wenn die Bio-Lebensmittel weiterverarbeitet werden -
-                  beispielsweise aus Bio-Eiern, Bio-Mehl und Bio-Zucker ein
-                  Bio-Kuchen gebacken wird -, dürfen{" "}
+                  stehen.
                   <input
                     type="text"
                     placeholder="____39"
@@ -293,9 +282,12 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(8)}
                     readOnly
                   />{" "}
-                  nur Bio-Lebensmittel benutzt werden. Für Bio-Produkte gibt es
-                  übrigens auch ein Zertifikat, das Bio-Siegel. Diese
-                  Richtlinien garantieren,{" "}
+                  haben ältere Azubis in vielen Bereichen Möglichkeiten: in
+                  kaufmännischer oder in gewerblich-technischen Berufen, im
+                  Gesundheitswesen oder vor allem in der Gastronomie. Wenn das
+                  Azubi-Gehalt nicht für den Lebensunterhalt reicht, hilft die
+                  Arbeitsagentur. Der Betrag wird dabei nicht nach dem Alter
+                  festgelegt,
                   <input
                     type="text"
                     placeholder="____40"
@@ -310,14 +302,18 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(9)}
                     readOnly
                   />{" "}
-                  dass die Produkte wirklich “bio” sind.
+                  es wird der individuelle, konkrete Bedarf ermittelt. Im August
+                  schließt Delgado ihre Ausbildung ab. In dem künftigen
+                  Polizei-Job wird sie ihr medizinisches Wissen, ihre
+                  Menschenkenntnis sowie ihre spanischen und englischen
+                  Sprachkenntnisse wohl gut gebrauchen können.
                 </p>
               </div>
             </div>
 
             <div className="w-full lg:w-[45%] mt-[30px] bg-[#ccc] dark:bg-[#777] rounded-lg h-fit p-4">
               <div>
-                {sprachbau_2_t.answers.map((answer) => (
+                {answers.map((answer) => (
                   <div
                     key={answer.id}
                     className="flex items-center cursor-pointer"
