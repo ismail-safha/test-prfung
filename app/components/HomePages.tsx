@@ -120,6 +120,12 @@ const sections = [
 
     color: "#01204E",
   },
+  {
+    title: "#benzingeld 12",
+    links: [{ href: "/benzingeld", text: "1-benzingeld" }],
+    mainColor: "#195c2188",
+    color: "#01204E",
+  },
 ];
 
 // export default async function Home() {
