@@ -1,146 +1,4 @@
 "use client";
-// import { useState } from "react";
-// import { useRouter } from "next/navigation";
-
-// export default function page() {
-//   // eslint-disable-next-line react-hooks/rules-of-hooks
-//   const router = useRouter();
-//   // eslint-disable-next-line react-hooks/rules-of-hooks
-//   const [data, setData] = useState({
-//     name: "",
-//     email: "",
-//     password: "",
-//   });
-
-//   const registerUser = async (e: React.FormEvent<HTMLFormElement>) => {
-//     e.preventDefault();
-
-//     try {
-//       const response = await fetch("/api/user/", {
-//         method: "POST",
-//         headers: {
-//           "Content-Type": "application/json",
-//         },
-//         body: JSON.stringify(data),
-//       });
-
-//       if (response.ok) {
-//         const result = await response.json();
-//         // Handle successful registration
-//         console.log(result);
-//         router.push("/login"); // Redirect to success page
-//       } else {
-//         // Handle registration error
-//         const errorData = await response.json();
-//         console.error("Registration failed:", errorData.message);
-//         // Handle the error, show error message to the user, etc.
-//       }
-//     } catch (error) {
-//       console.error("Error occurred:", error);
-//     }
-//   };
-
-//   return (
-//     <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
-//       <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
-//         Register in to your account
-//       </h2>
-
-//       <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-//         <form className="space-y-6" onSubmit={registerUser}>
-//           <div>
-//             <label
-//               htmlFor="name"
-//               className="block text-sm font-medium leading-6 text-gray-900"
-//             >
-//               name address
-//             </label>
-//             <div className="mt-2">
-//               <input
-//                 id="name"
-//                 name="name"
-//                 type="text"
-//                 autoComplete="name"
-//                 value={data.name}
-//                 onChange={(e) => {
-//                   setData({ ...data, name: e.target.value });
-//                 }}
-//                 required
-//                 className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-//               />
-//             </div>
-//           </div>
-//           <div>
-//             <label
-//               htmlFor="email"
-//               className="block text-sm font-medium leading-6 text-gray-900"
-//             >
-//               Email address
-//             </label>
-//             <div className="mt-2">
-//               <input
-//                 id="email"
-//                 name="email"
-//                 type="email"
-//                 autoComplete="email"
-//                 required
-//                 value={data.email}
-//                 onChange={(e) => {
-//                   setData({ ...data, email: e.target.value });
-//                 }}
-//                 className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-//               />
-//             </div>
-//           </div>
-
-//           <div>
-//             <div className="flex items-center justify-between">
-//               <label
-//                 htmlFor="password"
-//                 className="block text-sm font-medium leading-6 text-gray-900"
-//               >
-//                 Password
-//               </label>
-//               <div className="text-sm">
-//                 <a
-//                   href="#"
-//                   className="font-semibold text-indigo-600 hover:text-indigo-500"
-//                 >
-//                   Forgot password?
-//                 </a>
-//               </div>
-//             </div>
-//             <div className="mt-2">
-//               <input
-//                 id="password"
-//                 name="password"
-//                 type="password"
-//                 autoComplete="current-password"
-//                 required
-//                 value={data.password}
-//                 onChange={(e) => {
-//                   setData({ ...data, password: e.target.value });
-//                 }}
-//                 className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-//               />
-//             </div>
-//           </div>
-
-//           <div>
-//             <button
-//               type="submit"
-//               className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-//             >
-//               Register
-//             </button>
-//           </div>
-//         </form>
-//       </div>
-//     </div>
-//   );
-// }
-
-//===============
 
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
@@ -153,6 +11,7 @@ export default function RegisterForm() {
     email: "",
     password: "",
   });
+  const [showPassword, setShowPassword] = useState(false);
 
   const [loading, setLoading] = useState(false);
 
@@ -205,16 +64,63 @@ export default function RegisterForm() {
                 }}
                 disabled={loading}
               />
-
-              <Input
-                label="Password"
-                value={data.password}
-                onChange={(e) => {
-                  setData({ ...data, password: e.target.value });
-                }}
-                disabled={loading}
-                type="password"
-              />
+              <div className="relative">
+                <Input
+                  label="Password"
+                  value={data.password}
+                  onChange={(e) => {
+                    setData({ ...data, password: e.target.value });
+                  }}
+                  disabled={loading}
+                  type={showPassword ? "text" : "password"}
+                />
+                <span
+                  onClick={() => setShowPassword(!showPassword)}
+                  className="absolute right-3 top-10 cursor-pointer"
+                >
+                  {showPassword ? (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M3.98 8.147A11.99 11.99 0 0112 4.5c3.337 0 6.388 1.344 8.475 3.65m-1.752 9.326A11.978 11.978 0 0112 19.5c-3.338 0-6.389-1.345-8.476-3.65M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M2.25 2.25l19.5 19.5"
+                      />
+                    </svg>
+                  ) : (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M2.458 12C3.732 7.943 7.613 5 12 5c4.386 0 8.268 2.943 9.542 7-.98 2.907-3.487 5.229-6.458 5.75"
+                      />
+                    </svg>
+                  )}
+                </span>
+              </div>
               <div
                 onClick={register}
                 className="px-10 py-3 text-center bg-neutral-900 rounded-full text-white disabled:opacity-70 cursor-pointer"

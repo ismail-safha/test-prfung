@@ -1,110 +1,4 @@
 "use client";
-// import React, { useEffect, useState } from "react";
-// import Link from "next/link";
-// import { signIn, useSession } from "next-auth/react";
-// import { useRouter } from "next/navigation";
-
-// const Login = () => {
-//   const router = useRouter();
-//   const [error, setError] = useState("");
-
-//   const { data: session, status: sessionStatus } = useSession();
-
-//   useEffect(() => {
-//     if (sessionStatus === "authenticated") {
-//       if (session?.user.role === "ADMIN") {
-//         router.replace("/dashboard");
-//       } else {
-//         router.replace("/");
-//       }
-//     }
-//   }, [sessionStatus, session, router]);
-
-//   const isValidEmail = (email: string) => {
-//     const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
-//     return emailRegex.test(email);
-//   };
-
-//   const handleSubmit = async (e: any) => {
-//     e.preventDefault();
-//     const email = e.target[0].value;
-//     const password = e.target[1].value;
-
-//     if (!isValidEmail(email)) {
-//       setError("Email is invalid");
-//       return;
-//     }
-
-//     if (!password || password.length < 8) {
-//       setError("Password is invalid");
-//       return;
-//     }
-
-//     const res = await signIn("credentials", {
-//       redirect: false,
-//       email,
-//       password,
-//     });
-
-//     if (res?.error) {
-//       setError("Invalid email or password");
-
-//       if (session?.user.role === "ADMIN") {
-//         router.replace("/dashboard");
-//       } else {
-//         router.replace("/");
-//       }
-//     } else {
-//       setError("");
-//     }
-//   };
-
-//   if (sessionStatus === "loading") {
-//     return <h1>Loading...</h1>;
-//   }
-
-//   return (
-//     sessionStatus !== "authenticated" && (
-//       <div className="flex min-h-screen flex-col items-center justify-between p-24">
-//         <div className="bg-[#212121] p-8 rounded shadow-md w-96">
-//           <h1 className="text-4xl text-center font-semibold mb-8">Login</h1>
-//           <form onSubmit={handleSubmit}>
-//             <input
-//               type="text"
-//               className="w-full border border-gray-300 text-black rounded px-3 py-2 mb-4 focus:outline-none focus:border-blue-400 focus:text-black"
-//               placeholder="Email"
-//               required
-//             />
-//             <input
-//               type="password"
-//               className="w-full border border-gray-300 text-black rounded px-3 py-2 mb-4 focus:outline-none focus:border-blue-400 focus:text-black"
-//               placeholder="Password"
-//               required
-//             />
-//             <button
-//               type="submit"
-//               className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600"
-//             >
-//               {" "}
-//               Sign In
-//             </button>
-//             <p className="text-red-600 text-[16px] mb-4">{error && error}</p>
-//           </form>
-
-//           <div className="text-center text-gray-500 mt-4">- OR -</div>
-//           <Link
-//             className="block text-center text-blue-500 hover:underline mt-2"
-//             href="/register"
-//           >
-//             Register Here
-//           </Link>
-//         </div>
-//       </div>
-//     )
-//   );
-// };
-
-// export default Login;
 
 import { signIn, signOut } from "next-auth/react";
 import React, { useEffect, useState } from "react";
@@ -121,6 +15,8 @@ export default function LoginForm() {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+  const [showPassword, setShowPassword] = useState(false);
 
   const [loading, setLoading] = useState(false);
 
@@ -168,13 +64,61 @@ export default function LoginForm() {
                   onChange={(e) => setEmail(e.target.value)}
                   disabled={loading}
                 />
-                <Input
-                  label="Password"
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                  disabled={loading}
-                  type="password"
-                />
+                <div className="relative">
+                  <Input
+                    label="Password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    disabled={loading}
+                    type={showPassword ? "text" : "password"}
+                  />
+                  <span
+                    onClick={() => setShowPassword(!showPassword)}
+                    className="absolute right-3 top-10 cursor-pointer"
+                  >
+                    {showPassword ? (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M3.98 8.147A11.99 11.99 0 0112 4.5c3.337 0 6.388 1.344 8.475 3.65m-1.752 9.326A11.978 11.978 0 0112 19.5c-3.338 0-6.389-1.345-8.476-3.65M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                        />
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M2.25 2.25l19.5 19.5"
+                        />
+                      </svg>
+                    ) : (
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                        />
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M2.458 12C3.732 7.943 7.613 5 12 5c4.386 0 8.268 2.943 9.542 7-.98 2.907-3.487 5.229-6.458 5.75"
+                        />
+                      </svg>
+                    )}
+                  </span>
+                </div>
                 <div
                   onClick={login}
                   className="px-10 py-3 text-center bg-neutral-900 rounded-full text-white disabled:opacity-70 cursor-pointer"
