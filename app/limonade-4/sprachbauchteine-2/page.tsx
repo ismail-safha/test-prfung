@@ -21,35 +21,35 @@ const shuffleArray = (array: any[]) => {
 
 const sprachbau_2_t = {
   answers: [
-    { id: 1, number: "A", text: "AN" },
-    { id: 2, number: "B", text: "AUF" },
-    { id: 3, number: "C", text: "AUS" },
-    { id: 4, number: "D", text: "AUßERDEM" },
-    { id: 5, number: "E", text: "DASS" },
-    { id: 6, number: "F", text: "ENTHALTEN" },
-    { id: 7, number: "G", text: "ENTLASTET" },
-    { id: 8, number: "H", text: "FÜR" },
-    { id: 9, number: "I", text: "HINTER" },
-    { id: 10, number: "J", text: "OB" },
-    { id: 11, number: "K", text: "SOGAR" },
-    { id: 12, number: "L", text: "SONDERN" },
-    { id: 13, number: "M", text: "VERWENDET" },
-    { id: 14, number: "N", text: "WENN" },
-    { id: 15, number: "O", text: "WIRKLICH" },
+    { id: 1, number: "A", text: "ALS" },
+    { id: 2, number: "B", text: "AN" },
+    { id: 3, number: "C", text: "AUSSERDEM" },
+    { id: 4, number: "D", text: "BEI" },
+    { id: 5, number: "E", text: "DARUNTER" },
+    { id: 6, number: "F", text: "DIE" },
+    { id: 7, number: "G", text: "NACHDEM" },
+    { id: 8, number: "H", text: "OBWOHL" },
+    { id: 9, number: "I", text: "SEIT" },
+    { id: 10, number: "J", text: "VOR" },
+    { id: 11, number: "K", text: "WARUM" },
+    { id: 12, number: "L", text: "WAS" },
+    { id: 13, number: "M", text: "WEIL" },
+    { id: 14, number: "N", text: "WER" },
+    { id: 15, number: "O", text: "WIE" },
   ],
 };
 
 const initialCartItems: Text[] = [
-  { title: "input1", text: "", anserText: "AUßERDEM" },
-  { title: "input2", text: "", anserText: "DASS" },
-  { title: "input3", text: "", anserText: "FÜR" },
-  { title: "input4", text: "", anserText: "EIN" },
-  { title: "input5", text: "", anserText: "VERANTWORTUNG" },
-  { title: "input6", text: "", anserText: "VON" },
-  { title: "input7", text: "", anserText: "AUF" },
-  { title: "input8", text: "", anserText: "EINGESETZT" },
-  { title: "input9", text: "", anserText: "NUR" },
-  { title: "input10", text: "", anserText: "DASS" },
+  { title: "input1", text: "", anserText: "SEIT" },
+  { title: "input2", text: "", anserText: "WIE" },
+  { title: "input3", text: "", anserText: "WARUM" },
+  { title: "input4", text: "", anserText: "AUSSERDEM" },
+  { title: "input5", text: "", anserText: "AN" },
+  { title: "input6", text: "", anserText: "ALS" },
+  { title: "input7", text: "", anserText: "BEI" },
+  { title: "input8", text: "", anserText: "WEIL" },
+  { title: "input9", text: "", anserText: "WAS" },
+  { title: "input10", text: "", anserText: "WER" },
 ];
 
 const Sprachbauchteine_2: React.FC = () => {
@@ -111,11 +111,11 @@ const Sprachbauchteine_2: React.FC = () => {
     session && (
       <div className="container m-auto  w-full px-2">
         <Header
-          pageHome="/lesen"
-          pageTow="/lesen/lesenteil-2"
-          pageThree="/lesen/lesenteil-3"
-          pageFour="/lesen/sprachbauchteine-1"
-          pageFive="/lesen/sprachbauchteine-2"
+          pageHome="/limonade-4"
+          pageTow="/limonade-4/lesenteil-2"
+          pageThree="/limonade-4/lesenteil-3"
+          pageFour="/limonade-4/sprachbauchteine-1"
+          pageFive="/limonade-4/sprachbauchteine-2"
         />
         <main>
           <div className="w-full bg-blue-900 text-white">
@@ -131,11 +131,11 @@ const Sprachbauchteine_2: React.FC = () => {
                 Lösungen auf dem Antwortbogen bei den Aufgaben 21 - 30
               </p>
               <div className="mt-[30px] dark:bg-[#1d2a35] dark:text-[#ededed] bg-[#fbfbfb] rounded-lg lg:overflow-y-scroll h-fit  lg:h-[500px] p-4">
-                <h1 className="text-xl font-bold">Was steckt hinter “Bio”?</h1>
+                <h1 className="text-xl font-bold">
+                  Jugend diskutiert - mach mit!
+                </h1>
                 <p>
-                  Überall gibt es inzwischen Bio-Lebensmittel - aber häufig
-                  fehlen den Käufern Hintergrundinformationen. Viele Verbraucher
-                  fragen sich beispielsweise,{" "}
+                  Den Wettbewerber “Jugend diskutiert” gibt es bereits
                   <input
                     type="text"
                     placeholder="____31"
@@ -150,9 +150,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(0)}
                     readOnly
                   />{" "}
-                  Bio-Produkte nun auch wirklich die gesünderen sind. Skepsis
-                  macht sich breit, spätestens wenn wieder einmal ein Skandal in
-                  den Nachrichten ist.{" "}
+                  Herbst 2002. Für das kommende Jahr werden nun wieder
+                  Schülerinnen und Schüler gesucht, die an dem Wettbewerb
+                  teilnehmen möchten.
                   <input
                     type="text"
                     placeholder="____32"
@@ -167,12 +167,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(1)}
                     readOnly
                   />{" "}
-                  sind Bio-Produkte teurer - und den Aufpreis will man nur
-                  zahlen, wenn man sicher ist, dass die Bio-Lebensmittel die
-                  bessere Wahl sind. Der Informationsdienst der
-                  Bundesministeriums für Ernährung, Landwirtschaft und
-                  Verbraucherschutz gibt darüber eine eindeutige Auskunft:
-                  Bio-Lebensmittel sind gesünder. Sie{" "}
+                  immer bereiten sich die Teilnehmer dann im Unterricht auf
+                  “Jugend diskutiert” vor. Du fragst dich,
                   <input
                     type="text"
                     placeholder="____33"
@@ -187,9 +183,12 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(2)}
                     readOnly
                   />{" "}
-                  weniger Nitrat, mehr Nährstoffe und sind besser geeignet, wenn
-                  man Allergien hat. Doch Bio-Lebensmittel sind nicht nur gut
-                  für die Gesundheit. Bei vielen Verbrauchern steht{" "}
+                  du teilnehmen solltest? Ganz einfach: “Jugend diskutiert”
+                  bringt dich weiter! Sich einmischen, mitreden, überzeugen -
+                  bei der Vorbereitung im Unterricht trainierst du viele
+                  Fähigkeiten, die dir in der Schule und im Alltag helfen. Im
+                  Austausch mit den anderen entwickelst du deine Persönlichkeit
+                  weiter und profitierst langfristig.
                   <input
                     type="text"
                     placeholder="____34"
@@ -204,10 +203,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(3)}
                     readOnly
                   />{" "}
-                  ihrem Einkaufsverhalten ein ökologisches Bewusstsein. Bio-
-                  Verbraucher machen sich Gedanken über die Herkunft der
-                  Lebensmittel, denn auch die umweltfreundliche Landwirtschaft
-                  ist besser für Tiere und Pflanzen, kurz: Sie{" "}
+                  bietet dir “Jugend diskutiert” die Chance, im Wettstreit mit
+                  anderen weiterzukommen. Zuerst werden die besten einer Schule
+                  ermittelt, die dann
                   <input
                     type="text"
                     placeholder="____35"
@@ -222,10 +220,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(4)}
                     readOnly
                   />{" "}
-                  unsere Umwelt. Und viele Bio-Verbraucher wollen als gesunde
-                  Menschen in einer gesunden Umwelt leben und auch der nächsten
-                  Generation eine gesunde Umwelt hinterlassen. Bio-Lebensmittel
-                  kommen{" "}
+                  Regionalwettbewerben teilnehmen. Die Sieger der
+                  Regionalwettbewerbe treten im Bundesfinale an.
                   <input
                     type="text"
                     placeholder="____36"
@@ -240,12 +236,7 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(5)}
                     readOnly
                   />{" "}
-                  ökologischer Landwirtschaft, die im Einklang mit der Natur
-                  steht. Die Mindestrichtlinien der Bio-Landwirtschaft
-                  beinhalten eine artgerechte Tierhaltung: Alle Tiere müssen
-                  ausreichend Platz haben, es gibt keine langen Tiertransporte,
-                  keine Gentechnik. Die Produkte werden möglichst in der näheren
-                  Umgebung verkauft, beispielsweise{" "}
+                  Preise kann man professionelle Trainings gewinnen.
                   <input
                     type="text"
                     placeholder="____37"
@@ -260,8 +251,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(6)}
                     readOnly
                   />{" "}
-                  Wochenmärkten oder in Bio-Supermärkten. Außerdem dürfen weder
-                  Kunstdünger noch chemische Schädlingsbekämpfungsmittel{" "}
+                  “Jugend diskutiert” kannst du viel lernen. Du hast bessere
+                  Chancen im Unterricht und bei Referaten, denn du trainierst,
+                  frei zu sprechen und Dinge anschaulich und verständlich zu
+                  beschreiben. Du gewinnst mehr Selbstbewusstsein,
                   <input
                     type="text"
                     placeholder="____38"
@@ -276,9 +269,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(7)}
                     readOnly
                   />{" "}
-                  werden. Wenn die Bio-Lebensmittel weiterverarbeitet werden -
-                  beispielsweise aus Bio-Eiern, Bio-Mehl und Bio-Zucker ein
-                  Bio-Kuchen gebacken wird -, dürfen{" "}
+                  du lernst, wie man das Wort ergreift und auf sich aufmerksam
+                  macht. Du kannst überzeugen, da du eigene Argumente finden und
+                  die Argumente anderer genau prüfen kannst. Die Sichtweisen der
+                  anderen zeigen dir darüber hinaus,
                   <input
                     type="text"
                     placeholder="____39"
@@ -293,9 +287,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(8)}
                     readOnly
                   />{" "}
-                  nur Bio-Lebensmittel benutzt werden. Für Bio-Produkte gibt es
-                  übrigens auch ein Zertifikat, das Bio-Siegel. Diese
-                  Richtlinien garantieren,{" "}
+                  du vielleicht selbst noch nicht gesehen hast. Du überzeugst
+                  bei Auftritten, Prüfungen und Bewerbungen, da du sicher
+                  auftrittst.
                   <input
                     type="text"
                     placeholder="____40"
@@ -310,14 +304,18 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(9)}
                     readOnly
                   />{" "}
-                  dass die Produkte wirklich “bio” sind.
+                  das alles im Unterricht gelernt hat, kann gemeinsam mit
+                  anderen viel bewegen! Schließlich ist der Wettbewerb “Jugend
+                  diskutiert” auch eine Chance, Jugendliche aus ganz Deutschland
+                  kennenzulernen und neue Freundschaften zu knüpfen. Weitere
+                  Informationen zu Anmeldung und Teilnahme gibt es im Internet
                 </p>
               </div>
             </div>
 
             <div className="w-full lg:w-[45%] mt-[30px] bg-[#ccc] dark:bg-[#777] rounded-lg h-fit p-4">
               <div>
-                {sprachbau_2_t.answers.map((answer) => (
+                {answers.map((answer) => (
                   <div
                     key={answer.id}
                     className="flex items-center cursor-pointer"

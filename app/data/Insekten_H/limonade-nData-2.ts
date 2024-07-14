@@ -539,7 +539,8 @@ export const lesenTeil_2 = {
 export const sprachbau_1 = {
   texts: [
     {
-      text: `Liebe Andrea,
+      title:"Liebe Andrea,",
+      text: `
       vielen Dank für deine Nachricht. Entschuldige bitte, dass ich ___(_2_1 _)___ jetzt antworte, aber ich
       konnte gestern meinen Laptop nicht verwenden. Ich hatte ihn zu Peter gebracht, damit er mir ein
       neues Betriebssystem installiert. Jetzt funktioniert alles ___(_2_2_ )___ , so dass ich endlich meine

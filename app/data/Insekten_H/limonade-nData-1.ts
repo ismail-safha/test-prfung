@@ -540,27 +540,28 @@ export const lesenTeil_2 = {
 export const sprachbau_1 = {
   texts: [
     {
-      text: `Sehr geehrter Herr Dr. Dobromil,
-            mit ____21_____ Interesse habe ich Ihr Stellenangebot in der Essener Zeitung gelesen, ___22_____
-      Sie eine Teilzeit-Mitarbeiterin in Ihrem Antiquitätengeschäft suchen. Es reizt mich eine
-      verantwortungsvolle Aufgabe in einem so renommierten Geschäft wie dem ____23_____
-      übernehmen ____24_____ .
-      Nach dem Abitur am Kreisgymnasium in Velbert begann ich eine dreijährige Schreinerlehre
-      _____25____ der Firma Eichelbohrer & Co und besuchte die Kreisberufsschule in Velbert. Nach
-      erfolgreichem Abschluss meiner Berufsausbildung arbeitete ich ____26_____ bei Stutz & Partner -
-      Möbeldesign in Düsseldorf. Danach schrieb ich mich an der Fachhochschule Köln im Fachbereich
-      Möbeldesign ein und ____27_____ meine Liebe zu antiquarischen Möbelstücken.
-      Meine Spezialität ist das stilgenaue Restaurieren und Aufarbeiten antiquarischer Möbel
-      insbesondere aus dem Biedermeier und dem Jugendstil. Aufgrund meiner Berufserfahrung und
-      meines Studiums konnte ich umfangreiche Kenntnisse erwerben, _____28____ Möbelstile und die
-      Herstellungskunst in den verschiedensten Epochen ___29______ in Nord-____29_____ in
-      Südeuropa angeht.
-      Mein Studium lässt mir genügend Zeit, eine Teilzeitstelle zu übernehmen, die darüber hinaus
-      meinen beruflichen Fähigkeiten und Neigungen entspricht. Aus diesem Grund habe ich mich
-      entschlossen, ____30_____ , und bewerbe mich um die von Ihnen angebotene Teilzeitstelle.
-      Ich freue mich auf ein persönliches Gespräch
-      Mit freundlichen Grüßen
-      Sabine Holzinger
+      title: "Sehr geehrter Herr Dr. Dobromil,",
+      text: `
+           mit  21_________ Interesse habe ich Ihr Stellenangebot in der Essener Zeitung gelesen, 22_________
+Sie eine Teilzeit-Mitarbeiterin in Ihrem Antiquitätengeschäft suchen. Es reizt mich eine
+verantwortungsvolle Aufgabe in einem 23_________ renommierten Geschäft wie dem Ihrigen
+übernehmen 24_________ .
+Nach dem Abitur am Kreisgymnasium in Velbert ___25______ ich eine dreijährige Schreinerlehre
+bei der Firma Eichelbohrer & Co und besuchte die Kreisberufsschule in Velbert. Nach
+erfolgreichem Abschluss meiner Berufsausbildung arbeitete ich ___26______ bei Stutz & Partner -
+Möbeldesign in Düsseldorf. Danach schrieb ich mich an der Fachhochschule Köln im Fachbereich
+Möbeldesign ein und _____27____ meine Liebe zu antiquarischen Möbelstücken.
+Meine Spezialität ist das stilgenaue Restaurieren und Aufarbeiten antiquarischer Möbel,
+insbesondere aus dem Biedermeier und dem Jugendstil. _____28____ meiner Berufstätigkeit und
+meines Studiums konnte ich umfangreiche Kenntnisse erwerben, was Möbelstile und die
+Herstellungskunst in den verschiedensten Epochen _____29____ in Nord-______29___ in
+Südeuropa angeht.
+Mein Studium lässt mir genügend Zeit, eine Teilzeitstelle zu übernehmen, die darüber hinaus
+meinen beruflichen Fähigkeiten und Neigungen entspricht. Aus diesem Grund habe ich mich
+entschlossen, ___30_____ , und bewerbe mich um die von Ihnen angebotene Teilzeitstelle.
+Ich freue mich auf ein persönliches Gespräch.
+Mit freundlichen Grüßen,
+Sabine Holzinger
       `,
     },
   ],
@@ -590,15 +591,15 @@ export const sprachbau_1 = {
       options: [
         {
           optionID: "A",
-          option: "an dem",
+          option: "an",
         },
         {
           optionID: "B",
-          option: "auf dem",
+          option: "auf ",
         },
         {
           optionID: "C",
-          option: "in dem",
+          option: "in ",
         },
       ],
       correctAnswerID: "C",
@@ -609,15 +610,15 @@ export const sprachbau_1 = {
       options: [
         {
           optionID: "A",
-          option: "Ihrem",
+          option: "als",
         },
         {
           optionID: "B",
-          option: "Ihren",
+          option: "so",
         },
         {
           optionID: "C",
-          option: "Ihres",
+          option: "wie",
         },
       ],
       correctAnswerID: "B",
@@ -647,18 +648,18 @@ export const sprachbau_1 = {
       options: [
         {
           optionID: "A",
-          option: "an",
+          option: "begann",
         },
         {
           optionID: "B",
-          option: "bei",
+          option: "beging",
         },
         {
           optionID: "C",
-          option: "mit",
+          option: "belief",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "A",
     },
     {
       id: 5,
@@ -704,18 +705,18 @@ export const sprachbau_1 = {
       options: [
         {
           optionID: "A",
-          option: "das",
+          option: "Dabei",
         },
         {
           optionID: "B",
-          option: "was",
+          option: "Inzwischen",
         },
         {
           optionID: "C",
-          option: "welches",
+          option: "Während",
         },
       ],
-      correctAnswerID: "B",
+      correctAnswerID: "C",
     },
     {
       id: 8,
@@ -762,27 +763,48 @@ export const sprachbau_2 = {
   texts: [
     {
       title: "Maßgeschneidert nach Bodyscanning",
-      text: ` Haben Sie sich schon einmal  31_________ geärgert, dass Sie zwar in vielen Geschäften viele
+      text: ` Haben Sie sich schon einmal  
+      
+      31_________ 
+      
+      geärgert, dass Sie zwar in vielen Geschäften viele
       schöne Kleidungsstücke sehen konnten, Ihnen aber dann bei der Anprobe keines gepasst hat?
       Dann geht es Ihnen wie zurzeit der Mehrheit der deutschen Bevölkerung: Die Kleidungsstücke,
-      die in den Modehäusern angeboten werden, gibt es fast  32_________ noch in den falschen Größen.
-      Eine Untersuchung des Textilforschungszentrums Hohenstein brachte nun 33_________ Licht, dass
-      die Modeproduzenten den Grund dafür, dass viele Konfektionsgrößen offenbar 34_________ den
-      Kundinnen noch den Kunden passen, in der körperlichen Entwicklung der Bevölkerung in
-      Deutschland suchen 35_________ . Seit den 1960er Jahren seien die Deutschen im Durchschnitt
+      die in den Modehäusern angeboten werden, gibt es fast  
+      32_________ 
+      noch in den falschen Größen.
+      Eine Untersuchung des Textilforschungszentrums Hohenstein brachte nun 
+      33_________
+       Licht, dass
+      die Modeproduzenten den Grund dafür, dass viele 
+      Konfektionsgrößen offenbar 
+      34_________ 
+      den
+      Kundinnen noch den Kunden passen, 
+      in der körperlichen Entwicklung der Bevölkerung in
+      Deutschland suchen 
+      35_________ 
+      . Seit den 1960er Jahren seien die Deutschen im Durchschnitt
       um bis zu acht Zentimeter sowohl größer als auch dicker geworden. Die Länge der Arme habe
       zugenommen, besonders aber an den Hüften hätten die Deutschen beträchtlich zugelegt.
-      36_________ der Handel natürlich daran interessiert ist, die Kleidungsstücke in den richtigen
+      36_________ 
+      der Handel natürlich daran interessiert ist, die Kleidungsstücke in den richtigen
       Größen in ausreichender Zahl zu produzieren, wurde jetzt ein neues Projekt geplant, 37_________
       Aufschluss darüber geben soll, welche Größen die Kunden eigentlich brauchen.
       Die neue Body-Scan-Technologie soll Männer und Frauen neu vermessen. Mehrere Kameras
       tasten mit Laserlicht die menschlichen Körper ab und erstellen ein dreidimensionales Ebenbild
-      der gescannten Person. Diese dreidimensionalen Bilder 38_________ es ermöglichen, in Zukunft
+      der gescannten Person. Diese dreidimensionalen Bilder 
+      38_________ 
+      es ermöglichen, in Zukunft
       genauere Informationen über die durchschnittliche Körpergröße zu erhalten.
       Ähnliche Messungen werden auch in Großbritannien, den Niederlanden, den skandinavischen
       Ländern, Frankreich und den USA vorgenommen. Mehr als zwei Millionen Euro wollen die
       Modefirmen dafür investieren, das Ergebnis lohnt sich aber für sie auf jeden Fall.
-      Als Kundinnen und Kunden 39_________ wir uns außerdem darauf freuen, 40_________ sich als
+      Als Kundinnen und Kunden 
+      39_________ 
+      wir uns außerdem darauf freuen, 
+      40_________ 
+      sich als
       Nebenprodukt der Körpervermessung in den verschiedenen Ländern die Modefirmen vielleicht
       endlich dafür entscheiden, weltweit gleiche Nummern für gleiche Größen einzuführen. Dann ist
       ein Kleidungsstück mit der Nummer 26 überall gleich groß, ob in Nord- oder Südeuropa, in

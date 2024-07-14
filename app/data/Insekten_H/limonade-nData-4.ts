@@ -540,7 +540,8 @@ Und es funktioniert: Ich vergesse viel weniger"
 export const sprachbau_1 = {
   texts: [
     {
-      text: `Sehr geehrte Frau Szabo,
+      title: "Sehr geehrte Frau Szabo,",
+      text: `
       vielen Dank für Ihr Interesse _________ unseren Deutschkursen. Anbei erhalten Sie das
       angeforderte Anmeldeformular, das Sie bitte ausgefüllt an uns zurückschicken.
       Mit der Anmeldung überweisen Sie bitte eine Anzahlung _________ von € 200,- auf unser

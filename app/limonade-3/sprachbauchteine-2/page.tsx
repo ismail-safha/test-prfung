@@ -21,35 +21,35 @@ const shuffleArray = (array: any[]) => {
 
 const sprachbau_2_t = {
   answers: [
-    { id: 1, number: "A", text: "AN" },
-    { id: 2, number: "B", text: "AUF" },
-    { id: 3, number: "C", text: "AUS" },
-    { id: 4, number: "D", text: "AUßERDEM" },
-    { id: 5, number: "E", text: "DASS" },
-    { id: 6, number: "F", text: "ENTHALTEN" },
-    { id: 7, number: "G", text: "ENTLASTET" },
-    { id: 8, number: "H", text: "FÜR" },
-    { id: 9, number: "I", text: "HINTER" },
-    { id: 10, number: "J", text: "OB" },
-    { id: 11, number: "K", text: "SOGAR" },
-    { id: 12, number: "L", text: "SONDERN" },
-    { id: 13, number: "M", text: "VERWENDET" },
-    { id: 14, number: "N", text: "WENN" },
-    { id: 15, number: "O", text: "WIRKLICH" },
+    { id: 1, number: "A", text: "ZU" },
+    { id: 2, number: "B", text: "WIE" },
+    { id: 3, number: "C", text: "SEI" },
+    { id: 4, number: "D", text: "NUR" },
+    { id: 5, number: "E", text: "NACHWEISEN" },
+    { id: 6, number: "F", text: "MUSSTEN" },
+    { id: 7, number: "G", text: "LIEFERT" },
+    { id: 8, number: "H", text: "KONNTEN" },
+    { id: 9, number: "I", text: "HABEN" },
+    { id: 10, number: "J", text: "GEBEN" },
+    { id: 11, number: "K", text: "FÖRDERTE" },
+    { id: 12, number: "L", text: "ERBRINGEN" },
+    { id: 13, number: "M", text: "DAZU" },
+    { id: 14, number: "N", text: "DAVON" },
+    { id: 15, number: "O", text: "BEKANNTLICH" },
   ],
 };
 
 const initialCartItems: Text[] = [
-  { title: "input1", text: "", anserText: "AUßERDEM" },
-  { title: "input2", text: "", anserText: "DASS" },
-  { title: "input3", text: "", anserText: "FÜR" },
-  { title: "input4", text: "", anserText: "EIN" },
-  { title: "input5", text: "", anserText: "VERANTWORTUNG" },
-  { title: "input6", text: "", anserText: "VON" },
-  { title: "input7", text: "", anserText: "AUF" },
-  { title: "input8", text: "", anserText: "EINGESETZT" },
-  { title: "input9", text: "", anserText: "NUR" },
-  { title: "input10", text: "", anserText: "DASS" },
+  { title: "input1", text: "", anserText: "NACHWEISEN" }, // E
+  { title: "input2", text: "", anserText: "ZU" }, // A
+  { title: "input3", text: "", anserText: "DAZU" }, // M
+  { title: "input4", text: "", anserText: "DAVON" }, // N
+  { title: "input5", text: "", anserText: "SEI" }, // C
+  { title: "input6", text: "", anserText: "NUR" }, // D
+  { title: "input7", text: "", anserText: "KONNTEN" }, // H
+  { title: "input8", text: "", anserText: "LIEFERT" }, // G
+  { title: "input9", text: "", anserText: "GEBEN" }, // J
+  { title: "input10", text: "", anserText: "WIE" },
 ];
 
 const Sprachbauchteine_2: React.FC = () => {
@@ -111,11 +111,11 @@ const Sprachbauchteine_2: React.FC = () => {
     session && (
       <div className="container m-auto  w-full px-2">
         <Header
-          pageHome="/lesen"
-          pageTow="/lesen/lesenteil-2"
-          pageThree="/lesen/lesenteil-3"
-          pageFour="/lesen/sprachbauchteine-1"
-          pageFive="/lesen/sprachbauchteine-2"
+          pageHome="/limonade-3"
+          pageTow="/limonade-3/lesenteil-2"
+          pageThree="/limonade-3/lesenteil-3"
+          pageFour="/limonade-3/sprachbauchteine-1"
+          pageFive="/limonade-3/sprachbauchteine-2"
         />
         <main>
           <div className="w-full bg-blue-900 text-white">
@@ -131,11 +131,14 @@ const Sprachbauchteine_2: React.FC = () => {
                 Lösungen auf dem Antwortbogen bei den Aufgaben 21 - 30
               </p>
               <div className="mt-[30px] dark:bg-[#1d2a35] dark:text-[#ededed] bg-[#fbfbfb] rounded-lg lg:overflow-y-scroll h-fit  lg:h-[500px] p-4">
-                <h1 className="text-xl font-bold">Was steckt hinter “Bio”?</h1>
+                <h1 className="text-xl font-bold">
+                  Teamarbeit als Schlüssel zum Erfolg Erstaunliche Erkenntnisse
+                  über Teamarbeit bei Affen
+                </h1>
                 <p>
-                  Überall gibt es inzwischen Bio-Lebensmittel - aber häufig
-                  fehlen den Käufern Hintergrundinformationen. Viele Verbraucher
-                  fragen sich beispielsweise,{" "}
+                  Nicht nur Menschen sind in der Lage, bei der Lösung einer
+                  Aufgabe mit anderen zusammenzuarbeiten. Ein deutsch-britisches
+                  Forscherteam konnte eindrücklich
                   <input
                     type="text"
                     placeholder="____31"
@@ -150,9 +153,7 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(0)}
                     readOnly
                   />{" "}
-                  Bio-Produkte nun auch wirklich die gesünderen sind. Skepsis
-                  macht sich breit, spätestens wenn wieder einmal ein Skandal in
-                  den Nachrichten ist.{" "}
+                  , dass auch Schimpansen
                   <input
                     type="text"
                     placeholder="____32"
@@ -167,12 +168,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(1)}
                     readOnly
                   />{" "}
-                  sind Bio-Produkte teurer - und den Aufpreis will man nur
-                  zahlen, wenn man sicher ist, dass die Bio-Lebensmittel die
-                  bessere Wahl sind. Der Informationsdienst der
-                  Bundesministeriums für Ernährung, Landwirtschaft und
-                  Verbraucherschutz gibt darüber eine eindeutige Auskunft:
-                  Bio-Lebensmittel sind gesünder. Sie{" "}
+                  echter Teamarbeit fähig sind. Die Wissenschaftler gaben zwei
+                  Schimpansen gemeinsam die Aufgabe, Trauben aus einer Kiste zu
+                  holen.
                   <input
                     type="text"
                     placeholder="____33"
@@ -187,9 +185,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(2)}
                     readOnly
                   />{" "}
-                  weniger Nitrat, mehr Nährstoffe und sind besser geeignet, wenn
-                  man Allergien hat. Doch Bio-Lebensmittel sind nicht nur gut
-                  für die Gesundheit. Bei vielen Verbrauchern steht{" "}
+                  bekam einer der beiden Affen zwei Werkzeuge. Um die Aufgabe zu
+                  meistern, musste er aber eines
                   <input
                     type="text"
                     placeholder="____34"
@@ -204,10 +201,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(3)}
                     readOnly
                   />{" "}
-                  ihrem Einkaufsverhalten ein ökologisches Bewusstsein. Bio-
-                  Verbraucher machen sich Gedanken über die Herkunft der
-                  Lebensmittel, denn auch die umweltfreundliche Landwirtschaft
-                  ist besser für Tiere und Pflanzen, kurz: Sie{" "}
+                  an seine Artgenossen weitergeben. Zehn von zwölf Schimpansen
+                  taten dies auch, und in über 70 Prozent der Versuche
                   <input
                     type="text"
                     placeholder="____35"
@@ -222,10 +217,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(4)}
                     readOnly
                   />{" "}
-                  unsere Umwelt. Und viele Bio-Verbraucher wollen als gesunde
-                  Menschen in einer gesunden Umwelt leben und auch der nächsten
-                  Generation eine gesunde Umwelt hinterlassen. Bio-Lebensmittel
-                  kommen{" "}
+                  es sogar das richtige Werkzeug gewesen, berichten die
+                  Forscher. Ziel der Untersuchung war es, herauszufinden, wo die
+                  Fähigkeit des Menschen zur Zusammenarbeit herkommt und ob
+                  diese Eigenschaft
                   <input
                     type="text"
                     placeholder="____36"
@@ -240,12 +235,14 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(5)}
                     readOnly
                   />{" "}
-                  ökologischer Landwirtschaft, die im Einklang mit der Natur
-                  steht. Die Mindestrichtlinien der Bio-Landwirtschaft
-                  beinhalten eine artgerechte Tierhaltung: Alle Tiere müssen
-                  ausreichend Platz haben, es gibt keine langen Tiertransporte,
-                  keine Gentechnik. Die Produkte werden möglichst in der näheren
-                  Umgebung verkauft, beispielsweise{" "}
+                  beim Menschen vorhanden ist. Dass einige Tierarten
+                  zusammenarbeiten, beispielsweise bei der Jagd, war bekannt.
+                  Unklar war aber bisher, wie viel Teamarbeit bewusst erfolgt.
+                  In dem Versuch musste der eine Affe Trauben mit einer Harke
+                  durch eine Öffnung in einer Kiste auf eine Platte schubsen.
+                  Der andere Affe musste dann mit einem Stock die Platte
+                  anheben, damit die Trauben auf den Boden fielen und die Affen
+                  sie fressen
                   <input
                     type="text"
                     placeholder="____37"
@@ -260,8 +257,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(6)}
                     readOnly
                   />{" "}
-                  Wochenmärkten oder in Bio-Supermärkten. Außerdem dürfen weder
-                  Kunstdünger noch chemische Schädlingsbekämpfungsmittel{" "}
+                  . Bei den einzelnen Affen dauerte es unterschiedlich lange,
+                  bis ein Werkzeug weitergegeben wurde. Hatte einer es jedoch
+                  einmal getan, gab er in 97 Prozent der folgenden Versuche
+                  wieder ein Werkzeug weiter. Diese Studie
                   <input
                     type="text"
                     placeholder="____38"
@@ -276,9 +275,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(7)}
                     readOnly
                   />{" "}
-                  werden. Wenn die Bio-Lebensmittel weiterverarbeitet werden -
-                  beispielsweise aus Bio-Eiern, Bio-Mehl und Bio-Zucker ein
-                  Bio-Kuchen gebacken wird -, dürfen{" "}
+                  erste Hinweise darauf, dass Schimpansen bei einer gemeinsamen
+                  Aufgabe auf die Handlungen ihres Partners Acht
                   <input
                     type="text"
                     placeholder="____39"
@@ -293,9 +291,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(8)}
                     readOnly
                   />{" "}
-                  nur Bio-Lebensmittel benutzt werden. Für Bio-Produkte gibt es
-                  übrigens auch ein Zertifikat, das Bio-Siegel. Diese
-                  Richtlinien garantieren,{" "}
+                  können. Den Affen scheint bewusst zu sein, dass ihr Artgenosse
+                  wichtig ist, um an die Trauben zu kommen. Daraus schließen die
+                  Forscher: Genau
                   <input
                     type="text"
                     placeholder="____40"
@@ -310,7 +308,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(9)}
                     readOnly
                   />{" "}
-                  dass die Produkte wirklich “bio” sind.
+                  den Menschen sei es den Affen möglich, strategisch
+                  zusammenzuarbeiten
                 </p>
               </div>
             </div>

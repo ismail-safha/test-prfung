@@ -498,7 +498,8 @@ export const lesenTeil_2 = {
 export const sprachbau_1 = {
   texts: [
     {
-      text: `Liebe Autorinnen und Autoren,
+      title: "Liebe Autorinnen und Autoren,",
+      text: `
       Weihnachten ist nicht mehr weit, und bevor wir uns alle in die wohlverdienten Feiertage verabschieden, möchte ich euch noch einmal an den Redaktionsschluss für unsere Vereinszeitung erinnern, den wir für den 10. Januar festgelegt haben. __(21). ihr alle wisst, kann Claudia, unsere fleißige Layouterin, sich erst dann an die Arbeit machen, wenn alle Texte und Bilder (22)... Die fertige Datei muss bis spätestens 22. Januar in der Druckerei sein, damit das Heft pünktlich zum 1. Februar fertig sein kann. Ein gutes Layout ist auch __(23) Interesse der Autorinnen und Autoren. Ist es schlecht, schenkt man dem Artikel automatisch weniger Beachtung. Liefert also bitte eure Beiträge rechtzeitig __(24)__
       Für die Bildbearbeitung ist wie immer Florian zuständig. Bitte die Bilder im TIF- oder im JPG-Format liefern und bitte den Bildnachweis anführen, wenn die Bilder nicht von euch selbst stammen. Für eure eigenen Bilder liegt das Copyright natürlich (25) euch. Leider sind die Verkaufszahlen unserer Vereinszeitung im letzten Jahr (26) zurückgegangen. Deshalb möchten wir euch alle noch einmal herzlich (27) bitten, nur Themen zu wählen, die unsere Vereinsmitglieder betreffen und sie auch wirklich __(28). Das heißt nicht, __(29)__ man große Themen wie Politik oder Gesellschaft nicht behandeln kann, aber sie sollten leserfreundlich verpackt sein.
       Wir verstehen uns ausdrücklich __(30) unabhängige Zeitung und möchten uns keinen Maulkorb umhängen lassen. Trotzdem sollten die Beiträge im Rahmen sachlicher Meinungsäußerungen bleiben. In diesem Sinne freut sich die Redaktion auf zahlreiche Artikel!
@@ -706,27 +707,48 @@ export const sprachbau_2 = {
     {
       title: `Teamarbeit als Schlüssel zum Erfolg
       Erstaunliche Erkenntnisse über Teamarbeit bei Affen`,
-      text: `Nicht nur Menschen sind in der Lage, bei der Lösung einer Aufgabe mit anderen
+      text: `
+      Nicht nur Menschen sind in der Lage, bei der Lösung einer Aufgabe mit anderen
       zusammenzuarbeiten. Ein deutsch-britisches Forscherteam konnte eindrücklich
-      31_________ , dass auch Schimpansen 32_________ echter Teamarbeit fähig sind. Die
+
+      31_________
+      
+      , dass auch Schimpansen 
+      32_________ 
+      
+      echter Teamarbeit fähig sind. Die
       Wissenschaftler gaben zwei Schimpansen gemeinsam die Aufgabe, Trauben aus einer
-      Kiste zu holen. 33_________ bekam einer der beiden Affen zwei Werkzeuge. Um die
-      Aufgabe zu meistern, musste er aber eines 34_________ an seine Artgenossen
+      Kiste zu holen. 
+      33_________ 
+      bekam einer der beiden Affen zwei Werkzeuge. Um die
+      Aufgabe zu meistern, musste er aber eines 
+      34_________
+       an seine Artgenossen
       weitergeben. Zehn von zwölf Schimpansen taten dies auch, und in über 70 Prozent der
-      Versuche 35_________ es sogar das richtige Werkzeug gewesen, berichten die Forscher.
+      Versuche 
+      35_________
+      es sogar das richtige Werkzeug gewesen, berichten die Forscher.
       Ziel der Untersuchung war es, herauszufinden, wo die Fähigkeit des Menschen zur
-      Zusammenarbeit herkommt und ob diese Eigenschaft 36_________ beim Menschen
+      Zusammenarbeit herkommt und ob diese Eigenschaft 
+      36_________ 
+      beim Menschen
       vorhanden ist. Dass einige Tierarten zusammenarbeiten, beispielsweise bei der Jagd, war
       bekannt. Unklar war aber bisher, wie viel Teamarbeit bewusst erfolgt. In dem Versuch
       musste der eine Affe Trauben mit einer Harke durch eine Öffnung in einer Kiste auf eine
       Platte schubsen. Der andere Affe musste dann mit einem Stock die Platte anheben, damit
-      die Trauben auf den Boden fielen und die Affen sie fressen 37_________ . Bei den
+      die Trauben auf den Boden fielen und die Affen sie fressen 
+      37_________
+       . Bei den
       einzelnen Affen dauerte es unterschiedlich lange, bis ein Werkzeug weitergegeben
       wurde. Hatte einer es jedoch einmal getan, gab er in 97 Prozent der folgenden Versuche
-      wieder ein Werkzeug weiter. Diese Studie 38_________ erste Hinweise darauf, dass
+      wieder ein Werkzeug weiter. Diese Studie 
+      38_________ 
+      erste Hinweise darauf, dass
       Schimpansen bei einer gemeinsamen Aufgabe auf die Handlungen ihres Partners Acht
       39_________ können. Den Affen scheint bewusst zu sein, dass ihr Artgenosse wichtig ist,
-      um an die Trauben zu kommen. Daraus schließen die Forscher: Genau 40_________ den
+      um an die Trauben zu kommen. Daraus schließen die Forscher: Genau
+       40_________ 
+       den
       Menschen sei es den Affen möglich, strategisch zusammenzuarbeiten`,
     },
   ],

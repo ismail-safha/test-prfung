@@ -585,7 +585,8 @@ Und es funktioniert: Ich vergesse viel weniger"
 export const sprachbau_1 = {
   texts: [
     {
-      text: `Sehr geehrter Herr Dr. Moosberger,
+      title: "Sehr geehrter Herr Dr. Moosberger,",
+      text: `
       mit____21_____ Interesse habe ich Ihr Stellenangebot in der Essener Zeitung gelesen, ____22_____
       Sie eine Teilzeit-Mitarbeiterin in Ihrem Antiquitätengeschäft suchen. Es reizt mich eine
       verantwortungsvolle Aufgabe in einem ____23_____ renommierten Geschäft wie dem Ihrigen

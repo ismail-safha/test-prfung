@@ -35,12 +35,12 @@ const sprachbau_2_t = {
     { id: 12, number: "L", text: "SOWIE" },
     { id: 13, number: "M", text: "UM" },
     { id: 14, number: "N", text: "VORKOMMEN" },
-    { id: 15, number: "O", text: "WÄHREND" },
+    { id: 15, number: "O", text: "WHREND" },
   ],
 };
 
 const initialCartItems: Text[] = [
-  { title: "input1", text: "", anserText: "WÄHREND" },
+  { title: "input1", text: "", anserText: "WHREND" },
   { title: "input2", text: "", anserText: "DADURCH" },
   { title: "input3", text: "", anserText: "DASS" },
   { title: "input4", text: "", anserText: "UM" },

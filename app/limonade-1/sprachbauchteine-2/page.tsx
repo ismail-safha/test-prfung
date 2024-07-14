@@ -21,35 +21,35 @@ const shuffleArray = (array: any[]) => {
 
 const sprachbau_2_t = {
   answers: [
-    { id: 1, number: "A", text: "AN" },
-    { id: 2, number: "B", text: "AUF" },
-    { id: 3, number: "C", text: "AUS" },
-    { id: 4, number: "D", text: "AUßERDEM" },
-    { id: 5, number: "E", text: "DASS" },
-    { id: 6, number: "F", text: "ENTHALTEN" },
-    { id: 7, number: "G", text: "ENTLASTET" },
-    { id: 8, number: "H", text: "FÜR" },
-    { id: 9, number: "I", text: "HINTER" },
-    { id: 10, number: "J", text: "OB" },
-    { id: 11, number: "K", text: "SOGAR" },
-    { id: 12, number: "L", text: "SONDERN" },
-    { id: 13, number: "M", text: "VERWENDET" },
-    { id: 14, number: "N", text: "WENN" },
-    { id: 15, number: "O", text: "WIRKLICH" },
+    { id: 1, number: "A", text: "ANS" },
+    { id: 2, number: "B", text: "ALS" },
+    { id: 3, number: "C", text: "DA" },
+    { id: 4, number: "D", text: "DARÜBER" },
+    { id: 5, number: "E", text: "DARUM" },
+    { id: 6, number: "F", text: "DAS" },
+    { id: 7, number: "G", text: "DASS" },
+    { id: 8, number: "H", text: "DÜRFEN" },
+    { id: 9, number: "I", text: "INS" },
+    { id: 10, number: "J", text: "MÜSSEN" },
+    { id: 11, number: "K", text: "NUR" },
+    { id: 12, number: "L", text: "SOLLEN" },
+    { id: 13, number: "M", text: "SONDERN" },
+    { id: 14, number: "N", text: "SOWIE" },
+    { id: 15, number: "O", text: "WEDER" },
   ],
 };
 
 const initialCartItems: Text[] = [
-  { title: "input1", text: "", anserText: "AUßERDEM" },
-  { title: "input2", text: "", anserText: "DASS" },
-  { title: "input3", text: "", anserText: "FÜR" },
-  { title: "input4", text: "", anserText: "EIN" },
-  { title: "input5", text: "", anserText: "VERANTWORTUNG" },
-  { title: "input6", text: "", anserText: "VON" },
-  { title: "input7", text: "", anserText: "AUF" },
-  { title: "input8", text: "", anserText: "EINGESETZT" },
-  { title: "input9", text: "", anserText: "NUR" },
-  { title: "input10", text: "", anserText: "DASS" },
+  { title: "input1", text: "", anserText: "DARÜBER" }, // D
+  { title: "input2", text: "", anserText: "NUR" }, // K
+  { title: "input3", text: "", anserText: "ANS" }, // A
+  { title: "input4", text: "", anserText: "WEDER" }, // O
+  { title: "input5", text: "", anserText: "MÜSSEN" }, // J
+  { title: "input6", text: "", anserText: "DA" }, // C
+  { title: "input7", text: "", anserText: "DAS" }, // F
+  { title: "input8", text: "", anserText: "SOLLEN" }, // L
+  { title: "input9", text: "", anserText: "DÜRFEN" }, // H
+  { title: "input10", text: "", anserText: "DASS" }, // G
 ];
 
 const Sprachbauchteine_2: React.FC = () => {
@@ -111,11 +111,11 @@ const Sprachbauchteine_2: React.FC = () => {
     session && (
       <div className="container m-auto  w-full px-2">
         <Header
-          pageHome="/lesen"
-          pageTow="/lesen/lesenteil-2"
-          pageThree="/lesen/lesenteil-3"
-          pageFour="/lesen/sprachbauchteine-1"
-          pageFive="/lesen/sprachbauchteine-2"
+          pageHome="/limonade-1"
+          pageTow="/limonade-1/lesenteil-2"
+          pageThree="/limonade-1/lesenteil-3"
+          pageFour="/limonade-1/sprachbauchteine-1"
+          pageFive="/limonade-1/sprachbauchteine-2"
         />
         <main>
           <div className="w-full bg-blue-900 text-white">
@@ -131,11 +131,11 @@ const Sprachbauchteine_2: React.FC = () => {
                 Lösungen auf dem Antwortbogen bei den Aufgaben 21 - 30
               </p>
               <div className="mt-[30px] dark:bg-[#1d2a35] dark:text-[#ededed] bg-[#fbfbfb] rounded-lg lg:overflow-y-scroll h-fit  lg:h-[500px] p-4">
-                <h1 className="text-xl font-bold">Was steckt hinter “Bio”?</h1>
+                <h1 className="text-xl font-bold">
+                  Maßgeschneidert nach Bodyscanning
+                </h1>
                 <p>
-                  Überall gibt es inzwischen Bio-Lebensmittel - aber häufig
-                  fehlen den Käufern Hintergrundinformationen. Viele Verbraucher
-                  fragen sich beispielsweise,{" "}
+                  Haben Sie sich schon einmal
                   <input
                     type="text"
                     placeholder="____31"
@@ -150,9 +150,11 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(0)}
                     readOnly
                   />{" "}
-                  Bio-Produkte nun auch wirklich die gesünderen sind. Skepsis
-                  macht sich breit, spätestens wenn wieder einmal ein Skandal in
-                  den Nachrichten ist.{" "}
+                  geärgert, dass Sie zwar in vielen Geschäften viele schöne
+                  Kleidungsstücke sehen konnten, Ihnen aber dann bei der Anprobe
+                  keines gepasst hat? Dann geht es Ihnen wie zurzeit der
+                  Mehrheit der deutschen Bevölkerung: Die Kleidungsstücke, die
+                  in den Modehäusern angeboten werden, gibt es fast
                   <input
                     type="text"
                     placeholder="____32"
@@ -167,12 +169,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(1)}
                     readOnly
                   />{" "}
-                  sind Bio-Produkte teurer - und den Aufpreis will man nur
-                  zahlen, wenn man sicher ist, dass die Bio-Lebensmittel die
-                  bessere Wahl sind. Der Informationsdienst der
-                  Bundesministeriums für Ernährung, Landwirtschaft und
-                  Verbraucherschutz gibt darüber eine eindeutige Auskunft:
-                  Bio-Lebensmittel sind gesünder. Sie{" "}
+                  noch in den falschen Größen. Eine Untersuchung des
+                  Textilforschungszentrums Hohenstein brachte nun
                   <input
                     type="text"
                     placeholder="____33"
@@ -187,9 +185,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(2)}
                     readOnly
                   />{" "}
-                  weniger Nitrat, mehr Nährstoffe und sind besser geeignet, wenn
-                  man Allergien hat. Doch Bio-Lebensmittel sind nicht nur gut
-                  für die Gesundheit. Bei vielen Verbrauchern steht{" "}
+                  Licht, dass die Modeproduzenten den Grund dafür, dass viele
+                  Konfektionsgrößen offenbar
                   <input
                     type="text"
                     placeholder="____34"
@@ -204,10 +201,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(3)}
                     readOnly
                   />{" "}
-                  ihrem Einkaufsverhalten ein ökologisches Bewusstsein. Bio-
-                  Verbraucher machen sich Gedanken über die Herkunft der
-                  Lebensmittel, denn auch die umweltfreundliche Landwirtschaft
-                  ist besser für Tiere und Pflanzen, kurz: Sie{" "}
+                  den Kundinnen noch den Kunden passen, in der körperlichen
+                  Entwicklung der Bevölkerung in Deutschland suchen
                   <input
                     type="text"
                     placeholder="____35"
@@ -222,10 +217,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(4)}
                     readOnly
                   />{" "}
-                  unsere Umwelt. Und viele Bio-Verbraucher wollen als gesunde
-                  Menschen in einer gesunden Umwelt leben und auch der nächsten
-                  Generation eine gesunde Umwelt hinterlassen. Bio-Lebensmittel
-                  kommen{" "}
+                  . Seit den 1960er Jahren seien die Deutschen im Durchschnitt
+                  um bis zu acht Zentimeter sowohl größer als auch dicker
+                  geworden. Die Länge der Arme habe zugenommen, besonders aber
+                  an den Hüften hätten die Deutschen beträchtlich zugelegt.
                   <input
                     type="text"
                     placeholder="____36"
@@ -240,12 +235,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(5)}
                     readOnly
                   />{" "}
-                  ökologischer Landwirtschaft, die im Einklang mit der Natur
-                  steht. Die Mindestrichtlinien der Bio-Landwirtschaft
-                  beinhalten eine artgerechte Tierhaltung: Alle Tiere müssen
-                  ausreichend Platz haben, es gibt keine langen Tiertransporte,
-                  keine Gentechnik. Die Produkte werden möglichst in der näheren
-                  Umgebung verkauft, beispielsweise{" "}
+                  der Handel natürlich daran interessiert ist, die
+                  Kleidungsstücke in den richtigen Größen in ausreichender Zahl
+                  zu produzieren, wurde jetzt ein neues Projekt geplant,
                   <input
                     type="text"
                     placeholder="____37"
@@ -260,8 +252,12 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(6)}
                     readOnly
                   />{" "}
-                  Wochenmärkten oder in Bio-Supermärkten. Außerdem dürfen weder
-                  Kunstdünger noch chemische Schädlingsbekämpfungsmittel{" "}
+                  Aufschluss darüber geben soll, welche Größen die Kunden
+                  eigentlich brauchen. Die neue Body-Scan-Technologie soll
+                  Männer und Frauen neu vermessen. Mehrere Kameras tasten mit
+                  Laserlicht die menschlichen Körper ab und erstellen ein
+                  dreidimensionales Ebenbild der gescannten Person. Diese
+                  dreidimensionalen Bilder
                   <input
                     type="text"
                     placeholder="____38"
@@ -276,9 +272,13 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(7)}
                     readOnly
                   />{" "}
-                  werden. Wenn die Bio-Lebensmittel weiterverarbeitet werden -
-                  beispielsweise aus Bio-Eiern, Bio-Mehl und Bio-Zucker ein
-                  Bio-Kuchen gebacken wird -, dürfen{" "}
+                  es ermöglichen, in Zukunft genauere Informationen über die
+                  durchschnittliche Körpergröße zu erhalten. Ähnliche Messungen
+                  werden auch in Großbritannien, den Niederlanden, den
+                  skandinavischen Ländern, Frankreich und den USA vorgenommen.
+                  Mehr als zwei Millionen Euro wollen die Modefirmen dafür
+                  investieren, das Ergebnis lohnt sich aber für sie auf jeden
+                  Fall. Als Kundinnen und Kunden
                   <input
                     type="text"
                     placeholder="____39"
@@ -293,9 +293,7 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(8)}
                     readOnly
                   />{" "}
-                  nur Bio-Lebensmittel benutzt werden. Für Bio-Produkte gibt es
-                  übrigens auch ein Zertifikat, das Bio-Siegel. Diese
-                  Richtlinien garantieren,{" "}
+                  wir uns außerdem darauf freuen,
                   <input
                     type="text"
                     placeholder="____40"
@@ -310,7 +308,12 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(9)}
                     readOnly
                   />{" "}
-                  dass die Produkte wirklich “bio” sind.
+                  sich als Nebenprodukt der Körpervermessung in den
+                  verschiedenen Ländern die Modefirmen vielleicht endlich dafür
+                  entscheiden, weltweit gleiche Nummern für gleiche Größen
+                  einzuführen. Dann ist ein Kleidungsstück mit der Nummer 26
+                  überall gleich groß, ob in Nord- oder Südeuropa, in Amerika
+                  oder Asien.
                 </p>
               </div>
             </div>

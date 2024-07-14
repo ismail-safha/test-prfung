@@ -464,7 +464,8 @@ export const lesenTeil_2 = {
 export const sprachbau_1 = {
   texts: [
     {
-      text: `Hallo Ferdinand, 
+      title: "Hallo Ferdinand",
+      text: `
       nun habe ich mich schon so lange nicht bei dir gemeldet - das tut mir wirklich leid! Ich 
       hatte in den vergangenen Monaten viel Stress, weil ich ja nun studiere und nebenbei noch 
       arbeiten muss, ____21_____ meine Miete und alles andere bezahlen zu können. Zum Glück 
@@ -492,6 +493,7 @@ export const sprachbau_1 = {
       `,
     },
   ],
+  changes: "changes : 22 -B: ob -> wie & 23: aber -> doch & 29:sondern -> als",
   questions: [
     {
       id: 0,
@@ -548,7 +550,7 @@ export const sprachbau_1 = {
           option: "doch",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "C",
     },
     {
       id: 3,
@@ -662,7 +664,7 @@ export const sprachbau_1 = {
           option: "oder",
         },
       ],
-      correctAnswerID: "C",
+      correctAnswerID: "A",
     },
     {
       id: 9,
@@ -681,7 +683,7 @@ export const sprachbau_1 = {
           option: "einzig",
         },
       ],
-      correctAnswerID: "A",
+      correctAnswerID: "B",
     },
   ],
 };
