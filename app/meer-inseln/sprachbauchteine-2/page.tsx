@@ -35,14 +35,14 @@ const sprachbau_2_t = {
     { id: 12, number: "L", text: "SOLLEN" },
     { id: 13, number: "M", text: "STATT" },
     { id: 14, number: "N", text: "VOR" },
-    { id: 15, number: "O", text: "VORBEI" },
+    { id: 15, number: "O", text: "ZUMEIST" },
   ],
 };
 
 const initialCartItems: Text[] = [
   { title: "input1", text: "", anserText: "KAUM" },
   { title: "input2", text: "", anserText: "AUF" },
-  { title: "input3", text: "", anserText: "SOLLEN" },
+  { title: "input3", text: "", anserText: "ZUMEIST" },
   { title: "input4", text: "", anserText: "STATT" },
   { title: "input5", text: "", anserText: "INNERHALB" },
   { title: "input6", text: "", anserText: "MÜSSEN" },
@@ -111,11 +111,11 @@ const Sprachbauchteine_2: React.FC = () => {
     session && (
       <div className="container m-auto  w-full px-2">
         <Header
-          pageHome="/lesen"
-          pageTow="/lesen/lesenteil-2"
-          pageThree="/lesen/lesenteil-3"
-          pageFour="/lesen/sprachbauchteine-1"
-          pageFive="/lesen/sprachbauchteine-2"
+          pageHome="/meer-inseln"
+          pageTow="/meer-inseln/lesenteil-2"
+          pageThree="/meer-inseln/lesenteil-3"
+          pageFour="/meer-inseln/sprachbauchteine-1"
+          pageFive="/meer-inseln/sprachbauchteine-2"
         />
         <main>
           <div className="w-full bg-blue-900 text-white">
@@ -182,8 +182,7 @@ const Sprachbauchteine_2: React.FC = () => {
                   Freizeit, sondern auch auf dem Weg zum Arbeitsplatz wird das
                   Rad benutzt. Ich habe keine Lust, Morgen für Morgen im Stau zu
                   stehen und Zeit zu verlieren, sagt Bettina Meier (25): Da ist
-                  es viel entspannender, auf den zumeist gut ausgebauten
-                  Fahrradwegen an den im Stau wartenden Fahrzeugen
+                  es viel entspannender, auf den
                   <input
                     type="text"
                     placeholder="____33"
@@ -198,9 +197,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(2)}
                     readOnly
                   />{" "}
-                  und ausgeruht am Arbeitsplatz anzukommen. Dass Fahrradfahren
-                  um einiges gesünder ist, als hinter dem Lenkrad zu sitzen,
-                  bestätigen auch die Mediziner. Wer Fahrrad fährt
+                  gut ausgebauten Fahrradwegen an den im Stau wartenden
+                  Fahrzeugen und ausgeruht am Arbeitsplatz anzukommen. Dass
+                  Fahrradfahren um einiges gesünder ist, als hinter dem Lenkrad
+                  zu sitzen, bestätigen auch die Mediziner. Wer Fahrrad fährt
                   <input
                     type="text"
                     placeholder="____34"
