@@ -314,7 +314,7 @@ export const lesenTeil_2 = {
     {
       title: "Kreditkarten für Jugendliche",
       text: `
-      Wer kennt \n sie nicht: Kreditkarten, mit denen man in der heimischen Stadt oder während des Urlaubs einkaufen kann. Fast jeder hat eine, und alles scheint ganz einfach zu sein: Kein Wunder, dass auch immer mehr Kinder und Jugendliche eine eigene Kreditkarte haben wollen. Sie sehen, wie ihre Eltern damit bezahlen, um möchte auch das praktische "Plastikgeld". Aber Eltern sorgen sich: Ist das nicht zu gefährlich?
+      Wer kennt  sie nicht: Kreditkarten, mit denen man in der heimischen Stadt oder während des Urlaubs einkaufen kann. Fast jeder hat eine, und alles scheint ganz einfach zu sein: Kein Wunder, dass auch immer mehr Kinder und Jugendliche eine eigene Kreditkarte haben wollen. Sie sehen, wie ihre Eltern damit bezahlen, um möchte auch das praktische "Plastikgeld". Aber Eltern sorgen sich: Ist das nicht zu gefährlich?
       
       Um das Risiko einer Überschuldung zu vermeiden, bieten Banken und alle Sparkassen 1 Jugendlichen eine besondere Art von Kreditkarten an: die sogenannte Prepaid-Kreditkarte. Eine Prepaid-Kreditkarte ist mit einem Prepaid-Handy vergleichbar. Man kann sie nur einsetzen, wenn man zuvor Geld auf die Karte geladen hat. Ist das Guthaben verbraucht, kann man mit der Karte nicht mehr bezahlen und am Automaten kein Geld mehr abheben.
       
@@ -441,7 +441,8 @@ export const lesenTeil_2 = {
 export const sprachbau_1 = {
   texts: [
     {
-      text: `Lieber Thomas, 
+      title: "Lieber Thomas,",
+      text: ` 
       ich muss dir unbedingt etwas erzählen: Ich bin heute das erste Mal in meinem Leben Ski gefahren, ___21______ ich mir das bisher nie zugetraut hatte. 
       Meine Freundin Lisa hat mich eingeladen, einige Tage mit ihr und ihren Eltern in den Bergen zu verbringen. Und bevor ich ankam, ___22______ sie schon einen Individuellen Skikurs für mich gebucht!Du kannst dir vorstellen, wie mich das Überrascht hat! 
       Ich ___23______ es mir schon anders überlegen, aber Lisa wollte nichts ___24______ hören. 

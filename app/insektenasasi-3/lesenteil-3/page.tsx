@@ -7,7 +7,7 @@ import Header from "../../components/Header";
 import CartDroppable from "../../components/lesen/CartDroppable";
 
 import AnswerDraggableT from "../../components/lesen/lesen-3/AnswerDraggableT";
-import { lesenTeil_3 } from "../../data/Insekten_H/insektenasasi-3-Data";
+import { lesenTeil_3 } from "../../data/Insekten_H/insekten_1";
 
 import Image from "next/image";
 import AnswerDraggableTSmal from "../../components/lesen/AnswerDraggableTSmal";

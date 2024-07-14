@@ -564,7 +564,8 @@ Beschäftigten in Großraumbüros deutlich höher als bei anderen.
 export const sprachbau_1 = {
   texts: [
     {
-      text: `Hallo Maria, 
+      title: "Hallo Maria,",
+      text: `
       Bevor Wieder der Arbeitsalltag beginnt. schicke ich dir 
        ___21______ rasch einige Zeilen. 
       um dir von unserem Wochenende zu erzählen. Es ist so schade, dass du  ___22______ deiner Grippe nicht dabei sein konntest! Wir haben dich alle sehr vermisst. 

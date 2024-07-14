@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useSession } from "next-auth/react";
 import Header from "../../components/Header";
-import { lesenTeil_2 } from "../../data/Insekten_H/insektenasasi-3-Data";
+import { lesenTeil_2 } from "../../data/Insekten_H/insekten_1";
 
 type Option = {
   optionID: string;

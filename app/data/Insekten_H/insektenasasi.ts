@@ -573,7 +573,8 @@ Beschäftigten in Großraumbüros deutlich höher als bei anderen.
 export const sprachbau_1 = {
   texts: [
     {
-      text: `Lieber Justus,
+      title: "Lieber Justus,",
+      text: `
       
       vielen Dank für deine Urlaubskarte, ___21______ die ich mich wirklich sehr gefreut habe! Ich 
 wusste ____22_____ nicht, dass ihr gerne wandern geht. Oder habt ihr das jetzt zum ersten Mal 
@@ -632,7 +633,7 @@ Richard
         },
         {
           optionID: "B",
-          option: "gar",
+          option: "ersten",
         },
         {
           optionID: "C",
@@ -794,6 +795,7 @@ Richard
       correctAnswerID: "C",
     },
   ],
+  changes: "change : 22 -B: gar -> ersten",
 };
 export const sprachbau_2 = {
   texts: [
@@ -919,3 +921,5 @@ export const sprachbau_2 = {
     },
   ],
 };
+
+// insecten -1

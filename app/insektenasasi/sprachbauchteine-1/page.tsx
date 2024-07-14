@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Header from "../../components/Header";
-import { sprachbau_1 } from "../../data/Insekten_H/insektenasasi";
+import { sprachbau_1 } from "../../data/Insekten_H/insektenasasi-3-Data";
 import { useSession } from "next-auth/react";
 
 const Sprachbauchteine_1 = () => {

@@ -7,9 +7,9 @@ const sections = [
   {
     title: "#Insekten 1",
     links: [
-      { href: "/lesen", text: "1.1-Insekten معدل" },
-      { href: "/insektenasasi", text: "1.2-Insekten Asasi" },
-      { href: "/insektenasasi-3", text: "1.3-Insekten 3" },
+      { href: "/lesen", text: "Insekten " },
+      { href: "/insektenasasi", text: "Insekten 2" },
+      { href: "/insektenasasi-3", text: "Insekten 3" },
       { href: "/schreiben-1", text: "Schreiben-1" },
       { href: "/horen-1", text: "Hören" },
     ],

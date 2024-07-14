@@ -8,7 +8,7 @@ import CartDroppable from "../components/lesen/CartDroppable";
 import Image from "next/image";
 
 import Header from "../components/Header";
-import { lesenTeil_1 } from "../data/Insekten_H/insektenasasi";
+import { lesenTeil_1 } from "../data/Insekten_H/insektenasasi-3-Data";
 
 const shuffleArray = (array: any[]) => {
   return array.sort(() => Math.random() - 0.5);
