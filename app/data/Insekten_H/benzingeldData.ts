@@ -463,7 +463,8 @@ Die Regeln sind einfach: Es gibt keine festen Positionen, jeder Spieler kann den
 export const sprachbau_1 = {
   texts: [
     {
-      text: `Sehr geehrte Frau Goronsksa,
+      title: "Sehr geehrte Frau Goronsksa,",
+      text: `
       
 
 vielen Dank für Ihre Anfrage vom 12. September bezüglich unserer Sprachurlaube in Deutschland und Österreich. Unsere Organisation unterhält insgesamt zehn Schulen, acht ___(21). in Deutschland und zwei in Österreich, an (22). Sie ausnhamlos sowohl Ihr Deutsch verbessern als auch an einem anspruchsvollen Kultur- und Freizeitprogramm teilnehmen können.

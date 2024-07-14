@@ -540,7 +540,8 @@ soll aufrechterhalten bleiben”, sagt er schmunzelnd. “Aber nur solange mich 
 export const sprachbau_1 = {
   texts: [
     {
-      text: `Liebe Vanessa,
+      title:"Liebe Vanessa,",
+      text: `
       danke für deinen Brief, ____21_____ ich mich total gefreut habe. Du fragst dich bestimmt, warum
       du schon drei Wochen ____22_____ von mir gehört hast, oder? Ich war mit meiner Gastfamilie in
       Urlaub. Vierzehn Tage im Allgäu - mit den Kindern Stefan, Anja und Karina. Du weißt ____23_____

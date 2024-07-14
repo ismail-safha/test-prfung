@@ -29,11 +29,11 @@ const Sprachbauchteine_1 = () => {
     session && (
       <div className="container m-auto  w-full px-2">
         <Header
-          pageHome="/osterreichs"
-          pageTow="/osterreichs/lesenteil-2"
-          pageThree="/osterreichs/lesenteil-3"
-          pageFour="/osterreichs/sprachbauchteine-1"
-          pageFive="/osterreichs/sprachbauchteine-2"
+          pageHome="/bilder"
+          pageTow="/bilder/lesenteil-2"
+          pageThree="/bilder/lesenteil-3"
+          pageFour="/bilder/sprachbauchteine-1"
+          pageFive="/bilder/sprachbauchteine-2"
         />
         <main>
           <div className="w-full bg-blue-900 text-white">
@@ -51,6 +51,7 @@ const Sprachbauchteine_1 = () => {
                 {/* Map through texts array */}
                 {sprachbau_1.texts.map((text, index) => (
                   <div key={index} className="p-5">
+                     <h1 className="font-bold">{text.title}</h1>
                     <p className="font-semibold">{text.text}</p>
                   </div>
                 ))}

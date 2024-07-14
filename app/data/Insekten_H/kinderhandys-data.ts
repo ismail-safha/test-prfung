@@ -471,8 +471,9 @@ Bei „MyYearbook.com" bleibt sie trotzdem angemeldet - schon allein wegen der 3
 export const sprachbau_1 = {
   texts: [
     {
+      title:"  Liebe Jutta,",
       text: `
-      Liebe Jutta,
+    
       schon so lange habe ich dir nicht geschrieben, ich hatte aber_21___ einen triftigen Grund. Ich habe das Schreiben_22_ meiner Krankheit vernachlässigt. Ich hatte fürchterliche Rücken-und Kreuzschmerzen, ich habe aber die richtige Untersuchung immer wieder _23_. Ich habe immer nur einige Medikamente eingenommen, die für kurze Zeit zwar geholfen haben, aber die Schmerzen kamen immer zurück. Schließlich konnte ich_24_ richtig schlafen und mich so natürlich auch bei der Arbeit nicht konzentrieren.
       Mein Arzt hat mich ins Krankenhaus zu einigen Untersuchungen_25_. Die sind anstrengend gewesen und haben ziemlich lange gedauert. Die Lage ist aber nicht so schlimm. Da ich zu viel bei der Arbeit sitze und dazu noch ein paar Kilo_26_ habe, ist meine Wirbelsäule belastet. Zum Glück muss ich aber nicht operiert werden. Ich gehe jetzt einige Monate lang_27_ Behandlung.
       Einige Behandlungen sind schon_28__ mir und sie scheinen wirksam zu sein. Ich hoffe, dass sich mein Zustand auch weiterhin verbessern wird. Dann werde ich bald wieder gesund. Früher war ich bei einem Naturheilpraktiker, der_29_ auch geraten hat, mich mehr zu bewegen. Ich glaube, es ist höchste Zeit, damit anzufangen. So könnte ich wenigstens auch etwas abnehmen, was mir_30_ schaden würde.

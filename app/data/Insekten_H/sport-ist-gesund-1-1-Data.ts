@@ -501,7 +501,8 @@ export const lesenTeil_2 = {
 export const sprachbau_1 = {
   texts: [
     {
-      text: `Liebe Vanessa,
+      title: "Liebe Vanessa,",
+      text: `
       danke für deinen Brief, ____21_____ ich mich total gefreut habe. Du fragst dich bestimmt, warum
       du schon drei Wochen ____22_____ von mir gehört hast, oder? Ich war mit meiner Gastfamilie in
       Urlaub. Vierzehn Tage im Allgäu - mit den Kindern Stefan, Anja und Karina. Du weißt ____23_____
@@ -726,123 +727,53 @@ export const sprachbau_1 = {
 export const sprachbau_2 = {
   texts: [
     {
-      title:
-        "Man(n) kocht selbst Immer mehr deutsche Männer nehmen die Töpfe selbst in die Hand",
-      text: `Selbst ist der Mann. Von der Wahrheit dieser alten deutschen Redewendung haben Frauen Generationen
-      lang geträumt, wenn es um typische Hausarbeiten wie Waschen, Putzen oder Kochen ging. Zumindest bei
-      Letzterem scheint sich jedoch in der letzten Jahren vieles zu ändern. 31_________ immer mehr Männer in
-      Deutschland greifen jetzt selbst zum Kochtopf. Ein Grund 32_________ diese Entwicklung mag sein, dass
-      es immer mehr Ein-Personen-Haushalte in Deutschland gibt. Es ist einfach niemand anderes da, der die
-      Kocharbeit übernehmen könnte. Und Hunger zwingt bekanntlich zum Handeln. Andererseits ist das Kochen
-      inzwischen ein allgemein akzeptiertes Hobby geworden, besonders unter Männern. Doch welch ein
-      Unterschied besteht 33_________ den Ansprüchen einer traditionellen Hausfrau und denen eines
-      Hobbykochs, was die Ausstattung der Küche angeht! Nicht 34_________ Topf darf es für den
-      selbsternannten Drei-Sterne-Küchenchef sein: Gebürsteter Edelstahl mit versiegelter
-      Antibehaftbeschichtung und integrierter digitaler Temperaturanzeige ist der Mindeststandard für einen
-      echten kochenden Mann. Alles andere gilt als stillos.
-      Die zweite Voraussetzung 35_________ , dass die Gerichte auch gelingen, ist das Wissen, wie man welche
-      Speise am besten zubereitet. Zu diesem Zweck bieten die Buchhandlungen Berge von Kochbüchern an -
-      mit Rezepten von Alaska bis Zimbabwe, mit oder ohne Fleisch, für zu Dicke und zu Dünne. Jetzt hängt es
-      nur noch 36_________ ab, was der Hobbykoch aus den Kochideen der Buchautoren macht. Wird es ein
-      exzellentes Mahl oder wäre unser “Chefkoch” nicht doch lieber zum Dönerstand um die Ecke gegangen?
-      Überraschungen gehören zum Kochen dazu. Helfen die Bücher nicht 37_________ , bieten zum Beispiel die
-      Volkshochschulen zahlreiche Kochkurse an, die in der Regel - zumeist von kochwilligen Männern - gut
-      besucht sind. Das Kursangebot umfasst neben deutscher Hausmannskost wie Schnitzel, Krautwickel oder
-      Rinderbraten zumeist auch die mediterrane und die asiatische Küche. Das führt 38_________ , dass man(n)
-      zu Hause immer öfter international kocht.
-      Das größte Problem der Hobbyköche ist aber, 39_________ es viel zu aufwändig ist, für sich alleine zu
-      kochen. Daher sind zurzeit Internetseiten wie www.allein-kochen-ist-doof.de beliebt, wo sich
-      Hobbyköche und -köchinnen Kochpartner für das gemeinsame Kochen und Essen suchen können. Das
-      Interessante 40_________ ist, dass dabei unsere männlichen Chefköche feststellen müssen, dass es andere
-      Menschen gibt, die mit vielleicht weniger Aufwand genauso gut ein Festmahl zubereiten können wie sie:
-      nämlich die Frauen.`,
-    },
-  ],
-  Answers: [
-    {
-      id: 1,
-      title: "A",
-      answer: `DAFÜR
+      title: "",
+      text: `
       
-      
-      `,
-    },
-    {
-      id: 2,
-      title: "B",
-      answer: "DAHER ",
-    },
-    {
-      id: 3,
-      title: "C",
-      answer: "DAMIT     ",
-    },
-    {
-      id: 4,
-      title: "D",
-      answer: "      DARAN",
-    },
-    {
-      id: 5,
-      title: "E",
-      answer: "DASS ",
-    },
-    {
-      id: 6,
-      title: "F",
-      answer: `
-      DAVON
+Senioren sind heute hochst
 
-      
-      `,
-    },
-    {
-      id: 7,
-      title: "G",
-      answer: "DAZU ",
-    },
-    {
-      id: 8,
-      title: "H",
-      answer: "DENN",
-    },
-    {
-      id: 9,
-      title: "I",
-      answer: " FÜR",
-    },
-    {
-      id: 10,
-      title: "J",
-      answer: "GEGEN ",
-    },
-    {
-      id: 11,
-      title: "K",
-      answer: `
-      IRGENDEIN
+31__
+, aktiv und nutzen vielfach die Chance, sich der so genannten dritten Lebensphase Wünsche oder Träume zu erfüllen.
+ Dazu gehören oft Weiterbildung oder in der Jugend verpasste Bildung.
+
+Die Folge: Das Seniorenstudium, wie es 
+32__
+ verschiedenen deutschen Universitäten angeboten wird, erfreut sich zunehmender Beliebtheit. 
+ 33__
+ 
+ in Trier waren im vergangenen Sommersemester über 130 Personen der Altersgruppe 50+ als Gasthörer 
+ eingeschrieben und nahmen am regulären Lehrbetrieb teil. Besonders gefragt waren allgemeinbildende Veranstaltungen aus den Fächer Geschichte,
+  Kunstgeschichte und Politik. 
+  34__
+   folgten die neueren Sprach- und Literaturwissenschaften sowie Themen aus Philosophie, Psychologie und Pädagogik.
+    Angebote aus den Sozial-, Wirtschafts-, Geo- und Rechtswissenschaften wurden dagegen wenieger häufig gewählt. Hier finde ich
+     insbesondere solche Seniorenstudierende wieder, die gezielt an der Vertiefung ihres fachspezifischen Wissens arbeiten.
+Der größte Teil der studierenden Senioren besteht übrigens aus Frauen. Die Gründe dafür
+ 35__
+ 
+ sein, dass Frauen in ihren jüngeren Lebensjahren häufig 
+ 
+ 36__
+  einen berufliche Karriere verzichteten. 
+  37__
+  
+  setzten sie sich für die Familie und insbesondere für ihre Kinder ein. Nun sind die Kinder erwachsen und aus dem Haus, die Frauen verspüren den Wunsch, 
+  ihre geistigen Fähigkeiten, deren Einsatz in den "Familienjahren" häufig zu 
+  38__
+   gekommen war, wieder zu trainieren und zu erweitern.
+Männern hingegen konnten häufiger während ihres Arbeitslebens ihre Karriere verwirklichen, sich weiterbilden ihr Wissen in gesellschaftlich
+ angesehner Weise an den Mann (weniger an die Frau) bringen. 
+ 39__
+  dessen sehen sie keine Veranlassung ihren Lebensabend an einer Weiterbildungsinstition oder gar an einer Universität zu verbringen.
+Lernen ist kein Privileg der Jugend! Vielmehr besteht gerade in Bezug auf das Bildungsangebot für ältere Menschen ein nesiger Bedarf. 
+Er wird gespeist 
+40__
+ die Vitalität und die hohe Bildungsmotivation der heutigen "Alten". Mit der wachsenden Fitness der Generation 50+ wächst auch das Interesse, neues Wissen zu erwerben, neue Kompetenzen zu entwickeln und bisher eventuell vernachlässigte Ressourcen zu aktivieren, Gleichzeitig tragen Bildungsaktivitäten wesentlich dazu bei, dass immer mehr Menschen ihre kognitive Leistungsfähigkeit und psychische Gesundheit bis ins hohe Alter erhalten können.
+
+
+
 
       `,
-    },
-    {
-      id: 12,
-      title: "L",
-      answer: "WAS",
-    },
-    {
-      id: 13,
-      title: "M",
-      answer: " WEITER",
-    },
-    {
-      id: 14,
-      title: "N",
-      answer: "ZU",
-    },
-    {
-      id: 15,
-      title: "O",
-      answer: "ZWISCHEN ",
     },
   ],
 };

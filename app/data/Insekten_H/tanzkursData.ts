@@ -450,7 +450,8 @@ export const lesenTeil_2 = {
 export const sprachbau_1 = {
   texts: [
     {
-      text: `"Hallo Philip, ",nun habe ich mich schon so lange nicht bei dir gemeldet - das tut mir wirklich leid! Ich
+      title: "Hallo Philip, ",
+      text: `nun habe ich mich schon so lange nicht bei dir gemeldet - das tut mir wirklich leid! Ich
       hatte in den vergangenen Monaten viel Stress, weil ich ja nun studiere und nebenbei noch
       arbeiten muss, ____21_____ meine Miete und alles andere bezahlen zu können. Zum Glück
       macht mir mein Nebenjob wenigstens Spaß. Ich weiß nicht, ____22_____ ich das sonst

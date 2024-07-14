@@ -21,35 +21,35 @@ const shuffleArray = (array: any[]) => {
 
 const sprachbau_2_t = {
   answers: [
-    { id: 1, number: "A", text: "DAFÜR" },
-    { id: 2, number: "B", text: "DAHER" },
-    { id: 3, number: "C", text: "DAMIT" },
-    { id: 4, number: "D", text: "DARAN" },
-    { id: 5, number: "E", text: "DASS" },
-    { id: 6, number: "F", text: "DAVON" },
-    { id: 7, number: "G", text: "DAZU" },
-    { id: 8, number: "H", text: "DENN" },
-    { id: 9, number: "I", text: "FÜR" },
-    { id: 10, number: "J", text: "GEGEN" },
-    { id: 11, number: "K", text: "IRGENDEIN" },
-    { id: 12, number: "L", text: "WAS" },
-    { id: 13, number: "M", text: "WEITER" },
-    { id: 14, number: "N", text: "ZU" },
-    { id: 15, number: "O", text: "ZWISCHEN" },
+    { id: 1, number: "A", text: "ALLEIN" },
+    { id: 2, number: "B", text: "AN" },
+    { id: 3, number: "C", text: "AUF" },
+    { id: 4, number: "D", text: "AUFGRUND" },
+    { id: 5, number: "E", text: "DARAUF" },
+    { id: 6, number: "F", text: "DURCH" },
+    { id: 7, number: "G", text: "DÜRFTEN" },
+    { id: 8, number: "H", text: "EINZIGE" },
+    { id: 9, number: "I", text: "KNAPP" },
+    { id: 10, number: "J", text: "KURZ" },
+    { id: 11, number: "K", text: "MÖCHTEN" },
+    { id: 12, number: "L", text: "REGE" },
+    { id: 13, number: "M", text: "STATTDESSEN" },
+    { id: 14, number: "N", text: "WÄHREND" },
+    { id: 15, number: "O", text: "WEGEN" },
   ],
 };
 
 const initialCartItems: Text[] = [
-  { title: "input1", text: "", anserText: "DENN" },
-  { title: "input2", text: "", anserText: "FÜR" },
-  { title: "input3", text: "", anserText: "ZWISCHEN" },
-  { title: "input4", text: "", anserText: "IRGENDEIN" },
-  { title: "input5", text: "", anserText: "DAFÜR" },
-  { title: "input6", text: "", anserText: "DAVON" },
-  { title: "input7", text: "", anserText: "WEITER" },
-  { title: "input8", text: "", anserText: "DAZU" },
-  { title: "input9", text: "", anserText: "DASS" },
-  { title: "input10", text: "", anserText: "DARAN" },
+  { title: "input1", text: "", anserText: "REGE" }, // L
+  { title: "input2", text: "", anserText: "AN" }, // B
+  { title: "input3", text: "", anserText: "ALLEIN" }, // A
+  { title: "input4", text: "", anserText: "DARAUF" }, // E
+  { title: "input5", text: "", anserText: "DÜRFTEN" }, // G
+  { title: "input6", text: "", anserText: "AUF" }, // C
+  { title: "input7", text: "", anserText: "STATTDESSEN" }, // M
+  { title: "input8", text: "", anserText: "KURZ" }, // J
+  { title: "input9", text: "", anserText: "AUFGRUND" }, // D
+  { title: "input10", text: "", anserText: "DURCH" }, // F
 ];
 
 const Sprachbauchteine_2: React.FC = () => {
@@ -111,11 +111,11 @@ const Sprachbauchteine_2: React.FC = () => {
     session && (
       <div className="container m-auto  w-full px-2">
         <Header
-          pageHome="/lesen"
-          pageTow="/lesen/lesenteil-2"
-          pageThree="/lesen/lesenteil-3"
-          pageFour="/lesen/sprachbauchteine-1"
-          pageFive="/lesen/sprachbauchteine-2"
+          pageHome="/sport-ist-gesund-1-1"
+          pageTow="/sport-ist-gesund-1-1/lesenteil-2"
+          pageThree="/sport-ist-gesund-1-1/lesenteil-3"
+          pageFour="/sport-ist-gesund-1-1/sprachbauchteine-1"
+          pageFive="/sport-ist-gesund-1-1/sprachbauchteine-2"
         />
         <main>
           <div className="w-full bg-blue-900 text-white">
@@ -131,16 +131,9 @@ const Sprachbauchteine_2: React.FC = () => {
                 Lösungen auf dem Antwortbogen bei den Aufgaben 21 - 30
               </p>
               <div className="mt-[30px] dark:bg-[#1d2a35] dark:text-[#ededed] bg-[#fbfbfb] rounded-lg lg:overflow-y-scroll h-fit  lg:h-[500px] p-4">
-                <h1 className="text-xl font-bold">
-                  Man(n) kocht selbst Immer mehr deutsche Männer nehmen die
-                  Töpfe selbst in die Hand
-                </h1>
+                <h1 className="text-xl font-bold">Senioren</h1>
                 <p>
-                  Selbst ist der Mann. Von der Wahrheit dieser alten deutschen
-                  Redewendung haben Frauen Generationen lang geträumt, wenn es
-                  um typische Hausarbeiten wie Waschen, Putzen oder Kochen ging.
-                  Zumindest bei Letzterem scheint sich jedoch in der letzten
-                  Jahren vieles zu ändern.
+                  Senioren sind heute hochst
                   <input
                     type="text"
                     placeholder="____31"
@@ -155,8 +148,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(0)}
                     readOnly
                   />{" "}
-                  immer mehr Männer in Deutschland greifen jetzt selbst zum
-                  Kochtopf. Ein Grund
+                  , aktiv und nutzen vielfach die Chance, sich der so genannten
+                  dritten Lebensphase Wünsche oder Träume zu erfüllen. Dazu
+                  gehören oft Weiterbildung oder in der Jugend verpasste
+                  Bildung. Die Folge: Das Seniorenstudium, wie es
                   <input
                     type="text"
                     placeholder="____32"
@@ -171,12 +166,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(1)}
                     readOnly
                   />{" "}
-                  diese Entwicklung mag sein, dass es immer mehr
-                  Ein-Personen-Haushalte in Deutschland gibt. Es ist einfach
-                  niemand anderes da, der die Kocharbeit übernehmen könnte. Und
-                  Hunger zwingt bekanntlich zum Handeln. Andererseits ist das
-                  Kochen inzwischen ein allgemein akzeptiertes Hobby geworden,
-                  besonders unter Männern. Doch welch ein Unterschied besteht
+                  verschiedenen deutschen Universitäten angeboten wird, erfreut
+                  sich zunehmender Beliebtheit.
                   <input
                     type="text"
                     placeholder="____33"
@@ -191,8 +182,11 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(2)}
                     readOnly
                   />{" "}
-                  den Ansprüchen einer traditionellen Hausfrau und denen eines
-                  Hobbykochs, was die Ausstattung der Küche angeht! Nicht
+                  in Trier waren im vergangenen Sommersemester über 130 Personen
+                  der Altersgruppe 50+ als Gasthörer eingeschrieben und nahmen
+                  am regulären Lehrbetrieb teil. Besonders gefragt waren
+                  allgemeinbildende Veranstaltungen aus den Fächer Geschichte,
+                  Kunstgeschichte und Politik.
                   <input
                     type="text"
                     placeholder="____34"
@@ -207,12 +201,14 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(3)}
                     readOnly
                   />{" "}
-                  Topf darf es für den selbsternannten Drei-Sterne-Küchenchef
-                  sein: Gebürsteter Edelstahl mit versiegelter
-                  Antibehaftbeschichtung und integrierter digitaler
-                  Temperaturanzeige ist der Mindeststandard für einen echten
-                  kochenden Mann. Alles andere gilt als stillos. Die zweite
-                  Voraussetzung
+                  folgten die neueren Sprach- und Literaturwissenschaften sowie
+                  Themen aus Philosophie, Psychologie und Pädagogik. Angebote
+                  aus den Sozial-, Wirtschafts-, Geo- und Rechtswissenschaften
+                  wurden dagegen weniger häufig gewählt. Hier finde ich
+                  insbesondere solche Seniorenstudierende wieder, die gezielt an
+                  der Vertiefung ihres fachspezifischen Wissens arbeiten. Der
+                  größte Teil der studierenden Senioren besteht übrigens aus
+                  Frauen. Die Gründe dafür
                   <input
                     type="text"
                     placeholder="____35"
@@ -227,11 +223,7 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(4)}
                     readOnly
                   />{" "}
-                  , dass die Gerichte auch gelingen, ist das Wissen, wie man
-                  welche Speise am besten zubereitet. Zu diesem Zweck bieten die
-                  Buchhandlungen Berge von Kochbüchern an - mit Rezepten von
-                  Alaska bis Zimbabwe, mit oder ohne Fleisch, für zu Dicke und
-                  zu Dünne. Jetzt hängt es nur noch
+                  sein, dass Frauen in ihren jüngeren Lebensjahren häufig
                   <input
                     type="text"
                     placeholder="____36"
@@ -246,11 +238,7 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(5)}
                     readOnly
                   />{" "}
-                  ab, was der Hobbykoch aus den Kochideen der Buchautoren macht.
-                  Wird es ein exzellentes Mahl oder wäre unser “Chefkoch” nicht
-                  doch lieber zum Dönerstand um die Ecke gegangen?
-                  Überraschungen gehören zum Kochen dazu. Helfen die Bücher
-                  nicht
+                  einen berufliche Karriere verzichteten.
                   <input
                     type="text"
                     placeholder="____37"
@@ -265,12 +253,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(6)}
                     readOnly
                   />{" "}
-                  , bieten zum Beispiel die Volkshochschulen zahlreiche
-                  Kochkurse an, die in der Regel - zumeist von kochwilligen
-                  Männern - gut besucht sind. Das Kursangebot umfasst neben
-                  deutscher Hausmannskost wie Schnitzel, Krautwickel oder
-                  Rinderbraten zumeist auch die mediterrane und die asiatische
-                  Küche. Das führt
+                  setzten sie sich für die Familie und insbesondere für ihre
+                  Kinder ein. Nun sind die Kinder erwachsen und aus dem Haus,
+                  die Frauen verspüren den Wunsch, ihre geistigen Fähigkeiten,
+                  deren Einsatz in den Familienjahren häufig zu
                   <input
                     type="text"
                     placeholder="____38"
@@ -285,8 +271,11 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(7)}
                     readOnly
                   />{" "}
-                  , dass man(n) zu Hause immer öfter international kocht. Das
-                  größte Problem der Hobbyköche ist aber,
+                  gekommen war, wieder zu trainieren und zu erweitern. Männern
+                  hingegen konnten häufiger während ihres Arbeitslebens ihre
+                  Karriere verwirklichen, sich weiterbilden ihr Wissen in
+                  gesellschaftlich angesehen Weise an den Mann (weniger an die
+                  Frau) bringen.
                   <input
                     type="text"
                     placeholder="____39"
@@ -301,10 +290,11 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(8)}
                     readOnly
                   />{" "}
-                  es viel zu aufwändig ist, für sich alleine zu kochen. Daher
-                  sind zurzeit Internetseiten wie www.allein-kochen-ist-doof.de
-                  beliebt, wo sich Hobbyköche und -köchinnen Kochpartner für das
-                  gemeinsame Kochen und Essen suchen können. Das Interessante
+                  dessen sehen sie keine Veranlassung ihren Lebensabend an einer
+                  Weiterbildungsinstition oder gar an einer Universität zu
+                  verbringen. Lernen ist kein Privileg der Jugend! Vielmehr
+                  besteht gerade in Bezug auf das Bildungsangebot für ältere
+                  Menschen ein nesiger Bedarf. Er wird gespeist
                   <input
                     type="text"
                     placeholder="____40"
@@ -319,10 +309,14 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(9)}
                     readOnly
                   />{" "}
-                  ist, dass dabei unsere männlichen Chefköche feststellen
-                  müssen, dass es andere Menschen gibt, die mit vielleicht
-                  weniger Aufwand genauso gut ein Festmahl zubereiten können wie
-                  sie: nämlich die Frauen.
+                  die Vitalität und die hohe Bildungsmotivation der heutigen
+                  Alten. Mit der wachsenden Fitness der Generation 50+ wächst
+                  auch das Interesse, neues Wissen zu erwerben, neue Kompetenzen
+                  zu entwickeln und bisher eventuell vernachlässigte Ressourcen
+                  zu aktivieren, Gleichzeitig tragen Bildungsaktivitäten
+                  wesentlich dazu bei, dass immer mehr Menschen ihre kognitive
+                  Leistungsfähigkeit und psychische Gesundheit bis ins hohe
+                  Alter erhalten können.
                 </p>
               </div>
             </div>

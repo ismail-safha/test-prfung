@@ -111,11 +111,11 @@ const Sprachbauchteine_2: React.FC = () => {
     session && (
       <div className="container m-auto  w-full px-2">
         <Header
-          pageHome="/lesen"
-          pageTow="/lesen/lesenteil-2"
-          pageThree="/lesen/lesenteil-3"
-          pageFour="/lesen/sprachbauchteine-1"
-          pageFive="/lesen/sprachbauchteine-2"
+          pageHome="/drogen"
+          pageTow="/drogen/lesenteil-2"
+          pageThree="/drogen/lesenteil-3"
+          pageFour="/drogen/sprachbauchteine-1"
+          pageFive="/drogen/sprachbauchteine-2"
         />
         <main>
           <div className="w-full bg-blue-900 text-white">

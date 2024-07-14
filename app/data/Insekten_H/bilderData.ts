@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const lesenTeil_1 = {
   carts: [
     {
@@ -580,8 +582,8 @@ export const lesenTeil_2 = {
 export const sprachbau_1 = {
   texts: [
     {
-      text: `Betreff: Grüße ____21_____ Berlin
-      Hallo Leon,
+      title:"Betreff: Grüße ____21_____ Berlin Hallo Leon,",
+      text: `
       vielen Dank für deine letzte Mail aus Peking! Du arbeitest ja jetzt schon seit einem halben Jahr in
       China - unglaublich, wie schnell die Zeit vergeht.
       Leider hatte ich in den letzten drei Wochen keine Zeit, dir zu antworten, weil ich viel zu tun hatte.
