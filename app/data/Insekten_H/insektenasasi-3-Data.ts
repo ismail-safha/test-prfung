@@ -206,7 +206,7 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
       `,
       cartItemAnswers: "",
       cartAcoordion:
-        "Ihre Möbel sehen nicht mehr so gut aus. Daran möchten Sie etwas ändern.",
+        "Ihre Wohnungseinrichtung sieht nicht mehr so gut aus. Daran möchten Sie etwas ändern.",
     },
     {
       id: 2,
@@ -221,8 +221,8 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
       auch die Gelegenheit, ein Werk gleich zu kaufen und mitzunehmen. Weitere Informationen und 
       Anmeldung unter: www.galeria.de `,
       cartItemAnswers: "",
-      cartAcoordion: `Eine Bekannte malt sehr gut und sucht eine Gelegenheit, anderen ihre Bilder zu zeigen oder 
-        sie zu verkaufen. `,
+      cartAcoordion:
+        "Eine Bekannte malt sehr gut und sucht eine Gelegenheit, ihre Bilder zu vermarkten.",
     },
     {
       id: 3,
@@ -252,8 +252,8 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
       Informationen unter: www.wohnkonzept.de
       `,
       cartItemAnswers: "",
-      cartAcoordion: `Ihr Bekannter ist beruflich oft unterwegs und sucht eine Alternative zu Hotels. Es soll dort 
-        aber Internetzugang und Frühstück geben `,
+      cartAcoordion:
+        "Ihr Bekannter ist beruflich oft unterwegs und sucht eine Alternative zu Hotels. Auf Frühstück und -Internet möchte er aber nicht verzichten.",
     },
     {
       id: 5,
@@ -270,7 +270,8 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
       nur 75,00 Euro pro Jahr! Mieterschutzbund Brandenburg
       `,
       cartItemAnswers: "",
-      cartAcoordion: `Sie haben Streit mit ihrem Vermieter wegen der Nebenkosten und möchten sich beraten lassen`,
+      cartAcoordion:
+        "Sie haben Streit mit Ihrem Vermieter wegen der Nebenkosten und brauchen eine Auskunft.",
     },
     {
       id: 6,
@@ -300,7 +301,7 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
       www.urlaubzuhause.inf`,
       cartItemAnswers: "",
       cartAcoordion:
-        "Sie möchten im Urlaub zwar nicht verreisen, aber trotzdem etwas unternehmen",
+        "Sie möchten im Urlaub zwar nicht verreisen, aber trotzdem etwas unternehmen.",
     },
     {
       id: 8,
@@ -330,7 +331,7 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
       jetzt: Kunst Schule Heckmann, Tel. 0800 44450943`,
       cartItemAnswers: "",
       cartAcoordion:
-        "Sie möchten ausprobieren, ob Ihnen Zeichnen Spaß macht.      ",
+        "Sie möchten ausprobieren, ob Sie Kreativ mit Stiften, Pinseln und Farben umgehen können.",
     },
     {
       id: 10,
@@ -345,7 +346,7 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
       Beratungstermin! Kanzlei Hummel und Schröder, Torstraße 211, 80121 München, Tel. 089 1234567. `,
       cartItemAnswers: "",
       cartAcoordion:
-        "Einem Bekannten wurde die Arbeitsstelle gekündigt. Er möchte bei einem Anwalt um Rat fragen",
+        "Ein Bekannter hat seine Arbeitsstelle verloren. Er möchte sich von einem Anwalt beraten lassen.",
     },
     {
       id: 11,
@@ -366,17 +367,17 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
   answers: [
     {
       id: 1,
-      text: "Einem Bekannten wurde die Arbeitsstelle gekündigt. Er möchte bei einem Anwalt um Rat fragen.",
+      text: "Ein Bekannter hat seine Arbeitsstelle verloren. Er möchte sich von einem Anwalt beraten lassen.",
       number: "11",
     },
     {
       id: 2,
-      text: "Ihr Bekannter ist beruflich oft unterwegs und sucht eine Alternative zu Hotels. Es soll dort aber Internetzugang und Frühstück geben.",
+      text: "Ihr Bekannter ist beruflich oft unterwegs und sucht eine Alternative zu Hotels. Auf Frühstück und -Internet möchte er aber nicht verzichten.",
       number: "12",
     },
     {
       id: 3,
-      text: "Sie reisen gerne und oft und möchten nun Informationen zu einer Reiseversicherung.",
+      text: "Sie verreisen oft und möchten daher Informationen zu einer guten Reiseversicherung.",
       number: "13",
     },
     {
@@ -386,7 +387,7 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
     },
     {
       id: 5,
-      text: "Eine Bekannte malt sehr gut und sucht eine Gelegenheit, anderen ihre Bilder zu zeigen oder sie zu verkaufen.",
+      text: "Eine Bekannte malt sehr gut und sucht eine Gelegenheit, ihre Bilder zu vermarkten.",
       number: "15",
     },
     {
@@ -396,17 +397,17 @@ nach Hause und machen Ihnen ein kostenloses Angebot! www.schreiner.de
     },
     {
       id: 7,
-      text: "Sie haben Streit mit ihrem Vermieter wegen der Nebenkosten und möchten sich beraten lassen.",
+      text: "Sie haben Streit mit Ihrem Vermieter wegen der Nebenkosten und brauchen eine Auskunft.",
       number: "17",
     },
     {
       id: 8,
-      text: "Sie möchten ausprobieren, ob Ihnen Zeichnen Spaß macht.",
+      text: "Sie möchten ausprobieren, ob Sie Kreativ mit Stiften, Pinseln und Farben umgehen können.",
       number: "18",
     },
     {
       id: 9,
-      text: "Ihre Möbel sehen nicht mehr so gut aus. Daran möchten Sie etwas ändern.",
+      text: "Ihre Wohnungseinrichtung sieht nicht mehr so gut aus. Daran möchten Sie etwas ändern.",
       number: "19",
     },
     {

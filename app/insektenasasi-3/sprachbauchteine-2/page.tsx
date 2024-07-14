@@ -21,35 +21,35 @@ const shuffleArray = (array: any[]) => {
 
 const sprachbau_2_t = {
   answers: [
-    { id: 1, number: "A", text: "ALS" },
-    { id: 2, number: "B", text: "BEHÄLT" },
-    { id: 3, number: "C", text: "BERETT" },
-    { id: 4, number: "D", text: "BLEIBT" },
-    { id: 5, number: "E", text: "DAGEGEN" },
-    { id: 6, number: "F", text: "FERTIG" },
-    { id: 7, number: "G", text: "GEHÖREN" },
-    { id: 8, number: "H", text: "JEDER" },
-    { id: 9, number: "I", text: "KLAR" },
-    { id: 10, number: "J", text: "MANCHER" },
-    { id: 11, number: "K", text: "MIT" },
-    { id: 12, number: "L", text: "TAKT" },
-    { id: 13, number: "M", text: "TIPP" },
-    { id: 14, number: "N", text: "WAS" },
-    { id: 15, number: "O", text: "WINK" },
+    { id: 1, number: "A", text: "BEMÜHEN" },
+    { id: 2, number: "B", text: "FÜR" },
+    { id: 3, number: "C", text: "DESHALB" },
+    { id: 4, number: "D", text: "DOCH" },
+    { id: 5, number: "E", text: "HILFREICH" },
+    { id: 6, number: "F", text: "KONZENTRIEREN" },
+    { id: 7, number: "G", text: "KRITISCHE" },
+    { id: 8, number: "H", text: "LÖSUNGEN" },
+    { id: 9, number: "I", text: "NICHT" },
+    { id: 10, number: "J", text: "PROBLEME" },
+    { id: 11, number: "K", text: "SCHON" },
+    { id: 12, number: "L", text: "SELBST" },
+    { id: 13, number: "M", text: "STATT" },
+    { id: 14, number: "N", text: "SELBSTBEWUSST" },
+    { id: 15, number: "O", text: "VERHALTEN" },
   ],
 };
 
 const initialCartItems: Text[] = [
-  { title: "input1", text: "", anserText: "GEHÖREN" },
-  { title: "input2", text: "", anserText: "BEHÄLT" },
-  { title: "input3", text: "", anserText: "MANCHEM" },
-  { title: "input4", text: "", anserText: "MIT" },
-  { title: "input5", text: "", anserText: "DAGEGEN" },
-  { title: "input6", text: "", anserText: "WINK" },
-  { title: "input7", text: "", anserText: "FERTIG" },
-  { title: "input8", text: "", anserText: "TAKTGEFÜHL" },
-  { title: "input9", text: "", anserText: "KLAR" },
-  { title: "input10", text: "", anserText: "WAS" },
+  { title: "input1", text: "", anserText: "DESHALB" },
+  { title: "input2", text: "", anserText: "NICHT" },
+  { title: "input3", text: "", anserText: "KONZENTRIEREN" },
+  { title: "input4", text: "", anserText: "SELBST" },
+  { title: "input5", text: "", anserText: "HILFREICH" },
+  { title: "input6", text: "", anserText: "FÜR" },
+  { title: "input7", text: "", anserText: "VERHALTEN" },
+  { title: "input8", text: "", anserText: "KRITISCHE" },
+  { title: "input9", text: "", anserText: "SELBSTBEWUSST" },
+  { title: "input10", text: "", anserText: "LÖSUNGEN" },
 ];
 
 const Sprachbauchteine_2: React.FC = () => {
@@ -131,17 +131,9 @@ const Sprachbauchteine_2: React.FC = () => {
                 Lösungen auf dem Antwortbogen bei den Aufgaben 21 - 30
               </p>
               <div className="mt-[30px] dark:bg-[#1d2a35] dark:text-[#ededed] bg-[#fbfbfb] rounded-lg lg:overflow-y-scroll h-fit  lg:h-[500px] p-4">
-                <h1 className="text-xl font-bold">Im Restaurant</h1>
+                <h1 className="text-xl font-bold">Sicherer Schulweg</h1>
                 <p>
-                  Eine unterhaltsame, schöne und gesellige Zeit. Das stellt man
-                  sich unter einem guten Essen vor. Störend wirkt da der
-                  anschauliche Erlebnisbericht der letzten Operation im
-                  Krankenhaus oder das Klingeln des Handys. Sowohl Gastgeber als
-                  Gast sollen alles dafür tun, dass das gemeinsame Essen Freude
-                  macht. Das Handy stellt man selbstverständlich ab. Das Essen
-                  beginnt, wenn der Gastgeber zur Serviette greift oder zum Gruß
-                  sein Glas erhebt. Besonders bei Kindern ein unbeliebtes Thema:
-                  die richtige Körperhaltung beim Essen. Die Arme{" "}
+                  Kinder sind oft mit dem Straßenverkehr überfordert,
                   <input
                     type="text"
                     placeholder="____31"
@@ -156,10 +148,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(0)}
                     readOnly
                   />{" "}
-                  nicht auf den Tisch und die Hände nicht unter den Tisch. Mal
-                  sitzt gerade, ohne unruhig hin und her zu rücken. Die Beine
-                  werden nebeneinander gestellt, nicht übereinander gelegt. Die
-                  Schuhe{" "}
+                  ist es wichtig, dass sich Eltern und Bezugspersonen den besten
+                  Schulweg überlegen und mit ihren Kindern üben.
                   <input
                     type="text"
                     placeholder="____32"
@@ -173,11 +163,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     value={cartItems[1].text}
                     onClick={() => handleInputClick(1)}
                     readOnly
-                  />
-                  in jedem Fall an. Nur keine Angst vor guten Restaurants mit
-                  ihrem Luxus! Denn je besser die Küche, umso aufmerksamer ist
-                  in der Regel das Personal. Doch schon bei der Anrede der
-                  Bedienung steht so{" "}
+                  />{" "}
+                  immer ist der kürzeste Weg auch der ungefährlichste. Zum Üben
+                  sollte man sich Zeit nehmen und sich voll auf das Kind
                   <input
                     type="text"
                     placeholder="____33"
@@ -192,7 +180,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(2)}
                     readOnly
                   />{" "}
-                  vor einem Problem. Die Bedienung
+                  .Eltern sollten im Verkehr immer auch an ihre Vorbildfunktion
+                  denken: Verkehrsregeln nicht nur erklären, sondern sich auch
                   <input
                     type="text"
                     placeholder="____34"
@@ -207,8 +196,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(3)}
                     readOnly
                   />{" "}
-                  Fräulein an den Tisch zu rufen, ist in Zeiten dert
-                  Gleichberechtigung veraltet. Herr Ober oder Bedienung ist{" "}
+                  daran halten. Wegen ihrer geringeren Körpergröße haben Kinder
+                  ein anderes Sichtfeld als Erwachsene. Dessen müssen sich die
+                  Erwachsenen bewusst sein. Manchmal ist es
                   <input
                     type="text"
                     placeholder="____35"
@@ -223,9 +213,10 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(4)}
                     readOnly
                   />{" "}
-                  noch möglich, aber auch schon etwas ungewöhnlich. Am besten
-                  versucht man sich Blickkontakt zu verschaffen, um mit einem
-                  kleinen{" "}
+                  , wenn die Großen sich von ihren Kindern erzählen lassen, was
+                  diese sehen. Um das Kind langsam an den Schulweg zu gewöhnen,
+                  sollte es anfangs nur das letzte Stück allein gehen. Diese
+                  Strecke kann man dann Schritt
                   <input
                     type="text"
                     placeholder="____36"
@@ -240,11 +231,9 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(5)}
                     readOnly
                   />{" "}
-                  mit der Hand den Kellner an den Tisch zu bitten. Zudem gibt es
-                  zwischen Gast und Service eine Zeichensprache. Schließt der
-                  Gast die Speisekarte und legt sie auf den Tisch, ist dies für
-                  den Kellner das Signal, die Bestellung aufzunehmen. Ist man
-                  mit dem Essen{" "}
+                  Schritt verlängern. Dasselbe gilt für den Nachhauseweg. Auch
+                  ist es sinnvoll, zu Schulbeginn nochmals kurz und klar die
+                  wichtigsten Regeln für das
                   <input
                     type="text"
                     placeholder="____37"
@@ -259,10 +248,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(6)}
                     readOnly
                   />{" "}
-                  , legt man das Besteck parallel nebeneinander auf den rechten
-                  Tellerrand. Der Kellner wir dann abräumen. Macht man hingegen
-                  nur eine Pause, wird es gekreuzt oder offen auf den Teller
-                  gelegt. Beim Bezahlen ist{" "}
+                  im Straßenverkehr mit den Kindern zu wiederholen. Wenn der
+                  Schulweg kein Problem mehr darstellt, kann man noch mögliche
                   <input
                     type="text"
                     placeholder="____38"
@@ -277,8 +264,11 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(7)}
                     readOnly
                   />{" "}
-                  gefragt. Übernimmt ein Gastgeber die Kosten, macht er dies dem
-                  Kellner{" "}
+                  Situationen besprechen. Wie zum Beispiel „Was machst du, wenn
+                  der Gehweg gesperrt ist? oder „Was tust du, wenn die Ampel
+                  ausgefallen ist? oder „Was machst du, wenn auf der anderen
+                  Straßenseite jemand nach dir ruft oder jemand bei Rot über die
+                  Kreuzung rennt?. So lernt das Kind, sich
                   <input
                     type="text"
                     placeholder="____39"
@@ -293,8 +283,7 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(8)}
                     readOnly
                   />{" "}
-                  . Ein Bringen Sie mir bitte die Rechnung reicht da völlig aus.
-                  Möchte man hingegen getrennt bezahlen,{" "}
+                  im Straßenverkehr zu verhalten und selbstständig
                   <input
                     type="text"
                     placeholder="____40"
@@ -309,11 +298,8 @@ const Sprachbauchteine_2: React.FC = () => {
                     onClick={() => handleInputClick(9)}
                     readOnly
                   />{" "}
-                  durchaus üblich ist, teilt man dies ebenfalls rechtzeitig der
-                  Bedienung mit. In Deutschland gibt man, je nach Zufriedenheit
-                  mit dem Service und der Höhe der Gesamtsumme zwischen drei und
-                  zehn Prozent Trinkgeld. Ist man mit dem Service unzufrieden
-                  gewesen, gibt man kein Trinkgeld.
+                  zu finden. Und die Erwachsenen können sicher sein, dass ihr
+                  Kind zumindest auf die Standardsituationen vorbereitet ist.
                 </p>
               </div>
             </div>

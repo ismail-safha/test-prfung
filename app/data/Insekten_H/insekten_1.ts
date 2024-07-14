@@ -545,7 +545,7 @@ export const sprachbau_1 = {
       options: [
         {
           optionID: "A",
-          option: "Einerseits",
+          option: "Einerseits...andereseites",
         },
         {
           optionID: "B",
@@ -659,10 +659,30 @@ export const sprachbau_2 = {
   texts: [
     {
       title: "Sicherer Schulweg",
-      text: ` Kinder sind oft mit dem Straßenverkehr überforder, 31_________ ist es wichtig, dass sich Eltern und Bezugspersonen den besten Schulweg überlegen und mit ihren Kindern üben. 32_________ immer ist der kürzeste Weg auch der ungefährlichste. Zum Üben sollte man sich Zeit nehmen und sich voll auf das Kind 33_________.Eltern sollten im Verkehr immer auch an ihre Vorbildfunktion denken: Verkehrsregeln nicht nur erklären, sondern sich auch 34_________ daran halten. Wegen ihrer geringeren Körpergröße haben Kinder ein anderes Sichtfeld als Erwachsene. Dessen müssen sich die Erwachsenen bewuset sein. Manchmal ist es 35_________, wenn die Großen sich von ihren Kindern erzählen lassen, was diese sehen. 
-      Um das Kind langsam an den Schulweg zu gewöhnen, sollte es anfangs nur das letzte Stück allein gehen. Diese Strecke kann man dann Schritt 36_________ Schritt verlängern. Dasselbe gilt für den Nachhauseweg. Auch ist es sinnvoll, zu Schulbeginn nochmals kurz und klar die wichtigsten Regeln für das 37_________ im Straßenverkehr mit den Kindern zu wiederholen. 
-      Wenn der Schulweg kein Problem mehr darstellt, kann man noch mögliche 38_________ Situationen besprechen. Wie zum Beispiel Was machst du, wenn der Gehweg gesperrt ist?" oder „Was tust du, wenn die Ampel ausgefallen ist?" oder „Was machst du, wenn auf der anderen Straßenseite jemand nach dir ruft oder jemand bei Rot über die Kreuzung rennt?". 
-      So lernt das Kind, sich 39_________ im Straßenverkehr zu verhalten und selbstständig 40_________ zu finden. Und die Erwachsenen können sicher sein, dass ihr Kind zumindest auf die Standardsituationen vorbereitet ist. 
+      text: ` Kinder sind oft mit dem Straßenverkehr überforder, 
+      31_________ 
+      ist es wichtig, dass sich Eltern und Bezugspersonen den besten Schulweg überlegen und mit ihren Kindern üben. 
+      32_________ 
+      immer ist der kürzeste Weg auch der ungefährlichste. Zum Üben sollte man sich Zeit nehmen und sich voll auf das Kind 
+      33_________
+      .Eltern sollten im Verkehr immer auch an ihre Vorbildfunktion denken: Verkehrsregeln nicht nur erklären, sondern sich auch 
+      34_________ 
+      daran halten. Wegen ihrer geringeren Körpergröße haben Kinder ein anderes Sichtfeld als Erwachsene. Dessen müssen sich die Erwachsenen bewuset sein. Manchmal ist es 
+      35_________
+      , wenn die Großen sich von ihren Kindern erzählen lassen, was diese sehen. 
+      Um das Kind langsam an den Schulweg zu gewöhnen, sollte es anfangs nur das letzte Stück allein gehen. Diese Strecke kann man dann Schritt 
+      36_________
+       Schritt verlängern. Dasselbe gilt für den Nachhauseweg. Auch ist es sinnvoll, zu Schulbeginn nochmals kurz und klar die wichtigsten Regeln für das 
+       37_________
+        im Straßenverkehr mit den Kindern zu wiederholen. 
+      Wenn der Schulweg kein Problem mehr darstellt, kann man noch mögliche 
+      38_________ 
+      Situationen besprechen. Wie zum Beispiel Was machst du, wenn der Gehweg gesperrt ist?" oder „Was tust du, wenn die Ampel ausgefallen ist?" oder „Was machst du, wenn auf der anderen Straßenseite jemand nach dir ruft oder jemand bei Rot über die Kreuzung rennt?". 
+      So lernt das Kind, sich 
+      39_________ 
+      im Straßenverkehr zu verhalten und selbstständig 
+      40_________
+       zu finden. Und die Erwachsenen können sicher sein, dass ihr Kind zumindest auf die Standardsituationen vorbereitet ist. 
       `,
     },
   ],
