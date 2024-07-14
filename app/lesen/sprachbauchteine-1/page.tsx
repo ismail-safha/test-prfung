@@ -47,7 +47,7 @@ const Sprachbauchteine_1 = () => {
                 (a, b oder c) in die jeweilige Lücke passt. Markieren Sie Ihre
                 Lösungen auf dem Antwortbogen bei den Aufgaben 21 - 30
               </p>
-              <p className="bg-[#755943] font-extralight text-black rounded-lg p-3">
+              <p className="bg-[#f6f2bc] text-black rounded-lg p-2 m-1">
                 {sprachbau_1.changes}
               </p>
               <div className="mt-[30px] bg-[#fbfbfb] rounded-lg  lg:overflow-y-scroll h-fit  lg:h-[500px]">
