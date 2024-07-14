@@ -397,7 +397,8 @@ export const lesenTeil_2 = {
 export const sprachbau_1 = {
   texts: [
     {
-      text: `"Liebe Maria .liber Timur."
+      title: "Liebe Maria .liber Timur.",
+      text: `
 
       herzlich Dank für die Einladung zu eurem Hoch zeitfesfest nachdem wir gestren aus dem Urlaub zurükgekommen  ____21_____ haben wir eure Brief und die einladungskarte im Briefkasten entdeckt  ____22_____ gibt es nicht veil zu überlegen Natürlich kommen wir sehr generl wir freun uns sehr  ____23_____ euch.dass ihr nun endlich diesen schritt wagt. Es ist eine geniale idee  ____24_____in der Türkay  ____24_____ in Östreich zu feiern.so können alle freunde und  ____25_____dabei sein wir hoffen dass wir einige  ____26_____ alten frende wiedrsehen werden.
       

@@ -21,35 +21,35 @@ const shuffleArray = (array: any[]) => {
 
 const sprachbau_2_t = {
   answers: [
-    { id: 1, number: "A", text: "AN" },
-    { id: 2, number: "B", text: "AUF" },
-    { id: 3, number: "C", text: "AUS" },
-    { id: 4, number: "D", text: "AUßERDEM" },
-    { id: 5, number: "E", text: "DASS" },
-    { id: 6, number: "F", text: "ENTHALTEN" },
-    { id: 7, number: "G", text: "ENTLASTET" },
-    { id: 8, number: "H", text: "FÜR" },
-    { id: 9, number: "I", text: "HINTER" },
-    { id: 10, number: "J", text: "OB" },
-    { id: 11, number: "K", text: "SOGAR" },
-    { id: 12, number: "L", text: "SONDERN" },
-    { id: 13, number: "M", text: "VERWENDET" },
-    { id: 14, number: "N", text: "WENN" },
-    { id: 15, number: "O", text: "WIRKLICH" },
+    { id: 1, number: "A", text: "BEGRIFFE" },
+    { id: 2, number: "B", text: "DADURCH" },
+    { id: 3, number: "C", text: "DAFÜR" },
+    { id: 4, number: "D", text: "DASS" },
+    { id: 5, number: "E", text: "DENN" },
+    { id: 6, number: "F", text: "EINGRIFFE" },
+    { id: 7, number: "G", text: "GING" },
+    { id: 8, number: "H", text: "KAM" },
+    { id: 9, number: "I", text: "NACHKOMMEN" },
+    { id: 10, number: "J", text: "NOCH" },
+    { id: 11, number: "K", text: "SODASS" },
+    { id: 12, number: "L", text: "SOWIE" },
+    { id: 13, number: "M", text: "UM" },
+    { id: 14, number: "N", text: "VORKOMMEN" },
+    { id: 15, number: "O", text: "WÄHREND" },
   ],
 };
 
 const initialCartItems: Text[] = [
-  { title: "input1", text: "", anserText: "AUßERDEM" },
-  { title: "input2", text: "", anserText: "DASS" },
-  { title: "input3", text: "", anserText: "FÜR" },
-  { title: "input4", text: "", anserText: "EIN" },
-  { title: "input5", text: "", anserText: "VERANTWORTUNG" },
-  { title: "input6", text: "", anserText: "VON" },
-  { title: "input7", text: "", anserText: "AUF" },
-  { title: "input8", text: "", anserText: "EINGESETZT" },
-  { title: "input9", text: "", anserText: "NUR" },
-  { title: "input10", text: "", anserText: "DASS" },
+  { title: "input1", text: "", anserText: "WÄHREND" },
+  { title: "input2", text: "", anserText: "DADURCH" },
+  { title: "input3", text: "", anserText: "DASS" },
+  { title: "input4", text: "", anserText: "UM" },
+  { title: "input5", text: "", anserText: "NACHKOMMEN" },
+  { title: "input6", text: "", anserText: "DAFÜR" },
+  { title: "input7", text: "", anserText: "DENN" },
+  { title: "input8", text: "", anserText: "EINGRIFF" },
+  { title: "input9", text: "", anserText: "NOCH" },
+  { title: "input10", text: "", anserText: "GING" },
 ];
 
 const Sprachbauchteine_2: React.FC = () => {
@@ -111,11 +111,11 @@ const Sprachbauchteine_2: React.FC = () => {
     session && (
       <div className="container m-auto  w-full px-2">
         <Header
-          pageHome="/lesen"
-          pageTow="/lesen/lesenteil-2"
-          pageThree="/lesen/lesenteil-3"
-          pageFour="/lesen/sprachbauchteine-1"
-          pageFive="/lesen/sprachbauchteine-2"
+          pageHome="/osterreichs"
+          pageTow="/osterreichs/lesenteil-2"
+          pageThree="/osterreichs/lesenteil-3"
+          pageFour="/osterreichs/sprachbauchteine-1"
+          pageFive="/osterreichs/sprachbauchteine-2"
         />
         <main>
           <div className="w-full bg-blue-900 text-white">
