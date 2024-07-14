@@ -54,6 +54,7 @@ const Sprachbauchteine_1 = () => {
                 {/* Map through texts array */}
                 {sprachbau_1.texts.map((text, index) => (
                   <div key={index} className="p-5">
+                    <h1 className="font-bold">{text.title}</h1>
                     <p className="font-semibold">{text.text}</p>
                   </div>
                 ))}
