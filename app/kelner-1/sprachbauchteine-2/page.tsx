@@ -111,11 +111,11 @@ const Sprachbauchteine_2: React.FC = () => {
     session && (
       <div className="container m-auto  w-full px-2">
         <Header
-          pageHome="/lesen"
-          pageTow="/lesen/lesenteil-2"
-          pageThree="/lesen/lesenteil-3"
-          pageFour="/lesen/sprachbauchteine-1"
-          pageFive="/lesen/sprachbauchteine-2"
+          pageHome="/kelner-1"
+          pageTow="/kelner-1/lesenteil-2"
+          pageThree="/kelner-1/lesenteil-3"
+          pageFour="/kelner-1/sprachbauchteine-1"
+          pageFive="/kelner-1/sprachbauchteine-2"
         />
         <main>
           <div className="w-full bg-blue-900 text-white">
@@ -129,6 +129,9 @@ const Sprachbauchteine_2: React.FC = () => {
                 Lesen Sie den folgenden Text und entscheiden Sie, welches Wort
                 (a, b oder c) in die jeweilige Lücke passt. Markieren Sie Ihre
                 Lösungen auf dem Antwortbogen bei den Aufgaben 21 - 30
+              </p>
+              <p className="bg-[#f6f2bc] text-black rounded-lg p-2 m-1">
+                👉 changes : in 31 und 32-33-34-35-36-40 Komm zurück PDF
               </p>
               <div className="mt-[30px] dark:bg-[#1d2a35] dark:text-[#ededed] bg-[#fbfbfb] rounded-lg lg:overflow-y-scroll h-fit  lg:h-[500px] p-4">
                 <h1 className="text-xl font-bold">

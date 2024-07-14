@@ -622,7 +622,8 @@ und stattdessen war die junge Frau selbser Hausfrau und Herrin eines eigenen Hau
 export const sprachbau_1 = {
   texts: [
     {
-      text: `Sehr geehrter Herr Martini,
+      title: "Sehr geehrter Herr Martini,",
+      text: `
       vielen Dank für Ihre Anfrage vom 16. Juni ___21______ der Studienreise Ihrer Schulklasse nach 
       Frankfurt am Main im ____22_____ Oktober.
       Die Unterkunft bei deutschen Gastfamilien ist prinzipiell möglich. Die Familien werden von uns 
@@ -793,7 +794,7 @@ export const sprachbau_1 = {
         },
         {
           optionID: "B",
-          option: "st geplant",
+          option: "ist geplant",
         },
         {
           optionID: "C",

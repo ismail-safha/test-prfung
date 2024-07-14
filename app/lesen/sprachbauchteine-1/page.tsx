@@ -48,7 +48,7 @@ const Sprachbauchteine_1 = () => {
                 Lösungen auf dem Antwortbogen bei den Aufgaben 21 - 30
               </p>
               <p className="bg-[#f6f2bc] text-black rounded-lg p-2 m-1">
-                {sprachbau_1.changes}
+                👉 {sprachbau_1.changes}
               </p>
               <div className="mt-[30px] bg-[#fbfbfb] rounded-lg  lg:overflow-y-scroll h-fit  lg:h-[500px]">
                 {/* Map through texts array */}

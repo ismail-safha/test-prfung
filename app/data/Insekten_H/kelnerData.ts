@@ -595,7 +595,8 @@ Trinkgeld lockerer.
 export const sprachbau_1 = {
   texts: [
     {
-      text: `Liebe Karin,
+      title: "Liebe Karin",
+      text: `
       vielen Dank für deine letzte E-Mail! Ich habe mich wirklich sehr gefreut zu lesen, dass es dir in 
       München so gut gefällt. Endlich kannst du auch das studieren, ____21_____ du möchtest - das ist 
       doch super! Wie ist es _____22____ so an der Uni dort? Hast du schon neue Leute kennengelernt? 

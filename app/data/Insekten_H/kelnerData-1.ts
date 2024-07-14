@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const lesenTeil_1 = {
   carts: [
     {
@@ -54,7 +56,7 @@ geplant zwei Kilo abgenommen, sondern dreizehn. So zieht Gerd Kuznik nicht nur i
 Mit einer harmlosen Diät fängt es meist an, mit einer schweren Krankheit kann es enden.
       `,
       cartItemAnswers: "",
-      cartAcoordion: "Von der Diät zur Krankheit",
+      cartAcoordion: "Madchen abnehmen krankenhelten",
     },
     {
       id: 2,
@@ -73,7 +75,7 @@ Mit einer harmlosen Diät fängt es meist an, mit einer schweren Krankheit kann 
       Umwelt wichtig sind”, sagt Yara-Alessandra. Die Jury honorierte das Projekt mit dem zweiten Platz. Die 
       Gewinner bereiten sich nun auf den Landeswettbewerb “Jugend forscht” vor`,
       cartItemAnswers: "",
-      cartAcoordion: "Jugend engagiert sich für den Umweltschutz",
+      cartAcoordion: "Schülerwettbewerb Umweltschutz",
     },
     {
       id: 3,
@@ -122,7 +124,7 @@ Mit einer harmlosen Diät fängt es meist an, mit einer schweren Krankheit kann 
     },
     {
       id: 2,
-      text: "Jugend engagiert sich für den Umweltschutz",
+      text: "Schülerwettbewerb Umweltschutz",
       number: "b",
     },
     {
@@ -152,7 +154,7 @@ Mit einer harmlosen Diät fängt es meist an, mit einer schweren Krankheit kann 
     },
     {
       id: 8,
-      text: "Von der Diät zur Krankheit",
+      text: "Madchen abnehmen krankenhelten",
       number: "h",
     },
     {
@@ -582,7 +584,8 @@ Trinkgeld lockerer.
 export const sprachbau_1 = {
   texts: [
     {
-      text: `Liebe Karin,
+      title: "Liebe Karin,",
+      text: `
       vielen Dank für deine letzte E-Mail! Ich habe mich wirklich sehr gefreut zu lesen, dass es dir in 
       München so gut gefällt. Endlich kannst du auch das studieren, ____21_____ du möchtest - das ist 
       doch super! Wie ist es _____22____ so an der Uni dort? Hast du schon neue Leute kennengelernt? 
@@ -675,7 +678,7 @@ export const sprachbau_1 = {
         },
         {
           optionID: "B",
-          option: "annehmen",
+          option: "nebenbei",
         },
         {
           optionID: "C",
@@ -698,7 +701,7 @@ export const sprachbau_1 = {
         },
         {
           optionID: "C",
-          option: "um",
+          option: "annehmen",
         },
       ],
       correctAnswerID: "C",
@@ -799,6 +802,7 @@ export const sprachbau_1 = {
       correctAnswerID: "C",
     },
   ],
+  changes: "change : 24 -B: annehmen -> nebenbei & 25:  -C: um -> annehmen",
 };
 export const sprachbau_2 = {
   texts: [
