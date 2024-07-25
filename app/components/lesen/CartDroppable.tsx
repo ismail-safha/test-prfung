@@ -1,12 +1,12 @@
 "use client";
 
-import React, { useState } from "react";
-import { useDroppable } from "@dnd-kit/core";
+import React, { useEffect, useState } from "react";
 
 interface ICartDroppable {
   cart: {
     id: number;
     idText?: string;
+    titleText?: string;
     title: string;
     cartItemAnswers: string;
     cartAcoordion?: string;
@@ -14,60 +14,63 @@ interface ICartDroppable {
   onDelete?: () => void;
   onClick?: () => void;
   isCorrect?: boolean;
+  resetActiveState: boolean;
 }
 
 const CartDroppable: React.FC<ICartDroppable> = ({
   cart,
-  onDelete,
   isCorrect,
   onClick,
+  resetActiveState,
 }) => {
   const [isAccordionOpen, setAccordionOpen] = useState(false);
+  const [isActive, setIsActive] = useState(false);
 
-  const { setNodeRef, isOver } = useDroppable({
-    id: `cart-droppable-${cart.id}`,
-  });
+  useEffect(() => {
+    if (resetActiveState) {
+      setIsActive(false);
+    }
+  }, [resetActiveState]);
 
   const toggleAccordion = () => {
     setAccordionOpen(!isAccordionOpen);
   };
 
+  const handleH1Click = () => {
+    setIsActive(!isActive);
+    if (onClick) {
+      onClick();
+    }
+  };
+
   return (
     <div
-      className={`bg-[#777] p-[10px] m-[3px] ${isOver ? "bg-green-200" : ""} ${
+      className={`bg-[#777] p-[10px] m-[3px]  ${
         isCorrect !== undefined
           ? isCorrect
             ? "bg-green-300"
             : "bg-red-300"
           : ""
       }`}
-      ref={setNodeRef}
     >
       <span className="px-2 py-1 text-[#0b0b0b] text-center border border-[#fff]">
         {cart.idText}
       </span>
-      {/* Large Screen */}
-      <div className="hidden lg:block">
-        <h1
-          onClick={onClick}
-          className="bg-blue-500 p-[10px] m-[10px] flex justify-between items-center rounded-[9px]"
-        >
-          {cart.cartItemAnswers}
-        </h1>
-      </div>
-      {/* Small and Tablet Screen */}
-      <div className="block lg:hidden">
-        <input
-          type="text"
-          className="bg-blue-500 p-[10px] my-[10px] w-full flex justify-between items-center rounded-[9px]"
-          value={cart.cartItemAnswers}
-          onClick={onClick}
-          readOnly
-        />
-      </div>
-      <p className="bg-[#efefef] dark:bg-[#1d2a35] dark:text-[#ededed] font-semibold p-[10px] m-[10px]">
+
+      <h1
+        onClick={handleH1Click}
+        className={`p-[10px] m-[10px] cursor-pointer flex justify-between items-center rounded-[9px] ${
+          isActive ? "bg-[#77a0e3] border border-[#0b0b0b]" : "bg-blue-500"
+        }`}
+      >
+        {cart.cartItemAnswers}
+      </h1>
+
+      <div className="bg-[#efefef] dark:bg-[#1d2a35] dark:text-[#ededed] font-semibold p-[10px] m-[10px]">
+        <div className="font-bold"> {cart.titleText}</div>
         {cart.title}
-      </p>
+      </div>
+
       <h1 onClick={toggleAccordion} className="accordion-header">
         {isAccordionOpen ? "Hide" : "Show"}
       </h1>

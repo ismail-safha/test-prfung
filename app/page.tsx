@@ -1,12 +1,19 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import { authOptions } from "../lib/auth";
-import { getServerSession } from "next-auth";
+// import { authOptions } from "../lib/auth";
+// import { getServerSession } from "next-auth";
 import HomePages from "./components/HomePages";
 import GetStarted from "./components/GetStarted";
 
 export default async function Home() {
-  const session = await getServerSession(authOptions);
+  // const session = await getServerSession(authOptions);
 
-  return <>{session ? <HomePages /> : <GetStarted />}</>;
+  return <>
+  {
+    // session ? 
+  <HomePages />
+  
+  // : <GetStarted />
+  
+  }</>;
 }

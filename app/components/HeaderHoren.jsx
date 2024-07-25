@@ -1,20 +1,12 @@
 "use client";
 
-import TimerComponent from "./TimerComponent ";
+// import TimerComponent from "./TimerComponent ";
 import { usePathname, useRouter } from "next/navigation";
+import { MoonIcon, SunIcon } from "./icons/Icons";
+import useThemSwitcher from "./hooks/useThemSwitcher";
+import { useState } from "react";
+import Link from "next/link";
 
-// interface HeaderProps {
-//   pageHome: string;
-//   pageTow: string;
-//   pageThree: string;
-//   pageFour: string;
-//   pageFive: string;
-// }
-// interface ModeState {
-//   mode: string;
-// }
-
-// const Header: React.FC<HeaderProps> = ({
 const HeaderHoren = ({
   pageHome,
   pageTow,
@@ -25,74 +17,128 @@ const HeaderHoren = ({
 }) => {
   const pathname = usePathname();
   const router = useRouter();
-  // hook dark mode
+  const [mode, setMode] = useThemSwitcher();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
 
   return (
-    <div className="flex m-auto justify-between items-center bg-[#02031e] h-[109px]">
-      <div className="flex flex-col items-center  bg-red-800 p-1 ml-1">
-        <button
-          onClick={() => {
-            router.push("/");
-          }}
+    <div className="flex flex-col lg:flex-row m-auto justify-between items-center bg-[#02031e] h-[109px] p-4 lg:p-0">
+      <div className="flex justify-between items-center w-full lg:w-auto">
+      <Link
+          href="/"
+          className="flex flex-col items-center  bg-red-800 p-1 ml-1"
         >
-          <div className="text-white font-black text-[50px]">tlc</div>
-          <div className="text-white  text-[12px]">LNGUAGE TESTS</div>
+          <div className="text-white font-black text-[30px] lg:text-[35px]">
+            TEST
+          </div>
+          <div className="text-white text-[10px] lg:text-[12px]">
+            LANGUAGE TESTS
+          </div>
+        </Link>
+        <div className="block lg:hidden">
+          <button
+            onClick={() => setMode(mode === "light" ? "dark" : "light")}
+            className={`ml-3 flex items-center justify-center rounded-full p-2 text-[#fff] bg-[#000] dark:bg-[#fff] dark:text-[#000] ${
+              mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
+            }`}
+          >
+            {mode === "dark" ? (
+              <SunIcon className={"fill-dark "} />
+            ) : (
+              <MoonIcon className={"fill-dark"} />
+            )}
+          </button>
+        </div>
+
+        <button
+          className="lg:hidden text-white text-[35px]"
+          onClick={toggleMobileMenu}
+        >
+          ☰
         </button>
       </div>
-
-      <audio controls>
-        <source src={src} type="audio/mpeg" />
-      </audio>
-      <div className="flex items-center gap-[50px]">
-        <div
-          className={`flex flex-col items-center border border-white rounded-lg  p-2 ${
-            pathname === pageHome ? "active  bg-white" : "bg-[#777]"
-          }`}
-        >
-          <button
-            onClick={() => {
-              router.push(pageHome);
-            }}
+      <div
+        className={`lg:flex ${
+          isMobileMenuOpen ? "block" : "hidden"
+        } w-full lg:w-auto`}
+      >
+        <div className="flex relative  lg:bg-[#02031e] bg-white/30 backdrop-blur-md rounded-lg  flex-col lg:flex-row items-center gap-[10px] lg:gap-[50px] mt-4 lg:mt-0">
+          <div
+            className={`flex flex-col items-center border border-white rounded-lg p-2 ${
+              pathname === pageHome ? "active bg-white" : "bg-[#777]"
+            }`}
           >
-            <h1 className="font-bold">Hören</h1>
-            <h2 className="">Teil 1</h2>
-            <h3 className="">(25 Punkte)</h3>
-          </button>
-        </div>
-        <div
-          className={`flex flex-col items-center border border-white rounded-lg  p-2 ${
-            pathname === pageTow ? "active  bg-white" : "bg-[#777]"
-          }`}
-        >
-          <button
-            onClick={() => {
-              router.push(pageTow);
-            }}
+            <button
+              onClick={() => {
+                router.push(pageHome);
+                setIsMobileMenuOpen(false);
+              }}
+            >
+              <h1 className="font-bold">Hören</h1>
+              <h2 className="">Teil 1</h2>
+              <h3 className="">(25 Punkte)</h3>
+            </button>
+          </div>
+          <div
+            className={`flex flex-col items-center border border-white rounded-lg p-2 ${
+              pathname === pageTow ? "active bg-white" : "bg-[#777]"
+            }`}
           >
-            <h1 className="font-bold">Hören</h1>
-            <h2 className="">Teil 2</h2>
-            <h3 className="">(25 Punkte)</h3>
-          </button>
-        </div>
-
-        <div
-          className={`flex flex-col items-center border border-white rounded-lg  p-2 ${
-            pathname === pageThree ? "active bg-[#fff]" : "bg-[#777]"
-          }`}
-        >
-          <button
-            onClick={() => {
-              router.push(pageThree);
-            }}
+            <button
+              onClick={() => {
+                router.push(pageTow);
+                setIsMobileMenuOpen(false);
+              }}
+            >
+              <h1 className="font-bold">Hören</h1>
+              <h2 className="">Teil 2</h2>
+              <h3 className="">(25 Punkte)</h3>
+            </button>
+          </div>
+          <div
+            className={`flex flex-col items-center border border-white rounded-lg p-2 ${
+              pathname === pageThree ? "active bg-white" : "bg-[#777]"
+            }`}
           >
-            <h1 className="font-bold">Hören</h1>
-            <h2 className="">Teil 3</h2>
-            <h3 className="">(25 Punkte)</h3>
-          </button>
+            <button
+              onClick={() => {
+                router.push(pageThree);
+                setIsMobileMenuOpen(false);
+              }}
+            >
+              <h1 className="font-bold">Hören</h1>
+              <h2 className="">Teil 3</h2>
+              <h3 className="">(25 Punkte)</h3>
+            </button>
+          </div>
         </div>
       </div>
-
-      <TimerComponent />
+      <div
+        className={`lg:flex ${
+          isMobileMenuOpen ? "block" : "hidden"
+        } w-full lg:w-auto flex items-center mt-4 lg:mt-0`}
+      >
+        <button
+          onClick={() => setMode(mode === "light" ? "dark" : "light")}
+          className={`ml-3 flex items-center justify-center rounded-full p-2 text-[#fff] bg-[#000] dark:bg-[#fff] dark:text-[#000] ${
+            mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
+          }`}
+        >
+          {mode === "dark" ? (
+            <SunIcon className={"fill-dark "} />
+          ) : (
+            <MoonIcon className={"fill-dark"} />
+          )}
+        </button>
+        <div
+          className={`lg:flex ${
+            isMobileMenuOpen ? "block" : "hidden"
+          } w-full lg:w-auto`}
+        ></div>
+      </div>
     </div>
   );
 };

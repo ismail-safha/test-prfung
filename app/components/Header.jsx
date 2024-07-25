@@ -5,6 +5,7 @@ import TimerComponent from "./TimerComponent ";
 import { usePathname, useRouter } from "next/navigation";
 import { MoonIcon, SunIcon } from "./icons/Icons";
 import useThemSwitcher from "./hooks/useThemSwitcher";
+import Link from "next/link";
 import { useState } from "react";
 
 const Header = ({ pageHome, pageTow, pageThree, pageFour, pageFive }) => {
@@ -18,21 +19,19 @@ const Header = ({ pageHome, pageTow, pageThree, pageFour, pageFive }) => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row m-auto justify-between items-center bg-[#02031e] h-[109px] p-4 lg:p-0">
+    <div className="flex flex-col lg:flex-row m-auto justify-between items-center bg-[#02031e] h-[109px]  p-4 lg:p-0">
       <div className="flex justify-between items-center w-full lg:w-auto">
-        <button
-          onClick={() => {
-            router.push("/");
-          }}
-          className="flex flex-col items-center bg-red-800 p-1 ml-1"
+        <Link
+          href="/"
+          className="flex flex-col items-center  bg-red-800 p-1 ml-1"
         >
           <div className="text-white font-black text-[30px] lg:text-[35px]">
-            t-elc
+            TEST
           </div>
           <div className="text-white text-[10px] lg:text-[12px]">
             LANGUAGE TESTS
           </div>
-        </button>
+        </Link>
         <div className="block lg:hidden">
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
