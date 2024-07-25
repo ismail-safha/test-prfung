@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import HeaderHoren from "../../../components/HeaderHoren";
 import { questionsHoren_2 } from "../../../data/1_paulData";
