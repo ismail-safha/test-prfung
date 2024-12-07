@@ -100,12 +100,14 @@ export default function HomePages() {
             <hr className="flex-grow border-b border-gray-400 ml-4" />
             <div className="flex flex-row justify-evenly items-center flex-wrap gap-4">
               <Link
+              target="_blank"
                 className="block p-[40px] text-3xl m-[30px] rounded-xl bg-gray-700 hover:bg-gray-800 text-white text-center font-bold  transition duration-300"
                 href="/https://prufung-b1.vercel.app/"
               >
                 B1
               </Link>
               <Link
+              target="_blank"
                 className="block p-[40px] m-[30px] text-3xl rounded-xl bg-gray-700 hover:bg-gray-800 text-white text-center font-bold  transition duration-300"
                 href="/https://prufung-b2.vercel.app/"
               >
