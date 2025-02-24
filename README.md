@@ -1,40 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Test-Prfung
 
-## Getting Started
+A powerful web application built with **Next.js, Tailwind CSS, Prisma, Supabase, and NextAuth**. This project includes various functionalities and complex logic to provide an efficient and scalable solution.
 
-First, run the development server:
+## 🚀 Features
+- **Next.js 14** - Fast and optimized React framework.
+- **Tailwind CSS** - Utility-first styling for modern UI.
+- **Prisma** - Database ORM for efficient querying.
+- **Supabase** - Backend-as-a-service for authentication and database.
+- **NextAuth.js** - Secure authentication with providers.
+- **Dynamic Routing & API Handling**.
+- **Optimized Performance & SEO**.
+- **Scalable and Modular Codebase**.
 
+## 📺 Demo Video
+https://github.com/user-attachments/assets/73bc6a2a-dc7c-4639-8d0a-09ee93d51512
+
+
+## 📂 Installation & Setup
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone the repository
+git clone https://github.com/your-username/test-prfung.git
+
+# Navigate to the project folder
+cd test-prfung
+
+# Install dependencies
+yarn install  # or npm install
+
+# Set up environment variables
+cp .env.example .env
+
+# Run database migrations
+npx prisma migrate dev
+
+# Start the development server
+yarn dev  # or npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Technologies Used
+- **Framework:** Next.js
+- **Styling:** Tailwind CSS
+- **Database:** PostgreSQL (via Prisma & Supabase)
+- **Authentication:** NextAuth.js
+- **Backend Services:** Supabase
+- **Hosting:** Vercel
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📜 License
+This project is licensed under the **MIT License**.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-
-
-<!-- https://supabase.com/dashboard/project/tjuysvcoondgrfxolxlc/editor/28743 -->
